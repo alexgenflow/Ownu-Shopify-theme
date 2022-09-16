@@ -1,0 +1,49 @@
+{%- comment -%}
+  vertical_offset_for_trigger: Reduce below value if you need the back to the top button to appear higher up on the page. That value is in pixels.
+{%- endcomment -%}
+
+{%- liquid
+  assign vertical_offset_for_trigger = 100
+  assign se_stts = section.settings -%}
+
+{%- if se_stts.enable_backtop -%}
+<link rel="stylesheet" href="{{ 'back-to-top.css' | asset_url }}" media="print" onload="this.media='all'">
+<a id="t4s-backToTop" class="t4s-back-to-top t4s-back-to-top__design{{se_stts.backtop_des}} t4s-pf" data-hidden-mobile="{{se_stts.enable_hidden_mobile}}" data-scrollTop="{{vertical_offset_for_trigger}}" rel="nofollow" href="#" aria-label="{{'general.aria.back_to_top' | t}}"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="0 0 32 32"><path d="M16.767 12.809l-0.754-0.754-6.035 6.035 0.754 0.754 5.281-5.281 5.256 5.256 0.754-0.754-3.013-3.013z" fill="currentColor"/></svg></span></a>
+{%- endif -%}
+
+{%- schema -%}
+  {
+    "name": "Back to top",
+    "class": "t4s-section-admn2-fixed",
+    "settings": [ 
+      {
+        "type": "checkbox",
+        "id": "enable_backtop",
+        "label": "Enable back to top",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_hidden_mobile",
+        "label": "Enable hidden mobile",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "backtop_des",
+        "default": "1",
+        "label": "Design",
+        "options": [
+          {
+            "value": "1",
+            "label": "Design 1"
+          },
+          {
+            "value": "2",
+            "label": "Design 2"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

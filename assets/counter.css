@@ -1,0 +1,51 @@
+.t4s-counter-item .t4s-counter-inner {
+	background-color: var(--bg-cl);
+	padding: 15px;
+}
+.t4s-counter-border-true .t4s-counter-inner {
+	border: solid 1px;
+	border-color: var(--bd-cl);
+}
+.t4s-counter-item .t4s-counter-title{
+	color: var(--heading-cl);
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+.t4s-counter-item .t4s-counter-number{
+	color: var(--number-cl);
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.t4s-counter-item .t4s-counter-des{
+	color: var(--des-cl);
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+.t4s-counter-medium .t4s-counter-title {
+	font-size: 18px;
+	line-height: 24px;
+}
+.t4s-counter-medium .t4s-counter-number {
+	font-size: 30px;
+	line-height: 36px;
+}
+.t4s-counter-medium .t4s-counter-des {
+	font-size: 16px;
+	line-height: 24px;
+}
+.t4s-counter-large .t4s-counter-title {
+	font-size: 22px;
+	line-height: 24px;
+}
+.t4s-counter-large .t4s-counter-number {
+	font-size: 36px;
+	line-height: 40px;
+}
+.t4s-counter-large .t4s-counter-des {
+	font-size: 18px;
+	line-height: 24px;
+}
