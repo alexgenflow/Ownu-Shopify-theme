@@ -11,8 +11,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "ACTIVEWEAR",
-            "text": "<p>Seamless woven knits made to feel & function like a second skin<\/p>",
+            "heading": "LIFTING RANGE",
+            "text": "<p>Weight Lifting Belt, Gym Bags, Ankle Straps, Mats, Resistance Bands, Foam Roller, Rubber Bands and more.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -30,7 +30,7 @@
         "1663524267c24ab6fe-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/BANNER_3_2.jpg",
+            "image1": "shopify:\/\/shop_images\/vidPlaceholder-2dd274be72733205b57e2b74fabff019.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -268,7 +268,7 @@
       "settings": {
         "use_specify_image": false,
         "parallax": false,
-        "color": "#ddd",
+        "color": "#dddddd",
         "overlay": 50,
         "padding": 50,
         "paddingmb": 50,
