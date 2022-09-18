@@ -18,6 +18,7 @@
     "accent_color": "#a5c0ab",
     "loading_bar_color": "#a5c0ab",
     "link_color_hover": "#a5c0ab",
+    "cl_lazyload": "#a5c0ab",
     "bg_tooltip": "#a5c0ab",
     "font_source": "2",
     "fnt_fm_sp1": "helvetica_n4",
