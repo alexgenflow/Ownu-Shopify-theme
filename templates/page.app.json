@@ -21,6 +21,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -56,11 +57,635 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "1663525508401a5ec1": {
+      "type": "hero_image",
+      "blocks": {
+        "16635255071a194c7e-0": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "Theme Kalles",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "16635255071a194c7e-1": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "Best shopify theme",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 70,
+            "text_lh": 70,
+            "text_fw": 300,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "16635255071a194c7e-2": {
+          "type": "custom_button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Button label",
+            "button_link": "",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222",
+            "second_cl": "#fff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#fff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 0,
+            "button_pd_lr": 20,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "16635255071a194c7e-0",
+        "16635255071a194c7e-1",
+        "16635255071a194c7e-2"
+      ],
+      "settings": {
+        "se_height": "t4s_ratioadapt",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "image": "shopify:\/\/shop_images\/OWNU_BANNER_1920x980_8bf7377a-cd5a-4729-b351-9724e70970fa.jpg",
+        "parallax": false,
+        "image_position": "0",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "auto",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "bg_content_cl": "#fff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222",
+        "br_bg": "#fff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,00px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "16635255410b59264b": {
+      "type": "counter",
+      "blocks": {
+        "16635255415c7a6fbb-0": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 3000000,
+            "des": "Users Worldwide",
+            "content_align": "center"
+          }
+        },
+        "16635255415c7a6fbb-1": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 300000,
+            "des": "Downloads",
+            "content_align": "center"
+          }
+        },
+        "16635255415c7a6fbb-2": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 5000,
+            "des": "App Reviews",
+            "content_align": "center"
+          }
+        },
+        "69c25289-b75d-44fe-8f64-5ccffd77c4e3": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 4.8,
+            "des": "Star App Rating",
+            "content_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16635255415c7a6fbb-0",
+        "16635255415c7a6fbb-1",
+        "16635255415c7a6fbb-2",
+        "69c25289-b75d-44fe-8f64-5ccffd77c4e3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Join the OWNU community & become better with us",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "counter_size": "small",
+        "use_border": false,
+        "heading_cl": "#222222",
+        "number_cl": "#a5c0ab",
+        "des_cl": "#878787",
+        "bd_cl": "#ddd",
+        "bg_cl": "#ffffff",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#ebf3f1",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "30px,,30px",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "166352598460ced848": {
+      "type": "image_text",
+      "blocks": {
+        "166352598373c2fed7-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Untitled-7_1.jpg",
+            "col_dk": "5",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "166352598373c2fed7-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Hey! I’m Hanna",
+            "text": "<p>I’m Hanna - a fitness expert and a believer in a healthy and balanced approach to exercise and diet.<\/p><p>With a following of 3m+ followers all over the world, I launched OWNU, to help women everywhere reach their goals and own their body & mind. With over a decade of experience in the fitness industry, I know what works and what doesn't.<br\/><br\/>I wrote these fitness guides, and these are the plans I use in my personal training, so come and join me and the tens of thousands of girls pushing and fighting every day. Let’s get to it.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "DOWNLOAD TODAY",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "166352598373c2fed7-0",
+        "166352598373c2fed7-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 0,
+        "space_h_item": "20",
+        "space_v_item": "20",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,30px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1663525992c8b26e01": {
+      "type": "accordion",
+      "blocks": {
+        "1663525992ed9aae3f-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 01",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "1663525992ed9aae3f-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 02",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "1663525992ed9aae3f-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 03",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663525992ed9aae3f-0",
+        "1663525992ed9aae3f-1",
+        "1663525992ed9aae3f-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "FAQ",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1663526258f2deb053": {
+      "type": "our_mission",
+      "blocks": {
+        "1663526257b2fb2345-0": {
+          "type": "om_item",
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "1663526257b2fb2345-1": {
+          "type": "om_item",
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "1663526257b2fb2345-2": {
+          "type": "om_item",
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "1663526257b2fb2345-3": {
+          "type": "om_item",
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        }
+      },
+      "block_order": [
+        "1663526257b2fb2345-0",
+        "1663526257b2fb2345-1",
+        "1663526257b2fb2345-2",
+        "1663526257b2fb2345-3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1663526308163da4d9": {
+      "type": "pricing-tables",
+      "blocks": {
+        "1663526307ec408129-0": {
+          "type": "package",
+          "settings": {
+            "highlights_item": false,
+            "heading": "YEARLY",
+            "package_label": "",
+            "package_label_bg": "#FF0000",
+            "price": 99,
+            "des": "Enter description here",
+            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
+            "button_text": "By now",
+            "button_link": "",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#a5c0ab"
+          }
+        },
+        "1663526307ec408129-1": {
+          "type": "package",
+          "settings": {
+            "highlights_item": true,
+            "heading": "QUARTERLY",
+            "package_label": "BEST BALUE",
+            "package_label_bg": "#222",
+            "price": 199,
+            "des": "Enter description here",
+            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
+            "button_text": "By now",
+            "button_link": "",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#28A77F"
+          }
+        },
+        "1663526307ec408129-2": {
+          "type": "package",
+          "settings": {
+            "highlights_item": false,
+            "heading": "PLATINIUM",
+            "package_label": "",
+            "package_label_bg": "#FF0000",
+            "price": 299,
+            "des": "Enter description here",
+            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
+            "button_text": "By now",
+            "button_link": "",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#28A77F"
+          }
+        }
+      },
+      "block_order": [
+        "1663526307ec408129-0",
+        "1663526307ec408129-1",
+        "1663526307ec408129-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Pricing tables",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "package_des": "1",
+        "content_align": "center",
+        "target_link": "_blank",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#ffffff",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1663526334ff4e5466": {
+      "type": "newsletter",
+      "blocks": {
+        "16635263339119d274-0": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Subscribe to our newsletter",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 24,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "16635263339119d274-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "A short sentence describing what someone will receive by subscribing",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#878787",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 30,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "16635263339119d274-2": {
+          "type": "newsletter",
+          "settings": {
+            "form_width": 500,
+            "form_width_mb": 0,
+            "newl_des": "1",
+            "news_align": "center",
+            "newl_size": "small",
+            "btn_icon": false,
+            "input_cl": "#878787",
+            "border_cl": "#000",
+            "btn_cl": "#ffffff",
+            "btn_bg_cl": "#222222",
+            "btn_hover_cl": "#ffffff",
+            "btn_hover_bg_cl": "#56CFE1",
+            "hidden_mobile": false,
+            "mgb": 15,
+            "mgb_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "16635263339119d274-0",
+        "16635263339119d274-1",
+        "16635263339119d274-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "all-center",
+        "news_overlay": "#000000",
+        "news_overlay_opacity": 0,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#a5c0ab",
+        "cl_bg_gradient": "",
+        "parallax": false,
+        "mg": "",
+        "pd": "50px,,50px,",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "1663525508401a5ec1",
+    "16635255410b59264b",
+    "166352598460ced848",
+    "1663525992c8b26e01",
+    "1663526258f2deb053",
+    "1663526308163da4d9",
+    "1663526334ff4e5466"
   ]
 }
