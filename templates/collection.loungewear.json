@@ -11,8 +11,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "ACTIVEWEAR",
-            "text": "<p>Seamless woven knits made to feel & function like a second skin<\/p>",
+            "heading": "LOUNGEWEAR",
+            "text": "<p>Discover our new loungewear collection including Hoodies, Sweatshirts, Tees, Joggers, Shorts and more.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -30,7 +30,7 @@
         "1663524267c24ab6fe-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/BANNER_3_2.jpg",
+            "image1": "shopify:\/\/shop_images\/summer-sale.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -85,66 +85,67 @@
     },
     "top": {
       "type": "top-collections",
-      "disabled": true,
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
           "settings": {
-            "collection": "default-3",
+            "collection": "hoodies",
             "icon": ""
           }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
           "settings": {
-            "collection": "bag",
+            "collection": "joggers",
             "icon": ""
           }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
           "settings": {
-            "collection": "decor",
+            "collection": "sweatshirts",
             "icon": ""
           }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
           "settings": {
-            "collection": "default-2",
+            "collection": "tees",
             "icon": ""
           }
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
           "settings": {
-            "collection": "dress",
+            "collection": "shorts",
             "icon": ""
           }
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
+          "disabled": true,
           "settings": {
-            "collection": "hats",
+            "collection": "new-in-loungewear",
             "icon": ""
           }
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
           "settings": {
-            "collection": "frontpage",
+            "collection": "activewear",
             "icon": ""
           }
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
           "settings": {
-            "collection": "sale",
+            "collection": "lifting-range",
             "icon": ""
           }
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "shoes",
             "icon": ""
@@ -152,6 +153,7 @@
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "women",
             "icon": ""
@@ -172,7 +174,7 @@
       ],
       "settings": {
         "show_top_collections": true,
-        "source": "1",
+        "source": "2",
         "menu": "main-menu",
         "sort_collections": "alphabetical_reversed",
         "box_border": "top",
@@ -263,7 +265,7 @@
       "settings": {
         "use_specify_image": false,
         "parallax": false,
-        "color": "#ddd",
+        "color": "#dddddd",
         "overlay": 50,
         "padding": 50,
         "paddingmb": 50,
