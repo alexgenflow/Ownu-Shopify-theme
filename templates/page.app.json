@@ -356,6 +356,222 @@
         "code_cus_css": ""
       }
     },
+    "1663526258f2deb053": {
+      "type": "our_mission",
+      "blocks": {
+        "1663526257b2fb2345-0": {
+          "type": "om_item",
+          "disabled": true,
+          "settings": {
+            "heading": "Personalised workout plans and access to the guides I use",
+            "content": "",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "1663526257b2fb2345-1": {
+          "type": "om_item",
+          "disabled": true,
+          "settings": {
+            "heading": "Exclusive guides regularly released",
+            "content": "",
+            "text_align": "center",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "1663526257b2fb2345-2": {
+          "type": "om_item",
+          "disabled": true,
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "1663526257b2fb2345-3": {
+          "type": "om_item",
+          "disabled": true,
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "f8d7ec2f-25fa-4c2e-9395-e7ea70ce7d58": {
+          "type": "om_item",
+          "disabled": true,
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "7527e0bf-5dc6-49b9-9b72-1903c33793b8": {
+          "type": "om_item",
+          "disabled": true,
+          "settings": {
+            "heading": "OUR MISSION",
+            "content": "",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "c4c63176-2c54-4c97-bd14-8d4f6aeb8ac5": {
+          "type": "om_item",
+          "settings": {
+            "heading": "",
+            "content": "<b>Exclusive guides regularly released<\/b>",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        },
+        "292b9786-2ea3-49e4-b733-94b50ece67bb": {
+          "type": "om_item",
+          "settings": {
+            "heading": "",
+            "content": "<b>Personalised workout plans and access to the guides I use<\/b>",
+            "text_align": "start",
+            "col_tb": "6",
+            "col_mb": "6"
+          }
+        }
+      },
+      "block_order": [
+        "1663526257b2fb2345-0",
+        "1663526257b2fb2345-1",
+        "1663526257b2fb2345-2",
+        "1663526257b2fb2345-3",
+        "f8d7ec2f-25fa-4c2e-9395-e7ea70ce7d58",
+        "7527e0bf-5dc6-49b9-9b72-1903c33793b8",
+        "c4c63176-2c54-4c97-bd14-8d4f6aeb8ac5",
+        "292b9786-2ea3-49e4-b733-94b50ece67bb"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "Benefits of premium OWNU membership",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1663526308163da4d9": {
+      "type": "pricing-tables",
+      "blocks": {
+        "1663526307ec408129-0": {
+          "type": "package",
+          "settings": {
+            "highlights_item": true,
+            "heading": "YEARLY",
+            "package_label": "",
+            "package_label_bg": "#FF0000",
+            "price": 10999,
+            "des": "€9.16 \/ Month",
+            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
+            "button_text": "By now",
+            "button_link": "",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#a5c0ab"
+          }
+        },
+        "1663526307ec408129-1": {
+          "type": "package",
+          "settings": {
+            "highlights_item": true,
+            "heading": "QUARTERLY",
+            "package_label": "BEST BALUE",
+            "package_label_bg": "#222",
+            "price": 1999,
+            "des": "€6.66\/Month",
+            "txt": "<b>55% SAVING... \n€35.99--<\/b>",
+            "button_text": "START TODAY!",
+            "button_link": "#",
+            "button_style": "link",
+            "btns_size": "extra-large",
+            "btns_cl": "primary",
+            "button_effect": "default",
+            "item_cl": "#a5c0ab"
+          }
+        },
+        "1663526307ec408129-2": {
+          "type": "package",
+          "settings": {
+            "highlights_item": false,
+            "heading": "MONTHLY",
+            "package_label": "",
+            "package_label_bg": "#FF0000",
+            "price": 1449,
+            "des": "€14.49\/Month",
+            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
+            "button_text": "By now",
+            "button_link": "",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#a5c0ab"
+          }
+        }
+      },
+      "block_order": [
+        "1663526307ec408129-0",
+        "1663526307ec408129-1",
+        "1663526307ec408129-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "package_des": "1",
+        "content_align": "center",
+        "target_link": "_blank",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#ffffff",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "1663525992c8b26e01": {
       "type": "accordion",
       "blocks": {
@@ -391,7 +607,7 @@
       ],
       "settings": {
         "design_heading": "1",
-        "heading_align": "t4s-text-center",
+        "heading_align": "t4s-text-start",
         "top_heading": "FAQ",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -407,172 +623,6 @@
         "layout": "t4s-container-wrap",
         "custom_width": 1000,
         "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "1663526258f2deb053": {
-      "type": "our_mission",
-      "blocks": {
-        "1663526257b2fb2345-0": {
-          "type": "om_item",
-          "settings": {
-            "heading": "OUR MISSION",
-            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
-            "text_align": "start",
-            "col_tb": "6",
-            "col_mb": "6"
-          }
-        },
-        "1663526257b2fb2345-1": {
-          "type": "om_item",
-          "settings": {
-            "heading": "OUR MISSION",
-            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
-            "text_align": "start",
-            "col_tb": "6",
-            "col_mb": "6"
-          }
-        },
-        "1663526257b2fb2345-2": {
-          "type": "om_item",
-          "settings": {
-            "heading": "OUR MISSION",
-            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
-            "text_align": "start",
-            "col_tb": "6",
-            "col_mb": "6"
-          }
-        },
-        "1663526257b2fb2345-3": {
-          "type": "om_item",
-          "settings": {
-            "heading": "OUR MISSION",
-            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
-            "text_align": "start",
-            "col_tb": "6",
-            "col_mb": "6"
-          }
-        }
-      },
-      "block_order": [
-        "1663526257b2fb2345-0",
-        "1663526257b2fb2345-1",
-        "1663526257b2fb2345-2",
-        "1663526257b2fb2345-3"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "1663526308163da4d9": {
-      "type": "pricing-tables",
-      "blocks": {
-        "1663526307ec408129-0": {
-          "type": "package",
-          "settings": {
-            "highlights_item": false,
-            "heading": "YEARLY",
-            "package_label": "",
-            "package_label_bg": "#FF0000",
-            "price": 99,
-            "des": "Enter description here",
-            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
-            "button_text": "By now",
-            "button_link": "",
-            "button_style": "default",
-            "btns_size": "large",
-            "btns_cl": "dark",
-            "button_effect": "default",
-            "item_cl": "#a5c0ab"
-          }
-        },
-        "1663526307ec408129-1": {
-          "type": "package",
-          "settings": {
-            "highlights_item": true,
-            "heading": "QUARTERLY",
-            "package_label": "BEST BALUE",
-            "package_label_bg": "#222",
-            "price": 199,
-            "des": "Enter description here",
-            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
-            "button_text": "By now",
-            "button_link": "",
-            "button_style": "default",
-            "btns_size": "large",
-            "btns_cl": "dark",
-            "button_effect": "default",
-            "item_cl": "#28A77F"
-          }
-        },
-        "1663526307ec408129-2": {
-          "type": "package",
-          "settings": {
-            "highlights_item": false,
-            "heading": "PLATINIUM",
-            "package_label": "",
-            "package_label_bg": "#FF0000",
-            "price": 299,
-            "des": "Enter description here",
-            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
-            "button_text": "By now",
-            "button_link": "",
-            "button_style": "default",
-            "btns_size": "large",
-            "btns_cl": "dark",
-            "button_effect": "default",
-            "item_cl": "#28A77F"
-          }
-        }
-      },
-      "block_order": [
-        "1663526307ec408129-0",
-        "1663526307ec408129-1",
-        "1663526307ec408129-2"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Pricing tables",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "package_des": "1",
-        "content_align": "center",
-        "target_link": "_blank",
-        "col_dk": "3",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "#ffffff",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
@@ -683,9 +733,9 @@
     "1663525508401a5ec1",
     "16635255410b59264b",
     "166352598460ced848",
-    "1663525992c8b26e01",
     "1663526258f2deb053",
     "1663526308163da4d9",
+    "1663525992c8b26e01",
     "1663526334ff4e5466"
   ]
 }
