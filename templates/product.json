@@ -6,7 +6,7 @@
         "breadcrumb_pr": true,
         "back_next_pr": true,
         "cl_bg": "#f6f6f6",
-        "cl_link": "#222"
+        "cl_link": "#222222"
       }
     },
     "main": {
@@ -22,12 +22,6 @@
             "lh_pr": 0,
             "ls_pr": 0,
             "pr_title_color": "#222222"
-          }
-        },
-        "a48dee2d-8512-4003-afb2-d571d82849fb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
           }
         },
         "price_review": {
@@ -46,10 +40,11 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "des": "2",
             "text": "<p>{{ product.metafields.custom.description.value }}<\/p>",
-            "length": 20,
+            "length": 1,
             "readm": true,
             "readm_txt": "Read more"
           }
@@ -85,6 +80,12 @@
             "advance_pr_list": [
 
             ]
+          }
+        },
+        "a48dee2d-8512-4003-afb2-d571d82849fb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"variant-main\">\n<div class=\"variant-heading\">\n<h4>Color :<\/h4>\n<\/div>\n<div class=\"custom-variant-wrap\">\n<div class=\"custom\" style=\"width:100px;\">\n<a class=\"dynamic\" href=\"{{product.metafields.custom.product_url}}\">\n<div class=\"image\" style=\"background-image: url({{product.metafields.custom.image_url}}); height:100px;background-repeat:no-repeat;background-size:contain;width:100px;\">\n\n<\/div>\n<\/a>\n<\/div>\n<div class=\"custom\" style=\"width:100px;\">\n<a class=\"dynamic\" href=\"{{product.metafields.second.product_url}}\">\n<div class=\"image\" style=\"background-image: url({{product.metafields.second.image_url}}); height:100px;background-repeat:no-repeat;background-size:contain;width:100px;\">\n\n<\/div>\n<\/a>\n<\/div>\n\n<div class=\"custom\" style=\"width:100px;\">\n<a class=\"dynamic\" href=\"{{product.metafields.third.product_url}}\">\n<div class=\"image\" style=\"background-image: url({{product.metafields.third.image_url}}); height:100px;background-repeat:no-repeat;background-size:contain;width:100px;\">\n\n<\/div>\n<\/a>\n<\/div>\n<\/div>\n<\/div>"
           }
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
@@ -134,6 +135,7 @@
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
           "type": "tab_add",
+          "disabled": true,
           "settings": {
             "title": "Additional Information"
           }
@@ -178,10 +180,10 @@
       },
       "block_order": [
         "title",
-        "a48dee2d-8512-4003-afb2-d571d82849fb",
         "price_review",
         "description",
         "form",
+        "a48dee2d-8512-4003-afb2-d571d82849fb",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
         "meta",
