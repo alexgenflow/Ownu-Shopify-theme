@@ -34,6 +34,7 @@
     "use_new_badge": false,
     "soldout_badge_color": "#222222",
     "type_qv": "2",
+    "enable_rating": true,
     "show_qty": false,
     "pr_border_style": "1",
     "enable_pr_color": true,
@@ -47,8 +48,9 @@
     "use_group_media": true,
     "use_change_variant_by_img": true,
     "enable_his": true,
-    "variant_remove": "2",
+    "variant_remove": "1",
     "share_source": "1",
+    "enable_confetti": false,
     "gift_wrap_pr": "gift-wrap",
     "filter_type_search": true,
     "show_search_suggest": true,
@@ -1566,16 +1568,19 @@
           },
           "mini_cart-1": {
             "type": "tax",
+            "disabled": true,
             "settings": {
             }
           },
           "mini_cart-2": {
             "type": "agree",
+            "disabled": true,
             "settings": {
             }
           },
           "mini_cart-3": {
             "type": "btnc",
+            "disabled": true,
             "settings": {
               "btn_icon": false,
               "button_style": "default",
@@ -1586,7 +1591,7 @@
           "mini_cart-4": {
             "type": "btnck",
             "settings": {
-              "btn_icon": false,
+              "btn_icon": true,
               "button_style": "default",
               "btn_cl": "primary",
               "button_effect": "default"
@@ -1594,11 +1599,13 @@
           },
           "mini_cart-5": {
             "type": "img",
+            "disabled": true,
             "settings": {
             }
           },
           "mini_cart-6": {
             "type": "btn",
+            "disabled": true,
             "settings": {
               "title": "Return To Shop",
               "url": "",
@@ -1619,14 +1626,14 @@
           "mini_cart-6"
         ],
         "settings": {
-          "style": "1",
+          "style": "2",
           "pos": "2",
           "enable_pr": true,
           "enable_calc_ship": true,
-          "enable_note": true,
-          "enable_rates": true,
+          "enable_note": false,
+          "enable_rates": false,
           "enable_discount": true,
-          "enable_gift_wrap": true,
+          "enable_gift_wrap": false,
           "ship_df_country": "United States"
         }
       },
