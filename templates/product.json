@@ -223,7 +223,7 @@
         "btn_cl": "dark",
         "btn_size": "small",
         "btn_hidden_mobile": false,
-        "tabs_design": "tab",
+        "tabs_design": "accordion",
         "tabs_design_mb": "accordion",
         "tabs_position": "external",
         "enable_first_tab": false,
@@ -372,7 +372,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "75px,,50px,",
+        "mg": "15px,,15px,",
         "pd": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
@@ -425,7 +425,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "75px,,50px,",
+        "mg": "15px,,15px,",
         "pd": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
