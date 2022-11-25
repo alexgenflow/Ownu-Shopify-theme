@@ -28,10 +28,11 @@
     "fnt_fm_gg3": "Libre Baskerville",
     "hd_ffamily": "1",
     "enable_compe": false,
-    "app_review": "2",
+    "app_review": "1",
     "badge_shape": "2",
     "label_sale_style": "2",
     "use_new_badge": false,
+    "sale_badge_color": "#a5c0ab",
     "soldout_badge_color": "#222222",
     "type_qv": "2",
     "enable_rating": true,
@@ -1634,7 +1635,7 @@
           "enable_rates": false,
           "enable_discount": true,
           "enable_gift_wrap": false,
-          "ship_df_country": "United States"
+          "ship_df_country": "Sweden"
         }
       },
       "main-qv": {
