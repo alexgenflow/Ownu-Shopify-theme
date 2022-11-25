@@ -15,6 +15,7 @@
     "logo_mb_width": 95,
     "logo_tr": "shopify:\/\/shop_images\/header-logo-01.png",
     "logo_tr_width": 95,
+    "only_icon": false,
     "accent_color": "#a5c0ab",
     "loading_bar_color": "#a5c0ab",
     "link_color_hover": "#a5c0ab",
@@ -1326,7 +1327,7 @@
           "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
+              "title": "Activewear",
               "url": "",
               "open_link": "_self",
               "menu": "",
@@ -1338,7 +1339,7 @@
           "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
+              "title": "Fitness",
               "url": "shopify:\/\/collections\/women",
               "open_link": "_self",
               "menu": "",
@@ -1350,7 +1351,7 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Product",
+              "title": "Hoodies",
               "url": "shopify:\/\/products\/analogue-resin-strap",
               "open_link": "_self",
               "menu": "",
@@ -1362,7 +1363,7 @@
           "25fa7ecf-2db0-4747-b093-a1299099917e": {
             "type": "menu",
             "settings": {
-              "title": "Portfolio",
+              "title": "T-shirts",
               "url": "",
               "open_link": "_self",
               "menu": "",
@@ -1374,7 +1375,7 @@
           "58800ed8-befe-449a-b8f8-ea86620bef6f": {
             "type": "menu",
             "settings": {
-              "title": "Lookbook",
+              "title": "Joggers",
               "url": "",
               "open_link": "_self",
               "menu": "",
@@ -1385,6 +1386,7 @@
           },
           "mb_nav-3": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Blog",
               "url": "shopify:\/\/blogs\/fashion",
@@ -1452,7 +1454,7 @@
             "type": "cat",
             "settings": {
               "cat": "women",
-              "title": "",
+              "title": "Features",
               "url": "",
               "menu": "",
               "lb": "",
@@ -1465,7 +1467,7 @@
             "type": "cat",
             "settings": {
               "cat": "frontpage",
-              "title": "",
+              "title": "Reviews",
               "url": "",
               "menu": "",
               "lb": "",
@@ -1478,7 +1480,7 @@
             "type": "cat",
             "settings": {
               "cat": "accessories",
-              "title": "",
+              "title": "Pricing",
               "url": "",
               "menu": "",
               "lb": "",
@@ -1491,7 +1493,7 @@
             "type": "catimg",
             "settings": {
               "cat": "shoes",
-              "title": "",
+              "title": "Join Now",
               "url": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -1548,13 +1550,55 @@
               "cat25": "",
               "url25": ""
             }
+          },
+          "7391ec3d-1713-466d-8d04-a205d51f46f2": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Cancel Subscription",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "las la-chair"
+            }
+          },
+          "a61df80e-ae11-47db-be9e-9c063877a049": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Support",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "las la-chair"
+            }
+          },
+          "244163a6-e6f9-4587-b063-72e007dfce15": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "About Us",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "0",
+              "icon": "las la-chair"
+            }
           }
         },
         "block_order": [
           "37d41873-33b9-495f-b9e9-261690a26f44",
           "02afbc74-7e86-47eb-a54c-4b782b9be1ec",
           "a8e444e6-eaae-4fff-a0dd-f13d43abd5f0",
-          "a613ac38-3b02-42a8-8d06-c7fab073ed0c"
+          "a613ac38-3b02-42a8-8d06-c7fab073ed0c",
+          "7391ec3d-1713-466d-8d04-a205d51f46f2",
+          "a61df80e-ae11-47db-be9e-9c063877a049",
+          "244163a6-e6f9-4587-b063-72e007dfce15"
         ],
         "settings": {
         }
