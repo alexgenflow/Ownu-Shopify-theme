@@ -130,7 +130,7 @@
         "cl_bg_gradient": "",
         "mg": ",,00px,",
         "pd": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,10px,",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -403,7 +403,7 @@
         "cl_bg_gradient": "",
         "mg": "0",
         "pd": "30px,,30px",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,00px,",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"

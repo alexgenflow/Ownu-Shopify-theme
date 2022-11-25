@@ -780,7 +780,7 @@
           "bgnav": "#a5c0ab",
           "opnav": 100,
           "clnav": "#ffffff",
-          "clnav_hover": "#56cfe1",
+          "clnav_hover": "#222222",
           "h_icon": "pe",
           "hover_icon": "2",
           "show_search": true,
@@ -794,17 +794,17 @@
           "bgnavst": "#ffffff",
           "opnavst": 100,
           "clnavst": "#222222",
-          "clnavst_hover": "#56cfe1",
+          "clnavst_hover": "#222222",
           "transparent_header": false,
           "space_transparent_header": false,
           "bgnavtr": "#000000",
           "opnavtr": 40,
           "clnavtr": "#ffffff",
-          "clnavtr_hover": "#56cfe1",
+          "clnavtr_hover": "#222222",
           "fm_nav": "1",
-          "fs_nav": 14,
-          "fw_nav": 400,
-          "ls_nav": 0
+          "fs_nav": 16,
+          "fw_nav": 500,
+          "ls_nav": 1
         }
       },
       "title_config": {
