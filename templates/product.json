@@ -84,12 +84,14 @@
         },
         "a48dee2d-8512-4003-afb2-d571d82849fb": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"variant-main\">\n<div class=\"variant-heading\">\n<h4>Color :<\/h4>\n<\/div>\n<div class=\"custom-variant-wrap\">\n<div class=\"custom\" style=\"width:100px;\">\n<a class=\"dynamic\" href=\"{{product.metafields.custom.product_url}}\">\n<div class=\"image\" style=\"background-image: url({{product.metafields.custom.image_url}}); height:100px;background-repeat:no-repeat;background-size:contain;width:100px;\">\n\n<\/div>\n<\/a>\n<\/div>\n<div class=\"custom\" style=\"width:100px;\">\n<a class=\"dynamic\" href=\"{{product.metafields.second.product_url}}\">\n<div class=\"image\" style=\"background-image: url({{product.metafields.second.image_url}}); height:100px;background-repeat:no-repeat;background-size:contain;width:100px;\">\n\n<\/div>\n<\/a>\n<\/div>\n\n<div class=\"custom\" style=\"width:100px;\">\n<a class=\"dynamic\" href=\"{{product.metafields.third.product_url}}\">\n<div class=\"image\" style=\"background-image: url({{product.metafields.third.image_url}}); height:100px;background-repeat:no-repeat;background-size:contain;width:100px;\">\n\n<\/div>\n<\/a>\n<\/div>\n<\/div>\n<\/div>"
           }
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
           "type": "img",
+          "disabled": true,
           "settings": {
             "al": "start",
             "mess": "",
@@ -107,7 +109,7 @@
             "pos_sizeg": "1",
             "sc_type": "1",
             "page": "size-guide",
-            "size_ck": "",
+            "size_ck": "Size Guide",
             "delivery": true,
             "page_dr": "delivery-return",
             "ask": true,
@@ -142,6 +144,7 @@
         },
         "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c": {
           "type": "tab_html",
+          "disabled": true,
           "settings": {
             "title": "Custom tab",
             "content": "",
@@ -157,11 +160,13 @@
         },
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
           "type": "store_pickup",
+          "disabled": true,
           "settings": {
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "center",
             "social_mode": "1",
@@ -197,7 +202,7 @@
       "settings": {
         "pr_layout": "default",
         "enable_sticky_info": true,
-        "media_layout": "thumbnails_left",
+        "media_layout": "combined_grid",
         "media_size": "medium",
         "thumb_lr_size": "medium",
         "image_ratio": "ratioadapt",
