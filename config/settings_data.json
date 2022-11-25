@@ -946,8 +946,8 @@
             "settings": {
               "heading": "Product design 06",
               "atc_style": "default",
-              "addtocart_color": "#56cfe1",
-              "addtocart_color_hover": "#00badb",
+              "addtocart_color": "#a5c0ab",
+              "addtocart_color_hover": "#222222",
               "quickview_color": "#ffffff",
               "quickview_color_hover": "#222222",
               "wishlist_color": "#ffffff",
@@ -963,9 +963,9 @@
             "settings": {
               "heading": "Product list",
               "content_color": "#878787",
-              "addtocart_color": "#56cfe1",
+              "addtocart_color": "#a5c0ab",
               "addtocart_color_hover": "#222222",
-              "quickview_color": "#56cfe1",
+              "quickview_color": "#a5c0ab",
               "quickview_color_hover": "#222222",
               "wishlist_color": "#ffffff",
               "wishlist_color_hover": "#222222",
@@ -980,7 +980,7 @@
             "settings": {
               "heading": "Product packery",
               "pr_title_color": "#ffffff",
-              "pr_title_color_hover": "#56cfe1",
+              "pr_title_color_hover": "#a5c0ab",
               "price_color": "#ffffff",
               "price_sale_color": "#ec0101",
               "addtocart_color": "#ffffff",
@@ -1021,12 +1021,12 @@
           "swatch_color_size_mb": 20,
           "pr_btn_round": 40,
           "pr_title_color": "#222222",
-          "pr_title_color_hover": "#56cfe1",
+          "pr_title_color_hover": "#000000",
           "price_color": "#696969",
           "price_sale_color": "#ec0101",
           "vendors_color": "#878787",
-          "vendors_color_hover": "#56cfe1",
-          "countdown_color": "#56cfe1",
+          "vendors_color_hover": "#000000",
+          "countdown_color": "#000000",
           "countdown_overlay": 100,
           "pr_bg_overlay": "#000000",
           "pr_overlay": 10
@@ -1928,7 +1928,7 @@
             "settings": {
               "btn_color_primary": "#abb1b4",
               "btn_color_second": "#ffffff",
-              "btn_color_primary_hover": "#56cfe1",
+              "btn_color_primary_hover": "#a5c0ab",
               "btn_color_second_hover": "#ffffff"
             }
           }
