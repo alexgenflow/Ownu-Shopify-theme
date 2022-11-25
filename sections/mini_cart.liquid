@@ -223,7 +223,6 @@
 
                   {%- when 'btnck' -%}
                      {%- if settings.currency_type == '2' and settings.notify_currency and settings.mess_currency != blank %}{% assign cart_iso_code = cart.currency.iso_code %}{% assign text1 = '{{ currency }}' -%}
-                     <p class="t4s-db" data-currency-jsnotify>{{ settings.mess_currency | replace:text1,cart_iso_code | replace:'[currency]',cart_iso_code | replace:'[original_currency]',cart_iso_code | replace:'[current_currency]','<span class="selected-currency"></span>' }}</p>
                      {%- endif -%}
                      <button {{ block.shopify_attributes }} type="submit" data-loading-bar data-confirm="{{ck_lumise}}" name="checkout" class="t4s-btn__checkout t4s-btn t4s-btn-base t4s-btn-style-{{button_style}} t4s-btn-color-{{bk_stts.btn_cl}} {% if button_style == 'default' or button_style == 'outline'%}t4s-btn-effect-{{bk_stts.button_effect}}{% endif %} t4s-w-100 t4s-justify-content-center t4s-truncate">{{ 'cart.mini_cart.checkout' | t }} {%- if bk_stts.btn_icon -%}<svg  class="t4s-btn-icon" viewBox="0 0 14 10"><use xlink:href="#t4s-icon-btn"></use></svg>{%- endif -%}</button>
 
