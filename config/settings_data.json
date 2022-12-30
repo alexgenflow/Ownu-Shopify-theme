@@ -28,6 +28,7 @@
     "fnt_fm_gg2": "Poppins",
     "fnt_fm_gg3": "Libre Baskerville",
     "hd_ffamily": "1",
+    "wishlist_mode": "1",
     "enable_compe": false,
     "app_review": "1",
     "badge_shape": "2",
@@ -1974,6 +1975,7 @@
         "blocks": {
           "heading-template-0": {
             "type": "1",
+            "disabled": true,
             "settings": {
               "heading": "",
               "fontf": "inherit",
@@ -1998,7 +2000,7 @@
           "heading-template-0"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/shopping-cart-head.jpg",
+          "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
           "overlay": 54,
@@ -2029,6 +2031,7 @@
         "settings": {
           "product_des": "1",
           "show_vendor": false,
+          "use_cdt": false,
           "image_ratio": "rationt",
           "image_size": "cover",
           "image_position": "8",
