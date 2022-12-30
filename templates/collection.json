@@ -238,7 +238,7 @@
         "button_effect": "sweep-to-right",
         "btn_pos": "t4s-text-center",
         "type_filters": "facets",
-        "layout": "t4s-container-wrap",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
