@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "16649622273f915166": {
+      "type": "apps",
+      "blocks": {
+        "649cd0be-3a73-451d-87f2-2b0214e15dc0": {
+          "type": "shopify:\/\/apps\/the4-toolkit\/blocks\/wishlist-block\/049d73ec-9c99-4c7d-a189-72c9200dcc8f",
+          "settings": {
+            "page_width": 1200,
+            "text_color": "#111",
+            "hover_text_color": "#333",
+            "text_size": 15,
+            "price_color": "#333",
+            "price_text_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "649cd0be-3a73-451d-87f2-2b0214e15dc0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16649622273f915166"
+  ]
+}
