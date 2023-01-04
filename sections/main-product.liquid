@@ -4065,7 +4065,31 @@ endif -%}
     }
   {% endschema %}
 
-
+<style>
+    .custom-variant-wrap {
+    display: flex;
+    align-items: center;
+}
+a.dynamic[data-bss-pl="active"] {
+  display: block !important;
+  margin-right: 10px;
+    border: solid 1px #a5c0ab;
+} 
+a.dynamic {
+  display: none !important;
+} 
+  a.dynamic.m-select {
+    display: block !important;
+  margin-right: 10px;
+    border: solid 1px #a5c0ab;
+  }
+.variant-heading.active {
+    display: none;
+}  
+  .variant-heading {
+    display: block;
+}
+</style>
 <script>
   $('[href*="https://"]').addClass('m-select');
 let href = $(".dynamic").attr('href')
