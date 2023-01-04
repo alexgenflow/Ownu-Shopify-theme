@@ -4064,3 +4064,15 @@ endif -%}
       }
     }
   {% endschema %}
+
+
+<script>
+  $('[href*="https://"]').addClass('m-select');
+let href = $(".dynamic").attr('href')
+let $VariantHeading = $('.variant-heading')
+if(href==='') {
+$VariantHeading.addClass('active')
+} else {
+$VariantHeading.removeClass('active')
+}
+</script>              
