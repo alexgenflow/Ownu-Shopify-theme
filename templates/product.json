@@ -118,8 +118,8 @@
             "size_ck": "Size Guide",
             "delivery": true,
             "page_dr": "delivery-return",
-            "ask": true,
-            "phone": true
+            "ask": false,
+            "phone": false
           }
         },
         "meta": {
