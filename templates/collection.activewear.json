@@ -699,14 +699,13 @@
         "d6067eac-2018-4f5c-b40d-ca6f0639340b": {
           "type": "pr",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ACTIVEWEAR-1.jpg",
             "pos_t": 50,
             "pos_l": 50,
             "type": "1",
             "shorttxt": "$59",
             "pos_size": "medium",
             "bg_cl": "#65affa",
-            "cl_text": "#fff",
+            "cl_text": "#ffffff",
             "pos_popup": "top",
             "size_popup": "medium",
             "product": "dark-grey-acid-wash-boxy-tee"
@@ -715,7 +714,21 @@
         "a43028d8-20d3-4ac5-8829-b9775edc253b": {
           "type": "pr",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#65affa",
+            "cl_text": "#ffffff",
+            "pos_popup": "top",
+            "size_popup": "medium",
+            "product": "5"
+          }
+        },
+        "0c2bc729-126c-4d02-b0b9-9ae9f96899f1": {
+          "type": "pr",
+          "settings": {
             "pos_t": 50,
             "pos_l": 50,
             "type": "1",
@@ -725,13 +738,14 @@
             "cl_text": "#fff",
             "pos_popup": "top",
             "size_popup": "medium",
-            "product": "5"
+            "product": "barbell-pad"
           }
         }
       },
       "block_order": [
         "d6067eac-2018-4f5c-b40d-ca6f0639340b",
-        "a43028d8-20d3-4ac5-8829-b9775edc253b"
+        "a43028d8-20d3-4ac5-8829-b9775edc253b",
+        "0c2bc729-126c-4d02-b0b9-9ae9f96899f1"
       ],
       "settings": {
         "design_heading": "1",
