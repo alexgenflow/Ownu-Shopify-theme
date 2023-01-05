@@ -44,7 +44,6 @@
             {%- when 'pr' -%}{%- if bk_stts.product == blank -%}{%- continue -%}{%- endif -%}
             <div class="image">
               <img src="{{ block.settings.img | img_url: 'master' }}">
-            </div>
               <span data-bid="t4s_{{se_id}}{{block.id}}" data-pin-popup data-position="{{bk_stts.pos_popup}}" data-is-pr data-href="{{ root_url }}products/{{bk_stts.product}}" data-sid="render-pr_lb{{se_stts.pr_pin_des}}" class="t4s-lookbook-pin is-type__pr pin__size--{{bk_stts.pos_size}} pin_ic_{{bk_stts.type}} pin__type_{{block.id}}" {{ block.shopify_attributes }} {% render 'pin_position',bk_stts:bk_stts %}>
                 <span class="t4s-zoompin"></span>
                 <span class="t4s-pin-tt">
@@ -53,6 +52,8 @@
                   {%- endif -%}
                 </span>
               </span>
+            </div>
+              
             {%- when 'txt' -%}
               <span data-bid="t4s_{{se_id}}{{block.id}}" data-pin-popup data-position="{{bk_stts.pos_popup}}" class="t4s-lookbook-pin is-type__text pin__size--{{bk_stts.pos_size}} pin_ic_{{bk_stts.type}} pin__type_{{block.id}}" {{ block.shopify_attributes }} {% render 'pin_position',bk_stts:bk_stts %}>
                 <span class="t4s-zoompin"></span>
