@@ -692,6 +692,64 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "fa6c350e-6655-46fc-98c5-7a8434bada7d": {
+      "type": "lookbook-multi",
+      "blocks": {
+        "d6067eac-2018-4f5c-b40d-ca6f0639340b": {
+          "type": "pr",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ACTIVEWEAR-1.jpg",
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#65affa",
+            "cl_text": "#fff",
+            "pos_popup": "top",
+            "size_popup": "medium",
+            "product": "dark-grey-acid-wash-boxy-tee"
+          }
+        },
+        "a43028d8-20d3-4ac5-8829-b9775edc253b": {
+          "type": "pr",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#65affa",
+            "cl_text": "#fff",
+            "pos_popup": "top",
+            "size_popup": "medium",
+            "product": "5"
+          }
+        }
+      },
+      "block_order": [
+        "d6067eac-2018-4f5c-b40d-ca6f0639340b",
+        "a43028d8-20d3-4ac5-8829-b9775edc253b"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "img_size": "1",
+        "pr_pin_des": "1",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -704,6 +762,7 @@
     "2563bbc3-f884-4bd4-a8a2-7aa6a1470169",
     "861593d0-44ae-417d-8fd2-999e1c3b1c32",
     "36bec754-85a5-46de-b4cb-151f3f320751",
-    "06818592-e5a9-465c-9fe9-9a05b8c2901b"
+    "06818592-e5a9-465c-9fe9-9a05b8c2901b",
+    "fa6c350e-6655-46fc-98c5-7a8434bada7d"
   ]
 }
