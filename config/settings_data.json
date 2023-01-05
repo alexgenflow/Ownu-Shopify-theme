@@ -879,10 +879,10 @@
               "quickview_color_hover": "#222222",
               "wishlist_color": "#ffffff",
               "wishlist_color_hover": "#222222",
-              "wishlist_color_active": "#e81e63",
+              "wishlist_color_active": "#89b6a6",
               "compare_color": "#ffffff",
               "compare_color_hover": "#222222",
-              "size_list_color": "#ffffff"
+              "size_list_color": "#000000"
             }
           },
           "pr_item_config-1": {
