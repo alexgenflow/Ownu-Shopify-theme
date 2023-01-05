@@ -136,6 +136,7 @@
     },
     "16460362229768af39": {
       "type": "banner",
+      "disabled": true,
       "blocks": {
         "164603622209bd8d44-0": {
           "type": "b_item",
@@ -413,13 +414,13 @@
         "16635189562817c04d-0": {
           "type": "custom_text",
           "settings": {
-            "text": "Subscribe to our newsletter",
+            "text": "Become a VIP OWNU <br>mailing list subscriber",
             "remove_br_tag": false,
             "fontf": "inherit",
-            "text_cl": "#ffffff",
+            "text_cl": "#000000",
             "text_fs": 24,
             "text_lh": 0,
-            "text_fw": 600,
+            "text_fw": 900,
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
@@ -433,6 +434,7 @@
         },
         "16635189562817c04d-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "<br>Be the first to know about new collections and exclusive offers.",
             "remove_br_tag": false,
@@ -461,10 +463,10 @@
             "news_align": "center",
             "newl_size": "small",
             "btn_icon": false,
-            "input_cl": "#878787",
+            "input_cl": "#3c3e42",
             "border_cl": "#000000",
             "btn_cl": "#ffffff",
-            "btn_bg_cl": "#222222",
+            "btn_bg_cl": "#89b6a6",
             "btn_hover_cl": "#ffffff",
             "btn_hover_bg_cl": "#a5c0ab",
             "hidden_mobile": false,
@@ -489,7 +491,7 @@
         "news_overlay": "#000000",
         "news_overlay_opacity": 0,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#89b6a6",
+        "cl_bg": "#fff",
         "cl_bg_gradient": "linear-gradient(54deg, rgba(165, 192, 171, 1) 14%, rgba(NaN, NaN, NaN, 1) 85%)",
         "parallax": false,
         "mg": "",

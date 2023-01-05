@@ -710,6 +710,8 @@
             "pos_popup": "top",
             "size_popup": "medium",
             "product": "dark-grey-acid-wash-boxy-tee",
+            "pos_t2": 71,
+            "pos_l2": 26,
             "pos_popup2": "top",
             "product2": "cream-bodycon-fit-tee"
           }
@@ -728,6 +730,8 @@
             "pos_popup": "top-end",
             "size_popup": "medium",
             "product": "5",
+            "pos_t2": 50,
+            "pos_l2": 50,
             "pos_popup2": "top",
             "product2": ""
           }
