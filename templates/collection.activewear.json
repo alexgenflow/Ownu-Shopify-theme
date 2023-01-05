@@ -709,7 +709,9 @@
             "cl_text": "#ffffff",
             "pos_popup": "top",
             "size_popup": "medium",
-            "product": "dark-grey-acid-wash-boxy-tee"
+            "product": "dark-grey-acid-wash-boxy-tee",
+            "pos_popup2": "top",
+            "product2": "cream-bodycon-fit-tee"
           }
         },
         "a43028d8-20d3-4ac5-8829-b9775edc253b": {
@@ -725,7 +727,9 @@
             "cl_text": "#ffffff",
             "pos_popup": "top-end",
             "size_popup": "medium",
-            "product": "5"
+            "product": "5",
+            "pos_popup2": "top",
+            "product2": ""
           }
         }
       },
