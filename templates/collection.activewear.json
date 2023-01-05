@@ -452,8 +452,65 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "img_size": "1",
+        "img_size": "2",
         "image": "shopify:\/\/shop_images\/Untitled-11.jpg",
+        "pr_pin_des": "1",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "2563bbc3-f884-4bd4-a8a2-7aa6a1470169": {
+      "type": "lookbook-img",
+      "blocks": {
+        "d7682713-ab5b-4d13-8254-cea43abc4071": {
+          "type": "pr",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 64,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#333",
+            "cl_text": "#fff",
+            "pos_popup": "top",
+            "size_popup": "medium",
+            "product": "cream-oversized-hoodie"
+          }
+        },
+        "78038140-56df-4376-99f0-d008820b8911": {
+          "type": "pr",
+          "settings": {
+            "pos_t": 88,
+            "pos_l": 67,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#333",
+            "cl_text": "#fff",
+            "pos_popup": "top",
+            "size_popup": "medium",
+            "product": "cream-oversized-joggers"
+          }
+        }
+      },
+      "block_order": [
+        "d7682713-ab5b-4d13-8254-cea43abc4071",
+        "78038140-56df-4376-99f0-d008820b8911"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "img_size": "1",
+        "image": "shopify:\/\/shop_images\/Joggers_Cream_4.jpg",
         "pr_pin_des": "1",
         "layout": "t4s-se-container",
         "cl_bg": "",
@@ -466,6 +523,7 @@
     },
     "861593d0-44ae-417d-8fd2-999e1c3b1c32": {
       "type": "lookbook-packery",
+      "disabled": true,
       "blocks": {
         "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-0": {
           "type": "img",
@@ -536,6 +594,104 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "36bec754-85a5-46de-b4cb-151f3f320751": {
+      "type": "lookbook-slider",
+      "disabled": true,
+      "blocks": {
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-0": {
+          "type": "img",
+          "settings": {
+          }
+        },
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-1": {
+          "type": "txt",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#65affa",
+            "cl_text": "#fff",
+            "heading": "01 - Water Resistance",
+            "text": "<p>With groundbreaking water resistant capabilities, The Mission has the highest waterproof rating of any smartwatch on the market.<\/p>"
+          }
+        },
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-2": {
+          "type": "img",
+          "settings": {
+          }
+        },
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-3": {
+          "type": "txt",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#65affa",
+            "cl_text": "#fff",
+            "heading": "01 - Water Resistance",
+            "text": "<p>With groundbreaking water resistant capabilities, The Mission has the highest waterproof rating of any smartwatch on the market.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-0",
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-1",
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-2",
+        "template--15822895349960__36bec754-85a5-46de-b4cb-151f3f320751-1672912492e98cc94b-3"
+      ],
+      "settings": {
+        "eff": "slide",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "pr_pin_des": "1",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "06818592-e5a9-465c-9fe9-9a05b8c2901b": {
+      "type": "lookbook-img",
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "img_size": "1",
+        "pr_pin_des": "1",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -545,6 +701,9 @@
     "main",
     "sidebar",
     "4d4f5dac-5660-4c36-9b31-abb9116f6abd",
-    "861593d0-44ae-417d-8fd2-999e1c3b1c32"
+    "2563bbc3-f884-4bd4-a8a2-7aa6a1470169",
+    "861593d0-44ae-417d-8fd2-999e1c3b1c32",
+    "36bec754-85a5-46de-b4cb-151f3f320751",
+    "06818592-e5a9-465c-9fe9-9a05b8c2901b"
   ]
 }
