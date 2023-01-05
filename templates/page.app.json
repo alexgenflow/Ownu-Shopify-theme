@@ -1072,6 +1072,74 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4": {
+      "type": "pricing",
+      "blocks": {
+        "038c283f-3832-47a7-96ae-808ae5c3d29a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "02061297-89a0-4550-bd3a-0acfb91d003d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "038c283f-3832-47a7-96ae-808ae5c3d29a",
+        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59",
+        "02061297-89a0-4550-bd3a-0acfb91d003d"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-1": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-2": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-3": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -1085,6 +1153,7 @@
     "1663526258f2deb053",
     "1663526308163da4d9",
     "1663525992c8b26e01",
-    "1663526334ff4e5466"
+    "1663526334ff4e5466",
+    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4"
   ]
 }
