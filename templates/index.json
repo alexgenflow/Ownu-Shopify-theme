@@ -61,7 +61,7 @@
             "button_effect": "default",
             "pri_cl": "#89b6a6",
             "second_cl": "#ffffff",
-            "pri_cl_hover": "#222",
+            "pri_cl_hover": "#222222",
             "second_cl_hover": "#ffffff",
             "fsbutton": 14,
             "fwbutton": 400,
@@ -162,18 +162,18 @@
             "ch_pos": 50,
             "cv_pos_mb": 50,
             "ch_pos_mb": 50,
-            "bg_overlay": "#000",
+            "bg_overlay": "#000000",
             "bg_opacity": 0,
             "bg_content_bl": false,
-            "bg_content_cl": "#fff",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 50,
             "content_pd_tb": 20,
             "content_pd_lr": 20,
             "content_pd_tb_mb": 10,
             "content_pd_lr_mb": 10,
             "border_bl": false,
-            "br_color": "#222",
-            "br_bg": "#fff",
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
             "br_opacity": 50,
             "br_style": "solid",
             "br_pd": 20,
@@ -539,7 +539,7 @@
         "news_overlay": "#000000",
         "news_overlay_opacity": 0,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "cl_bg_gradient": "linear-gradient(54deg, rgba(165, 192, 171, 1) 14%, rgba(NaN, NaN, NaN, 1) 85%)",
         "parallax": false,
         "mg": "",
@@ -977,7 +977,7 @@
             "btns_size": "medium",
             "btns_cl": "primary",
             "button_effect": "default",
-            "item_cl": "#28A77F"
+            "item_cl": "#28a77f"
           }
         },
         "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-1": {
@@ -986,7 +986,7 @@
             "highlights_item": true,
             "heading": "GOLD",
             "package_label": "Hot",
-            "package_label_bg": "#FF0000",
+            "package_label_bg": "#ff0000",
             "price": 199,
             "des": "Enter description here",
             "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
@@ -996,7 +996,7 @@
             "btns_size": "large",
             "btns_cl": "dark",
             "button_effect": "default",
-            "item_cl": "#28A77F"
+            "item_cl": "#28a77f"
           }
         },
         "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-2": {
@@ -1005,7 +1005,7 @@
             "highlights_item": false,
             "heading": "PLATINIUM",
             "package_label": "Hot",
-            "package_label_bg": "#FF0000",
+            "package_label_bg": "#ff0000",
             "price": 299,
             "des": "Enter description here",
             "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
@@ -1015,7 +1015,7 @@
             "btns_size": "large",
             "btns_cl": "dark",
             "button_effect": "default",
-            "item_cl": "#28A77F"
+            "item_cl": "#28a77f"
           }
         }
       },
@@ -1051,6 +1051,75 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "c4ffdde8-171e-46c5-8bb4-72ab42c6ada7": {
+      "type": "accordion",
+      "blocks": {
+        "template--15818193830088__c4ffdde8-171e-46c5-8bb4-72ab42c6ada7-16729235549a553733-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Personalised workout plans",
+            "content": "<p>....<\/p>"
+          }
+        },
+        "template--15818193830088__c4ffdde8-171e-46c5-8bb4-72ab42c6ada7-16729235549a553733-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Access to 100+ balanced and tasty recipes",
+            "content": "<p>..<\/p>"
+          }
+        },
+        "template--15818193830088__c4ffdde8-171e-46c5-8bb4-72ab42c6ada7-16729235549a553733-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Personalised meal plans tailored to your needs",
+            "content": "<p>..<\/p>"
+          }
+        },
+        "3e0857f4-5657-4ff5-a488-20196b1415f4": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Regular exclusive content from me, Hanna",
+            "content": "<p>...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193830088__c4ffdde8-171e-46c5-8bb4-72ab42c6ada7-16729235549a553733-0",
+        "template--15818193830088__c4ffdde8-171e-46c5-8bb4-72ab42c6ada7-16729235549a553733-1",
+        "template--15818193830088__c4ffdde8-171e-46c5-8bb4-72ab42c6ada7-16729235549a553733-2",
+        "3e0857f4-5657-4ff5-a488-20196b1415f4"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Get OWNU app now",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#ffffff",
+        "content_cl": "#222",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "#f0f4f5",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,0px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -1062,6 +1131,7 @@
     "8788b4c0-e865-4ad9-a423-310d7f4cbc44",
     "f0d40fb8-1cea-4389-af60-72d870ee94d9",
     "63d96a1b-18a0-4ea3-bfda-582ec66634e0",
-    "9361be43-b449-45ac-9e88-fe36043c8c89"
+    "9361be43-b449-45ac-9e88-fe36043c8c89",
+    "c4ffdde8-171e-46c5-8bb4-72ab42c6ada7"
   ]
 }
