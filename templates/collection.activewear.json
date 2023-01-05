@@ -692,100 +692,6 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
-    },
-    "17a24213-3095-4c60-9982-917b24b174b9": {
-      "type": "lookbook-more",
-      "blocks": {
-        "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ACTIVEWEAR-1.jpg",
-            "button_text": "Shop this collection",
-            "button_link": "",
-            "button_style": "dark",
-            "top_1": 9,
-            "left_1": 63,
-            "product_1": "honeycomb-seamless-cropped-ss-tee",
-            "top_2": 26,
-            "left_2": 50,
-            "product_2": "honeycomb-seamless-contour-shorts",
-            "top_3": 61,
-            "left_3": 48,
-            "product_3": "",
-            "top_4": 0,
-            "left_4": 0,
-            "product_4": "",
-            "top_5": 20,
-            "left_5": 0,
-            "product_5": ""
-          }
-        },
-        "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
-            "button_text": "Shop this collection",
-            "button_link": "",
-            "button_style": "dark",
-            "top_1": 9,
-            "left_1": 63,
-            "product_1": "",
-            "top_2": 26,
-            "left_2": 50,
-            "product_2": "",
-            "top_3": 61,
-            "left_3": 48,
-            "product_3": "",
-            "top_4": 0,
-            "left_4": 0,
-            "product_4": "",
-            "top_5": 20,
-            "left_5": 0,
-            "product_5": ""
-          }
-        },
-        "ab2de7a3-ef08-4983-99ec-98875a112f63": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EQUIPMENT-V2_926a35ed-96c0-48cd-9800-56d17a61530e.jpg",
-            "button_text": "Shop this collection",
-            "button_link": "",
-            "button_style": "dark",
-            "top_1": 9,
-            "left_1": 63,
-            "product_1": "",
-            "top_2": 26,
-            "left_2": 50,
-            "product_2": "",
-            "top_3": 61,
-            "left_3": 48,
-            "product_3": "",
-            "top_4": 0,
-            "left_4": 0,
-            "product_4": "",
-            "top_5": 20,
-            "left_5": 0,
-            "product_5": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-0",
-        "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-1",
-        "ab2de7a3-ef08-4983-99ec-98875a112f63"
-      ],
-      "settings": {
-        "heading": "Hand-picked",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "background_color": "rgba(0,0,0,0)",
-        "image_aspect_ratio": "1\/1",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": ""
-      }
     }
   },
   "order": [
@@ -798,7 +704,6 @@
     "2563bbc3-f884-4bd4-a8a2-7aa6a1470169",
     "861593d0-44ae-417d-8fd2-999e1c3b1c32",
     "36bec754-85a5-46de-b4cb-151f3f320751",
-    "06818592-e5a9-465c-9fe9-9a05b8c2901b",
-    "17a24213-3095-4c60-9982-917b24b174b9"
+    "06818592-e5a9-465c-9fe9-9a05b8c2901b"
   ]
 }
