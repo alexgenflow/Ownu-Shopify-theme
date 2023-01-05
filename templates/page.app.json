@@ -1086,8 +1086,8 @@
             "text": "€51.99",
             "crossedprice": "€109.99",
             "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Subscribe",
+            "button_link": "#",
             "link": ""
           }
         },
@@ -1101,8 +1101,8 @@
             "text": "€24.99",
             "crossedprice": "€35.99",
             "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Subscribe",
+            "button_link": "#",
             "link": ""
           }
         },
@@ -1116,8 +1116,8 @@
             "text": "€10.99",
             "crossedprice": "€14.49",
             "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Subscribe",
+            "button_link": "#",
             "link": ""
           }
         }
