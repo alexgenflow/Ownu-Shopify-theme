@@ -268,7 +268,7 @@
       "settings": {
         "use_specify_image": false,
         "parallax": false,
-        "color": "#ddd",
+        "color": "#dddddd",
         "overlay": 50,
         "padding": 50,
         "paddingmb": 50,
@@ -406,6 +406,136 @@
         "sidebar_bdr": 0,
         "sidebar_pd": 15
       }
+    },
+    "4d4f5dac-5660-4c36-9b31-abb9116f6abd": {
+      "type": "lookbook-img",
+      "blocks": {
+        "dfacbdff-0d16-4701-b494-41e947b7f806": {
+          "type": "pr",
+          "settings": {
+            "pos_t": 42,
+            "pos_l": 40,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#333",
+            "cl_text": "#fff",
+            "pos_popup": "top",
+            "size_popup": "medium",
+            "product": "jade-seamless-shorts-with-contour"
+          }
+        },
+        "ec360f36-7c9d-422f-859f-edd5669d5b98": {
+          "type": "pr",
+          "settings": {
+            "pos_t": 76,
+            "pos_l": 50,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_size": "medium",
+            "bg_cl": "#333",
+            "cl_text": "#fff",
+            "pos_popup": "top",
+            "size_popup": "medium",
+            "product": "jade-seamless-shorts-with-contour"
+          }
+        }
+      },
+      "block_order": [
+        "dfacbdff-0d16-4701-b494-41e947b7f806",
+        "ec360f36-7c9d-422f-859f-edd5669d5b98"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "img_size": "1",
+        "image": "shopify:\/\/shop_images\/Untitled-11.jpg",
+        "pr_pin_des": "1",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "861593d0-44ae-417d-8fd2-999e1c3b1c32": {
+      "type": "lookbook-packery",
+      "blocks": {
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-0": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-1": {
+          "type": "img",
+          "settings": {
+            "col_pr": "6",
+            "col_pr_tb": "6",
+            "col_pr_mb": "12"
+          }
+        },
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-2": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-3": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-4": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        }
+      },
+      "block_order": [
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-0",
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-1",
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-2",
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-3",
+        "template--15822895349960__861593d0-44ae-417d-8fd2-999e1c3b1c32-167291230052cd410b-4"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space": "20",
+        "space_mb": "20",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "pr_pin_des": "1",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -413,6 +543,8 @@
     "top",
     "heading_template",
     "main",
-    "sidebar"
+    "sidebar",
+    "4d4f5dac-5660-4c36-9b31-abb9116f6abd",
+    "861593d0-44ae-417d-8fd2-999e1c3b1c32"
   ]
 }
