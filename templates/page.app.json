@@ -1084,8 +1084,8 @@
             "off": "",
             "title": "YEARLY",
             "text": "€51.99",
-            "crossedprice": "",
-            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "crossedprice": "€109.99",
+            "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
             "button_label": "",
             "button_link": "",
             "link": ""
@@ -1099,8 +1099,8 @@
             "off": "",
             "title": "QUARTERLY",
             "text": "€24.99",
-            "crossedprice": "",
-            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "crossedprice": "€35.99",
+            "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
             "button_label": "",
             "button_link": "",
             "link": ""
@@ -1114,8 +1114,8 @@
             "off": "",
             "title": "MONTHLY",
             "text": "€10.99",
-            "crossedprice": "",
-            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "crossedprice": "€14.49",
+            "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
             "button_label": "",
             "button_link": "",
             "link": ""
