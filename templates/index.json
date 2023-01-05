@@ -956,6 +956,101 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "9361be43-b449-45ac-9e88-fe36043c8c89": {
+      "type": "pricing-tables",
+      "disabled": true,
+      "blocks": {
+        "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-0": {
+          "type": "package",
+          "settings": {
+            "highlights_item": false,
+            "heading": "SILVER",
+            "package_label": "BEST VALUE",
+            "package_label_bg": "#89b6a6",
+            "price": 10999,
+            "des": "+7-days free trail",
+            "txt": "",
+            "button_text": "Subscribe",
+            "button_link": "#",
+            "button_style": "bordered",
+            "btns_size": "medium",
+            "btns_cl": "primary",
+            "button_effect": "default",
+            "item_cl": "#28A77F"
+          }
+        },
+        "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-1": {
+          "type": "package",
+          "settings": {
+            "highlights_item": true,
+            "heading": "GOLD",
+            "package_label": "Hot",
+            "package_label_bg": "#FF0000",
+            "price": 199,
+            "des": "Enter description here",
+            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
+            "button_text": "By now",
+            "button_link": "",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#28A77F"
+          }
+        },
+        "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-2": {
+          "type": "package",
+          "settings": {
+            "highlights_item": false,
+            "heading": "PLATINIUM",
+            "package_label": "Hot",
+            "package_label_bg": "#FF0000",
+            "price": 299,
+            "des": "Enter description here",
+            "txt": "Enter text here... \nEnter text here..??[Tooltip here]\nStrikethrough text--",
+            "button_text": "By now",
+            "button_link": "",
+            "button_style": "default",
+            "btns_size": "large",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "item_cl": "#28A77F"
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-0",
+        "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-1",
+        "template--15818193830088__9361be43-b449-45ac-9e88-fe36043c8c89-167292162227e39905-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Pricing tables",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "package_des": "2",
+        "content_align": "center",
+        "target_link": "_blank",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,0px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -966,6 +1061,7 @@
     "eda72394-c324-4e96-99ea-8346e7a74f5d",
     "8788b4c0-e865-4ad9-a423-310d7f4cbc44",
     "f0d40fb8-1cea-4389-af60-72d870ee94d9",
-    "63d96a1b-18a0-4ea3-bfda-582ec66634e0"
+    "63d96a1b-18a0-4ea3-bfda-582ec66634e0",
+    "9361be43-b449-45ac-9e88-fe36043c8c89"
   ]
 }
