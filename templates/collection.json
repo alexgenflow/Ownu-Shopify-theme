@@ -2,31 +2,31 @@
   "sections": {
     "top": {
       "type": "top-collections",
-      "disabled": true,
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
           "settings": {
-            "collection": "default-3",
-            "icon": ""
+            "collection": "activewear",
+            "icon": "Activewear"
           }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
           "settings": {
-            "collection": "bag",
+            "collection": "new-in-loungewear",
             "icon": ""
           }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
           "settings": {
-            "collection": "decor",
+            "collection": "shop-equipment",
             "icon": ""
           }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "default-2",
             "icon": ""
@@ -34,6 +34,7 @@
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "dress",
             "icon": ""
@@ -41,6 +42,7 @@
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "hats",
             "icon": ""
@@ -48,6 +50,7 @@
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "frontpage",
             "icon": ""
@@ -55,6 +58,7 @@
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "sale",
             "icon": ""
@@ -62,6 +66,7 @@
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "shoes",
             "icon": ""
@@ -69,6 +74,7 @@
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
+          "disabled": true,
           "settings": {
             "collection": "women",
             "icon": ""
@@ -89,16 +95,16 @@
       ],
       "settings": {
         "show_top_collections": true,
-        "source": "1",
+        "source": "2",
         "menu": "main-menu",
         "sort_collections": "alphabetical_reversed",
         "box_border": "top",
         "content_align": "center",
         "hidden_mobile": false,
-        "space_item": 30,
+        "space_item": 20,
         "fontf": "inherit",
         "text_cl": "#222222",
-        "text_cl_hover": "#56cfe1",
+        "text_cl_hover": "#89b6a6",
         "text_fs": 14,
         "text_lh": 45,
         "text_fw": 400,
@@ -112,6 +118,114 @@
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
+      }
+    },
+    "53703ded-330f-4640-8b0e-30a78e850a2c": {
+      "type": "collections-list",
+      "blocks": {
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-0": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "accessories",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-0",
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-1",
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2",
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "source": "image",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout_des": "2",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "3",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,0px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "heading_template": {
@@ -302,12 +416,134 @@
         "sidebar_bdr": 0,
         "sidebar_pd": 15
       }
+    },
+    "724d892a-ce62-4fd6-8a17-3237fc427bf2": {
+      "type": "image-gallery",
+      "disabled": true,
+      "blocks": {
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-0": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_Capture2138.jpg",
+            "link": ""
+          }
+        },
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-1": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-2": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-3": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-0",
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-1",
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-2",
+        "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "2",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_self",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "contain",
+        "image_position": "8",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e56d8237-10fd-41da-9174-d9053e60aa2e": {
+      "type": "top_heading",
+      "disabled": true,
+      "blocks": {
+        "template--15818193600712__e56d8237-10fd-41da-9174-d9053e60aa2e-1672935153b363a6ad-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Theme Kalles"
+          }
+        },
+        "template--15818193600712__e56d8237-10fd-41da-9174-d9053e60aa2e-1672935153b363a6ad-1": {
+          "type": "bl_subheading",
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193600712__e56d8237-10fd-41da-9174-d9053e60aa2e-1672935153b363a6ad-0",
+        "template--15818193600712__e56d8237-10fd-41da-9174-d9053e60aa2e-1672935153b363a6ad-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "top",
+    "53703ded-330f-4640-8b0e-30a78e850a2c",
     "heading_template",
     "main",
-    "sidebar"
+    "sidebar",
+    "724d892a-ce62-4fd6-8a17-3237fc427bf2",
+    "e56d8237-10fd-41da-9174-d9053e60aa2e"
   ]
 }
