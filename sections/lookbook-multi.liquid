@@ -27,22 +27,21 @@
     {%- render 'section_tophead',se_stts:se_stts -%} 
 
     <div class="t4s-pr t4s-lookbook-wrapper">
-      
+      <div class="t4s-lookbook-img t4s-pr t4s-oh t4s_position_8 t4s_cover t4s_ratioadapt">
+      {%- if IsIMG -%}{%- assign ratio = image.aspect_ratio -%}
+        <div class="t4s-lookbook-img-wrap t4s_ratio" style="--aspect-ratioapt: {{ ratio | default: 1.7777}}">
+          <img class="lazyloadt4s t4s-lz--fadeIn t4s-obj-eff t4s-img-as-bg pin__image" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src=" {%- render 'img_svg',w:image.width,h:image.height -%}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+          <span class="lazyloadt4s-loader is-bg-img" style="background: url({{ image | image_url: width: 1 }});"></span>  
+        </div>
+      {%- else -%}
+        {%- capture current -%}{% cycle 1, 2 %}{%- endcapture -%}
+        {{ 'lifestyle-' | append: current | placeholder_svg_tag: 't4s-placeholder-svg t4s-svg-bg1' }}  
+      {%- endif -%}
+      </div>
       {%- if section.blocks.size > 0 -%}  
         {%- for block in section.blocks -%}{%- assign bk_stts = block.settings -%}
           {%- case block.type -%}
             {%- when 'pr' -%}{%- if bk_stts.product == blank -%}{%- continue -%}{%- endif -%}
-              <div class="t4s-lookbook-img t4s-pr t4s-oh t4s_position_8 t4s_cover t4s_ratioadapt">
-              {%- if IsIMG -%}{%- assign ratio = image.aspect_ratio -%}
-                <div class="t4s-lookbook-img-wrap t4s_ratio" style="--aspect-ratioapt: {{ ratio | default: 1.7777}}">
-                  <img class="lazyloadt4s t4s-lz--fadeIn t4s-obj-eff t4s-img-as-bg pin__image" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src=" {%- render 'img_svg',w:image.width,h:image.height -%}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
-                  <span class="lazyloadt4s-loader is-bg-img" style="background: url({{ image | image_url: width: 1 }});"></span>  
-                </div>
-              {%- else -%}
-                {%- capture current -%}{% cycle 1, 2 %}{%- endcapture -%}
-                {{ 'lifestyle-' | append: current | placeholder_svg_tag: 't4s-placeholder-svg t4s-svg-bg1' }}  
-              {%- endif -%}
-              </div>
               <span data-bid="t4s_{{se_id}}{{block.id}}" data-pin-popup data-position="{{bk_stts.pos_popup}}" data-is-pr data-href="{{ root_url }}products/{{bk_stts.product}}" data-sid="render-pr_lb{{se_stts.pr_pin_des}}" class="t4s-lookbook-pin is-type__pr pin__size--{{bk_stts.pos_size}} pin_ic_{{bk_stts.type}} pin__type_{{block.id}}" {{ block.shopify_attributes }} {% render 'pin_position',bk_stts:bk_stts %}>
                 <span class="t4s-zoompin"></span>
                 <span class="t4s-pin-tt">
@@ -216,7 +215,9 @@
           { "value": "2", "label": "Auto"}
         ]
       },
-     
+     {
+      "type":"image_picker","id":"image","label":"Choose Image"
+      },
       {
         "type": "header","content": "3. Pin product design"
       },
@@ -315,9 +316,6 @@
         "type": "pr",
         "name": "Product",
         "settings": [
-          {
-          "type":"image_picker","id":"image","label":"Choose Image"
-          },
           {
             "type": "header","content": "+ Pin options"
           },
