@@ -1054,6 +1054,7 @@
     },
     "c4ffdde8-171e-46c5-8bb4-72ab42c6ada7": {
       "type": "accordion",
+      "disabled": true,
       "blocks": {
         "template--15818193830088__c4ffdde8-171e-46c5-8bb4-72ab42c6ada7-16729235549a553733-0": {
           "type": "accor_item",
