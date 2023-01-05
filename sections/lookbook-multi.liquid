@@ -27,7 +27,7 @@
     {%- render 'section_tophead',se_stts:se_stts -%} 
 
     <div class="t4s-pr t4s-lookbook-wrapper">
-<!--       <div class="t4s-lookbook-img t4s-pr t4s-oh t4s_position_8 t4s_cover t4s_ratioadapt">
+      <div class="t4s-lookbook-img t4s-pr t4s-oh t4s_position_8 t4s_cover t4s_ratioadapt">
       {%- if IsIMG -%}{%- assign ratio = image.aspect_ratio -%}
         <div class="t4s-lookbook-img-wrap t4s_ratio" style="--aspect-ratioapt: {{ ratio | default: 1.7777}}">
           <img class="lazyloadt4s t4s-lz--fadeIn t4s-obj-eff t4s-img-as-bg pin__image" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src=" {%- render 'img_svg',w:image.width,h:image.height -%}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
@@ -37,23 +37,12 @@
         {%- capture current -%}{% cycle 1, 2 %}{%- endcapture -%}
         {{ 'lifestyle-' | append: current | placeholder_svg_tag: 't4s-placeholder-svg t4s-svg-bg1' }}  
       {%- endif -%}
-      </div> -->
+      </div>
       {%- if section.blocks.size > 0 -%}  
         {%- for block in section.blocks -%}{%- assign bk_stts = block.settings -%}
           {%- case block.type -%}
             {%- when 'pr' -%}{%- if bk_stts.product == blank -%}{%- continue -%}{%- endif -%}
-            <div class="image">
-              <img src="{{ block.settings.img | img_url: 'master' }}">
-            </div>
               <span data-bid="t4s_{{se_id}}{{block.id}}" data-pin-popup data-position="{{bk_stts.pos_popup}}" data-is-pr data-href="{{ root_url }}products/{{bk_stts.product}}" data-sid="render-pr_lb{{se_stts.pr_pin_des}}" class="t4s-lookbook-pin is-type__pr pin__size--{{bk_stts.pos_size}} pin_ic_{{bk_stts.type}} pin__type_{{block.id}}" {{ block.shopify_attributes }} {% render 'pin_position',bk_stts:bk_stts %}>
-                <span class="t4s-zoompin"></span>
-                <span class="t4s-pin-tt">
-                  {%- if bk_stts.type != '3' -%}<i class="t4s-nav-link-icon"></i>
-                  {%- else -%}<span class="t4s-truncate">{{bk_stts.shorttxt}}</span>
-                  {%- endif -%}
-                </span>
-              </span>
-            <span data-bid="t4s_{{se_id}}{{block.id}}" data-pin-popup data-position="{{bk_stts.pos_popup2}}" data-is-pr data-href="{{ root_url }}products/{{bk_stts.product2}}" data-sid="render-pr_lb{{se_stts.pr_pin_des2}}" class="t4s-lookbook-pin is-type__pr pin__size--{{bk_stts.pos_size}} pin_ic_{{bk_stts.type}} pin__type_{{block.id}}" {{ block.shopify_attributes }} {% render 'pin_position',bk_stts:bk_stts %}>
                 <span class="t4s-zoompin"></span>
                 <span class="t4s-pin-tt">
                   {%- if bk_stts.type != '3' -%}<i class="t4s-nav-link-icon"></i>
@@ -328,11 +317,6 @@
         "name": "Product",
         "settings": [
           {
-            "type": "image_picker",
-            "id": "img",
-            "label": "Image"
-          },
-          {
             "type": "header","content": "+ Pin options"
           },
           {
@@ -397,35 +381,6 @@
           },
           {
              "type": "product","id": "product","label": "Choose product"
-          },
-          {
-            "type": "header","content": "+ Popup options 2"
-          },
-          {
-            "type":"range","id":"pos_t2","min":0,"max":100,"step":1,"unit":"%","label":"Position Top","default":50
-          },
-          {
-            "type":"range","id":"pos_l2","min":0,"max":100,"step":1,"unit":"%","label":"Position Left","default":50
-          },
-          {
-           "type": "select","id": "pos_popup2","label": "Position","default": "top",
-           "options": [
-              { "value": "top-start", "label": "Top start"},
-              { "value": "top", "label": "Top"},
-              { "value": "top-end", "label": "Top end"},
-              { "value": "bottom-start", "label": "Bottom start"},
-              { "value": "bottom", "label": "Bottom"},
-              { "value": "bottom-end", "label": "Bottom end"},
-              { "value": "left-start", "label": "Left start"},
-              { "value": "left", "label": "Left"},
-              { "value": "left-end", "label": "Left end"},
-              { "value": "right-start", "label": "Right start"},
-              { "value": "right", "label": "Right"},
-              { "value": "right-end", "label": "Right end"}
-           ]
-          },
-          {
-             "type": "product","id": "product2","label": "Choose product"
           }
         ]
       },
