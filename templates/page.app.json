@@ -1080,7 +1080,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "value": "",
+            "value": "50% OFF",
             "off": "",
             "title": "YEARLY",
             "text": "€51.99",
@@ -1095,7 +1095,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "value": "",
+            "value": "35% OFF",
             "off": "",
             "title": "QUARTERLY",
             "text": "€24.99",
@@ -1110,7 +1110,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "value": "",
+            "value": "20% OFF",
             "off": "",
             "title": "MONTHLY",
             "text": "€10.99",
