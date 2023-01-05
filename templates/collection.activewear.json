@@ -699,6 +699,7 @@
         "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-0": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ACTIVEWEAR-1.jpg",
             "button_text": "Shop this collection",
             "button_link": "",
             "button_style": "dark",
@@ -741,11 +742,35 @@
             "left_5": 0,
             "product_5": ""
           }
+        },
+        "ab2de7a3-ef08-4983-99ec-98875a112f63": {
+          "type": "item",
+          "settings": {
+            "button_text": "Shop this collection",
+            "button_link": "",
+            "button_style": "dark",
+            "top_1": 9,
+            "left_1": 63,
+            "product_1": "",
+            "top_2": 26,
+            "left_2": 50,
+            "product_2": "",
+            "top_3": 61,
+            "left_3": 48,
+            "product_3": "",
+            "top_4": 0,
+            "left_4": 0,
+            "product_4": "",
+            "top_5": 20,
+            "left_5": 0,
+            "product_5": ""
+          }
         }
       },
       "block_order": [
         "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-0",
-        "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-1"
+        "template--15822895349960__17a24213-3095-4c60-9982-917b24b174b9-1672914314de2d897e-1",
+        "ab2de7a3-ef08-4983-99ec-98875a112f63"
       ],
       "settings": {
         "heading": "Hand-picked",
