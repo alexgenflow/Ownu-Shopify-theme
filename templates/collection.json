@@ -116,6 +116,7 @@
     },
     "heading_template": {
       "type": "heading-template",
+      "disabled": true,
       "blocks": {
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
@@ -192,11 +193,6 @@
           "settings": {
           }
         },
-        "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
-          "type": "layout",
-          "settings": {
-          }
-        },
         "30594d23-d644-4653-9545-9ff769d2e6ab": {
           "type": "sortby",
           "settings": {
@@ -205,14 +201,13 @@
       },
       "block_order": [
         "filter_id",
-        "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
       "settings": {
         "show_desc": false,
         "position_desc": "2",
         "product_des": "1",
-        "show_vendor": true,
+        "show_vendor": false,
         "use_cdt": true,
         "image_ratio": "rationt",
         "image_size": "cover",
