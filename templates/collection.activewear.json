@@ -695,11 +695,11 @@
     },
     "fa6c350e-6655-46fc-98c5-7a8434bada7d": {
       "type": "lookbook-multi",
-      "disabled": true,
       "blocks": {
         "d6067eac-2018-4f5c-b40d-ca6f0639340b": {
           "type": "pr",
           "settings": {
+            "img": "shopify:\/\/shop_images\/ACTIVEWEAR-1.jpg",
             "pos_t": 50,
             "pos_l": 50,
             "type": "1",
@@ -715,6 +715,7 @@
         "a43028d8-20d3-4ac5-8829-b9775edc253b": {
           "type": "pr",
           "settings": {
+            "img": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
             "pos_t": 50,
             "pos_l": 50,
             "type": "1",
@@ -740,7 +741,6 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "img_size": "1",
-        "image": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
         "pr_pin_des": "2",
         "layout": "t4s-se-container",
         "cl_bg": "",
