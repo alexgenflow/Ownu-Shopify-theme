@@ -53,6 +53,14 @@
                   {%- endif -%}
                 </span>
               </span>
+            <span data-bid="t4s_{{se_id}}{{block.id}}" data-pin-popup data-position="{{bk_stts.pos_popup2}}" data-is-pr data-href="{{ root_url }}products/{{bk_stts.product2}}" data-sid="render-pr_lb{{se_stts.pr_pin_des2}}" class="t4s-lookbook-pin is-type__pr pin__size--{{bk_stts.pos_size}} pin_ic_{{bk_stts.type}} pin__type_{{block.id}}" {{ block.shopify_attributes }} {% render 'pin_position',bk_stts:bk_stts %}>
+                <span class="t4s-zoompin"></span>
+                <span class="t4s-pin-tt">
+                  {%- if bk_stts.type != '3' -%}<i class="t4s-nav-link-icon"></i>
+                  {%- else -%}<span class="t4s-truncate">{{bk_stts.shorttxt}}</span>
+                  {%- endif -%}
+                </span>
+              </span>
             {%- when 'txt' -%}
               <span data-bid="t4s_{{se_id}}{{block.id}}" data-pin-popup data-position="{{bk_stts.pos_popup}}" class="t4s-lookbook-pin is-type__text pin__size--{{bk_stts.pos_size}} pin_ic_{{bk_stts.type}} pin__type_{{block.id}}" {{ block.shopify_attributes }} {% render 'pin_position',bk_stts:bk_stts %}>
                 <span class="t4s-zoompin"></span>
@@ -389,6 +397,29 @@
           },
           {
              "type": "product","id": "product","label": "Choose product"
+          },
+          {
+            "type": "header","content": "+ Popup options 2"
+          },
+          {
+           "type": "select","id": "pos_popup2","label": "Position","default": "top",
+           "options": [
+              { "value": "top-start", "label": "Top start"},
+              { "value": "top", "label": "Top"},
+              { "value": "top-end", "label": "Top end"},
+              { "value": "bottom-start", "label": "Bottom start"},
+              { "value": "bottom", "label": "Bottom"},
+              { "value": "bottom-end", "label": "Bottom end"},
+              { "value": "left-start", "label": "Left start"},
+              { "value": "left", "label": "Left"},
+              { "value": "left-end", "label": "Left end"},
+              { "value": "right-start", "label": "Right start"},
+              { "value": "right", "label": "Right"},
+              { "value": "right-end", "label": "Right end"}
+           ]
+          },
+          {
+             "type": "product","id": "product2","label": "Choose product"
           }
         ]
       },
