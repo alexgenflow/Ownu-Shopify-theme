@@ -695,6 +695,7 @@
     },
     "fa6c350e-6655-46fc-98c5-7a8434bada7d": {
       "type": "lookbook-multi",
+      "disabled": true,
       "blocks": {
         "d6067eac-2018-4f5c-b40d-ca6f0639340b": {
           "type": "pr",
