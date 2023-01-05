@@ -73,15 +73,15 @@
           <p class="title">{{ block.settings.title }}</p>
         {% endif %}
       <div class="price-text">
+        
+        {% if block.settings.text != blank %}
+          <div class="Price"><p>{{ block.settings.text }}</p></div>
+        {% endif %}
         {% if block.settings.crossedprice %}
         <div class="cross-price">
           <s>{{ block.settings.crossedprice }}</s>
         </div>
       {% endif %}
-        {% if block.settings.text != blank %}
-          <div class="Price"><p>{{ block.settings.text }}</p></div>
-        {% endif %}
-        
           <div class="Billed">{{ block.settings.text-1 }}</div>
       </div>
         {% if block.settings.button_label != blank and block.settings.button_link != blank %}
