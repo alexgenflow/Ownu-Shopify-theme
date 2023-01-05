@@ -717,7 +717,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
             "pos_t": 50,
-            "pos_l": 50,
+            "pos_l": 35,
             "type": "1",
             "shorttxt": "$59",
             "pos_size": "medium",
