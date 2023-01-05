@@ -127,6 +127,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/Ellipse_8.png",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -136,6 +137,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Ellipse_8_2.png",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -145,6 +147,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Ellipse_8_3.png",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -154,6 +157,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Ellipse_8_1.png",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
