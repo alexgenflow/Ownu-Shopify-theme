@@ -721,7 +721,7 @@
             "pos_size": "medium",
             "bg_cl": "#65affa",
             "cl_text": "#ffffff",
-            "pos_popup": "top",
+            "pos_popup": "top-end",
             "size_popup": "medium",
             "product": "5"
           }
@@ -735,8 +735,8 @@
             "shorttxt": "$59",
             "pos_size": "medium",
             "bg_cl": "#65affa",
-            "cl_text": "#fff",
-            "pos_popup": "top",
+            "cl_text": "#ffffff",
+            "pos_popup": "top-start",
             "size_popup": "medium",
             "product": "barbell-pad"
           }
@@ -755,6 +755,7 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "img_size": "1",
+        "image": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
         "pr_pin_des": "1",
         "layout": "t4s-se-container",
         "cl_bg": "",
