@@ -1852,39 +1852,6 @@
               ]
             }
           },
-          "a51398b1-0bde-407f-beff-59726a5e49dd": {
-            "type": "form",
-            "settings": {
-              "selector_mode": "block",
-              "color_mode": "color",
-              "enable_fit_ratio_img": false,
-              "color_size": "medium",
-              "show_qty": true,
-              "enable_wishlist": true,
-              "enable_compare": true,
-              "btn_atc_full": false,
-              "pr_btn_round": 40,
-              "ani": "none",
-              "time": 6,
-              "btn_txt": "3",
-              "btn_icon": false,
-              "button_style": "default",
-              "button_color": "dark",
-              "button_effect": "fade",
-              "show_dynamic_checkout": false,
-              "btn_txt2": "3",
-              "button_color_payment": "dark",
-              "product_list": [
-
-              ],
-              "show_product_current": true,
-              "qty_val": "0",
-              "advance_label": "Choose style",
-              "advance_pr_list": [
-
-              ]
-            }
-          },
           "main-qv-4": {
             "type": "size_delivery_ask",
             "settings": {
@@ -1938,7 +1905,6 @@
           "main-qv-1",
           "main-qv-2",
           "main-qv-3",
-          "a51398b1-0bde-407f-beff-59726a5e49dd",
           "main-qv-4",
           "main-qv-5",
           "main-qv-6"
