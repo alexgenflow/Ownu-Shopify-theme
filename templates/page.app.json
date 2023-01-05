@@ -1079,7 +1079,7 @@
         "038c283f-3832-47a7-96ae-808ae5c3d29a": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
             "value": "",
             "off": "",
             "title": "Add a title or tagline",
@@ -1094,7 +1094,7 @@
         "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
             "value": "",
             "off": "",
             "title": "Add a title or tagline",
@@ -1109,7 +1109,7 @@
         "02061297-89a0-4550-bd3a-0acfb91d003d": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
             "value": "",
             "off": "",
             "title": "Add a title or tagline",
