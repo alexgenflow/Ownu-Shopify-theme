@@ -39,7 +39,7 @@
     "use_new_badge": false,
     "sale_badge_color": "#a5c0ab",
     "soldout_badge_color": "#222222",
-    "enable_quickview": false,
+    "enable_quickview": true,
     "type_qv": "2",
     "enable_rating": true,
     "show_qty": false,
