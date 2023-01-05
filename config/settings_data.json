@@ -40,7 +40,7 @@
     "sale_badge_color": "#a5c0ab",
     "soldout_badge_color": "#222222",
     "enable_quickview": true,
-    "type_qv": "2",
+    "type_qv": "1",
     "enable_rating": true,
     "show_qty": false,
     "pr_border_style": "1",
@@ -1800,7 +1800,7 @@
             "settings": {
               "price": "0",
               "type_sale": "0",
-              "tax_ship": true,
+              "tax_ship": false,
               "rating": true,
               "review_liquid": "",
               "size_price_pr": 22,
@@ -1844,7 +1844,7 @@
               "product_list": [
 
               ],
-              "show_product_current": true,
+              "show_product_current": false,
               "qty_val": "0",
               "advance_label": "Choose style",
               "advance_pr_list": [
@@ -1868,6 +1868,7 @@
           },
           "main-qv-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_options": true,
               "show_vendor": false,
@@ -1882,6 +1883,7 @@
           },
           "main-qv-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "socials_align": "start",
               "social_mode": "1",
