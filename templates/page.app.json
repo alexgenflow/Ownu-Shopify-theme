@@ -638,8 +638,82 @@
         "code_cus_css": ""
       }
     },
+    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4": {
+      "type": "pricing",
+      "blocks": {
+        "038c283f-3832-47a7-96ae-808ae5c3d29a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "50% OFF",
+            "off": "",
+            "title": "YEARLY",
+            "text": "€51.99",
+            "crossedprice": "€109.99",
+            "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "35% OFF",
+            "off": "",
+            "title": "QUARTERLY",
+            "text": "€24.99",
+            "crossedprice": "€35.99",
+            "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "02061297-89a0-4550-bd3a-0acfb91d003d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "20% OFF",
+            "off": "",
+            "title": "MONTHLY",
+            "text": "€10.99",
+            "crossedprice": "€14.49",
+            "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "038c283f-3832-47a7-96ae-808ae5c3d29a",
+        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59",
+        "02061297-89a0-4550-bd3a-0acfb91d003d"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Join thousands of women in the OWNU community and start smashing your goals...",
+        "text": "<p>And a lot more!<\/p>",
+        "text-1": "<p>Plans and workouts for all goals, training styles and locations - Gym or home, equipemnt or no equipment.<\/p>",
+        "text-2": "<p>Tried and tested workout plans that drive real results - the same programmes used by Hanna<\/p>",
+        "text-3": "<p>Regular releases of new guides, boot camps and community challenges<\/p>",
+        "text-4": "<p>Personalised meal plans tailored to your needs & goals<\/p>",
+        "text-5": "<p>Advanced workout tracking, to keep track progress and stay motivated<\/p>",
+        "text-6": "<p>How to videos, to give you confidence in the gym and to ensure perfect form<\/p>",
+        "text-7": "<p>Early bird access to exclusive product drops & sales<\/p>",
+        "text-8": "<p>Access to premium member-only competitions and challenges<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "1663526258f2deb053": {
       "type": "our_mission",
+      "disabled": true,
       "blocks": {
         "1663526257b2fb2345-0": {
           "type": "om_item",
@@ -828,6 +902,7 @@
     },
     "1663526308163da4d9": {
       "type": "pricing-tables",
+      "disabled": true,
       "blocks": {
         "1663526307ec408129-0": {
           "type": "package",
@@ -1072,79 +1147,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4": {
-      "type": "pricing",
-      "blocks": {
-        "038c283f-3832-47a7-96ae-808ae5c3d29a": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "value": "50% OFF",
-            "off": "",
-            "title": "YEARLY",
-            "text": "€51.99",
-            "crossedprice": "€109.99",
-            "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
-            "button_label": "Subscribe",
-            "button_link": "#",
-            "link": ""
-          }
-        },
-        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "value": "35% OFF",
-            "off": "",
-            "title": "QUARTERLY",
-            "text": "€24.99",
-            "crossedprice": "€35.99",
-            "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
-            "button_label": "Subscribe",
-            "button_link": "#",
-            "link": ""
-          }
-        },
-        "02061297-89a0-4550-bd3a-0acfb91d003d": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "value": "20% OFF",
-            "off": "",
-            "title": "MONTHLY",
-            "text": "€10.99",
-            "crossedprice": "€14.49",
-            "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
-            "button_label": "Subscribe",
-            "button_link": "#",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "038c283f-3832-47a7-96ae-808ae5c3d29a",
-        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59",
-        "02061297-89a0-4550-bd3a-0acfb91d003d"
-      ],
-      "settings": {
-        "id": "",
-        "Swipe": false,
-        "full_width": false,
-        "title-1": "",
-        "section_title": "Join thousands of women in the OWNU community and start smashing your goals...",
-        "text": "<p>And a lot more!<\/p>",
-        "text-1": "<p>Plans and workouts for all goals, training styles and locations - Gym or home, equipemnt or no equipment.<\/p>",
-        "text-2": "<p>Tried and tested workout plans that drive real results - the same programmes used by Hanna<\/p>",
-        "text-3": "<p>Regular releases of new guides, boot camps and community challenges<\/p>",
-        "text-4": "<p>Personalised meal plans tailored to your needs & goals<\/p>",
-        "text-5": "<p>Advanced workout tracking, to keep track progress and stay motivated<\/p>",
-        "text-6": "<p>How to videos, to give you confidence in the gym and to ensure perfect form<\/p>",
-        "text-7": "<p>Early bird access to exclusive product drops & sales<\/p>",
-        "text-8": "<p>Access to premium member-only competitions and challenges<\/p>",
-        "button_label": "",
-        "button_link": ""
-      }
     }
   },
   "order": [
@@ -1155,10 +1157,10 @@
     "1663525508401a5ec1",
     "16635255410b59264b",
     "166352598460ced848",
+    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4",
     "1663526258f2deb053",
     "1663526308163da4d9",
     "1663525992c8b26e01",
-    "1663526334ff4e5466",
-    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4"
+    "1663526334ff4e5466"
   ]
 }
