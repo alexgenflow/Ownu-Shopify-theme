@@ -636,7 +636,7 @@
         "mg": ",,50px,",
         "pd": "",
         "mg_mb": ",,30px,",
-        "pd_mb": ",,30px,",
+        "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
       }
@@ -656,7 +656,7 @@
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
-            "des_color": "#222",
+            "des_color": "#222222",
             "use_shadow": false,
             "button_label": "Join for free",
             "button_link": "#",
