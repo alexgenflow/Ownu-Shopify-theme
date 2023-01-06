@@ -1,5 +1,4 @@
 
-
 <section class="slider_sec">
   <div class="page-width transformation">
   <div class="container inner_cont">
@@ -113,3 +112,44 @@
   	.slider_sec {padding-top: 15%; padding-bottom: 0;}
   }
 </style>
+
+
+<script>
+  $('.owl-carousel').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: false,
+      loop: true,
+     autoplay: false,
+    autoplaySpeed: 2000,
+//     speed: 2000,
+//     cssEase: "linear",
+     responsive: [
+       	{
+          breakpoint: 1100,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+         {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+          }
+        }
+      ]
+    });
+</script>
