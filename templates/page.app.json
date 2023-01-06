@@ -721,8 +721,8 @@
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
-        "mg_mb": "",
-        "pd_mb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",,30px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
