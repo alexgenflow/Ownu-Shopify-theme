@@ -590,7 +590,7 @@
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
-            "image_ratio": "ratioadapt",
+            "image_ratio": "ratio2_1",
             "image_size": "contain",
             "image_position": "7",
             "loop": true,
