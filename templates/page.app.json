@@ -1399,15 +1399,15 @@
         "template--15823001583816__87c55a8d-78f0-48ab-9fd8-90a560489317-1673021818111e6e80-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/ACTIVEWEAR-1.jpg",
-            "image2": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
-            "image3": "shopify:\/\/shop_images\/EQUIPMENT-V1.jpg",
+            "image1": "shopify:\/\/shop_images\/image_2_5.png",
+            "image2": "shopify:\/\/shop_images\/image_2_5.png",
+            "image3": "shopify:\/\/shop_images\/image_2_5.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
+            "image_ratio": "ratio1_1",
+            "image_size": "contain",
             "image_position": "8",
             "loop": true,
             "au_time": 0,
@@ -1420,8 +1420,8 @@
             "btn_size": "small",
             "btn_hidden_mobile": true,
             "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
+            "dot_owl": "outline",
+            "dots_cl": "primary",
             "dots_round": true,
             "dots_space": 10,
             "dots_hidden_mobile": false
@@ -1452,7 +1452,7 @@
         "mg": ",,50px,",
         "pd": "",
         "mg_mb": ",,30px,",
-        "pd_mb": "",
+        "pd_mb": ",,30px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
