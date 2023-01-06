@@ -617,6 +617,8 @@
         "template--15823001583816__b67de988-8d36-4d5f-aa59-4b220d0f9214-16730139392cbb4a45-0"
       ],
       "settings": {
+        "hide": false,
+        "show": true,
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "",
@@ -700,6 +702,8 @@
         "166352598373c2fed7-1"
       ],
       "settings": {
+        "hide": false,
+        "show": false,
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "",
