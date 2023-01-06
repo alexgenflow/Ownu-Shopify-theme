@@ -409,6 +409,7 @@
     },
     "4d4f5dac-5660-4c36-9b31-abb9116f6abd": {
       "type": "lookbook-img",
+      "disabled": true,
       "blocks": {
         "dfacbdff-0d16-4701-b494-41e947b7f806": {
           "type": "pr",
@@ -466,6 +467,7 @@
     },
     "2563bbc3-f884-4bd4-a8a2-7aa6a1470169": {
       "type": "lookbook-img",
+      "disabled": true,
       "blocks": {
         "d7682713-ab5b-4d13-8254-cea43abc4071": {
           "type": "pr",
@@ -852,7 +854,7 @@
         "col_dk": "1",
         "col_tb": "3",
         "col_mb": "2",
-        "image_ratio": "ratio1_1",
+        "image_ratio": "ratio2_3",
         "image_size": "cover",
         "image_position": "8",
         "image_bdr": 0,
