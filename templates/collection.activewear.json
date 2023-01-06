@@ -743,8 +743,9 @@
         "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-2": {
           "type": "img",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2I6A0012.jpg",
             "url": "",
-            "product_1": "",
+            "product_1": "camo-resistance-band",
             "pos_t_1": 50,
             "pos_l_1": 50,
             "pos_popup_1": "top",
