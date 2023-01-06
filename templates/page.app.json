@@ -555,6 +555,89 @@
         "code_cus_css": ""
       }
     },
+    "b67de988-8d36-4d5f-aa59-4b220d0f9214": {
+      "type": "image_text",
+      "blocks": {
+        "template--15823001583816__b67de988-8d36-4d5f-aa59-4b220d0f9214-16730139392cbb4a45-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "Find your perfect workout based on target zone, your fitness level, time and equipment needed",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "template--15823001583816__b67de988-8d36-4d5f-aa59-4b220d0f9214-16730139392cbb4a45-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Group_1000001397.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15823001583816__b67de988-8d36-4d5f-aa59-4b220d0f9214-16730139392cbb4a45-1",
+        "template--15823001583816__b67de988-8d36-4d5f-aa59-4b220d0f9214-16730139392cbb4a45-0"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f0f4f5",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "166352598460ced848": {
       "type": "image_text",
       "blocks": {
@@ -1202,6 +1285,7 @@
     "166367911682fcd6ce",
     "1663525508401a5ec1",
     "16635255410b59264b",
+    "b67de988-8d36-4d5f-aa59-4b220d0f9214",
     "166352598460ced848",
     "19515395-74e1-4cb7-884a-dd5fbc28e78f",
     "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4",
