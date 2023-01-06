@@ -617,7 +617,7 @@
         "template--15823001583816__b67de988-8d36-4d5f-aa59-4b220d0f9214-16730139392cbb4a45-0"
       ],
       "settings": {
-        "custom-css": "padding-btn",
+        "custom-css": "padding-btm",
         "hide": false,
         "show": true,
         "design_heading": "1",
@@ -703,7 +703,7 @@
         "template--15823001583816__683fae37-7c96-456c-a8ae-0d68067639eb-167301900295776605-0"
       ],
       "settings": {
-        "custom-css": "padding-btn",
+        "custom-css": "padding-btm",
         "hide": false,
         "show": true,
         "design_heading": "1",
