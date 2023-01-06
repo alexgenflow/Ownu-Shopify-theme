@@ -703,7 +703,7 @@
         "template--15823001583816__683fae37-7c96-456c-a8ae-0d68067639eb-167301900295776605-0"
       ],
       "settings": {
-        "custom-css": "",
+        "custom-css": "padding-btn",
         "hide": false,
         "show": true,
         "design_heading": "1",
