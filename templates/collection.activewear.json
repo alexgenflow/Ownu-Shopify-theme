@@ -692,6 +692,192 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "81c34ef9-30b1-4cb0-b26d-02c6e33e18b0": {
+      "type": "instagram-shop",
+      "blocks": {
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Joggers_Cream_4.jpg",
+            "url": "",
+            "product_1": "cream-oversized-hoodie",
+            "pos_t_1": 50,
+            "pos_l_1": 50,
+            "pos_popup_1": "top",
+            "cl_pin_1": "dark",
+            "product_2": "",
+            "pos_t_2": 50,
+            "pos_l_2": 50,
+            "pos_popup_2": "top",
+            "cl_pin_2": "dark",
+            "product_3": "",
+            "pos_t_3": 50,
+            "pos_l_3": 50,
+            "pos_popup_3": "top",
+            "cl_pin_3": "light"
+          }
+        },
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-1": {
+          "type": "img",
+          "settings": {
+            "url": "",
+            "product_1": "",
+            "pos_t_1": 50,
+            "pos_l_1": 50,
+            "pos_popup_1": "top",
+            "cl_pin_1": "dark",
+            "product_2": "",
+            "pos_t_2": 50,
+            "pos_l_2": 50,
+            "pos_popup_2": "top",
+            "cl_pin_2": "dark",
+            "product_3": "",
+            "pos_t_3": 50,
+            "pos_l_3": 50,
+            "pos_popup_3": "top",
+            "cl_pin_3": "light"
+          }
+        },
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-2": {
+          "type": "img",
+          "settings": {
+            "url": "",
+            "product_1": "",
+            "pos_t_1": 50,
+            "pos_l_1": 50,
+            "pos_popup_1": "top",
+            "cl_pin_1": "dark",
+            "product_2": "",
+            "pos_t_2": 50,
+            "pos_l_2": 50,
+            "pos_popup_2": "top",
+            "cl_pin_2": "dark",
+            "product_3": "",
+            "pos_t_3": 50,
+            "pos_l_3": 50,
+            "pos_popup_3": "top",
+            "cl_pin_3": "light"
+          }
+        },
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-3": {
+          "type": "img",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "product_1": "",
+            "pos_t_1": 50,
+            "pos_l_1": 50,
+            "pos_popup_1": "top",
+            "cl_pin_1": "dark",
+            "product_2": "",
+            "pos_t_2": 50,
+            "pos_l_2": 50,
+            "pos_popup_2": "top",
+            "cl_pin_2": "dark",
+            "product_3": "",
+            "pos_t_3": 50,
+            "pos_l_3": 50,
+            "pos_popup_3": "top",
+            "cl_pin_3": "light"
+          }
+        },
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-4": {
+          "type": "img",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "product_1": "",
+            "pos_t_1": 50,
+            "pos_l_1": 50,
+            "pos_popup_1": "top",
+            "cl_pin_1": "dark",
+            "product_2": "",
+            "pos_t_2": 50,
+            "pos_l_2": 50,
+            "pos_popup_2": "top",
+            "cl_pin_2": "dark",
+            "product_3": "",
+            "pos_t_3": 50,
+            "pos_l_3": 50,
+            "pos_popup_3": "top",
+            "cl_pin_3": "light"
+          }
+        },
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-5": {
+          "type": "img",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "product_1": "",
+            "pos_t_1": 50,
+            "pos_l_1": 50,
+            "pos_popup_1": "top",
+            "cl_pin_1": "dark",
+            "product_2": "",
+            "pos_t_2": 50,
+            "pos_l_2": 50,
+            "pos_popup_2": "top",
+            "cl_pin_2": "dark",
+            "product_3": "",
+            "pos_t_3": 50,
+            "pos_l_3": 50,
+            "pos_popup_3": "top",
+            "cl_pin_3": "light"
+          }
+        }
+      },
+      "block_order": [
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-0",
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-1",
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-2",
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-3",
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-4",
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-5"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "2",
+        "pr_pin_des": "1",
+        "open_link": "_self",
+        "space": "0",
+        "space_mb": "20",
+        "col_dk": "3",
+        "col_tb": "3",
+        "col_mb": "2",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "image_bdr": 0,
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -704,6 +890,7 @@
     "2563bbc3-f884-4bd4-a8a2-7aa6a1470169",
     "861593d0-44ae-417d-8fd2-999e1c3b1c32",
     "36bec754-85a5-46de-b4cb-151f3f320751",
-    "06818592-e5a9-465c-9fe9-9a05b8c2901b"
+    "06818592-e5a9-465c-9fe9-9a05b8c2901b",
+    "81c34ef9-30b1-4cb0-b26d-02c6e33e18b0"
   ]
 }
