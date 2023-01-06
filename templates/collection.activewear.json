@@ -763,81 +763,12 @@
             "pos_popup_3": "top",
             "cl_pin_3": "light"
           }
-        },
-        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-3": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "url": "",
-            "product_1": "",
-            "pos_t_1": 50,
-            "pos_l_1": 50,
-            "pos_popup_1": "top",
-            "cl_pin_1": "dark",
-            "product_2": "",
-            "pos_t_2": 50,
-            "pos_l_2": 50,
-            "pos_popup_2": "top",
-            "cl_pin_2": "dark",
-            "product_3": "",
-            "pos_t_3": 50,
-            "pos_l_3": 50,
-            "pos_popup_3": "top",
-            "cl_pin_3": "light"
-          }
-        },
-        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-4": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "url": "",
-            "product_1": "",
-            "pos_t_1": 50,
-            "pos_l_1": 50,
-            "pos_popup_1": "top",
-            "cl_pin_1": "dark",
-            "product_2": "",
-            "pos_t_2": 50,
-            "pos_l_2": 50,
-            "pos_popup_2": "top",
-            "cl_pin_2": "dark",
-            "product_3": "",
-            "pos_t_3": 50,
-            "pos_l_3": 50,
-            "pos_popup_3": "top",
-            "cl_pin_3": "light"
-          }
-        },
-        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-5": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "url": "",
-            "product_1": "",
-            "pos_t_1": 50,
-            "pos_l_1": 50,
-            "pos_popup_1": "top",
-            "cl_pin_1": "dark",
-            "product_2": "",
-            "pos_t_2": 50,
-            "pos_l_2": 50,
-            "pos_popup_2": "top",
-            "cl_pin_2": "dark",
-            "product_3": "",
-            "pos_t_3": 50,
-            "pos_l_3": 50,
-            "pos_popup_3": "top",
-            "cl_pin_3": "light"
-          }
         }
       },
       "block_order": [
         "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-0",
         "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-1",
-        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-2",
-        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-3",
-        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-4",
-        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-5"
+        "template--15822895349960__81c34ef9-30b1-4cb0-b26d-02c6e33e18b0-1672998639c9822ebf-2"
       ],
       "settings": {
         "design_heading": "1",
