@@ -636,7 +636,7 @@
         "mg": ",,50px,",
         "pd": "",
         "mg_mb": ",,30px,",
-        "pd_mb": "",
+        "pd_mb": ",,30px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
@@ -656,7 +656,7 @@
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
-            "des_color": "#878787",
+            "des_color": "#222",
             "use_shadow": false,
             "button_label": "Join for free",
             "button_link": "#",
@@ -671,6 +671,7 @@
         "template--15823001583816__683fae37-7c96-456c-a8ae-0d68067639eb-167301900295776605-0": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify:\/\/shop_images\/Group_1000001399.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -716,12 +717,12 @@
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
-        "cl_bg": "",
+        "cl_bg": "#f0f4f5",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
         "mg_mb": ",,30px,",
-        "pd_mb": "",
+        "pd_mb": ",,30px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
