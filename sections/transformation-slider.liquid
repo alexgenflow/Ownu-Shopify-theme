@@ -1,12 +1,115 @@
+
+
+<section class="slider_sec">
+  <div class="page-width transformation">
+  <div class="container inner_cont">
+    <div class="row">
+      <div class="col-lg-12">
+        		<h2>{{ section.settings.main_heading }}</h2>
+        <div class="slider_para">
+          <p>{{ section.settings.text_below_heading }}</p>
+        </div>
+      		<div class="owl-carousel owl-theme">
+              {% for block in section.blocks %}
+                <div class="item">
+                  <img src="{{ block.settings.slider_image  | img_url: 'master' }}">
+              	</div>
+              {% endfor %}
+			</div>
+      </div>
+    </div>
+  </div>
+ </div>   
+</section>
+  
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Transformation Slider",
+    "class": "Transform",
+    "settings": [
+		{
+		"type":  "text",
+		"id":  "main_heading",
+		"label":  "Add Heading"
+		},
+		{
+		"type":  "text",
+		"id":  "text_below_heading",
+		"label":  "Add Text below Heading"
+		}
+	],
+	"blocks": [
+		{
+		
+		"type": "select",
+		"name": "Slider",
+		"settings": [
+			{
+				"type": "image_picker",
+				"id": "slider_image",
+				"label": "Add Slider Image"
+
+				}
+			]
+
+			}
+		],
+  "presets": [
+    {
+      "name": "Transformation Slider",
+      "category": "Transformation Slider"
+    }
+  ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
+
+
+<style>
+  .slider_sec {padding: 3% 0; background-color: rgba(158,197,188,.10980392156862745);}
+  .slider_sec .inner_cont {width: 80%; margin: auto;}
+    .slider_sec h2 {font-size: 30px; font-weight: 700; text-align: center; width: 100%;} 
+    .slider_sec a {background-color: #b71d28; text-decoration: none; border-color: #b71d28; font-weight: 600; text-align: center; transition: all .25s ease; padding: 10px 32px; border-radius: 0; text-transform: uppercase; color: #fff;}
+  .slider_sec .slider_para {text-align: center; margin-bottom: 5%;}
+  .slider_sec .slider_para p {font-size: 18px; font-weight: 400;}
+  .Transform  .slick-arrow{
+    background-image:url(https://cdn.shopify.com/s/files/1/0592/7151/2216/files/arrow-left-removebg-preview.png?v=1638894224);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+    z-index:1;
+  }
+ .Transform .slick-arrow::before{
+    content: none;
+  }
+.Transform .slick-arrow.slick-next{
+    top: 50%;
+    right: -65px;
+    background-image:url(https://cdn.shopify.com/s/files/1/0592/7151/2216/files/arrow-right-removebg-preview.png?v=1638894224);
+    transform: none;
+  }
+ .Transform .slick-arrow.slick-prev{
+    top: 50%;
+    left: -65px;
+    transform: none;
+  }
+  @media screen and (max-width: 767px) {
+    .Transform .slick-arrow {
+    display: none !important;
+  }
+   .Transform .slider_sec .slider_para p {
+    font-size: 15px;
+}
+   .Transform .slider_sec h2 {
+    font-size: 26px;
+}
+  } 
+  @media screen and (max-width: 600px) {
+  	.slider_sec {padding-top: 15%; padding-bottom: 0;}
+  }
+</style>
