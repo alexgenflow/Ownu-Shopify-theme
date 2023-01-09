@@ -1372,12 +1372,12 @@
         "16635263339119d274-0": {
           "type": "custom_text",
           "settings": {
-            "text": "Subscribe to our newsletter",
+            "text": "Become a VIP OWNU mailing list subscriber",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 24,
-            "text_lh": 0,
+            "text_lh": 32,
             "text_fw": 600,
             "text_ls": 0,
             "font_italic": false,
@@ -1392,6 +1392,7 @@
         },
         "16635263339119d274-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "A short sentence describing what someone will receive by subscribing",
             "remove_br_tag": false,
@@ -1416,16 +1417,16 @@
           "settings": {
             "form_width": 500,
             "form_width_mb": 0,
-            "newl_des": "1",
+            "newl_des": "8",
             "news_align": "center",
             "newl_size": "small",
             "btn_icon": false,
             "input_cl": "#878787",
             "border_cl": "#000000",
             "btn_cl": "#ffffff",
-            "btn_bg_cl": "#222222",
+            "btn_bg_cl": "#89b6a6",
             "btn_hover_cl": "#ffffff",
-            "btn_hover_bg_cl": "#56cfe1",
+            "btn_hover_bg_cl": "#333",
             "hidden_mobile": false,
             "mgb": 15,
             "mgb_mb": 10
@@ -1448,7 +1449,7 @@
         "news_overlay": "#000000",
         "news_overlay_opacity": 0,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#a5c0ab",
+        "cl_bg": "#fff",
         "cl_bg_gradient": "",
         "parallax": false,
         "mg": "",
