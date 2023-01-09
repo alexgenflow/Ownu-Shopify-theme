@@ -666,7 +666,7 @@
             "form_width": 500,
             "form_width_mb": 0,
             "newl_des": "7",
-            "news_align": "center",
+            "news_align": "start",
             "newl_size": "small",
             "btn_icon": false,
             "input_cl": "#3c3e42",
