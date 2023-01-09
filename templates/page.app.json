@@ -1415,6 +1415,7 @@
         "16635263339119d274-2": {
           "type": "newsletter",
           "settings": {
+            "custom-css": "own-style",
             "form_width": 500,
             "form_width_mb": 0,
             "newl_des": "8",
@@ -1426,7 +1427,7 @@
             "btn_cl": "#ffffff",
             "btn_bg_cl": "#89b6a6",
             "btn_hover_cl": "#ffffff",
-            "btn_hover_bg_cl": "#333",
+            "btn_hover_bg_cl": "#333333",
             "hidden_mobile": false,
             "mgb": 15,
             "mgb_mb": 10
@@ -1449,7 +1450,7 @@
         "news_overlay": "#000000",
         "news_overlay_opacity": 0,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "cl_bg_gradient": "",
         "parallax": false,
         "mg": "",
