@@ -251,21 +251,21 @@
         "5069fb99-b47c-465e-9c71-f3845efdd164": {
           "type": "select",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_2659_2.png",
+            "image": "shopify:\/\/shop_images\/ACTIVEWEAR-1.jpg",
             "image_link": ""
           }
         },
         "a4fd3632-c146-49fa-bf78-a7124774c749": {
           "type": "select",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_2659.png",
+            "image": "shopify:\/\/shop_images\/LOUNGWEAR-V2.jpg",
             "image_link": ""
           }
         },
         "7f75b96d-2e31-4bd1-9ae8-113d96c44530": {
           "type": "select",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_2659_1.png",
+            "image": "shopify:\/\/shop_images\/EQUIPMENT-V1.jpg",
             "image_link": ""
           }
         }
