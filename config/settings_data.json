@@ -1,7 +1,8 @@
 {
   "current": {
     "purchase_code": "4f6efde2-e2dc-4230-8b7e-7b8b053e5e4f",
-    "general_layout": "wide",
+    "general_layout": "boxed",
+    "cus_w_bd": 1400,
     "home_keywords": "",
     "shop_author": "",
     "use_rtl": "0",
