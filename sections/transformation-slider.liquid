@@ -15,6 +15,9 @@
               	</div>
               {% endfor %}
 			</div>
+        <div class="custom-btn">
+          <a href="{{ section.settings.btn-link }}">{{ section.settings.btn-label }}</a>
+        </div>
       </div>
     </div>
   </div>
@@ -36,7 +39,17 @@
 		"type":  "text",
 		"id":  "text_below_heading",
 		"label":  "Add Text below Heading"
-		}
+		},
+        {
+          "type": "text",
+          "id": "btn-label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "btn-link",
+          "label": "Button Link"
+        }
 	],
 	"blocks": [
 		{
