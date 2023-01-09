@@ -74,7 +74,7 @@
                 {%- assign newsletter = true -%}
                 {%- assign custom_button = true -%}
                 </div>
-                <div id="b_{{block.id}}" class="{{ block.settings.custom-css }}t4s-newsletter-parent t4s_newsletter_se t4s-newsl-des-{{bk_stts.newl_des}} t4s-newsl-{{bk_stts.newl_size}} t4s-text-{{bk_stts.news_align}} t4s-hidden-mobile-{{bk_stts.hidden_mobile}}" {%- render 'bk_cus_style',type:'newsletter',bk_stts:bk_stts,ani_delay:ani_delay -%}>
+                <div id="b_{{block.id}}" class="{{ block.settings.custom-css }} t4s-newsletter-parent t4s_newsletter_se t4s-newsl-des-{{bk_stts.newl_des}} t4s-newsl-{{bk_stts.newl_size}} t4s-text-{{bk_stts.news_align}} t4s-hidden-mobile-{{bk_stts.hidden_mobile}}" {%- render 'bk_cus_style',type:'newsletter',bk_stts:bk_stts,ani_delay:ani_delay -%}>
                   {%- render 'newsletter',form_id:block.id,buttonIcon:bk_stts.btn_icon,bk_stts:bk_stts -%}
                 </div>
             {%- endcase -%}
