@@ -848,7 +848,7 @@
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
-            "image_ratio": "ratioadapt",
+            "image_ratio": "rationt",
             "image_size": "contain",
             "image_position": "8",
             "loop": true,
