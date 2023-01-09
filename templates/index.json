@@ -34,7 +34,7 @@
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#fff",
+            "text_cl": "#ffffff",
             "text_fs": 54,
             "text_lh": 45,
             "text_fw": 300,
@@ -57,7 +57,7 @@
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "inherit",
-            "text_cl": "#fff",
+            "text_cl": "#ffffff",
             "text_fs": 54,
             "text_lh": 58,
             "text_fw": 800,
@@ -243,6 +243,48 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "485bfbe7-a865-487d-8aa2-4105cd9938a7": {
+      "type": "banner-list",
+      "blocks": {
+        "5069fb99-b47c-465e-9c71-f3845efdd164": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2659_2.png",
+            "image_link": ""
+          }
+        },
+        "a4fd3632-c146-49fa-bf78-a7124774c749": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2659.png",
+            "image_link": ""
+          }
+        },
+        "7f75b96d-2e31-4bd1-9ae8-113d96c44530": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2659_1.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "5069fb99-b47c-465e-9c71-f3845efdd164",
+        "a4fd3632-c146-49fa-bf78-a7124774c749",
+        "7f75b96d-2e31-4bd1-9ae8-113d96c44530"
+      ],
+      "settings": {
+        "custom-css": "",
+        "main_heading": "Shop workout essentials",
+        "text_below_heading": "",
+        "Show_container": true,
+        "Swipe": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_overlay_color": "",
+        "image_overlay_opacity": 0
       }
     },
     "16460362229768af39": {
@@ -1314,6 +1356,7 @@
   "order": [
     "95b2e31d-3b52-49de-99a4-44a415a87ebc",
     "a7f4ed33-cdc6-4a71-83f3-40f242cd96e2",
+    "485bfbe7-a865-487d-8aa2-4105cd9938a7",
     "16460362229768af39",
     "1663518957cf29e3c0",
     "164620932069107a3a",
