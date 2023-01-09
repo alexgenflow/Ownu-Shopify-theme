@@ -292,6 +292,7 @@
     },
     "16460362229768af39": {
       "type": "banner",
+      "disabled": true,
       "blocks": {
         "c13fa14e-14c3-424c-9087-ec6edc63586d": {
           "type": "b_item",
@@ -696,11 +697,11 @@
         "news_overlay": "#000000",
         "news_overlay_opacity": 0,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#ffffff",
+        "cl_bg": "#ddd",
         "cl_bg_gradient": "linear-gradient(54deg, rgba(165, 192, 171, 1) 14%, rgba(NaN, NaN, NaN, 1) 85%)",
         "parallax": false,
         "mg": "",
-        "pd": "50px,,50px,",
+        "pd": "100px,,100px,",
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": false,
