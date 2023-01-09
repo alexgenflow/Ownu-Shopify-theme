@@ -849,7 +849,7 @@
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
-            "image_size": "cover",
+            "image_size": "contain",
             "image_position": "8",
             "loop": true,
             "au_time": 0,
@@ -875,7 +875,7 @@
         "template--15823001583816__273a5263-0802-4014-971e-d539174b79e5-1673253702cb174078-0"
       ],
       "settings": {
-        "custom-css": "",
+        "custom-css": "padding-btm",
         "hide": false,
         "show": false,
         "design_heading": "1",
