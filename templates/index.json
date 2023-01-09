@@ -1121,6 +1121,82 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "5551943a-0783-4b6d-b910-1887db8837d1": {
+      "type": "image-gallery",
+      "disabled": true,
+      "blocks": {
+        "template--15818193830088__5551943a-0783-4b6d-b910-1887db8837d1-167326632960776ff0-0": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--15818193830088__5551943a-0783-4b6d-b910-1887db8837d1-167326632960776ff0-1": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--15818193830088__5551943a-0783-4b6d-b910-1887db8837d1-167326632960776ff0-2": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193830088__5551943a-0783-4b6d-b910-1887db8837d1-167326632960776ff0-0",
+        "template--15818193830088__5551943a-0783-4b6d-b910-1887db8837d1-167326632960776ff0-1",
+        "template--15818193830088__5551943a-0783-4b6d-b910-1887db8837d1-167326632960776ff0-2"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Gallery",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "1",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -1133,6 +1209,7 @@
     "f0d40fb8-1cea-4389-af60-72d870ee94d9",
     "63d96a1b-18a0-4ea3-bfda-582ec66634e0",
     "9361be43-b449-45ac-9e88-fe36043c8c89",
-    "c4ffdde8-171e-46c5-8bb4-72ab42c6ada7"
+    "c4ffdde8-171e-46c5-8bb4-72ab42c6ada7",
+    "5551943a-0783-4b6d-b910-1887db8837d1"
   ]
 }
