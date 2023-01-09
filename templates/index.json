@@ -52,7 +52,7 @@
         "template--15818193830088__95b2e31d-3b52-49de-99a4-44a415a87ebc-1669370604ce35a05a-2": {
           "type": "custom_button",
           "settings": {
-            "button_text": "SHOP NEW IN  >",
+            "button_text": "SHOP NEW IN",
             "button_link": "#",
             "target_link": "_self",
             "fontf": "inherit",
@@ -146,7 +146,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/Rectangle_2659_2.png",
+            "image": "shopify:\/\/shop_images\/Rectangle_2669_1.png",
             "image_mb": "shopify:\/\/shop_images\/Rectangle_2659_2.png",
             "b_link": "",
             "open_link": "_self",
@@ -213,7 +213,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/Rectangle_2659.png",
+            "image": "shopify:\/\/shop_images\/Untitled-163_2b29446b-8b99-4e46-9883-2df48dd36a1f.jpg",
             "image_mb": "shopify:\/\/shop_images\/Rectangle_2659.png",
             "b_link": "",
             "open_link": "_self",
@@ -271,61 +271,6 @@
             "animation": "fadeInDownBig"
           }
         },
-        "164603622209bd8d44-2": {
-          "type": "custom_text",
-          "disabled": true,
-          "settings": {
-            "text": "MAKE LOVE THIS LOOK",
-            "remove_br_tag": false,
-            "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 14,
-            "text_lh": 24,
-            "text_fw": 600,
-            "text_ls": 0,
-            "font_italic": false,
-            "text_shadow": false,
-            "text_mgb": 5,
-            "hidden_mobile": false,
-            "text_fs_mb": 14,
-            "text_lh_mb": 24,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "fadeInDownBig"
-          }
-        },
-        "970ffbc6-bd89-479d-b50c-07e40980c1c5": {
-          "type": "custom_button",
-          "disabled": true,
-          "settings": {
-            "button_text": "SHOP NOW",
-            "button_link": "#",
-            "target_link": "_self",
-            "fontf": "inherit",
-            "button_icon_w": 0,
-            "button_style": "default",
-            "button_effect": "default",
-            "pri_cl": "#ffffff",
-            "second_cl": "#a5c0ab",
-            "pri_cl_hover": "#a5c0ab",
-            "second_cl_hover": "#ffffff",
-            "fsbutton": 14,
-            "fwbutton": 400,
-            "button_ls": 0,
-            "button_mh": 42,
-            "button_bdr": 15,
-            "button_pd_lr": 30,
-            "button_mgb": 0,
-            "hidden_mobile": false,
-            "button_icon_w_mb": 0,
-            "fsbutton_mb": 12,
-            "button_mh_mb": 36,
-            "button_pd_lr_mb": 15,
-            "button_ls_mb": 0,
-            "button_mgb_mb": 0,
-            "animation": "none"
-          }
-        },
         "164603622209bd8d44-3": {
           "type": "b_item",
           "settings": {
@@ -335,7 +280,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/Rectangle_2659_1.png",
+            "image": "shopify:\/\/shop_images\/2I6A0012.jpg",
             "image_mb": "shopify:\/\/shop_images\/Rectangle_2659_1.png",
             "b_link": "",
             "open_link": "_self",
@@ -393,6 +338,61 @@
             "animation": "fadeInUpBig"
           }
         },
+        "164603622209bd8d44-2": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "MAKE LOVE THIS LOOK",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 14,
+            "text_lh_mb": 24,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "fadeInDownBig"
+          }
+        },
+        "970ffbc6-bd89-479d-b50c-07e40980c1c5": {
+          "type": "custom_button",
+          "disabled": true,
+          "settings": {
+            "button_text": "SHOP NOW",
+            "button_link": "#",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#ffffff",
+            "second_cl": "#a5c0ab",
+            "pri_cl_hover": "#a5c0ab",
+            "second_cl_hover": "#ffffff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 15,
+            "button_pd_lr": 30,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 12,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        },
         "54ce3a25-784f-420d-81a4-58d69d72bbd4": {
           "type": "custom_button",
           "disabled": true,
@@ -431,10 +431,10 @@
         "164603622209bd8d44-5",
         "164603622209bd8d44-0",
         "164603622209bd8d44-1",
-        "164603622209bd8d44-2",
-        "970ffbc6-bd89-479d-b50c-07e40980c1c5",
         "164603622209bd8d44-3",
         "164603622209bd8d44-4",
+        "164603622209bd8d44-2",
+        "970ffbc6-bd89-479d-b50c-07e40980c1c5",
         "54ce3a25-784f-420d-81a4-58d69d72bbd4"
       ],
       "settings": {
