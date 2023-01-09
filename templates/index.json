@@ -140,7 +140,7 @@
         "template--15818193830088__bfda6f0a-cd26-4c95-9e73-dfaeb1cadbe4-1673262272d7ab4b7e-0": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_2659_2.png",
+            "image": "shopify:\/\/shop_images\/Rectangle_2669_1.png",
             "url": "shopify:\/\/collections\/activewear",
             "product_1": "",
             "pos_t_1": 50,
@@ -162,7 +162,7 @@
         "template--15818193830088__bfda6f0a-cd26-4c95-9e73-dfaeb1cadbe4-1673262272d7ab4b7e-1": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_2659.png",
+            "image": "shopify:\/\/shop_images\/Rectangle_2669_1.png",
             "url": "shopify:\/\/collections\/new-in-loungewear",
             "product_1": "",
             "pos_t_1": 50,
@@ -184,7 +184,7 @@
         "template--15818193830088__bfda6f0a-cd26-4c95-9e73-dfaeb1cadbe4-1673262272d7ab4b7e-2": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_2659_1.png",
+            "image": "shopify:\/\/shop_images\/Rectangle_2669_1.png",
             "url": "shopify:\/\/collections\/shop-equipment",
             "product_1": "",
             "pos_t_1": 50,
@@ -293,7 +293,7 @@
         "col_dk": "3",
         "col_tb": "3",
         "col_mb": "1",
-        "image_ratio": "ratio2_1",
+        "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
         "image_bdr": 0,
