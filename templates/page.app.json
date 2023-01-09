@@ -942,7 +942,9 @@
       ],
       "settings": {
         "main_heading": "Transform with ownu",
-        "text_below_heading": ""
+        "text_below_heading": "",
+        "btn-label": "Join for free",
+        "btn-link": "#"
       }
     },
     "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4": {
