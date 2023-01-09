@@ -1372,13 +1372,13 @@
         "16635263339119d274-0": {
           "type": "custom_text",
           "settings": {
-            "text": "Become a VIP OWNU mailing list subscriber",
+            "text": "Become a VIP OWNU<br> mailing list subscriber",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 24,
             "text_lh": 32,
-            "text_fw": 600,
+            "text_fw": 800,
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
