@@ -592,9 +592,9 @@
           "type": "newsletter",
           "settings": {
             "custom-css": "",
-            "form_width": 600,
+            "form_width": 500,
             "form_width_mb": 0,
-            "newl_des": "4",
+            "newl_des": "7",
             "news_align": "center",
             "newl_size": "small",
             "btn_icon": false,
