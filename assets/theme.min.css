@@ -188,3 +188,8 @@
       color: #fff;
       opacity: 0.75; }
 
+.margin-both {
+    margin: 30px;
+    border-radius: 20px;
+    padding: 30px;
+}
