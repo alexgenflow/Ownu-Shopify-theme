@@ -1,12 +1,253 @@
+{%- style -%}
+	
+  #Bannerlist-{{ section.id }}::after {
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+	background-color: {{ section.settings.image_overlay_color }};
+  }
+{%- endstyle -%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+
+{%- endstyle -%}
+<div class="Banner_list_main{{ section.id }}-padding{% if section.settings.Show_container %} page-width{% endif %}">
+  <div class="banner-list-head">
+  	<h2>{{ section.settings.main_heading }}</h2>
+  	<p>{{ section.settings.text_below_heading }}</p>
+  </div>
+  <div id="Bannerlist-{{ section.id }}" class="banner_list_wrap{% if section.settings.Swipe %} mySlider{% endif %} {{ section.settings.custom-css }}">
+    {%- for block in section.blocks -%}
+    <div  class="banner_list">
+      <a href="{{ block.settings.image_link }}">
+    	<img src="{{ block.settings.image | img_url: 'master' }}"/>
+      </a>  
+    </div>
+    {% endfor %}
+    
+  </div>
+
+</div>
+
+
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Banner List",
+	"class": "Banner-list",
+    "settings": [
+        {
+          "type": "text",
+          "id": "custom-css",
+          "label": "Custom Css Class"
+        },
+		{
+		"type":  "text",
+		"id":  "main_heading",
+		"label":  "Add Heading"
+		},
+		{
+		"type":  "text",
+		"id":  "text_below_heading",
+		"label":  "Add Text below Heading"
+		},
+		{
+          "type": "header",
+          "content": "SECTION SETTINGS"
+        },
+		{
+          "type": "checkbox",
+          "id": "Show_container",
+          "label": "Section Container",
+          "default": false
+        },
+		{
+          "type": "header",
+          "content": "Mobile Slider"
+        },
+		{
+          "type": "checkbox",
+          "id": "Swipe",
+          "label": "Swipe on Mobile",
+          "default": false
+        },
+		{
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+	{
+      "type": "header",
+      "content": "Image Opacity"
+    },
+	{
+        "type" : "color",
+        "id" : "image_overlay_color",
+        "label" : "Image Mask"
+      },
+	 {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+      "default": 0
+    }
+	
+
+],
+"blocks": [
+		{
+		
+		"type": "select",
+		"name": "Banner List",
+		"settings": [
+			{
+				"type": "image_picker",
+				"id": "image",
+				"label": "Add Banner Image"
+
+				},
+          {
+            "type": "url",
+            "id": "image_link",
+            "label": "Image URL"
+          }
+			]
+
+			}
+		],
+	 "presets": [
+    {
+      "name": "Banner List",
+      "category": "Banner List"
+    }
+  ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<style>
+.banner_list_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+  .banner_list {
+    width: 50%;
+}
+  .banner_list img {
+    width: 100%;
+}
+  .shopify-section.Banner-list {
+    position: relative;
+}
+    .banner_list_wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+/*   background: #000000; */
+  opacity: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.banner_list_wrap:after {
+    content: none;
+}
 
-{% javascript %}
-{% endjavascript %}
+
+
+.banner_list_wrap.multi-banner .banner_list {
+    width: 49.5%;
+}
+
+  
+  @media screen and (max-width: 767px) {
+  	.banner_list_wrap {
+      flex-wrap: wrap;
+}
+     .banner_list {
+    	width: 100%;
+}
+  
+  }  
+</style>
+<script>
+$('#test').change(function(){
+    if($(this).is(":checked")) {
+        $('.banner_list_wrap').addClass('mySlider');
+    } else {
+        $('.banner_list_wrap').removeClass('mySlider');
+    }
+});  
+  
+  
+  
+mobileOnlySlider(".mySlider", true, false, 767);
+
+function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
+var slider = $($slidername);
+var settings = {
+mobileFirst: true,
+slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   dots: false,
+   infinite: true,
+  speed: 500,
+   autoplay:true,
+arrows: $arrows,
+responsive: [
+{
+breakpoint: $breakpoint,
+settings: "unslick"
+}
+]
+};
+
+slider.slick(settings);
+
+$(window).on("resize", function () {
+if ($(window).width() > $breakpoint) {
+return;
+}
+if (!slider.hasClass("slick-initialized")) {
+return slider.slick(settings);
+}
+});
+} // Mobile Only Slider
+
+</script>
