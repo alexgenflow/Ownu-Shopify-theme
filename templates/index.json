@@ -28,6 +28,7 @@
         },
         "template--15818193830088__95b2e31d-3b52-49de-99a4-44a415a87ebc-1669370604ce35a05a-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "<h2>New activewear <br>drop is now live!<\/h2>",
             "remove_br_tag": false,
@@ -43,6 +44,29 @@
             "text_shadow": false,
             "hidden_mobile": false,
             "text_fs_mb": 10,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "dc2488da-5f65-495b-9278-79710ddd242e": {
+          "type": "custom_text",
+          "settings": {
+            "text": "New activewear <br>drop is now live!",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 54,
+            "text_lh": 58,
+            "text_fw": 800,
+            "text_ls": 0,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
             "text_lh_mb": 0,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10,
@@ -84,6 +108,7 @@
       "block_order": [
         "template--15818193830088__95b2e31d-3b52-49de-99a4-44a415a87ebc-1669370604ce35a05a-0",
         "template--15818193830088__95b2e31d-3b52-49de-99a4-44a415a87ebc-1669370604ce35a05a-1",
+        "dc2488da-5f65-495b-9278-79710ddd242e",
         "template--15818193830088__95b2e31d-3b52-49de-99a4-44a415a87ebc-1669370604ce35a05a-2"
       ],
       "settings": {
