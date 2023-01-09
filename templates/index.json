@@ -613,6 +613,27 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "d15bb0b7-f435-4a43-a49c-efa45a62a3a6": {
+      "type": "pricing",
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-1": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-2": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-3": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-4": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-5": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-6": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-7": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-8": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "1663518957cf29e3c0": {
       "type": "newsletter",
       "blocks": {
@@ -1362,6 +1383,7 @@
     "a7f4ed33-cdc6-4a71-83f3-40f242cd96e2",
     "485bfbe7-a865-487d-8aa2-4105cd9938a7",
     "16460362229768af39",
+    "d15bb0b7-f435-4a43-a49c-efa45a62a3a6",
     "1663518957cf29e3c0",
     "164620932069107a3a",
     "eda72394-c324-4e96-99ea-8346e7a74f5d",
