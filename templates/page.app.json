@@ -729,6 +729,7 @@
     },
     "166352598460ced848": {
       "type": "image_text",
+      "disabled": true,
       "blocks": {
         "166352598373c2fed7-0": {
           "type": "bl_image",
@@ -1306,6 +1307,7 @@
     },
     "1663525992c8b26e01": {
       "type": "accordion",
+      "disabled": true,
       "blocks": {
         "1663525992ed9aae3f-0": {
           "type": "accor_item",
