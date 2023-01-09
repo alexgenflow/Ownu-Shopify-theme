@@ -615,6 +615,58 @@
     },
     "d15bb0b7-f435-4a43-a49c-efa45a62a3a6": {
       "type": "pricing",
+      "blocks": {
+        "073afcbb-0fa8-434f-9a98-64e77f088d6b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "fd90d2c9-e08c-47e3-8bb6-fb639bae01ec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "9aec7e81-cfdc-423c-b6ed-5077687f2700": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "073afcbb-0fa8-434f-9a98-64e77f088d6b",
+        "fd90d2c9-e08c-47e3-8bb6-fb639bae01ec",
+        "9aec7e81-cfdc-423c-b6ed-5077687f2700"
+      ],
       "settings": {
         "id": "",
         "Swipe": false,
