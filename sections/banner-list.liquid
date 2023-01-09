@@ -30,7 +30,10 @@
     <div  class="banner_list">
       <a href="{{ block.settings.image_link }}">
     	<img src="{{ block.settings.image | img_url: 'master' }}"/>
-      </a>  
+      </a>
+      <div class="name">
+        <h2>{{ block.settings.name }}</h2>
+      </div>
     </div>
     {% endfor %}
     
@@ -140,6 +143,11 @@
 				"label": "Add Banner Image"
 
 				},
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Collection Name"
+          },
           {
             "type": "url",
             "id": "image_link",
