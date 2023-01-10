@@ -442,51 +442,51 @@
     "53703ded-330f-4640-8b0e-30a78e850a2c": {
       "type": "collections-list",
       "blocks": {
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/OWNUFIT-CREAMTEE-1500X1500_1.jpg",
+            "icon": "las la-gem",
+            "collection_title": "All",
+            "collection_link": "shopify:\/\/collections\/all-products"
+          }
+        },
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-0": {
           "type": "collection_item",
           "settings": {
-            "collection": "accessories",
-            "image": "shopify:\/\/shop_images\/Ellipse_8.png",
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/OWNU-63.jpg",
             "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
+            "collection_title": "Tops",
+            "collection_link": "shopify:\/\/collections\/tops-1"
           }
         },
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-1": {
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Ellipse_8_2.png",
+            "image": "shopify:\/\/shop_images\/ownu-banner.jpg",
             "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
-          }
-        },
-        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Ellipse_8_3.png",
-            "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
+            "collection_title": "Shorts",
+            "collection_link": "shopify:\/\/collections\/shorts"
           }
         },
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-3": {
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Ellipse_8_1.png",
+            "image": "shopify:\/\/shop_images\/P1355051.jpg",
             "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
+            "collection_title": "Leggings",
+            "collection_link": "shopify:\/\/collections\/leggings"
           }
         }
       },
       "block_order": [
+        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2",
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-0",
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-1",
-        "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2",
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-3"
       ],
       "settings": {
