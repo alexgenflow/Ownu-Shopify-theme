@@ -1,12 +1,962 @@
+{%- style -%}
+	
+  #Banner-{{ section.id }}::after {
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+	background-color: {{ section.settings.image_overlay_color }};
+  }
+{%- endstyle -%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+
+{%- endstyle -%}
+
+{%- style -%}
+  .heading-{{ section.id }}-margin {
+    margin-top: {{ block.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ block.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .heading-{{ section.id }}-margin {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="Image_slider_sec section-{{ section.id }}-padding{% if section.settings.Show_container %} page-width{% endif %} " >
+  <div class="transformation">
+  <div class="container inner_cont">
+    <div class="row">
+      <div class="col-lg-12">
+      		<div class="Image-carousel owl-theme {{ section.settings.custom_class_name }}">
+              {% for block in section.blocks %}
+              <div class="promo__2">
+        {% case block.type %}
+              {% when 'select' %}
+                <div id="Banner-{{ section.id }}" class="item__banner desktop {{ block.settings.class_name }}">
+                  <a href="{{block.settings.image_link }}">
+                    <img src="{{ block.settings.slider_image  | img_url: 'master' }}">
+                  <div class="banner__inner desktop">
+                  {% if block.settings.title != blank %}
+                    <h3 class="h4 heading-{{ section.id }}-margin">{{ block.settings.title | escape }}</h3>
+                  {% endif %}
+                  {% if block.settings.text != blank %}
+                    <div class="rte-setting">{{ block.settings.text }}</div>
+                  {% endif %}
+                  {% if block.settings.email != blank %}
+                    <div {{ block.shopify_attributes }}>
+            {% form 'customer', class: 'newsletter-form' %}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <div class="newsletter-form__field-wrapper">
+                <div class="field">
+                  <input
+                    id="NewsletterForm--{{ section.id }}"
+                    type="email"
+                    name="contact[email]"
+                    class="field__input"
+                    value="{{ form.email }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    autocomplete="email"
+                    {% if form.errors %}
+                      autofocus
+                      aria-invalid="true"
+                      aria-describedby="Newsletter-error--{{ section.id }}"
+                    {% elsif form.posted_successfully? %}
+                      aria-describedby="Newsletter-success--{{ section.id }}"
+                    {% endif %}
+                    placeholder="{{ 'newsletter.label' | t }}"
+                    required
+                  >
+                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                    {{ 'newsletter.label' | t }}
+                  </label>
+                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                    Subscribe
+<!--                     {% render 'icon-arrow' %} -->
+                  </button>
+                </div>
+                {%- if form.errors -%}
+                  <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+                {%- endif -%}
+              </div>
+              {%- if form.posted_successfully? -%}
+                <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+              {%- endif -%}
+            {% endform %}
+          </div>
+                  {% endif %}  
+                  <div class="banner__button">
+                    {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+                      {%- capture ariaLabel -%}
+                        {{- block.settings.button_label -}}
+                        {%- if block.settings.button_link.type == 'frontpage_link' -%}
+                          : {{ 'homepage.general.title' | t -}}
+                        {%- elsif block.settings.button_link.type == 'catalog_link' -%}
+                          : {{ 'collections.catalog.title' | t -}}
+                        {%- elsif block.settings.button_link.object.title -%}
+                          : {{ block.settings.button_link.object.title -}}
+                        {%- endif -%}
+                      {%- endcapture -%}
+
+                      <a href="{{ block.settings.button_link }}"
+                        class="btn"
+                        aria-label="{{ ariaLabel }}">
+                        {{- block.settings.button_label | escape -}}
+                      </a>
+                    {% endif %}
+<!--                     <a class="btn" href="{{block.settings.button_link}}">{{block.settings.button_label}}</a> -->
+                    {% if block.settings.text-2 != blank %}
+                    <div class="rte-setting">{{ block.settings.text-2 }}</div>
+                  {% endif %}
+                    
+                  </div>    
+                </div>
+                  
+                  </a>
+              	</div>
+        		<div class="item__banner mob {{ block.settings.custom_class_name }}">
+                  
+                  <img src="{{ block.settings.slider_image-2  | img_url: 'master' }}">
+                  <div class="banner__inner mob">
+                  {% if block.settings.title != blank %}
+                    <h3 class="h4">{{ block.settings.title | escape }}</h3>
+                  {% endif %}
+                  {% if block.settings.text != blank %}
+                    <div class="rte-setting">{{ block.settings.text }}</div>
+                  {% endif %}
+                  {% if block.settings.email != blank %}
+                    <div {{ block.shopify_attributes }}>
+            {% form 'customer', class: 'newsletter-form' %}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <div class="newsletter-form__field-wrapper">
+                <div class="field">
+                  <input
+                    id="NewsletterForm--{{ section.id }}"
+                    type="email"
+                    name="contact[email]"
+                    class="field__input"
+                    value="{{ form.email }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    autocomplete="email"
+                    {% if form.errors %}
+                      autofocus
+                      aria-invalid="true"
+                      aria-describedby="Newsletter-error--{{ section.id }}"
+                    {% elsif form.posted_successfully? %}
+                      aria-describedby="Newsletter-success--{{ section.id }}"
+                    {% endif %}
+                    placeholder="{{ 'newsletter.label' | t }}"
+                    required
+                  >
+                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                    {{ 'newsletter.label' | t }}
+                  </label>
+                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                    Subscribe
+<!--                     {% render 'icon-arrow' %} -->
+                  </button>
+                </div>
+                {%- if form.errors -%}
+                  <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+                {%- endif -%}
+              </div>
+              {%- if form.posted_successfully? -%}
+                <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+              {%- endif -%}
+            {% endform %}
+          </div>
+                  {% endif %}
+                  <div class="banner__button">
+                    {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+                      {%- capture ariaLabel -%}
+                        {{- block.settings.button_label -}}
+                        {%- if block.settings.button_link.type == 'frontpage_link' -%}
+                          : {{ 'homepage.general.title' | t -}}
+                        {%- elsif block.settings.button_link.type == 'catalog_link' -%}
+                          : {{ 'collections.catalog.title' | t -}}
+                        {%- elsif block.settings.button_link.object.title -%}
+                          : {{ block.settings.button_link.object.title -}}
+                        {%- endif -%}
+                      {%- endcapture -%}
+
+                      <a href="{{ block.settings.button_link }}"
+                        class="btn"
+                        aria-label="{{ ariaLabel }}">
+                        {{- block.settings.button_label | escape -}}
+                      </a>
+                    {% endif %}
+<!--                     <a class="btn" href="{{block.settings.button_link}}">{{block.settings.button_label}}</a> -->
+                    {% if block.settings.text-2 != blank %}
+                    <div class="rte-setting">{{ block.settings.text-2 }}</div>
+                  {% endif %}
+                    
+                  </div>   
+                </div>
+              	</div>
+              {% when 'video' %}
+                <div class="video--banner">
+                  <a href="{{block.settings.app_video_link }}">
+
+                      <video width="100%" height="100%" autoplay muted playsinline loop id="myVideo">
+                      <source src="{{ block.settings.app_video_1 }}" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                      </video>
+                  </a>
+                </div>
+                <div class="video--banner mob">
+                  <a href="{{block.settings.app_video_link }}">
+
+                      <video width="100%" height="100%" autoplay muted playsinline loop id="myVideo">
+                      <source src="{{ block.settings.app_video_2 }}" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                      </video>
+                  </a>
+                </div>
+         {% endcase %}
+                
+      </div>
+                
+              {% endfor %}
+              
+			</div>
+      </div>
+    </div>
+  </div>
+ </div>   
+</section>
+  
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Image Slider",
+	"class": "Image-slider",
+	"tag": "section",
+    "settings": [
+		{
+          "type": "header",
+          "content": "SECTION SETTINGS"
+        },
+		{
+          "type": "checkbox",
+          "id": "Show_container",
+          "label": "Section Container",
+          "default": false
+        },
+		{
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+	{
+      "type": "header",
+      "content": "Image Opacity"
+    },
+	{
+        "type" : "color",
+        "id" : "image_overlay_color",
+        "label" : "Image Mask"
+      },
+	 {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+      "default": 0
+    },
+	
+	{
+      "type": "header",
+      "content": "Title Margin"
+    },
+	{
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 36
+    },
+    {
+      "type": "header",
+      "content": "Custom class"
+      },
+      {
+      "type": "text",
+      "id": "custom_class_name",
+      "label": "Add your custom class name here"
+     }
+	
+    
+		
+	],
+	"blocks": [
+		{
+		
+		"type": "select",
+		"name": "image",
+		"settings": [
+			{
+				"type": "image_picker",
+				"id": "slider_image",
+				"label": "Add Slider Image"
+
+				},
+			{
+				"type": "image_picker",
+				"id": "slider_image-2",
+				"label": "Add Slider Image"
+
+				},
+				{
+                    "type": "url",
+                    "id": "image_link",
+                    "label": "Add the Image link"
+                  },
+			
+				{
+      "type": "text",
+      "id": "title",
+      "label": {
+        "cs": "Nadpis",
+        "da": "Overskrift",
+        "de": "Titel",
+        "en": "Heading",
+        "es": "Título",
+        "fi": "Otsake",
+        "fr": "En-tête",
+        "it": "Titolo",
+        "ja": "見出し",
+        "ko": "제목",
+        "nb": "Overskrift",
+        "nl": "Kop",
+        "pl": "Nagłówek",
+        "pt-BR": "Título",
+        "pt-PT": "Título",
+        "sv": "Rubrik",
+        "th": "ส่วนหัว",
+        "tr": "Başlık",
+        "vi": "Tiêu đề",
+        "zh-CN": "标题",
+        "zh-TW": "標題"
+      },
+      "default": {
+        "cs": "Text. sloupce s obrázky",
+        "da": "Tekstkolonner med billeder",
+        "de": "Textspalten mit Fotos",
+        "en": "Text columns with images",
+        "es": "Columnas de texto con imágenes",
+        "fi": "Tekstisarakkeet kuvilla",
+        "fr": "Colonnes de texte et images",
+        "it": "Colonne di testo con foto",
+        "ja": "画像付きテキスト列",
+        "ko": "이미지 포함 텍스트 열",
+        "nb": "Tekstkolonner med bilder",
+        "nl": "Tekstkolommen met afbeeldingen",
+        "pl": "Kolumny tekstowe z obrazami",
+        "pt-BR": "Texto em coluna com imagens",
+        "pt-PT": "Colunas texto c/ imagens",
+        "sv": "Textkolumner med bilder",
+        "th": "คอลัมน์ข้อความพร้อมรูปภาพ",
+        "tr": "Görsel içeren metin sütunları",
+        "vi": "Cột văn bản có hình ảnh",
+        "zh-CN": "带有图片的文本列",
+        "zh-TW": "附圖片的文字欄"
+      }
+    },
+	
+			{
+          "type": "richtext",
+          "id": "text",
+          "label": {
+            "cs": "Text",
+            "da": "Tekst",
+            "de": "Text",
+            "en": "Text",
+            "es": "Texto",
+            "fi": "Teksti",
+            "fr": "Texte",
+            "it": "Testo",
+            "ja": "テキスト",
+            "ko": "텍스트",
+            "nb": "Tekst",
+            "nl": "Tekst",
+            "pl": "Tekst",
+            "pt-BR": "Texto",
+            "pt-PT": "Texto",
+            "sv": "Text",
+            "th": "ข้อความ",
+            "tr": "Metin",
+            "vi": "Văn bản",
+            "zh-CN": "文本",
+            "zh-TW": "文字"
+          },
+          "default": {
+            "cs": "<p>Sdílejte se zákazníky příspěvky na blogu a informace o produktech či propagačních akcích. Prostřednictvím tohoto textu můžete popsat produkty, informovat o dostupnosti a stylu nebo vytvořit sekci pro nejnovější recenze a nejčastější dotazy.</p>",
+            "da": "<p>Del blogopslag, produkter eller reklamer med dine kunder. Brug denne tekst til at beskrive produkter, dele detaljer om tilgængelighed og stil eller som et sted til at vise dine seneste anmeldelser eller ofte stillede spørgsmål.</p>",
+            "de": "<p>Informiere deine Kunden über Blog-Beiträge, Produkte oder Werbeaktionen. Nutze diesen Text, um Produkte zu beschreiben, Details zur Verfügbarkeit und zum Stil mitzuteilen oder um neue Bewertungen oder FAQs anzuzeigen.</p>",
+            "en": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "es": "<p>Comparte entradas de blogs, productos o promociones con tus clientes. Usa este texto para describir productos, compartir detalles sobre la disponibilidad y el estilo, o como un espacio para mostrar reseñas recientes o preguntas frecuentes.</p>",
+            "fi": "<p>Jaa blogikirjoituksia, tuotteita tai kampanjoita asiakkaidesi kanssa. Tällä tekstillä voit kuvata tuotteita, jakaa tietoja saatavuudesta ja tyylistä tai käyttää sitä tilana viimeisimmille arvosteluille tai yleisille kysymyksille.</p>",
+            "fr": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.</p>",
+            "it": "<p>Condividi articoli del blog, prodotti o promozioni con i tuoi clienti. Utilizza questo spazio per descrivere i prodotti, condividendo dettagli sulla loro disponibilità e sul loro stile, oppure per mostrare recensioni recenti o domande frequenti.</p>",
+            "ja": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。</p>",
+            "ko": "<p>블로그 게시물, 제품 또는 프로모션을 고객과 공유하십시오. 이 텍스트를 사용하여 제품을 설명하고 사용 가능성 및 스타일에 대한 세부 정보를 공유하거나 최근 리뷰 또는 FAQ를 표시할 수 있는 공간으로 사용하십시오.</p>",
+            "nb": "<p>Del blogginnlegg, produkter eller kampanjer med kundene dine. Bruk denne teksten til å beskrive produkter, dele detaljer om tilgjengelighet og stil, eller som et sted for å vise de siste omtalene eller vanlige spørsmål.</p>",
+            "nl": "<p>Deel blogposts, producten of promoties met je klanten. Gebruik deze tekst om producten te beschrijven, details over beschikbaarheid en stijl te delen of als een ruimte om recente beoordelingen of veelgestelde vragen weer te geven.</p>",
+            "pl": "<p>Udostępniaj swoim klientom wpisy na blogu, produkty lub promocje. Użyj tego tekstu do opisania produktów, informowania o dostępności i stylu lub jako przestrzeni do wyświetlania ostatnich recenzji lub Często zadawanych pytań.</p>",
+            "pt-BR": "<p>Compartilhe posts de blogs, produtos ou promoções com seus clientes. Use este texto para descrever produtos, compartilhar detalhes sobre disponibilidade e estilo ou como um espaço para exibir comentários recentes ou perguntas frequentes.</p>",
+            "pt-PT": "<p>Partilhe publicações no blogue, produtos ou promoções com os seus clientes. Utilize este texto para descrever produtos, partilhar detalhes sobre disponibilidade e estilo ou como local para mostrar FAQ ou análises recentes.</p>",
+            "sv": "<p>Dela blogginlägg, produkter eller kampanjer med dina kunder. Använd den här texten för att beskriva produkter, dela information om tillgänglighet och stil eller som ett utrymme för att visa senaste recensioner eller vanliga frågor.</p>",
+            "th": "<p>แชร์โพสต์บล็อก สินค้า หรือโปรโมชันกับลูกค้าของคุณ ใช้ข้อความนี้เพื่ออธิบายสินค้า แชร์รายละเอียดเกี่ยวกับความพร้อมจำหน่ายและสไตล์ หรือเป็นพื้นที่เพื่อจัดแสดงรีวิวล่าสุด หรือว่าคำถามที่พบบ่อย</p>",
+            "tr": "<p>Müşterilerinizle blog gönderileri, ürünler ve promosyonlar paylaşın. Ürünleri açıklamak, stok durumu ve stil ile ilgili ayrıntıları paylaşmak veya son değerlendirmeleri ya da SSS'leri göstereceğiniz bir alan olarak yararlanmak için bu metni kullanabilirsiniz.</p>",
+            "vi": "<p>Chia sẻ bài viết blog, sản phẩm, hoặc chương trình ưu đãi với khách hàng. Sử dụng văn bản này để mô tả sản phẩm, chia sẻ thông tin về tình trạng còn hàng và kiểu dáng, hoặc là nơi để hiển thị các đánh giá mới hoặc câu hỏi thường gặp.</p>",
+            "zh-CN": "<p>与您的客户分享博客文章、产品或促销信息。使用此文本描述产品、分享有关供货情况和风格的详细信息，或将此文本作为显示最近评论或常见问题解答的区域。</p>",
+            "zh-TW": "<p>與顧客分享網誌貼文、產品或宣傳活動。請使用這段文字描述商品、分享庫存和樣式的詳細資訊，或顯示近期評論及常見問題。</p>"
+          }
+        },
+          {
+      "type": "checkbox",
+      "id": "email",
+      "default": false,
+      "label": "Newsletter"
+    },
+		{
+      "type": "text",
+      "id": "button_label",
+      "label": {
+        "cs": "Text tlačítka",
+        "da": "Knaptekst",
+        "de": "Schaltflächenbeschriftung",
+        "en": "Button label",
+        "es": "Etiqueta de botón",
+        "fi": "Tekstipainike",
+        "fr": "Texte du bouton",
+        "it": "Etichetta pulsante",
+        "ja": "ボタンのラベル",
+        "ko": "버튼 레이블",
+        "nb": "Knappetikett",
+        "nl": "Knoplabel",
+        "pl": "Przycisk z etykietą",
+        "pt-BR": "Etiqueta de botão",
+        "pt-PT": "Etiqueta do botão",
+        "sv": "Knappetikett",
+        "th": "ป้ายกำกับปุ่ม",
+        "tr": "Düğme etiketi",
+        "vi": "Nhãn nút",
+        "zh-CN": "按钮标签",
+        "zh-TW": "按鈕標籤"
+      }
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": {
+        "cs": "Tlačítkový odkaz",
+        "da": "Knaplink",
+        "de": "Schaltflächenlink",
+        "en": "Button link",
+        "es": "Enlace de botón",
+        "fi": "Painikelinkki",
+        "fr": "Lien du bouton",
+        "it": "Link pulsante",
+        "ja": "ボタンのリンク",
+        "ko": "버튼 링크",
+        "nb": "Kobling for knapp",
+        "nl": "Knoplink",
+        "pl": "Link przycisku",
+        "pt-BR": "Link de botão",
+        "pt-PT": "Ligação do botão",
+        "sv": "Knapplänk",
+        "th": "ลิงก์ปุ่ม",
+        "tr": "Düğme bağlantısı",
+        "vi": "Liên kết trên nút",
+        "zh-CN": "按钮链接",
+        "zh-TW": "按鈕連結"
+      }
+    },
+	{
+          "type": "richtext",
+          "id": "text-2",
+          "label": {
+            "cs": "Text",
+            "da": "Tekst",
+            "de": "Text",
+            "en": "Text",
+            "es": "Texto",
+            "fi": "Teksti",
+            "fr": "Texte",
+            "it": "Testo",
+            "ja": "テキスト",
+            "ko": "텍스트",
+            "nb": "Tekst",
+            "nl": "Tekst",
+            "pl": "Tekst",
+            "pt-BR": "Texto",
+            "pt-PT": "Texto",
+            "sv": "Text",
+            "th": "ข้อความ",
+            "tr": "Metin",
+            "vi": "Văn bản",
+            "zh-CN": "文本",
+            "zh-TW": "文字"
+          },
+          "default": {
+            "cs": "<p>Sdílejte se zákazníky příspěvky na blogu a informace o produktech či propagačních akcích. Prostřednictvím tohoto textu můžete popsat produkty, informovat o dostupnosti a stylu nebo vytvořit sekci pro nejnovější recenze a nejčastější dotazy.</p>",
+            "da": "<p>Del blogopslag, produkter eller reklamer med dine kunder. Brug denne tekst til at beskrive produkter, dele detaljer om tilgængelighed og stil eller som et sted til at vise dine seneste anmeldelser eller ofte stillede spørgsmål.</p>",
+            "de": "<p>Informiere deine Kunden über Blog-Beiträge, Produkte oder Werbeaktionen. Nutze diesen Text, um Produkte zu beschreiben, Details zur Verfügbarkeit und zum Stil mitzuteilen oder um neue Bewertungen oder FAQs anzuzeigen.</p>",
+            "en": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "es": "<p>Comparte entradas de blogs, productos o promociones con tus clientes. Usa este texto para describir productos, compartir detalles sobre la disponibilidad y el estilo, o como un espacio para mostrar reseñas recientes o preguntas frecuentes.</p>",
+            "fi": "<p>Jaa blogikirjoituksia, tuotteita tai kampanjoita asiakkaidesi kanssa. Tällä tekstillä voit kuvata tuotteita, jakaa tietoja saatavuudesta ja tyylistä tai käyttää sitä tilana viimeisimmille arvosteluille tai yleisille kysymyksille.</p>",
+            "fr": "<p>Partagez des articles de blog, des produits ou des promotions avec vos clients. Utilisez ce texte pour décrire vos produits, partager des détails sur leur disponibilité ou leur style, ou encore pour afficher des FAQ et avis récents.</p>",
+            "it": "<p>Condividi articoli del blog, prodotti o promozioni con i tuoi clienti. Utilizza questo spazio per descrivere i prodotti, condividendo dettagli sulla loro disponibilità e sul loro stile, oppure per mostrare recensioni recenti o domande frequenti.</p>",
+            "ja": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。</p>",
+            "ko": "<p>블로그 게시물, 제품 또는 프로모션을 고객과 공유하십시오. 이 텍스트를 사용하여 제품을 설명하고 사용 가능성 및 스타일에 대한 세부 정보를 공유하거나 최근 리뷰 또는 FAQ를 표시할 수 있는 공간으로 사용하십시오.</p>",
+            "nb": "<p>Del blogginnlegg, produkter eller kampanjer med kundene dine. Bruk denne teksten til å beskrive produkter, dele detaljer om tilgjengelighet og stil, eller som et sted for å vise de siste omtalene eller vanlige spørsmål.</p>",
+            "nl": "<p>Deel blogposts, producten of promoties met je klanten. Gebruik deze tekst om producten te beschrijven, details over beschikbaarheid en stijl te delen of als een ruimte om recente beoordelingen of veelgestelde vragen weer te geven.</p>",
+            "pl": "<p>Udostępniaj swoim klientom wpisy na blogu, produkty lub promocje. Użyj tego tekstu do opisania produktów, informowania o dostępności i stylu lub jako przestrzeni do wyświetlania ostatnich recenzji lub Często zadawanych pytań.</p>",
+            "pt-BR": "<p>Compartilhe posts de blogs, produtos ou promoções com seus clientes. Use este texto para descrever produtos, compartilhar detalhes sobre disponibilidade e estilo ou como um espaço para exibir comentários recentes ou perguntas frequentes.</p>",
+            "pt-PT": "<p>Partilhe publicações no blogue, produtos ou promoções com os seus clientes. Utilize este texto para descrever produtos, partilhar detalhes sobre disponibilidade e estilo ou como local para mostrar FAQ ou análises recentes.</p>",
+            "sv": "<p>Dela blogginlägg, produkter eller kampanjer med dina kunder. Använd den här texten för att beskriva produkter, dela information om tillgänglighet och stil eller som ett utrymme för att visa senaste recensioner eller vanliga frågor.</p>",
+            "th": "<p>แชร์โพสต์บล็อก สินค้า หรือโปรโมชันกับลูกค้าของคุณ ใช้ข้อความนี้เพื่ออธิบายสินค้า แชร์รายละเอียดเกี่ยวกับความพร้อมจำหน่ายและสไตล์ หรือเป็นพื้นที่เพื่อจัดแสดงรีวิวล่าสุด หรือว่าคำถามที่พบบ่อย</p>",
+            "tr": "<p>Müşterilerinizle blog gönderileri, ürünler ve promosyonlar paylaşın. Ürünleri açıklamak, stok durumu ve stil ile ilgili ayrıntıları paylaşmak veya son değerlendirmeleri ya da SSS'leri göstereceğiniz bir alan olarak yararlanmak için bu metni kullanabilirsiniz.</p>",
+            "vi": "<p>Chia sẻ bài viết blog, sản phẩm, hoặc chương trình ưu đãi với khách hàng. Sử dụng văn bản này để mô tả sản phẩm, chia sẻ thông tin về tình trạng còn hàng và kiểu dáng, hoặc là nơi để hiển thị các đánh giá mới hoặc câu hỏi thường gặp.</p>",
+            "zh-CN": "<p>与您的客户分享博客文章、产品或促销信息。使用此文本描述产品、分享有关供货情况和风格的详细信息，或将此文本作为显示最近评论或常见问题解答的区域。</p>",
+            "zh-TW": "<p>與顧客分享網誌貼文、產品或宣傳活動。請使用這段文字描述商品、分享庫存和樣式的詳細資訊，或顯示近期評論及常見問題。</p>"
+          }
+        },
+        {
+      "type": "header",
+      "content": "Custom class"
+      },
+      {
+      "type": "text",
+      "id": "class_name",
+      "label": "Add your custom class name here"
+     }
+			]
+
+			},
+		{
+	"type": "video",
+    "name": "Video banner",
+    "settings": [
+                  {
+                    "type": "text",
+                    "id": "app_video_1",
+                    "label": "Add video"
+                  },
+					{
+                    "type": "text",
+                    "id": "app_video_2",
+                    "label": "Add video"
+                  },
+                  {
+                    "type": "url",
+                    "id": "app_video_link",
+                    "label": "Add the video link"
+                  }
+                ]
+		}
+		],
+  "presets": [
+    {
+      "name": "Image Slider",
+      "category": "Banner Slider"
+    }
+  ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
+<style>
+  .banner__inner .rte-setting {
+    margin-bottom: 20px;
+  }
+  .Image_slider_sec {
+/*     padding: 0 !important; */
+/*     background-color: rgba(158,197,188,.10980392156862745);  */
+    width: 100%;
+    position: relative;
+    height: 100%;}
+  .Image_slider_sec .inner_cont {width: 100%; margin: auto; position: relative;}
+  .Image-carousel  .slick-prev {
+    z-index: 1;
+    transition: 0.5s;
+    left: 10px;
+  }
+  .Image-carousel  .slick-next {
+    transition: 0.5s;
+    right: 25px;
+  }
+  .Image-carousel  .slick-next:before {
+    content: "";
+    background: url(https://cdn.shopify.com/s/files/1/0600/0236/9699/files/arrow-right?v=1633090741);
+    width: 35px;
+    background-size: cover;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .Image-carousel  .slick-prev:before {
+    content: "";
+    background: url(https://cdn.shopify.com/s/files/1/0600/0236/9699/files/arrow-left?v=1633090309);
+    width: 35px;
+    background-size: cover;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .item__banner.desktop a {
+    z-index: 2;
+    position: relative;
+    text-decoration: none;
+}
+  .item__banner.desktop {
+    position: relative;
+}
+  .banner__inner.desktop {
+    display: block;
+}
+/*   .banner__inner.mob {
+    display: none;
+} */
+  .item__banner.mob {
+  	position: relative;
+    display: none;
+  
+  }
+  .banner__inner {
+    position: absolute;
+    display: block;
+    vertical-align: middle;
+    padding: 55px 0;
+    z-index: 2;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  .banner__inner h3.h4 {
+    font-size: 80px;
+    line-height: normal;
+  
+    line-height: 110px;
+    color: #fff;
+    text-shadow: 0 0 4px rgb(0 0 0 / 40%);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+  .banner__inner p {
+    color: #fff;
+}
+  .banner__button {
+    margin-bottom: 10px;
+}
+/*   .two--buttons--section {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+  .banner__button a.btn {
+    background: linear-gradient(0deg,#A3C1AD,#9EC5BC);
+    border-color: #a5c0ab;
+    font-weight: 600;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+    transition: all .25s ease;
+    padding: 6px 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+        color: #fff;
+    text-decoration: none;
+    display:inline-block;
+}
+  .two--buttons--section a.btn:hover {
+    background-color: rgb(202, 76, 109) !important;
+}
+/*   @media screen and (max-width: 600px) {
+  	.slider_sec {padding-top: 15%; padding-bottom: 0;}
+  } */
+  .Image-carousel .slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .Image-carousel .video--banner.mob {
+    display: none;
+}
+  
+  .item__banner.desktop:after {
+  content: '';
+  position: absolute;
+  top: 0;
+/*   background: #000000; */
+  opacity: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+ .content-rgt .banner__inner .rte-setting {
+    position: relative;
+/*     left: 50%; */
+    text-align: center;
+}  
+
+ .content-rgt .banner__button {
+    margin-bottom: 10px;
+    position: relative;
+/*     left: 11%; */
+}
+ .content-rgt .banner__button a.btn {
+/*     width: 200px; */
+}
+.white-btn .banner__button a.btn {
+  background: #fff;
+/*     width: 230px; */
+    border-color: #a5c0ab;
+    font-weight: 500;
+    transition: all .25s ease;
+    padding: 6px 100px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+        color: #A5C0AB;
+    text-decoration: none;
+    display:inline-block;
+} 
+  .Image-slider .newsletter__wrapper .newsletter-form__field-wrapper {
+    max-width: 60rem;
+}
+ .Image-slider button#Subscribe {
+    background-color: #fff;
+    border-color: #a5c0ab;
+    font-weight: 600;
+    transition: all .25s ease;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #a5c0ab;
+    width: 170px;
+    position: relative;
+    margin-left: 20px;
+    height: 45px;
+}
+ .Image-slider .field:after {
+    content: none;
+  }
+ .Image-slider .newsletter-form {
+    max-width: 46rem !important;
+   margin-bottom: 30px;
+}
+ .Image-slider .newsletter-form__field-wrapper .field__input {
+    background-color: #bbd6d069;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 8px;
+  }
+ .Image-slider .newsletter-form__field-wrapper .field__input::placeholder {
+    color: #fff;
+}
+.Image-slider .newsletter h2.h1 {
+    font-size: 26px;
+}
+ .Image-slider label.field__label {
+    color: #fff;
+}
+ .Image-slider .newsletter-form__field-wrapper {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+  
+  @media screen and (max-width: 1250px) {
+    .banner__inner {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+
+    .banner__button {
+    	top: 0;
+    }
+    .banner__inner {
+      transform: translate(-50%, -35%);
+    }
+    .banner__inner h3.h4 {
+      font-size: 42px;
+      line-height: 110%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+  	 .banner__inner.desktop {
+    display: none;
+}
+    .item__banner.desktop {
+    	display: none;
+  
+  }
+    .item__banner.mob {
+    	display: block;
+  
+  }
+     .Image-carousel .video--banner.mob {
+    display: block;
+}
+     .Image-carousel .video--banner {
+    display: none;
+}
+  .banner__inner.mob {
+    display: block;
+    width: 100%;
+}
+    .banner__inner h3.h4 {
+    font-size: 28px;
+}
+    .banner__inner p {
+    width: 90%;
+    margin: 0 auto;
+}
+    .banner__inner {
+    transform: translate(-50%, -50%);
+}
+   .main-banner .banner__inner {
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    transform: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+   .main-banner .banner__inner p {
+    width: 100%;
+     font-size: 18px;
+    line-height: 21px;
+     text-align: center;
+}
+    .main-banner .banner__inner h3.h4 {
+    font-size: 36px;
+      margin-bottom: 20px;
+      line-height: 38px;
+      text-align: center;
+}
+   .main-banner .banner__button a.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+   .other-banner .banner__inner h3.h4 {
+    font-size: 24px;
+     line-height: 28.8px;
+}
+   .other-banner .banner__inner p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 19px;
+     margin-bottom: 24px;
+}
+   .other-banner .banner__button a.btn {
+    background: #fff;
+    transition: all .25s ease;
+    padding: 7px 16px;
+    color: #A5C0AB;
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+}
+   .other-banner .banner__inner {
+    padding: 55px 20px;
+}
+    .other-banner-2 .banner__inner h3.h4 {
+    font-size: 24px;
+     line-height: 28.8px;
+}
+   .other-banner-2 .banner__inner p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 19px;
+     margin-bottom: 24px;
+}
+   .other-banner-2 .banner__button a.btn {
+    background: #fff;
+    transition: all .25s ease;
+    padding: 7px 16px;
+    color: #A5C0AB;
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+}
+   .other-banner-2 .banner__inner {
+    padding: 55px 20px;
+}
+   .other-banner-2 .Image_slider_sec {
+    padding: 0;
+}
+  
+  }  
+</style>
