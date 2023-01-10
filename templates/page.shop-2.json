@@ -343,9 +343,10 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/OWNU-63.jpg",
             "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
+            "collection_title": "Activewear",
+            "collection_link": "shopify:\/\/collections\/activewear"
           }
         },
         "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-1": {
@@ -365,32 +366,22 @@
             "collection_title": "Collection",
             "collection_link": ""
           }
-        },
-        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-3": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "",
-            "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
-          }
         }
       },
       "block_order": [
         "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-0",
         "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-1",
-        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-2",
-        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-3"
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-2"
       ],
       "settings": {
-        "custom-css": "",
+        "custom-css": "rounded-img",
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Collections list",
+        "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "collection_des": "1",
+        "collection_des": "7",
         "title_cl": "#ffffff",
         "title_cl_hover": "#222222",
         "subtitle_cl": "#878787",
@@ -407,12 +398,12 @@
         "img_effect": "none",
         "b_effect": "none",
         "image_ratio": "ratio1_1",
-        "image_size": "cover",
+        "image_size": "contain",
         "image_position": "8",
         "layout_des": "1",
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
+        "col_dk": "3",
+        "col_tb": "3",
+        "col_mb": "3",
         "space_h_item": "30",
         "space_v_item": "30",
         "space_h_item_mb": "10",
