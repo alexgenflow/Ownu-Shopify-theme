@@ -986,7 +986,7 @@
         "pr_pin_des": "1",
         "open_link": "_self",
         "space": "0",
-        "space_mb": "20",
+        "space_mb": "10",
         "col_dk": "6",
         "col_tb": "3",
         "col_mb": "2",
@@ -1015,7 +1015,7 @@
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,00px,",
         "pd_mb": ""
       }
     },
