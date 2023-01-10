@@ -193,7 +193,9 @@
     border-radius: 20px;
     padding: 30px;
 }
-
+.margin-both img {
+    border-radius: 20px;
+}
 
 
 
