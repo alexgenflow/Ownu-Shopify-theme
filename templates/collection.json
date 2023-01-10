@@ -244,15 +244,15 @@
         "text_cl_hover": "#89b6a6",
         "text_fs": 16,
         "text_lh": 21,
-        "text_fw": 500,
+        "text_fw": 400,
         "text_ls": 0,
         "font_italic": false,
         "nav_btn": true,
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,30px",
-        "pd": ",,30px",
+        "mg": "",
+        "pd": "",
         "mg_mb": "",
         "pd_mb": ""
       }
