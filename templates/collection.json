@@ -151,16 +151,18 @@
         "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
-            "collection_title": "Collection title",
+            "collection": "new-in-loungewear",
+            "image": "shopify:\/\/shop_images\/Untitled-163_2b29446b-8b99-4e46-9883-2df48dd36a1f.jpg",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-2": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
-            "collection_title": "Collection title",
+            "collection": "shop-equipment",
+            "image": "shopify:\/\/shop_images\/2I6A0012.jpg",
+            "collection_title": "",
             "collection_link": ""
           }
         }
