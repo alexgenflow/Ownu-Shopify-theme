@@ -1164,7 +1164,7 @@
         "template--15968724320456__9bf2c81a-acda-4e15-b756-36da179293a6-1673363993ab0fce66-2"
       ],
       "settings": {
-        "custom-css-class": "",
+        "custom-css-class": "custom-newsletter",
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "",
@@ -1179,7 +1179,7 @@
         "cl_bg_gradient": "",
         "parallax": false,
         "mg": "",
-        "pd": "50px,,50px,",
+        "pd": "70px,,70px,",
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": false,
