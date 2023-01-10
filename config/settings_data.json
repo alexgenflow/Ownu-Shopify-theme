@@ -207,22 +207,38 @@
               "mgb_mb": 24
             }
           },
-          "footer-3": {
-            "type": "cus_socials",
+          "bad5a3e9-06f7-4660-97b5-906c4ecb9f49": {
+            "type": "image",
+            "disabled": true,
             "settings": {
-              "title": "",
-              "social_mode": "1",
-              "social_style": "1",
-              "social_size": "small",
-              "bd_radius": 0,
-              "use_color_set": false,
-              "icon_cl": "#878787",
-              "bg_cl": "#56cfe1",
-              "space_h_item": "20",
-              "space_v_item": "5",
-              "space_h_item_mb": "20",
-              "space_v_item_mb": "2",
-              "mgb": 0
+              "image_child": "shopify:\/\/shop_images\/badge-1-e180c50a0cd0d912756bb7e374cbf90f_43ea3802-dadc-48a5-93de-a9774394874f.png",
+              "link_img": "",
+              "img_width": 130,
+              "img_width_mb": 0,
+              "mgb": 20,
+              "mgb_mb": 20
+            }
+          },
+          "385c1474-1235-4a3d-b73c-9555b5f8dcfb": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image_child": "shopify:\/\/shop_images\/badge-2-4f503c4bfe3cd1a3383288ba7adf8520_e31f4fe3-5264-4503-b400-97bdf6bb03d3.png",
+              "link_img": "",
+              "img_width": 130,
+              "img_width_mb": 0,
+              "mgb": 20,
+              "mgb_mb": 20
+            }
+          },
+          "33eb929e-a001-4d96-82a0-5aab1aaabaea": {
+            "type": "payments",
+            "settings": {
+              "svg": "visa,paypal,maestro,american_express,discover",
+              "height": 30,
+              "hidden_mobile": false,
+              "mgb": 20,
+              "mgb_mb": 10
             }
           },
           "footer-2": {
@@ -268,7 +284,7 @@
           "footer-8": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Useful links",
+              "col_heading": "Follow us",
               "menu": "",
               "menu_style": "1",
               "col_dk": "3",
@@ -279,6 +295,24 @@
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
+            }
+          },
+          "footer-3": {
+            "type": "cus_socials",
+            "settings": {
+              "title": "",
+              "social_mode": "1",
+              "social_style": "1",
+              "social_size": "small",
+              "bd_radius": 0,
+              "use_color_set": false,
+              "icon_cl": "#878787",
+              "bg_cl": "#56cfe1",
+              "space_h_item": "20",
+              "space_v_item": "5",
+              "space_h_item_mb": "20",
+              "space_v_item_mb": "2",
+              "mgb": 0
             }
           },
           "footer-10": {
@@ -340,42 +374,22 @@
               "mgb": 22,
               "mgb_mb": 20
             }
-          },
-          "385c1474-1235-4a3d-b73c-9555b5f8dcfb": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "link_img": "",
-              "img_width": 0,
-              "img_width_mb": 0,
-              "mgb": 20,
-              "mgb_mb": 20
-            }
-          },
-          "33eb929e-a001-4d96-82a0-5aab1aaabaea": {
-            "type": "payments",
-            "settings": {
-              "svg": "visa,paypal,maestro,american_express,discover",
-              "height": 30,
-              "hidden_mobile": false,
-              "mgb": 20,
-              "mgb_mb": 10
-            }
           }
         },
         "block_order": [
           "footer-0",
           "de84a111-3ed0-40a2-b86a-1e81488e9bff",
-          "footer-3",
+          "bad5a3e9-06f7-4660-97b5-906c4ecb9f49",
+          "385c1474-1235-4a3d-b73c-9555b5f8dcfb",
+          "33eb929e-a001-4d96-82a0-5aab1aaabaea",
           "footer-2",
           "footer-4",
           "footer-6",
           "footer-8",
+          "footer-3",
           "footer-10",
           "footer-11",
-          "footer-12",
-          "385c1474-1235-4a3d-b73c-9555b5f8dcfb",
-          "33eb929e-a001-4d96-82a0-5aab1aaabaea"
+          "footer-12"
         ],
         "settings": {
           "sticky": false,
