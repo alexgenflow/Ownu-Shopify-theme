@@ -130,7 +130,7 @@
         "content_width": "container",
         "cv_pos": 90,
         "ch_pos": 50,
-        "cv_pos_mb": 50,
+        "cv_pos_mb": 90,
         "ch_pos_mb": 50,
         "bg_overlay": "#000000",
         "bg_opacity": 0,
