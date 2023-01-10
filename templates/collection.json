@@ -239,7 +239,7 @@
         "box_border": "none",
         "content_align": "center",
         "hidden_mobile": false,
-        "space_item": 20,
+        "space_item": 30,
         "fontf": "inherit",
         "text_cl": "#222222",
         "text_cl_hover": "#89b6a6",
