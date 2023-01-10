@@ -1,5 +1,52 @@
 {
   "sections": {
+    "e8a4434e-dd83-400f-931f-24854f82c24e": {
+      "type": "image-slider",
+      "blocks": {
+        "c6f66884-a5b5-4892-b15c-c0c4359de071": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/OwnuBannerV1.jpg",
+            "image_link": "",
+            "title": "Text columns with images",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "email": false,
+            "button_label": "",
+            "button_link": "",
+            "text-2": "",
+            "class_name": ""
+          }
+        },
+        "a6d1d033-d40d-4e09-b52c-56446c8bdaee": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/BANNER_3_copy.webp",
+            "image_link": "",
+            "title": "Text columns with images",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "email": false,
+            "button_label": "",
+            "button_link": "",
+            "text-2": "",
+            "class_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "c6f66884-a5b5-4892-b15c-c0c4359de071",
+        "a6d1d033-d40d-4e09-b52c-56446c8bdaee"
+      ],
+      "settings": {
+        "Show_container": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_overlay_color": "",
+        "image_overlay_opacity": 0,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
     "top": {
       "type": "top-collections",
       "blocks": {
@@ -908,6 +955,7 @@
     }
   },
   "order": [
+    "e8a4434e-dd83-400f-931f-24854f82c24e",
     "top",
     "2b02656f-db92-47eb-8147-4520fd02d640",
     "53703ded-330f-4640-8b0e-30a78e850a2c",
