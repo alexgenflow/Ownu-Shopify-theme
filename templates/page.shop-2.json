@@ -336,6 +336,115 @@
         "code_cus_css": ""
       }
     },
+    "00a37ac0-8cf7-4672-9031-665711a273da": {
+      "type": "collections-list",
+      "blocks": {
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-0": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        },
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-0",
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-1",
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-2",
+        "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-3"
+      ],
+      "settings": {
+        "custom-css": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Collections list",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "source": "image",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout_des": "1",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "c298d7b8-6258-4b3a-a7a6-5cc61a8495a9": {
       "type": "iconbox",
       "disabled": true,
@@ -618,6 +727,7 @@
     "main",
     "sidebar-page",
     "143c8c7d-631c-4074-86ab-5ea3da4a5541",
+    "00a37ac0-8cf7-4672-9031-665711a273da",
     "c298d7b8-6258-4b3a-a7a6-5cc61a8495a9",
     "1ae160bf-ee02-43df-aa9f-2357c6b64e9c",
     "65e62ae0-fe28-4664-b76a-777e314ed773"
