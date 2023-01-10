@@ -253,7 +253,7 @@
         "5069fb99-b47c-465e-9c71-f3845efdd164": {
           "type": "select",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1000001402.png",
+            "image": "shopify:\/\/shop_images\/activewear-1_2259e2b3-c8f9-4d14-a264-3f33c21fc458.jpg",
             "name": "Activewear",
             "image_link": "shopify:\/\/collections\/activewear"
           }
@@ -261,7 +261,7 @@
         "a4fd3632-c146-49fa-bf78-a7124774c749": {
           "type": "select",
           "settings": {
-            "image": "shopify:\/\/shop_images\/loungewear2.webp",
+            "image": "shopify:\/\/shop_images\/loungewear-2.jpg",
             "name": "Loungewear",
             "image_link": "shopify:\/\/collections\/new-in-loungewear"
           }
@@ -269,7 +269,7 @@
         "7f75b96d-2e31-4bd1-9ae8-113d96c44530": {
           "type": "select",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_567.png",
+            "image": "shopify:\/\/shop_images\/eq-3.jpg",
             "name": "Equipment",
             "image_link": "shopify:\/\/collections\/shop-equipment"
           }
