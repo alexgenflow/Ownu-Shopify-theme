@@ -339,6 +339,74 @@
         "code_cus_css": ""
       }
     },
+    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4": {
+      "type": "pricing",
+      "blocks": {
+        "038c283f-3832-47a7-96ae-808ae5c3d29a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "50% OFF",
+            "off": "",
+            "title": "YEARLY",
+            "text": "€51.99",
+            "crossedprice": "€109.99",
+            "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "35% OFF",
+            "off": "",
+            "title": "QUARTERLY",
+            "text": "€24.99",
+            "crossedprice": "€35.99",
+            "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "02061297-89a0-4550-bd3a-0acfb91d003d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "20% OFF",
+            "off": "",
+            "title": "MONTHLY",
+            "text": "€10.99",
+            "crossedprice": "€14.49",
+            "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "038c283f-3832-47a7-96ae-808ae5c3d29a",
+        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59",
+        "02061297-89a0-4550-bd3a-0acfb91d003d"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Join thousands of women in the OWNU community and start smashing your goals...",
+        "text-1": "<p>Plans and workouts for all goals, training styles and locations - Gym or home, equipemnt or no equipment.<\/p>",
+        "text-2": "<p>Tried and tested workout plans that drive real results - the same programmes used by Hanna<\/p>",
+        "text-3": "<p>Regular releases of new guides, boot camps and community challenges<\/p>",
+        "text-4": "<p>Personalised meal plans tailored to your needs & goals<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "1663525508401a5ec1": {
       "type": "hero_image",
       "disabled": true,
@@ -480,6 +548,7 @@
     },
     "16635255410b59264b": {
       "type": "counter",
+      "disabled": true,
       "blocks": {
         "16635255415c7a6fbb-0": {
           "type": "counter_item",
@@ -567,7 +636,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Find your perfect workout based on target zone, your fitness level, time and equipment needed",
+            "heading": "Find your <color>perfect workout<\/color> based on target zone, your fitness level, time and equipment needed",
             "text": "",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -947,74 +1016,6 @@
         "text_below_heading": "",
         "btn-label": "Join for free",
         "btn-link": "#"
-      }
-    },
-    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4": {
-      "type": "pricing",
-      "blocks": {
-        "038c283f-3832-47a7-96ae-808ae5c3d29a": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "value": "50% OFF",
-            "off": "",
-            "title": "YEARLY",
-            "text": "€51.99",
-            "crossedprice": "€109.99",
-            "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
-            "button_label": "Subscribe",
-            "button_link": "#",
-            "link": ""
-          }
-        },
-        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "value": "35% OFF",
-            "off": "",
-            "title": "QUARTERLY",
-            "text": "€24.99",
-            "crossedprice": "€35.99",
-            "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
-            "button_label": "Subscribe",
-            "button_link": "#",
-            "link": ""
-          }
-        },
-        "02061297-89a0-4550-bd3a-0acfb91d003d": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "value": "20% OFF",
-            "off": "",
-            "title": "MONTHLY",
-            "text": "€10.99",
-            "crossedprice": "€14.49",
-            "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
-            "button_label": "Subscribe",
-            "button_link": "#",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "038c283f-3832-47a7-96ae-808ae5c3d29a",
-        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59",
-        "02061297-89a0-4550-bd3a-0acfb91d003d"
-      ],
-      "settings": {
-        "id": "",
-        "Swipe": false,
-        "full_width": false,
-        "title-1": "",
-        "section_title": "Join thousands of women in the OWNU community and start smashing your goals...",
-        "text-1": "<p>Plans and workouts for all goals, training styles and locations - Gym or home, equipemnt or no equipment.<\/p>",
-        "text-2": "<p>Tried and tested workout plans that drive real results - the same programmes used by Hanna<\/p>",
-        "text-3": "<p>Regular releases of new guides, boot camps and community challenges<\/p>",
-        "text-4": "<p>Personalised meal plans tailored to your needs & goals<\/p>",
-        "button_label": "",
-        "button_link": ""
       }
     },
     "1663526258f2deb053": {
@@ -1464,6 +1465,7 @@
     "main",
     "sidebar-page",
     "166367911682fcd6ce",
+    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4",
     "1663525508401a5ec1",
     "16635255410b59264b",
     "b67de988-8d36-4d5f-aa59-4b220d0f9214",
@@ -1471,7 +1473,6 @@
     "166352598460ced848",
     "273a5263-0802-4014-971e-d539174b79e5",
     "19515395-74e1-4cb7-884a-dd5fbc28e78f",
-    "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4",
     "1663526258f2deb053",
     "1663526308163da4d9",
     "1663525992c8b26e01",
