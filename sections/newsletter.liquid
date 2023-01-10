@@ -27,7 +27,7 @@
   --news-overlay : {{ se_stts.news_overlay | color_modify: 'alpha', news_overlay_cl }};
 {%- endcapture -%}
 {{news_overlay}}
-<div class="t4s-section-inner t4s_se_{{sid}} {{stt_layout}} t4s-parallax {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5"{% endif %}  data-parallax-t4strue data-speed="0.2" {% render 'section_style',se_stts:se_stts,append_style:append_style -%} >
+<div class="t4s-section-inner {{ section.settings.custom-css-class }} t4s_se_{{sid}} {{stt_layout}} t4s-parallax {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5"{% endif %}  data-parallax-t4strue data-speed="0.2" {% render 'section_style',se_stts:se_stts,append_style:append_style -%} >
   {{-html_layout[0]-}}
   {%- if stt_layout == 't4s-se-container' -%}<div class="t4s-container-inner{% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5"{% endif %}>{% endif -%}
     {%- render 'section_tophead',se_stts:se_stts -%}
@@ -120,6 +120,11 @@
     "tag": "section",
     "class": "t4s-section t4s-section-all t4s_tp_parallax t4s_tp_cdt t4s-newsletter",
     "settings": [
+      {
+        "type": "text",
+        "id": "custom-css-class",
+        "label": "Custom Css Class"
+      },
       {
           "type": "header",
           "content": "1. Heading options"
