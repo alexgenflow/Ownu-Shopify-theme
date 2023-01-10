@@ -414,117 +414,6 @@
         "code_cus_css": ""
       }
     },
-    "50282886-81d2-4a89-9d2c-8eed673e4631": {
-      "type": "feature_columns",
-      "blocks": {
-        "template--15818193600712__50282886-81d2-4a89-9d2c-8eed673e4631-16733500291bf1fa82-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Ellipse_8_1.png",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "template--15818193600712__50282886-81d2-4a89-9d2c-8eed673e4631-16733500291bf1fa82-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        },
-        "template--15818193600712__50282886-81d2-4a89-9d2c-8eed673e4631-16733500291bf1fa82-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        }
-      },
-      "block_order": [
-        "template--15818193600712__50282886-81d2-4a89-9d2c-8eed673e4631-16733500291bf1fa82-0",
-        "template--15818193600712__50282886-81d2-4a89-9d2c-8eed673e4631-16733500291bf1fa82-1",
-        "template--15818193600712__50282886-81d2-4a89-9d2c-8eed673e4631-16733500291bf1fa82-2"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "text_align": "center",
-        "pos_text": "default",
-        "fs_title": 22,
-        "fs_text": 14,
-        "fs_title_mb": 22,
-        "fs_text_mb": 12,
-        "image_ratio": "ratiocus1",
-        "image_size": "cover",
-        "image_position": "8",
-        "img_effect": "none",
-        "b_effect": "none",
-        "layout_des": "1",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "col_dk": "3",
-        "col_tb": "2",
-        "col_mb": "1",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": false,
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": true,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -1022,7 +911,6 @@
     "top",
     "2b02656f-db92-47eb-8147-4520fd02d640",
     "53703ded-330f-4640-8b0e-30a78e850a2c",
-    "50282886-81d2-4a89-9d2c-8eed673e4631",
     "main",
     "heading_template",
     "sidebar",
