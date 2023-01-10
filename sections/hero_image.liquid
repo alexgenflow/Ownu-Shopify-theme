@@ -59,7 +59,7 @@
                     {%- if image != blank  -%}   
                         <div class="desktop-banner t4s-hero-block t4s_bg t4s-lz--fadeIn lazyloadt4s{% if se_stts.parallax %} t4s-parallax t4s-parallax-bg{%- assign parallax = true -%}{% endif %}" data-parallax-t4s{{se_stts.parallax}} data-bgset="{{ image | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5" ></div>
                         <div class="mobile-banner">
-                          <img src="{{ section.settings.mobile-image }}">
+                          <img src="{{ section.settings.mobile-image | img_url: 'master' }}">
                         </div> 
                   {%- else -%} 
                         {{ 'lifestyle-1' | placeholder_svg_tag: 't4s-placeholder-svg t4s-svg-bg1' }}  
