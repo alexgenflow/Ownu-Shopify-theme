@@ -760,6 +760,7 @@
         "16635189562817c04d-2"
       ],
       "settings": {
+        "custom-css-class": "custom-newsletter",
         "design_heading": "10",
         "heading_align": "t4s-text-center",
         "top_heading": "",
