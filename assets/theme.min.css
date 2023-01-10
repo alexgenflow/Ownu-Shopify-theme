@@ -233,7 +233,9 @@ div, p, a, span, li {
 .margin-both img {
     border-radius: 20px;
 }
-
+.custom-newsletter .t4s-top-heading p {
+    font-family: 'Satoshi-black';
+} 
 
 
 
