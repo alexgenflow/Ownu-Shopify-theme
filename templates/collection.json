@@ -144,7 +144,7 @@
           "type": "cat",
           "settings": {
             "collection": "activewear",
-            "icon": "Activewear"
+            "icon": ""
           }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
@@ -235,23 +235,23 @@
         "source": "2",
         "menu": "main-menu",
         "sort_collections": "alphabetical_reversed",
-        "box_border": "top",
+        "box_border": "none",
         "content_align": "center",
         "hidden_mobile": false,
         "space_item": 20,
         "fontf": "inherit",
         "text_cl": "#222222",
         "text_cl_hover": "#89b6a6",
-        "text_fs": 14,
-        "text_lh": 45,
-        "text_fw": 400,
+        "text_fs": 22,
+        "text_lh": 32,
+        "text_fw": 500,
         "text_ls": 0,
         "font_italic": false,
         "nav_btn": true,
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
+        "mg": ",,30px",
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
