@@ -140,6 +140,13 @@
     "top": {
       "type": "top-collections",
       "blocks": {
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
+          "type": "cat",
+          "settings": {
+            "collection": "shop-equipment",
+            "icon": ""
+          }
+        },
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
           "settings": {
@@ -151,13 +158,6 @@
           "type": "cat",
           "settings": {
             "collection": "new-in-loungewear",
-            "icon": ""
-          }
-        },
-        "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
-          "type": "cat",
-          "settings": {
-            "collection": "shop-equipment",
             "icon": ""
           }
         },
@@ -219,9 +219,9 @@
         }
       },
       "block_order": [
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31",
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67",
         "863873b6-012e-4a34-90e3-eead750fa3ce",
-        "fc07bff9-6d08-423c-8802-9a03c34f3a31",
         "a286cc0b-0c90-4b1a-862c-a1136f283aac",
         "23c84729-8fcb-488c-9541-00e283af6afe",
         "5f1d751a-fdac-43d4-ad9d-55da0c297244",
@@ -442,6 +442,7 @@
     },
     "53703ded-330f-4640-8b0e-30a78e850a2c": {
       "type": "collections-list",
+      "disabled": true,
       "blocks": {
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2": {
           "type": "collection_item",
@@ -507,8 +508,8 @@
         "collection_subtitle": "Products",
         "open_link": "_self",
         "source": "image",
-        "space_bottom": 20,
-        "space_bottom_mb": 10,
+        "space_bottom": 10,
+        "space_bottom_mb": 0,
         "border": false,
         "item_pd": 0,
         "item_rd": 0,
@@ -523,7 +524,7 @@
         "col_mb": "3",
         "space_h_item": "30",
         "space_v_item": "30",
-        "space_h_item_mb": "10",
+        "space_h_item_mb": "20",
         "space_v_item_mb": "10",
         "loop": true,
         "au_time": 0,
