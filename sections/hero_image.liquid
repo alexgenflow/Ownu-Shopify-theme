@@ -57,8 +57,11 @@
             <div class="t4s-col-item t4s-hero-image-item">
                 <div class="t4s-hero-inner t4s-pr t4s-oh t4s_cover t4s_ratio t4s_position_{{se_stts.image_position}}" {%- if image != blank -%}style="background: url({{ image | image_url: width: 1 }});"{%- endif -%}>
                     {%- if image != blank  -%}   
-                        <div class="t4s-hero-block t4s_bg t4s-lz--fadeIn lazyloadt4s{% if se_stts.parallax %} t4s-parallax t4s-parallax-bg{%- assign parallax = true -%}{% endif %}" data-parallax-t4s{{se_stts.parallax}} data-bgset="{{ image | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5" ></div>
-                    {%- else -%} 
+                        <div class="desktop-banner t4s-hero-block t4s_bg t4s-lz--fadeIn lazyloadt4s{% if se_stts.parallax %} t4s-parallax t4s-parallax-bg{%- assign parallax = true -%}{% endif %}" data-parallax-t4s{{se_stts.parallax}} data-bgset="{{ image | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1.5" ></div>
+                        <div class="mobile-banner">
+                          <img src="{{ section.settings.mobile-image }}">
+                        </div> 
+                  {%- else -%} 
                         {{ 'lifestyle-1' | placeholder_svg_tag: 't4s-placeholder-svg t4s-svg-bg1' }}  
                     {%- endif -%}
                     <div class="t4s-content-wrap t4s-bg-cl-wrap t4s-pe-none t4s-full-width-link t4s-z-100">
@@ -219,6 +222,11 @@
             "id":"image",
             "label":"Choose Image"                  
         }, 
+        {                   
+            "type":"image_picker",
+            "id":"mobile-image",
+            "label":"Choose Mobile Image"                  
+        },
         {
             "type": "checkbox",
             "id": "parallax",
