@@ -33,7 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 p, a, span {
   font-family: 'Satoshi-Medium';
 }
-
+.t4s-product .t4s-product-title {
+  font-family: 'Satoshi-Medium';
+}
 
 /*================ Slick Slider SCSS ================*/
 .slick-slider {
