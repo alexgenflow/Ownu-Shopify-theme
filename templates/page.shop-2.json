@@ -353,18 +353,20 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/OWNUFIT-CREAMTEE-1500X1500_1.jpg",
             "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
+            "collection_title": "Loungewear",
+            "collection_link": "shopify:\/\/collections\/new-in-loungewear"
           }
         },
         "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-2": {
           "type": "collection_item",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/image_567.png",
             "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
+            "collection_title": "Equipment",
+            "collection_link": "shopify:\/\/collections\/shop-equipment"
           }
         }
       },
