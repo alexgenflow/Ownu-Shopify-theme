@@ -1149,9 +1149,9 @@
             "input_cl": "#878787",
             "border_cl": "#000",
             "btn_cl": "#ffffff",
-            "btn_bg_cl": "#222222",
+            "btn_bg_cl": "#89b6a6",
             "btn_hover_cl": "#ffffff",
-            "btn_hover_bg_cl": "#56CFE1",
+            "btn_hover_bg_cl": "#a5c0ab",
             "hidden_mobile": false,
             "mgb": 15,
             "mgb_mb": 10
