@@ -154,7 +154,7 @@
             "button_style": "default",
             "button_effect": "default",
             "pri_cl": "#89b6a6",
-            "second_cl": "#fff",
+            "second_cl": "#ffffff",
             "pri_cl_hover": "#222222",
             "second_cl_hover": "#ffffff",
             "fsbutton": 14,
@@ -553,6 +553,7 @@
     "1ae160bf-ee02-43df-aa9f-2357c6b64e9c": {
       "type": "featured-collection",
       "settings": {
+        "custom-css": "padding-tp-btm",
         "design_heading": "1",
         "heading_align": "t4s-text-start",
         "top_heading": "Back in stock",
