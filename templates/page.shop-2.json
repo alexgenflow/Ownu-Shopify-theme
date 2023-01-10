@@ -717,21 +717,6 @@
     "f5bf64af-30e9-4218-a3b4-e2842cddb087": {
       "type": "image-gallery",
       "blocks": {
-        "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-0": {
-          "type": "image_item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2022-11-02_at_11.29.46.png",
-            "link": ""
-          }
-        },
-        "8cc0412d-948b-4ae6-839d-a99e43be77aa": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HANNA_JOHANNA-1.jpg",
-            "link": ""
-          }
-        },
         "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-1": {
           "type": "image_item",
           "settings": {
@@ -746,8 +731,16 @@
             "link": ""
           }
         },
+        "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-0": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-11-02_at_11.29.46.png",
+            "link": ""
+          }
+        },
         "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-3": {
           "type": "image_item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2022-10-27_at_12.45.53.png",
             "link": ""
@@ -766,16 +759,23 @@
             "image": "shopify:\/\/shop_images\/OWNU-HOMEPAGE_IMAGE-2.jpg",
             "link": ""
           }
+        },
+        "8cc0412d-948b-4ae6-839d-a99e43be77aa": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HANNA_JOHANNA-1.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-0",
-        "8cc0412d-948b-4ae6-839d-a99e43be77aa",
         "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-1",
         "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-2",
+        "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-0",
         "template--15968724320456__f5bf64af-30e9-4218-a3b4-e2842cddb087-16733600141ad9e415-3",
         "62af7c79-a74e-43fa-b86f-270552e31138",
-        "5e50ddbb-2495-4be9-bbfd-00b7fd894ac7"
+        "5e50ddbb-2495-4be9-bbfd-00b7fd894ac7",
+        "8cc0412d-948b-4ae6-839d-a99e43be77aa"
       ],
       "settings": {
         "design_heading": "1",
