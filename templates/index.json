@@ -773,7 +773,7 @@
         "parallax": false,
         "mg": "",
         "pd": "70px,,70px,",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "30px,,30px,",
         "use_cus_css": false,
         "code_cus_css": ""
