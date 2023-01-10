@@ -1384,10 +1384,10 @@
             "text_shadow": false,
             "text_mgb": 15,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 20,
+            "text_lh_mb": 28,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10
+            "text_mgb_mobile": 20
           }
         },
         "16635263339119d274-1": {
