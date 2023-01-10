@@ -253,7 +253,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1000001402.png",
             "name": "Activewear",
-            "image_link": ""
+            "image_link": "shopify:\/\/collections\/activewear"
           }
         },
         "a4fd3632-c146-49fa-bf78-a7124774c749": {
@@ -261,7 +261,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/loungewear2.webp",
             "name": "Loungewear",
-            "image_link": ""
+            "image_link": "shopify:\/\/collections\/new-in-loungewear"
           }
         },
         "7f75b96d-2e31-4bd1-9ae8-113d96c44530": {
@@ -269,7 +269,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/image_567.png",
             "name": "Equipment",
-            "image_link": ""
+            "image_link": "shopify:\/\/collections\/shop-equipment"
           }
         }
       },
