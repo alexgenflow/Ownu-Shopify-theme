@@ -490,6 +490,7 @@
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-3"
       ],
       "settings": {
+        "custom-css": "rounded-img",
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "",
