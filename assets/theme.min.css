@@ -193,3 +193,14 @@
     border-radius: 20px;
     padding: 30px;
 }
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .margin-both {
+    margin: 20px 15px;
+    padding: 20px 0;
+}
+}
