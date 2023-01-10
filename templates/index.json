@@ -737,7 +737,7 @@
             "form_width_mb": 0,
             "newl_des": "8",
             "news_align": "center",
-            "newl_size": "small",
+            "newl_size": "medium",
             "btn_icon": true,
             "input_cl": "#3c3e42",
             "border_cl": "#000000",
