@@ -136,77 +136,6 @@
         "code_cus_css": ""
       }
     },
-    "b214c7bc-b00e-481f-8b91-a21354623414": {
-      "type": "collections-list-manual",
-      "blocks": {
-        "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-0": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "activewear",
-            "image": "shopify:\/\/shop_images\/Group_1000001402.png",
-            "collection_title": "",
-            "collection_link": ""
-          }
-        },
-        "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-1": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "new-in-loungewear",
-            "image": "shopify:\/\/shop_images\/Untitled-163_2b29446b-8b99-4e46-9883-2df48dd36a1f.jpg",
-            "collection_title": "",
-            "collection_link": ""
-          }
-        },
-        "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "shop-equipment",
-            "image": "shopify:\/\/shop_images\/2I6A0012.jpg",
-            "collection_title": "",
-            "collection_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-0",
-        "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-1",
-        "template--15818193600712__b214c7bc-b00e-481f-8b91-a21354623414-1673353625e4e40f9f-2"
-      ],
-      "settings": {
-        "custom-css": "rounded",
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "collection_des": "1",
-        "title_cl": "#ffffff",
-        "title_cl_hover": "#222222",
-        "subtitle_cl": "#878787",
-        "count_cl": "#222222",
-        "border_cl": "#e5e5e5",
-        "collection_subtitle": "Products",
-        "open_link": "_self",
-        "space_bottom": 20,
-        "space_bottom_mb": 10,
-        "border": false,
-        "item_rd": 0,
-        "img_effect": "none",
-        "b_effect": "none",
-        "image_position": "8",
-        "coll_layout": "1",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "top": {
       "type": "top-collections",
       "blocks": {
@@ -1116,7 +1045,6 @@
   },
   "order": [
     "61e67798-c8e3-4214-9f88-93b94bc9bf3c",
-    "b214c7bc-b00e-481f-8b91-a21354623414",
     "top",
     "2b02656f-db92-47eb-8147-4520fd02d640",
     "53703ded-330f-4640-8b0e-30a78e850a2c",
