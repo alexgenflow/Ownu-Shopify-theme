@@ -246,7 +246,7 @@
         "text_fs": 16,
         "text_lh": 21,
         "text_fw": 400,
-        "text_ls": 0,
+        "text_ls": 1,
         "font_italic": false,
         "nav_btn": true,
         "layout": "t4s-container-fluid",
