@@ -66,6 +66,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify:\/\/shop_images\/BANNER_4_c34be2b8-b6ae-4212-8e81-decdeb10a8a8.jpg",
+            "image_mb": "shopify:\/\/shop_images\/Rectangle_2669_1_6922adf7-483e-499f-b6b0-69aea65ab090.png",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -977,7 +978,7 @@
         "template--15968724320456__6a6068d4-61ad-4ac3-9290-a297d682f829-1673362885e47697b3-2"
       ],
       "settings": {
-        "custom-css": "",
+        "custom-css": "main-banner",
         "se_height": "t4s_ratioadapt",
         "custom_dk": true,
         "height_dk": 600,
