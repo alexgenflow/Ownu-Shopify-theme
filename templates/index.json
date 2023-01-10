@@ -112,6 +112,7 @@
         "template--15818193830088__95b2e31d-3b52-49de-99a4-44a415a87ebc-1669370604ce35a05a-2"
       ],
       "settings": {
+        "custom-css": "main-banner",
         "se_height": "t4s_ratioadapt",
         "custom_dk": true,
         "height_dk": 600,
