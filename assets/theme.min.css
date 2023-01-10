@@ -196,7 +196,11 @@
 .margin-both img {
     border-radius: 20px;
 }
-
+.custom-newsletter .t4s-top-heading p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px !important;
+}
 
 
 
