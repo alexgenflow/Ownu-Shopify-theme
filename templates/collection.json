@@ -2,6 +2,7 @@
   "sections": {
     "61e67798-c8e3-4214-9f88-93b94bc9bf3c": {
       "type": "hero_image",
+      "disabled": true,
       "blocks": {
         "template--15818193600712__61e67798-c8e3-4214-9f88-93b94bc9bf3c-167335295844cff0cd-0": {
           "type": "custom_text",
