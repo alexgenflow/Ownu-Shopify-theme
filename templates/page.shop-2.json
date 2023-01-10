@@ -176,6 +176,7 @@
         },
         "template--15968724320456__143c8c7d-631c-4074-86ab-5ea3da4a5541-1672921918bcdef6a1-4": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image_position": "8",
             "cl_img": "",
@@ -210,6 +211,7 @@
         },
         "template--15968724320456__143c8c7d-631c-4074-86ab-5ea3da4a5541-1672921918bcdef6a1-5": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Summer sale",
             "remove_br_tag": false,
@@ -233,6 +235,7 @@
         },
         "template--15968724320456__143c8c7d-631c-4074-86ab-5ea3da4a5541-1672921918bcdef6a1-6": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Lookbook Collection",
             "remove_br_tag": false,
@@ -256,6 +259,7 @@
         },
         "template--15968724320456__143c8c7d-631c-4074-86ab-5ea3da4a5541-1672921918bcdef6a1-7": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Button label",
             "button_link": "",
