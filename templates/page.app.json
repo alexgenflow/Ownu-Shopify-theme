@@ -877,7 +877,7 @@
         "template--15823001583816__273a5263-0802-4014-971e-d539174b79e5-1673253702cb174078-0"
       ],
       "settings": {
-        "custom-css": "padding-btm",
+        "custom-css": "padding-btm margin-both",
         "hide": false,
         "show": false,
         "design_heading": "1",
@@ -891,7 +891,7 @@
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
-        "cl_bg": "",
+        "cl_bg": "#f0f4f5",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
