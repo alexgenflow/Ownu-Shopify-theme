@@ -247,6 +247,12 @@ div, p, a, span, li {
 .t4s-btn-filter-wrapper {
     background: #F0F4F5;
     border-radius: 10px;
-    padding: 10px;
+    padding:5px 10px;
+}
+  .t4s-dropdown.t4s-dropdown__sortby {
+    background: #F0F4F5;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
 }
 }
