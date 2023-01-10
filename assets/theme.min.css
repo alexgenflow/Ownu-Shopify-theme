@@ -30,7 +30,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Satoshi-Black';
 }
-p, a, span, li {
+div, p, a, span, li {
   font-family: 'Satoshi-Medium';
 }
 .t4s-product .t4s-product-title {
