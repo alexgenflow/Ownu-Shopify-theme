@@ -233,6 +233,7 @@
           },
           "33eb929e-a001-4d96-82a0-5aab1aaabaea": {
             "type": "payments",
+            "disabled": true,
             "settings": {
               "svg": "visa,paypal,maestro,american_express,discover",
               "height": 30,
