@@ -236,7 +236,9 @@ div, p, a, span, li {
 .custom-newsletter .t4s-top-heading p {
     font-family: 'Satoshi-black';
 } 
-
+.padding-tp-btm {
+    padding: 30px 0 !important;
+  }
 
 
 @media screen and (max-width: 767px) {
