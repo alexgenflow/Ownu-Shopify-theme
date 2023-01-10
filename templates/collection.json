@@ -231,6 +231,7 @@
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
       ],
       "settings": {
+        "custom-css": "padding-tp-btm",
         "show_top_collections": true,
         "source": "2",
         "menu": "main-menu",
