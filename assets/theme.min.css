@@ -260,4 +260,8 @@ div, p, a, span, li {
     padding: 5px 10px;
     margin-left: 10px;
 }
+ .custom-newsletter button.t4s-newsletter__submit {
+    width: 100%;
+    min-width: auto;
+}
 }
