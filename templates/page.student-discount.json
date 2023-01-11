@@ -173,12 +173,81 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "854393b4-43fd-4f1b-9be7-c1e53b6fff40": {
+      "type": "pricing",
+      "blocks": {
+        "2c0b461c-af27-4f6a-98c6-ff758005b3cb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "QUARTERLY",
+            "text": "€28.79",
+            "crossedprice": "€35.99",
+            "text-1": "<p>20% SAVING<\/p><p>€9.59 per month<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "a3416550-ecd9-4021-9ecd-1f23e9650328": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "Best value",
+            "off": "",
+            "title": "YEARLY",
+            "text": "€87.99",
+            "crossedprice": "€109.99",
+            "text-1": "<p>20% SAVING<\/p><p>€7.33 per month<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "bded10e4-53b0-4c23-9ed6-114be7fad48c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "MONTHLY",
+            "text": "€11.59",
+            "crossedprice": "€14.49",
+            "text-1": "<p>20% SAVING<\/p><p>€11.59 per month<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2c0b461c-af27-4f6a-98c6-ff758005b3cb",
+        "a3416550-ecd9-4021-9ecd-1f23e9650328",
+        "bded10e4-53b0-4c23-9ed6-114be7fad48c"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "OWNU membership benefits:",
+        "text-1": "<p>Personalised workout plans<\/p>",
+        "text-2": "<p>Access to 100+ balanced and tasty recipes<\/p>",
+        "text-3": "<p>Personalised meal plans tailored to your needs<\/p>",
+        "text-4": "<p>Regular exclusive content from me, Hanna  <\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "8b44a90b-f116-404e-b80a-136beb6ec2b0"
+    "8b44a90b-f116-404e-b80a-136beb6ec2b0",
+    "854393b4-43fd-4f1b-9be7-c1e53b6fff40"
   ]
 }
