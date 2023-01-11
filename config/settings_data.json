@@ -2026,7 +2026,7 @@
           "paddingmb": 50,
           "mg_b": 50,
           "mg_bmb": 50,
-          "content_align": "t4s-text-center",
+          "content_align": "t4s-text-start",
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
