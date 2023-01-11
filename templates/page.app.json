@@ -884,94 +884,6 @@
         "code_cus_css": ""
       }
     },
-    "cee39eb2-e2b6-42f8-8b7e-4244f5bc5a34": {
-      "type": "image_text",
-      "blocks": {
-        "template--15823001583816__cee39eb2-e2b6-42f8-8b7e-4244f5bc5a34-167344581849ab27af-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Image with text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "template--15823001583816__cee39eb2-e2b6-42f8-8b7e-4244f5bc5a34-167344581849ab27af-0": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/image_2_5.png",
-            "image2": "shopify:\/\/shop_images\/image_2_5.png",
-            "image3": "shopify:\/\/shop_images\/image_2_5.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "contain",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15823001583816__cee39eb2-e2b6-42f8-8b7e-4244f5bc5a34-167344581849ab27af-1",
-        "template--15823001583816__cee39eb2-e2b6-42f8-8b7e-4244f5bc5a34-167344581849ab27af-0"
-      ],
-      "settings": {
-        "custom-css": "padding-btm margin-both mobile-spacing",
-        "hide": false,
-        "show": false,
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "#f0f4f5",
-        "cl_bg_gradient": "",
-        "mg": ",,0px,",
-        "pd": "",
-        "mg_mb": ",,0px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "273a5263-0802-4014-971e-d539174b79e5": {
       "type": "image_text",
       "blocks": {
@@ -1623,7 +1535,6 @@
     "b67de988-8d36-4d5f-aa59-4b220d0f9214",
     "683fae37-7c96-456c-a8ae-0d68067639eb",
     "166352598460ced848",
-    "cee39eb2-e2b6-42f8-8b7e-4244f5bc5a34",
     "273a5263-0802-4014-971e-d539174b79e5",
     "19515395-74e1-4cb7-884a-dd5fbc28e78f",
     "1663526258f2deb053",
