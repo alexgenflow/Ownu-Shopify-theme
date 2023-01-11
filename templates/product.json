@@ -386,7 +386,7 @@
         "cl_bg_gradient": "",
         "mg": "15px,,15px,",
         "pd": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,00px,",
         "pd_mb": ""
       }
     },
@@ -439,7 +439,7 @@
         "cl_bg_gradient": "",
         "mg": "15px,,15px,",
         "pd": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,00px,",
         "pd_mb": ""
       }
     }
