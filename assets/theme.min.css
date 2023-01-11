@@ -243,6 +243,9 @@ div, p, a, span, li {
     border: solid 1px #ccc;
     border-radius: 30px !important;
 }
+.custom-newsletter .is--col-email {
+    margin-bottom: 20px !important;
+}
 
 @media screen and (max-width: 767px) {
   .margin-both {
