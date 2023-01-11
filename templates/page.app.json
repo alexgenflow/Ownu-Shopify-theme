@@ -895,7 +895,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Train <color>safer<\/color>",
+            "heading": "Train safer",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -1012,7 +1012,7 @@
         "91cc7ccc-ac95-4ab5-8e97-72151626d840"
       ],
       "settings": {
-        "main_heading": "Transform with ownu",
+        "main_heading": "<color>Transform<\/color> with ownu",
         "text_below_heading": "",
         "btn-label": "Join for free",
         "btn-link": "#"
