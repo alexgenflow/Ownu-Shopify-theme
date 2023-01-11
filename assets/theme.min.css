@@ -272,6 +272,7 @@ input#StudentVerifyEmail {
     color: #fff;
     border: solid 1px #fff;
     border-radius: 8px;
+    width: 100%;
 }
 button#StudentVerifySubmit {
     background-color: #fff;
