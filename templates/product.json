@@ -3,7 +3,7 @@
     "breadcrumb": {
       "type": "brc-nav-product",
       "settings": {
-        "breadcrumb_pr": true,
+        "breadcrumb_pr": false,
         "back_next_pr": true,
         "cl_bg": "#f6f6f6",
         "cl_link": "#222222"
@@ -195,6 +195,7 @@
         },
         "8399ff91-fe8d-41be-8c19-b8d8aef9bade": {
           "type": "inventory_qty",
+          "disabled": true,
           "settings": {
             "icon": "2",
             "icon_name": "hourglass-half",
