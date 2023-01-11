@@ -705,7 +705,7 @@
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
-        "mg_mb": ",,30px",
+        "mg_mb": ",,0px",
         "pd_mb": ",,10px",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -773,7 +773,7 @@
         "template--15823001583816__683fae37-7c96-456c-a8ae-0d68067639eb-167301900295776605-0"
       ],
       "settings": {
-        "custom-css": "padding-btm",
+        "custom-css": "padding-btm mobile-spacing",
         "hide": false,
         "show": true,
         "design_heading": "1",
@@ -791,7 +791,7 @@
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,0px,",
         "pd_mb": ",,10px",
         "use_cus_css": false,
         "code_cus_css": ""
