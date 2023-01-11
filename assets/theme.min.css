@@ -249,6 +249,16 @@ div, p, a, span, li {
 color {
     color: #89B6A6;
 }
+.customer .field {
+    display: flex;
+}
+
+.field {
+    position: relative;
+    width: 100%;
+    display: flex;
+    transition: box-shadow var(--duration-short) ease;
+}
 .customer {
     max-width: 46rem;
     margin: 0 auto;
