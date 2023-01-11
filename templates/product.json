@@ -68,7 +68,7 @@
             "selector_mode": "block2",
             "color_mode": "color is-sw-cl__round",
             "enable_fit_ratio_img": false,
-            "color_size": "medium",
+            "color_size": "small",
             "show_qty": true,
             "enable_wishlist": true,
             "enable_compare": false,
@@ -192,6 +192,27 @@
             "space_h_item_mb": "2",
             "space_v_item_mb": "2"
           }
+        },
+        "8399ff91-fe8d-41be-8c19-b8d8aef9bade": {
+          "type": "inventory_qty",
+          "settings": {
+            "icon": "2",
+            "icon_name": "hourglass-half",
+            "ani": "none",
+            "stock": "3",
+            "qty": 10,
+            "total_items": 100,
+            "stock_from": 12,
+            "stock_to": 20,
+            "al": "center",
+            "mess": "HURRY! ONLY [stock_number] LEFT IN STOCK.",
+            "size": 16,
+            "progress": true,
+            "wbar": 100,
+            "stock_bg_process": "#f76b6a",
+            "bgten": "#ec0101",
+            "stock_bg": "#ffe8e8"
+          }
         }
       },
       "block_order": [
@@ -210,7 +231,8 @@
         "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
-        "94011ade-ec25-4d68-b37a-70660ede49dd"
+        "94011ade-ec25-4d68-b37a-70660ede49dd",
+        "8399ff91-fe8d-41be-8c19-b8d8aef9bade"
       ],
       "settings": {
         "pr_layout": "default",
