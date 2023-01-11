@@ -240,8 +240,8 @@
         "tabs_position": "inner",
         "enable_first_tab": false,
         "tabs_layout": "tab",
-        "bg": "#f6f6f8",
-        "bg_mb": "#ffffff",
+        "bg": "#f0f4f5",
+        "bg_mb": "#f0f4f5",
         "product_list": [
 
         ],
