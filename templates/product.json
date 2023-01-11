@@ -65,7 +65,7 @@
           "type": "form",
           "settings": {
             "selector_mode": "dropdown",
-            "color_mode": "variant_image",
+            "color_mode": "color is-sw-cl__round",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
             "show_qty": true,
