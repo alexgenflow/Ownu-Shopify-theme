@@ -1311,12 +1311,12 @@
             "enable_image": false,
             "value": "",
             "off": "",
-            "title": "Add a title or tagline",
-            "text": "",
+            "title": "Quarterly",
+            "text": "€35.99",
             "crossedprice": "",
-            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
             "link": ""
           }
         },
@@ -1324,14 +1324,14 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "value": "",
+            "value": "Best value",
             "off": "",
-            "title": "Add a title or tagline",
-            "text": "",
+            "title": "Yearly",
+            "text": "€109.99",
             "crossedprice": "",
-            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
             "link": ""
           }
         },
@@ -1341,12 +1341,12 @@
             "enable_image": false,
             "value": "",
             "off": "",
-            "title": "Add a title or tagline",
-            "text": "",
+            "title": "Monthly",
+            "text": "€14.49",
             "crossedprice": "",
-            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
             "link": ""
           }
         }
@@ -1361,11 +1361,7 @@
         "Swipe": false,
         "full_width": false,
         "title-1": "",
-        "section_title": "Talk about your brand",
-        "text-1": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text-2": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text-3": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text-4": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "section_title": "Choose a plan and<br> enjoy a free trial!",
         "button_label": "",
         "button_link": ""
       }
