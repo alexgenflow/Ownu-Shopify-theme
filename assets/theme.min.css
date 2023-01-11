@@ -249,6 +249,14 @@ div, p, a, span, li {
 color {
     color: #89B6A6;
 }
+.customer {
+    max-width: 46rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
 @media screen and (max-width: 767px) {
   .margin-both {
