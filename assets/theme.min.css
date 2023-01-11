@@ -257,6 +257,21 @@ color {
     justify-content: space-between;
     width: 100%;
 }
+button#StudentVerifySubmit {
+    background-color: #fff;
+    border-color: #a5c0ab;
+    font-weight: 600;
+    transition: all .25s ease;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #a5c0ab;
+    width: 180px;
+    position: relative;
+    margin-left: 20px;
+    height: 45px;
+}
 
 @media screen and (max-width: 767px) {
   .margin-both {

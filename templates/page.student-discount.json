@@ -2,6 +2,7 @@
   "sections": {
     "heading": {
       "type": "heading-template",
+      "disabled": true,
       "settings": {
         "use_specify_image": true,
         "parallax": false,
@@ -21,6 +22,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -29,6 +31,68 @@
         "pd": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
+      }
+    },
+    "e6e5cb27-8c76-4101-b786-6d529e760afb": {
+      "type": "about_us",
+      "blocks": {
+        "template--15973402050760__e6e5cb27-8c76-4101-b786-6d529e760afb-1673454117eb6c570d-1": {
+          "type": "bl_text",
+          "settings": {
+            "text": "<p><strong>Get your student discount now!<\/strong><\/p>",
+            "mgb": 25,
+            "mgb_mb": 10
+          }
+        },
+        "4507ca5f-d9bb-4b59-92a5-35e2b089ea83": {
+          "type": "bl_button",
+          "settings": {
+            "button_label": "Get your student discount now!",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default",
+            "mgb": 15,
+            "mgb_mb": 10
+          }
+        },
+        "7d056bd6-ddf0-41e1-9a12-ad4879687d0c": {
+          "type": "bl_text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "mgb": 25,
+            "mgb_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15973402050760__e6e5cb27-8c76-4101-b786-6d529e760afb-1673454117eb6c570d-1",
+        "4507ca5f-d9bb-4b59-92a5-35e2b089ea83",
+        "7d056bd6-ddf0-41e1-9a12-ad4879687d0c"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "txt_align": "center",
+        "image_ratio": "ratio16_9",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f5f9f8",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "sidebar-page": {
@@ -56,11 +120,128 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "8b44a90b-f116-404e-b80a-136beb6ec2b0": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15973402050760__8b44a90b-f116-404e-b80a-136beb6ec2b0-167345427089002ec6-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#f5f9f8"
+          }
+        },
+        "template--15973402050760__8b44a90b-f116-404e-b80a-136beb6ec2b0-167345427089002ec6-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Get your student discount now!",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 26,
+            "text_lh": 37,
+            "text_fw": 700,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--15973402050760__8b44a90b-f116-404e-b80a-136beb6ec2b0-167345427089002ec6-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Take 20% off all app memberships with your student email. Simply enter your university email below and get verified in seconds.",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "f9602b8e-12b0-44ac-a1a6-98cafc6de3c4": {
+          "type": "html",
+          "settings": {
+            "html_content": "<div class=\"page-width\">\n  <div class=\"customer\" id=\"StudentVerificationForm\">\n      <div class=\"field\">\n        <input type=\"email\" value=\"\" name=\"email\" id=\"StudentVerifyEmail\" autocorrect=\"off\" autocapitalize=\"off\" autocomplete=\"email\" placeholder=\"test@example.com\">\n        <label for=\"StudentVerifyEmail\">\n          Email\n        <\/label>\n      <\/div>\n      <button id=\"StudentVerifySubmit\">Verify Email<\/button>\n  <\/div>\n  <div id=\"verification-error\" style=\"display: none;\">\n    Unfortunately we could not verify you at this email, please make sure you use your student email address!\n  <\/div>\n  <div id=\"verification-success\" style=\"display: none;\">\n    Congratulations! Check your email at <span id=\"SuccessMessageEmailAddress\"><\/span> for your discount code!\n  <\/div>\n  <span id=\"DiscountCodeText\"><\/span>\n  <\/div>\n\n  <script>\n  (global => {\n    console.log('test');\n    window.addEventListener('DOMContentLoaded', (_event) => {\n      const button = document.getElementById('StudentVerifySubmit');\n      const form = document.getElementById('StudentVerificationForm');\n      button.addEventListener(\"click\", () => { \n        const email = document.getElementById('StudentVerifyEmail').value;\n        const http = new XMLHttpRequest();\n        button.disabled = true;\n        http.onreadystatechange = () => { \n          if (http.readyState === 4 && http.status === 200) {\n            form.style.display = 'none';\n            document.getElementById('verification-success').style.display = 'block';\n            document.getElementById('SuccessMessageEmailAddress').innerText = email;\n          } else if (http.readyState === 4) {\n            document.getElementById('verification-error').style.display = 'block';\n            form.style.display = 'none';\n          }\n        }\n        http.open(\"GET\", 'https:\/\/x0bkits8j3.execute-api.eu-west-1.amazonaws.com\/prod\/verify\/email\/8ecc5861-cebf-47db-a78f-f876b8ab453c\/STUDENT_VERIFICATION\/' + email, true);\n        http.send(null);   \n  \n    });\n    \n    const getQsByName = (name, url = global.location.href) => {\n      name = name.replace(\/[\\[\\]]\/g, '\\\\$&');\n      const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),\n        results = regex.exec(url);\n      if (!results) return null;\n      if (!results[2]) return '';\n      return decodeURIComponent(results[2].replace(\/\\+\/g, ' '));\n    };\n\n    const code = getQsByName('code');\n    if (code) {\n      console.log('code', code);\nform.style.display = 'none';\n      document.getElementById('DiscountCodeText').innerText = 'Your student discount code is: ' + code;\n    }\n  });\n})(window);\n<\/script>",
+            "hidden_mobile": false
+          }
+        },
+        "eda715bd-a2df-40aa-aa1a-54ba9de249be": {
+          "type": "custom_text",
+          "settings": {
+            "text": "If you have any problems, please contact support.",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#222222",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15973402050760__8b44a90b-f116-404e-b80a-136beb6ec2b0-167345427089002ec6-0",
+        "template--15973402050760__8b44a90b-f116-404e-b80a-136beb6ec2b0-167345427089002ec6-1",
+        "template--15973402050760__8b44a90b-f116-404e-b80a-136beb6ec2b0-167345427089002ec6-2",
+        "f9602b8e-12b0-44ac-a1a6-98cafc6de3c4",
+        "eda715bd-a2df-40aa-aa1a-54ba9de249be"
+      ],
+      "settings": {
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "e6e5cb27-8c76-4101-b786-6d529e760afb",
+    "sidebar-page",
+    "8b44a90b-f116-404e-b80a-136beb6ec2b0"
   ]
 }
