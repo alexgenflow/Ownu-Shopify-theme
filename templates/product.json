@@ -237,7 +237,7 @@
         "btn_hidden_mobile": false,
         "tabs_design": "accordion",
         "tabs_design_mb": "accordion",
-        "tabs_position": "external",
+        "tabs_position": "inner",
         "enable_first_tab": false,
         "tabs_layout": "tab",
         "bg": "#f6f6f8",
