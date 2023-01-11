@@ -274,7 +274,7 @@ endif -%}
                   <div data-product-single-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-single-product-badge lazyloadt4s t4s-pa t4s-pe-none t4s-op-0" data-rendert4s="css:{{ 'single-pr-badge.css' | asset_url }}"></div>
                   {%- render 'product-btns',se_stts:se_stts, product:product -%}
                 </div>
-
+            
           {%- when 'thumbnails_left' or 'thumbnails_bottom' or 'thumbnails_right' or 'without_thumbnails' -%}
 
           {%- liquid
@@ -296,6 +296,7 @@ endif -%}
                       if media.preview_image and media.preview_image.alt contains 'break--360'
                         break
                       endif
+                   
                       render 'product-thumbnail', media:media, imgatt:imgatt, variant_images:variant_images, loop:enable_video_looping, mute:enable_video_muting, autoplay:enable_video_autoplaying, height:height, se_id:se_id, isMediaHidden:isMediaHidden, current_option1:current_option1, current_option2:current_option2, current_option3:current_option3, ops_name:ops_name, ops_name_1:ops_name_1, ops_name_2:ops_name_2, ops_name_3:ops_name_3, class_pswp_disable:class_pswp_disable, variants_size:variants_size
                     endfor 
                     if has_media_360
