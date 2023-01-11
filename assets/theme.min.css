@@ -246,6 +246,9 @@ div, p, a, span, li {
 .custom-newsletter .is--col-email {
     margin-bottom: 20px !important;
 }
+color {
+    color: #89B6A6;
+}
 
 @media screen and (max-width: 767px) {
   .margin-both {
