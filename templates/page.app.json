@@ -884,6 +884,40 @@
         "code_cus_css": ""
       }
     },
+    "b83e6bf2-846d-461e-a943-009734007cf4": {
+      "type": "image-with-slider",
+      "blocks": {
+        "8166e2ae-8172-43d8-9978-a8628d6db113": {
+          "type": "select",
+          "settings": {
+            "side_custom_slider": "shopify:\/\/shop_images\/image_2_5.png"
+          }
+        },
+        "fb933251-bf15-4274-9b0d-ddd7a89322e4": {
+          "type": "select",
+          "settings": {
+            "side_custom_slider": "shopify:\/\/shop_images\/image_2_5.png"
+          }
+        },
+        "33fb6e94-9004-42bf-ad36-db833e90288f": {
+          "type": "select",
+          "settings": {
+            "side_custom_slider": "shopify:\/\/shop_images\/image_2_5.png"
+          }
+        }
+      },
+      "block_order": [
+        "8166e2ae-8172-43d8-9978-a8628d6db113",
+        "fb933251-bf15-4274-9b0d-ddd7a89322e4",
+        "33fb6e94-9004-42bf-ad36-db833e90288f"
+      ],
+      "settings": {
+        "side_custom_heading": "Eat <color>healthier<\/color>",
+        "side_custom_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "button_label": "Join for free",
+        "button_link": "#"
+      }
+    },
     "273a5263-0802-4014-971e-d539174b79e5": {
       "type": "image_text",
       "blocks": {
@@ -1535,6 +1569,7 @@
     "b67de988-8d36-4d5f-aa59-4b220d0f9214",
     "683fae37-7c96-456c-a8ae-0d68067639eb",
     "166352598460ced848",
+    "b83e6bf2-846d-461e-a943-009734007cf4",
     "273a5263-0802-4014-971e-d539174b79e5",
     "19515395-74e1-4cb7-884a-dd5fbc28e78f",
     "1663526258f2deb053",
