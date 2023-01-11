@@ -257,6 +257,12 @@ color {
     justify-content: space-between;
     width: 100%;
 }
+input#StudentVerifyEmail {
+    background-color: #bbd6d0;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 8px;
+}
 button#StudentVerifySubmit {
     background-color: #fff;
     border-color: #a5c0ab;
