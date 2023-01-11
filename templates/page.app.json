@@ -342,31 +342,31 @@
     "76f69dc0-1ca7-4499-bbfc-372efe1e6dc4": {
       "type": "pricing",
       "blocks": {
-        "038c283f-3832-47a7-96ae-808ae5c3d29a": {
+        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "value": "50% OFF",
+            "value": "",
             "off": "",
-            "title": "YEARLY",
-            "text": "€51.99",
-            "crossedprice": "€109.99",
-            "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
+            "title": "QUARTERLY",
+            "text": "€35.99",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
             "button_label": "Subscribe",
             "button_link": "#",
             "link": ""
           }
         },
-        "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59": {
+        "038c283f-3832-47a7-96ae-808ae5c3d29a": {
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "value": "35% OFF",
+            "value": "Best value",
             "off": "",
-            "title": "QUARTERLY",
-            "text": "€24.99",
-            "crossedprice": "€35.99",
-            "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
+            "title": "YEARLY",
+            "text": "€109.99",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
             "button_label": "Subscribe",
             "button_link": "#",
             "link": ""
@@ -376,12 +376,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "value": "20% OFF",
+            "value": "",
             "off": "",
             "title": "MONTHLY",
-            "text": "€10.99",
-            "crossedprice": "€14.49",
-            "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
+            "text": "€14.49",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
             "button_label": "Subscribe",
             "button_link": "#",
             "link": ""
@@ -389,8 +389,8 @@
         }
       },
       "block_order": [
-        "038c283f-3832-47a7-96ae-808ae5c3d29a",
         "6a89b3de-4e5c-4a03-b5ec-6d3492f14f59",
+        "038c283f-3832-47a7-96ae-808ae5c3d29a",
         "02061297-89a0-4550-bd3a-0acfb91d003d"
       ],
       "settings": {
