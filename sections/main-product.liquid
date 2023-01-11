@@ -4092,7 +4092,20 @@ endif -%}
     border-radius: 10px;
     color: #3a3a3a;
 }
-  
+  .t4s-product__media-wrapper {
+    position: relative;
+}
+  .variant-main {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    left: 40px;
+    padding: 0 40px;
+}
     .custom-variant-wrap {
     display: flex;
     align-items: center;
@@ -4110,6 +4123,7 @@ a.dynamic {
     display: block !important;
   margin-right: 10px;
     border: solid 1px #a5c0ab;
+    border-radius: 50px;
   }
 .variant-heading.active {
     display: none;
