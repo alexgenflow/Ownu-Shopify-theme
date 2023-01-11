@@ -241,7 +241,7 @@ div, p, a, span, li {
   }
 .custom-newsletter input.t4s-newsletter__email {
     border: solid 1px #ccc;
-    border-radius: 30px;
+    border-radius: 30px !important;
 }
 
 @media screen and (max-width: 767px) {
