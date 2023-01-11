@@ -261,7 +261,7 @@ div, p, a, span, li {
     margin-left: 10px;
 }
  .custom-newsletter button.t4s-newsletter__submit {
-    width: 100%;
+    width: 100% !important;
     min-width: auto;
 }
 }
