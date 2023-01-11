@@ -33,68 +33,6 @@
         "pd_mb": ""
       }
     },
-    "e6e5cb27-8c76-4101-b786-6d529e760afb": {
-      "type": "about_us",
-      "blocks": {
-        "template--15973402050760__e6e5cb27-8c76-4101-b786-6d529e760afb-1673454117eb6c570d-1": {
-          "type": "bl_text",
-          "settings": {
-            "text": "<p><strong>Get your student discount now!<\/strong><\/p>",
-            "mgb": 25,
-            "mgb_mb": 10
-          }
-        },
-        "4507ca5f-d9bb-4b59-92a5-35e2b089ea83": {
-          "type": "bl_button",
-          "settings": {
-            "button_label": "Get your student discount now!",
-            "button_link": "#",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "primary",
-            "button_effect": "default",
-            "mgb": 15,
-            "mgb_mb": 10
-          }
-        },
-        "7d056bd6-ddf0-41e1-9a12-ad4879687d0c": {
-          "type": "bl_text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "mgb": 25,
-            "mgb_mb": 10
-          }
-        }
-      },
-      "block_order": [
-        "template--15973402050760__e6e5cb27-8c76-4101-b786-6d529e760afb-1673454117eb6c570d-1",
-        "4507ca5f-d9bb-4b59-92a5-35e2b089ea83",
-        "7d056bd6-ddf0-41e1-9a12-ad4879687d0c"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "txt_align": "center",
-        "image_ratio": "ratio16_9",
-        "image_size": "cover",
-        "image_position": "8",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "#f5f9f8",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "sidebar-page": {
       "type": "sidebar-page",
       "disabled": true,
@@ -174,7 +112,7 @@
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
-            "text_mgb": 15,
+            "text_mgb": 20,
             "hidden_mobile": false,
             "text_fs_mb": 16,
             "text_lh_mb": 0,
@@ -240,7 +178,6 @@
   "order": [
     "heading",
     "main",
-    "e6e5cb27-8c76-4101-b786-6d529e760afb",
     "sidebar-page",
     "8b44a90b-f116-404e-b80a-136beb6ec2b0"
   ]
