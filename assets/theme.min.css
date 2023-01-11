@@ -270,4 +270,7 @@ color {
     width: 100% !important;
     min-width: auto;
 }
+  .mobile-spacing {
+    padding: 36px 0;
+}
 }
