@@ -1,12 +1,223 @@
+
+<section class="custom_text_section">
+  <div class="container">
+    <div class="row">
+      <div class="side_content">
+        <h2>{{ section.settings.side_custom_heading }}</h2>
+          <p>{{ section.settings.side_custom_text }}</p>
+        {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+        {%- capture ariaLabel -%}
+          {{- section.settings.button_label -}}
+          {%- if section.settings.button_link.type == 'frontpage_link' -%}
+            : {{ 'homepage.general.title' | t -}}
+          {%- elsif section.settings.button_link.type == 'catalog_link' -%}
+            : {{ 'collections.catalog.title' | t -}}
+          {%- elsif section.settings.button_link.object.title -%}
+            : {{ section.settings.button_link.object.title -}}
+          {%- endif -%}
+        {%- endcapture -%}
+
+        <a href="{{ section.settings.button_link }}"
+          class="btn"
+          aria-label="{{ ariaLabel }}">
+          {{- section.settings.button_label | escape -}}
+        </a>
+      {% endif %}
+      </div>
+      <div class="image">
+        <div class="join_slider Carousel-item">
+            {% for block in section.blocks %}
+              <div class="join_item">
+                <div class="join_item_content">
+              <img src="{{ block.settings.side_custom_slider | img_url: 'master' }}" />    
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Join The Familia",
+    "settings": [
+		{
+		"type": "text",
+		"id": "side_custom_heading",
+		"label": "Add the heading"
+		},
+		{
+		"type": "textarea",
+		"id": "side_custom_text",
+		"label": "Add the content"
+		},
+		{
+      "type": "text",
+      "id": "button_label",
+      "label": {
+        "cs": "Text tlačítka",
+        "da": "Knaptekst",
+        "de": "Schaltflächenbeschriftung",
+        "en": "Button label",
+        "es": "Etiqueta de botón",
+        "fi": "Tekstipainike",
+        "fr": "Texte du bouton",
+        "it": "Etichetta pulsante",
+        "ja": "ボタンのラベル",
+        "ko": "버튼 레이블",
+        "nb": "Knappetikett",
+        "nl": "Knoplabel",
+        "pl": "Przycisk z etykietą",
+        "pt-BR": "Etiqueta de botão",
+        "pt-PT": "Etiqueta do botão",
+        "sv": "Knappetikett",
+        "th": "ป้ายกำกับปุ่ม",
+        "tr": "Düğme etiketi",
+        "vi": "Nhãn nút",
+        "zh-CN": "按钮标签",
+        "zh-TW": "按鈕標籤"
+      }
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": {
+        "cs": "Tlačítkový odkaz",
+        "da": "Knaplink",
+        "de": "Schaltflächenlink",
+        "en": "Button link",
+        "es": "Enlace de botón",
+        "fi": "Painikelinkki",
+        "fr": "Lien du bouton",
+        "it": "Link pulsante",
+        "ja": "ボタンのリンク",
+        "ko": "버튼 링크",
+        "nb": "Kobling for knapp",
+        "nl": "Knoplink",
+        "pl": "Link przycisku",
+        "pt-BR": "Link de botão",
+        "pt-PT": "Ligação do botão",
+        "sv": "Knapplänk",
+        "th": "ลิงก์ปุ่ม",
+        "tr": "Düğme bağlantısı",
+        "vi": "Liên kết trên nút",
+        "zh-CN": "按钮链接",
+        "zh-TW": "按鈕連結"
+      }
+    }
+	],
+	"blocks": [
+		{
+			"name": "Carousel items",
+			"type": "select",
+			"settings": [
+		{
+		"type": "image_picker",
+		"id": "side_custom_slider",
+		"label": "Add slider images"
+		}
+	]
+		}
+		],
+	"presets": [
+	{
+		"name": "Join The Familia",
+		"category": "Text with image Custom"
+	}
+		]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<style>
+  .custom_text_section {padding: 5% 0;}
+  .custom_text_section .container {max-width: 1200px; margin: 0 auto; padding-left: 55px;
+    padding-right: 55px;}
+  .custom_text_section .container .row {display: flex; align-items: center; justify-content: center;}
+  .custom_text_section .container .row .image {width: 50%;}
+  .custom_text_section .container .row .side_content {width: 50%; padding: 35px 35px 35px 0; }
+  .custom_text_section .container .row .side_content h2 {font-weight: 600; font-size: 35px; margin-bottom: 46px;}
+  .custom_text_section .container .row .side_content p {color: black; margin-bottom: 46px;}
+  .custom_text_section .container .row .side_content li {color: black; font-size: 17px;}
+  .join_slider.Carousel-item.slick-initialized.slick-slider .slick-arrow {
+    display: none !important;
+}
+  .custom_text_section .slick-dots {
+    padding-top: 15px;
+}
 
-{% javascript %}
-{% endjavascript %}
+  .custom_text_section .slick-dots li {
+    width: auto;
+}
+  .custom_text_section slick-dots li a:before, .slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+/*     content: "•"; */
+    width: 17px;
+    height: 8px;
+    font-family: "slick-icons, sans-serif";
+    font-size: 0px;
+    line-height: 20px;
+    text-align: center;
+    opacity: 0.41;
+    border-radius: 4px;
+    background-color: #ca4c6d;
+    color: #ca4c6d;
+}
+  .custom_text_section .slick-dots li button {
+    height: 8px;
+    transition: .4s;
+} 
+  .custom_text_section .slick-dots li button:before {
+    background-color: #ca4c6d;
+} 
+ .join_item_content img {
+    border-radius: 10px;
+}
+  .custom_text_section .slick-dots li.slick-active button {
+    width: 45px;
+    height: 8px;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+    background-color: #ca4c6d;
+} 
+  @media screen and (max-width: 767px) {
+     .custom_text_section .container {
+       padding-left: 22px;
+    	padding-right: 22px;
+     }
+     .custom_text_section .container .row {
+       flex-wrap: wrap;
+     }
+    .custom_text_section .container .row .image {
+      width: 100%;
+    }
+     .custom_text_section .container .row .side_content {
+       padding: 0 0 35px 0;
+       width: 100%;
+     }
+    .custom_text_section .container .row .side_content h2 {
+      font-size: 27px;
+    }
+  }
+  </style>
+
+
+  <script>
+    $('.Carousel-item').slick({
+	slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    loop: true,
+    autoplay: true,
+	cssEase: "linear",
+    infinite: true,
+  	pauseOnHover: false,
+  
+});
+  </script>
