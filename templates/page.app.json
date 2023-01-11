@@ -1012,7 +1012,7 @@
         "91cc7ccc-ac95-4ab5-8e97-72151626d840"
       ],
       "settings": {
-        "main_heading": "<color>Transform<\/color> with ownu",
+        "main_heading": "Transform with ownu",
         "text_below_heading": "",
         "btn-label": "Join for free",
         "btn-link": "#"
@@ -1517,8 +1517,8 @@
         "parallax": false,
         "mg": "",
         "pd": "50px,,50px,",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
+        "mg_mb": ",,0px,",
+        "pd_mb": "30px,,30px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
