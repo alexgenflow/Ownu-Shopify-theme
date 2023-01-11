@@ -895,7 +895,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Train <color>safer<\/color>",
+            "heading": "Train safer",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -1302,6 +1302,74 @@
         "code_cus_css": ""
       }
     },
+    "ff8c5a43-3a90-443f-b9d4-3a05811130c0": {
+      "type": "app-pricing",
+      "blocks": {
+        "1857e276-90ce-4382-a6ee-8602d7af0067": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "8d6d41be-ee83-485c-b230-6efd1da36cba": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "ef3f4002-b418-420a-8e57-47affa9cc57f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1857e276-90ce-4382-a6ee-8602d7af0067",
+        "8d6d41be-ee83-485c-b230-6efd1da36cba",
+        "ef3f4002-b418-420a-8e57-47affa9cc57f"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Talk about your brand",
+        "text-1": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-2": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-3": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-4": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "1663525992c8b26e01": {
       "type": "accordion",
       "disabled": true,
@@ -1475,6 +1543,7 @@
     "19515395-74e1-4cb7-884a-dd5fbc28e78f",
     "1663526258f2deb053",
     "1663526308163da4d9",
+    "ff8c5a43-3a90-443f-b9d4-3a05811130c0",
     "1663525992c8b26e01",
     "1663526334ff4e5466"
   ]
