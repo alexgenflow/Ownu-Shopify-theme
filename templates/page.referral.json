@@ -215,7 +215,7 @@
         "pos_text": "default",
         "fs_title": 16,
         "fs_text": 21.5,
-        "fs_title_mb": 22,
+        "fs_title_mb": 16,
         "fs_text_mb": 12,
         "image_ratio": "ratioadapt",
         "image_size": "contain",
