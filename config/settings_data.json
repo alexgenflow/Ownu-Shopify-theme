@@ -253,7 +253,7 @@
           "footer-4": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Categories",
+              "col_heading": "Information",
               "menu": "footer",
               "menu_style": "1",
               "col_dk": "3",
@@ -269,7 +269,7 @@
           "footer-6": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Infomation",
+              "col_heading": "Support",
               "menu": "company",
               "menu_style": "1",
               "col_dk": "3",
