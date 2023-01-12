@@ -166,7 +166,7 @@
         "56e67368-7424-4d73-8f14-dacdda4c59be": {
           "type": "tab_rivui",
           "settings": {
-            "title": "Reviews",
+            "title": "Reviews  ★★★★★",
             "review_liquid": ""
           }
         },
@@ -463,7 +463,7 @@
             "fw_pr": 600,
             "lh_pr": 0,
             "ls_pr": 0,
-            "pr_title_color": "#222",
+            "pr_title_color": "#222222",
             "pr_title_color_hover": "#56cfe1"
           }
         },
