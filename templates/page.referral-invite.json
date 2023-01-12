@@ -451,6 +451,49 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "b2649e32-6a8c-45b0-9505-6eee1cbdec24": {
+      "type": "transformation-slider",
+      "blocks": {
+        "03103eea-b83e-433a-a297-17da60fbd31f": {
+          "type": "select",
+          "settings": {
+          }
+        },
+        "60155410-3181-4dee-96b4-810d4cd75c16": {
+          "type": "select",
+          "settings": {
+          }
+        },
+        "f65830b5-1063-408d-a1d5-64387da472c9": {
+          "type": "select",
+          "settings": {
+          }
+        },
+        "f8b7be8d-c1f8-40a7-9e37-bb230a7ed610": {
+          "type": "select",
+          "settings": {
+          }
+        },
+        "e81f510c-01e3-48bb-9577-df726f4d7ae3": {
+          "type": "select",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "03103eea-b83e-433a-a297-17da60fbd31f",
+        "60155410-3181-4dee-96b4-810d4cd75c16",
+        "f65830b5-1063-408d-a1d5-64387da472c9",
+        "f8b7be8d-c1f8-40a7-9e37-bb230a7ed610",
+        "e81f510c-01e3-48bb-9577-df726f4d7ae3"
+      ],
+      "settings": {
+        "main_heading": "",
+        "text_below_heading": "",
+        "btn-label": "",
+        "btn-link": ""
+      }
     }
   },
   "order": [
@@ -460,6 +503,7 @@
     "7eab8293-6819-466a-ae6b-e7c5cc026ec3",
     "369c445f-29cc-44e3-b192-33900bd374c1",
     "80cb6e6e-582f-469c-85d0-882f82cab437",
-    "07b7370d-364d-40cf-a922-134181e13c20"
+    "07b7370d-364d-40cf-a922-134181e13c20",
+    "b2649e32-6a8c-45b0-9505-6eee1cbdec24"
   ]
 }
