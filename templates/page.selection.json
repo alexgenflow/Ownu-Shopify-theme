@@ -203,6 +203,7 @@
         "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-4"
       ],
       "settings": {
+        "custom-css": "shop-selection",
         "image_ratio": "ratioadapt",
         "image_size": "cover",
         "image_position": "8",
