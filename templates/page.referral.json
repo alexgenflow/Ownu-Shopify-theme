@@ -483,6 +483,7 @@
         "003da132-13ff-4306-8640-0e2f7bfc2f59"
       ],
       "settings": {
+        "custom-css": "referral-faqs",
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "FAQ",
@@ -490,12 +491,12 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "accor_des": "2",
-        "title_cl": "#222",
+        "title_cl": "#222222",
         "bg_title_cl": "#ffffff",
-        "title_active_cl": "#000",
+        "title_active_cl": "#000000",
         "bg_title_active_cl": "#ffffff",
         "content_cl": "#878787",
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "content_align": "t4s-text-start",
         "layout": "t4s-cus-width",
         "custom_width": 1000,
