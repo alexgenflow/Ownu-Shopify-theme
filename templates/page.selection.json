@@ -21,6 +21,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -56,11 +57,173 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "13650485-aba8-4770-ace7-036283fbe3be": {
+      "type": "banner",
+      "blocks": {
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/image_28.webp",
+            "b_link": "shopify:\/\/collections\/shop-equipment",
+            "open_link": "_self",
+            "img_effect": "zoom",
+            "b_effect": "none",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 30,
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "SHOP EQUIPMENT",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 36,
+            "text_lh": 46,
+            "text_fw": 900,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "fadeIn"
+          }
+        },
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-3": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/OWNU_LOUNGEWEAR_BANNER-MOBILE.webp",
+            "b_link": "shopify:\/\/collections\/loungewear",
+            "open_link": "_self",
+            "img_effect": "zoom",
+            "b_effect": "none",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 30,
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-4": {
+          "type": "custom_text",
+          "settings": {
+            "text": "SHOP APPAREL",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 36,
+            "text_lh": 46,
+            "text_fw": 900,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "fadeIn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-0",
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-1",
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-3",
+        "template--15973993021640__13650485-aba8-4770-ace7-036283fbe3be-16735136209c1fa5c5-4"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "13650485-aba8-4770-ace7-036283fbe3be"
   ]
 }
