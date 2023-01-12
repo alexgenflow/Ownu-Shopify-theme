@@ -507,32 +507,32 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 01",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "How do I get the discount?",
+            "content": "<p>Choose any of our membership options and the discount is automatically applied at check out<\/p>"
           }
         },
         "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-1": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 02",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "Can I cancel anytime?",
+            "content": "<p>If whatever reason you don't love the app, cancel anytime and your subscription will not renew.<\/p>"
           }
         },
         "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-2": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 03",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "Can I get this offer at any other time?",
+            "content": "<p>No, this is an exclusive offer we only give out to loyal memerbs of the OWNU app who genuinely believe they have a friend<\/p>"
           }
         },
         "822b875c-31b8-4a65-b62f-91a3fb7964a4": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Accordion item",
-            "content": ""
+            "title": "Refer a Friend T&C's",
+            "content": "<p>https:\/\/ownufit.com\/pages\/p-b-ownu-referral-scheme-terms-amp-conditions<\/p>"
           }
         }
       },
@@ -546,11 +546,11 @@
         "custom-css": "referral-faqs",
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Accordion",
+        "top_heading": "FAQ",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "accor_des": "1",
+        "accor_des": "2",
         "title_cl": "#222",
         "bg_title_cl": "#fff",
         "title_active_cl": "#000",
