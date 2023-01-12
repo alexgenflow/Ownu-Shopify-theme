@@ -340,8 +340,8 @@
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-1": {
           "type": "quote",
           "settings": {
-            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "title": "Author's name",
+            "content": "<p>It's awesome. I love everything Hanna does. And this is just another great thing from her. ❤Customer service is really friendly as well. A++<\/p>",
+            "title": "Bonnita Cazares",
             "pos": "",
             "rating": 0
           }
@@ -349,8 +349,8 @@
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-2": {
           "type": "quote",
           "settings": {
-            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "title": "Author's name",
+            "content": "<p>The most helpfull and aestetic fitness and NUTRITION app 💚💚💚<\/p>",
+            "title": "Zlatilina Kostova",
             "pos": "",
             "rating": 0
           }
@@ -358,8 +358,17 @@
         "71904b1c-30e8-451d-a43e-71aaa55b0812": {
           "type": "quote",
           "settings": {
-            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "title": "Author's name",
+            "content": "<p>I really like the app! So many different workouts to do, for different goals. Beside that the meal plans are really great! I recommend it<\/p>",
+            "title": "Famke Louise Kremer",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "5d623061-d7fb-4d1a-bb8e-ff0e7c78cdca": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>Love this app!<\/strong><\/p><p>I love this app, it’s so easy to use. I really like the fact that all of the plans are on there and you get the nutrition plan included too!<\/p>",
+            "title": "SPLearn",
             "pos": "",
             "rating": 0
           }
@@ -369,7 +378,8 @@
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-0",
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-1",
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-2",
-        "71904b1c-30e8-451d-a43e-71aaa55b0812"
+        "71904b1c-30e8-451d-a43e-71aaa55b0812",
+        "5d623061-d7fb-4d1a-bb8e-ff0e7c78cdca"
       ],
       "settings": {
         "custom-css": "reviews",
@@ -386,7 +396,7 @@
         "cl_bg_item": "",
         "bdr": 0,
         "content_align": "text-start",
-        "col_dk": "3",
+        "col_dk": "4",
         "col_tb": "2",
         "col_mb": "1",
         "space_h_item": "30",
