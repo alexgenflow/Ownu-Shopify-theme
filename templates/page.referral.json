@@ -324,6 +324,101 @@
         "button_label": "REFER A FRIEND",
         "button_link": "#"
       }
+    },
+    "ae8378fb-e52a-4012-8789-73d633aa078e": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-0": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "title": "Author's name",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-1": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "title": "Author's name",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-2": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "title": "Author's name",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "71904b1c-30e8-451d-a43e-71aaa55b0812": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "title": "Author's name",
+            "pos": "",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-0",
+        "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-1",
+        "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-2",
+        "71904b1c-30e8-451d-a43e-71aaa55b0812"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Testimonials",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "1",
+        "cl_name": "#222222",
+        "cl_content": "#878787",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-start",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -332,6 +427,7 @@
     "sidebar-page",
     "3a0b2f4b-5e08-4eed-9418-cf79eade406c",
     "b427ddd1-6407-4359-8623-bee2b807f6f0",
-    "16b11e58-06c4-45e3-bc26-fa5ae3e622dd"
+    "16b11e58-06c4-45e3-bc26-fa5ae3e622dd",
+    "ae8378fb-e52a-4012-8789-73d633aa078e"
   ]
 }
