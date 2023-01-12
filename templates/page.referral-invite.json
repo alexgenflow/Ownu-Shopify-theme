@@ -499,6 +499,76 @@
         "btn-label": "Join for free",
         "btn-link": "#"
       }
+    },
+    "46c58418-b38e-4a83-a405-9aa93d4aa2f5": {
+      "type": "accordion",
+      "blocks": {
+        "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 01",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 02",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 03",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "822b875c-31b8-4a65-b62f-91a3fb7964a4": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Accordion item",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-0",
+        "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-1",
+        "template--15974180323528__46c58418-b38e-4a83-a405-9aa93d4aa2f5-16735405832006a4ad-2",
+        "822b875c-31b8-4a65-b62f-91a3fb7964a4"
+      ],
+      "settings": {
+        "custom-css": "referral-faqs",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Accordion",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#fff",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#fff",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-cus-width",
+        "custom_width": 1000,
+        "cl_bg": "#ebf3f1",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -509,6 +579,7 @@
     "369c445f-29cc-44e3-b192-33900bd374c1",
     "80cb6e6e-582f-469c-85d0-882f82cab437",
     "07b7370d-364d-40cf-a922-134181e13c20",
-    "b2649e32-6a8c-45b0-9505-6eee1cbdec24"
+    "b2649e32-6a8c-45b0-9505-6eee1cbdec24",
+    "46c58418-b38e-4a83-a405-9aa93d4aa2f5"
   ]
 }
