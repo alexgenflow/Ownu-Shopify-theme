@@ -478,13 +478,20 @@
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
           }
+        },
+        "9e62e8b0-86f1-46eb-9eb1-1fa8d2d4d93b": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/1.webp"
+          }
         }
       },
       "block_order": [
         "03103eea-b83e-433a-a297-17da60fbd31f",
         "60155410-3181-4dee-96b4-810d4cd75c16",
         "f65830b5-1063-408d-a1d5-64387da472c9",
-        "f8b7be8d-c1f8-40a7-9e37-bb230a7ed610"
+        "f8b7be8d-c1f8-40a7-9e37-bb230a7ed610",
+        "9e62e8b0-86f1-46eb-9eb1-1fa8d2d4d93b"
       ],
       "settings": {
         "main_heading": "Transformations",
