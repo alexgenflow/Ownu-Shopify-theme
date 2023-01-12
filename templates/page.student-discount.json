@@ -181,7 +181,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
+            "title": "",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -197,7 +197,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
+            "title": "",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -213,7 +213,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
+            "title": "",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -232,12 +232,12 @@
         "template--15973402050760__6c2f0a1b-9e1a-4c40-9962-5654d5c5b7af-167351016292bc5076-2"
       ],
       "settings": {
-        "custom-css": "",
-        "design_heading": "2",
+        "custom-css": "get-discount",
+        "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
+        "top_heading": "How it works?",
         "icon_heading": "las la-gem",
-        "top_subheading": "",
+        "top_subheading": "Just 3 simple steps and 20% discount is YOURS!",
         "tophead_mb": 30,
         "text_align": "center",
         "pos_text": "default",
