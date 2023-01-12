@@ -253,7 +253,7 @@
         "enable_video_muting": true,
         "enable_video_autoplaying": true,
         "eff": "fade",
-        "nav_btn": true,
+        "nav_btn": false,
         "btn_vi": "always",
         "btn_owl": "outline",
         "btn_shape": "round",
