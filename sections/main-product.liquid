@@ -695,7 +695,7 @@ endif -%}
                 <div class="t4s-custom_{{bk_id}} t4s-pr__html" {{ block.shopify_attributes }}>{{bk_stts.page.content}}</div>
 
                 {%- when 'text' -%}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
-                <div class="{{ block.settings.custom-css }} t4s-richtext_{{bk_id}} t4s-pr__richtext" {{ block.shopify_attributes }}>{{bk_stts.text}}</div>
+                <div class="{{ block.settings.custom-css }} t4s-richtext_{{bk_id}} t4s-pr__richtext " style="--title-family:var(--font-family-{{bk_stts.fnt_df_pr}});--title-style:{{bk_stts.txt_tr_pr}};--title-size:{{bk_stts.size_pr}}px;--title-weight:{{bk_stts.fw_pr}};--title-line-height:{{lh_pr}};--title-spacing:{{bk_stts.ls_pr}}px;--title-color:{{bk_stts.pr_title_color}};--title-color-hover:{{bk_stts.pr_title_color}};" {{ block.shopify_attributes }}>{{bk_stts.text}}</div>
 
               {%- when 'custom_liquid' -%}
               <div class="t4s-liquid_{{bk_id}} t4s-pr__custom-liquid" {{ block.shopify_attributes }}>{{ bk_stts.custom_liquid }}</div>
@@ -3934,6 +3934,73 @@ endif -%}
               "id": "text",
               "label": "Text",
               "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+              },
+              {
+                "type": "select",
+                "id": "fnt_df_pr",
+                "label": "Font family",
+                "default": "1",
+                "options": [
+                  {
+                    "value": "1",
+                    "label": "Font family #1"
+                  },
+                  {
+                    "value": "2",
+                    "label": "Font family #2"
+                  },
+                  {
+                    "value": "3",
+                    "label": "Font family #3"
+                  }
+                ]
+              },
+              {
+                "type": "range",
+                "id": "size_pr",
+                "min": 10,
+                "max": 60,
+                "step": 0.5,
+                "label": "Font size",
+                "unit": "px",
+                "default": 16
+              },
+              {
+                "type": "range",
+                "id": "fw_pr",
+                "min": 300,
+                "max": 900,
+                "step": 100,
+                "label": "Font weight",
+                "default": 600
+              },
+              {
+                "type":"range",
+                "id":"lh_pr",
+                "label":"Line height",
+                "max":100,
+                "min":0,
+                "step":1,
+                "default":0,
+                "unit":"px",
+                "info":"Set is '0' use to default"            
+              },
+              {
+                "type": "range",
+                "id": "ls_pr",
+                "min": 0,
+                "max": 10,
+                "step": 0.1,
+                "label": "Letter spacing",
+                "info": "set is '0' use to default",
+                "unit": "px",
+                "default": 0
+              },
+              {
+                  "type": "color",
+                  "id": "pr_title_color",
+                  "label": "Product title",
+                  "default": "#222"
               }
            ]
         },
