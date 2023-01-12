@@ -277,6 +277,267 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "b138a3dc-7b2d-4f56-bf90-eb584ac657d4": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "3",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#ebf3f1"
+          }
+        },
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Workout Library",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 24,
+            "text_lh": 32,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "I’ve included all 40 of my workout plans in the OWNU app, so you always access expert-designed workouts. And with the built-in recommendation tool, you’ll find the perfect guide for you and your goals",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 21,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "4f9bf7f6-7054-4e7d-8413-149fdee8b00f": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/Pacific_Blue_Copy_9_2805e74d-a52a-4d2a-87a3-4fc9a01a2934.png",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 0,
+            "img_width_mb": 0,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 20,
+            "mgb_mb": 20
+          }
+        },
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-3": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "3",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#ebf3f1"
+          }
+        },
+        "a8c4f847-a94b-48a8-bfd4-8b429f90a808": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Custom Meal Plans",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#222",
+            "text_fs": 24,
+            "text_lh": 32,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "f5848fe5-0396-4649-9f6a-06ced4fe79ad": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Choose whether to show calorie targets based on your goals and biometrics to plan your nutritional intake for each day, and OWNU will automatically assemble your weekly shopping list.",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#222222",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "4e8dd50d-5260-40a7-aa4c-6a01f8bd800d": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/Pacific_Blue_Copy_6.png",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 0,
+            "img_width_mb": 0,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 20,
+            "mgb_mb": 20
+          }
+        },
+        "54e6e430-dd73-47ad-9e96-50fdeab67510": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "3",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#ebf3f1"
+          }
+        },
+        "bd101b46-51b3-4b30-8d84-c77b4f01651f": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Text",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "3ff01fdf-0407-46cd-a331-e48cc64908bd": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "3",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#ebf3f1"
+          }
+        },
+        "ac1cba58-0dbf-448c-a5f8-fe6776a2f74c": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Text",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-0",
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-1",
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-2",
+        "4f9bf7f6-7054-4e7d-8413-149fdee8b00f",
+        "template--15974180323528__b138a3dc-7b2d-4f56-bf90-eb584ac657d4-16735267805454ecac-3",
+        "a8c4f847-a94b-48a8-bfd4-8b429f90a808",
+        "f5848fe5-0396-4649-9f6a-06ced4fe79ad",
+        "4e8dd50d-5260-40a7-aa4c-6a01f8bd800d",
+        "54e6e430-dd73-47ad-9e96-50fdeab67510",
+        "bd101b46-51b3-4b30-8d84-c77b4f01651f",
+        "3ff01fdf-0407-46cd-a331-e48cc64908bd",
+        "ac1cba58-0dbf-448c-a5f8-fe6776a2f74c"
+      ],
+      "settings": {
+        "custom-css": "",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -284,6 +545,7 @@
     "main",
     "sidebar-page",
     "7eab8293-6819-466a-ae6b-e7c5cc026ec3",
-    "369c445f-29cc-44e3-b192-33900bd374c1"
+    "369c445f-29cc-44e3-b192-33900bd374c1",
+    "b138a3dc-7b2d-4f56-bf90-eb584ac657d4"
   ]
 }
