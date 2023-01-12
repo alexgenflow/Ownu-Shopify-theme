@@ -197,7 +197,7 @@
           "type": "image",
           "settings": {
             "image_child": "shopify:\/\/shop_images\/OWNU_Symbol_Logo_Green_1_2.png",
-            "img_link": "",
+            "img_link": "#",
             "open_link": "_self",
             "img_width": 0,
             "img_width_mb": 0,
@@ -206,8 +206,8 @@
             "img_align_mobile": "center",
             "b_effect": "none",
             "hidden_mobile": false,
-            "mgb": 20,
-            "mgb_mb": 20
+            "mgb": 25,
+            "mgb_mb": 25
           }
         },
         "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-1": {
@@ -225,17 +225,17 @@
             "text_shadow": false,
             "text_mgb": 20,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 26,
+            "text_lh_mb": 36,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10
+            "text_mgb_mobile": 20
           }
         },
         "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-2": {
           "type": "custom_text",
           "settings": {
             "text": "Join Europe’s leading female fitness platform by Hanna Oberg. Join thousands of women taking<br> control of their training routines and achieving their goals with OWNU.",
-            "remove_br_tag": false,
+            "remove_br_tag": true,
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
