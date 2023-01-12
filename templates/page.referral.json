@@ -331,10 +331,10 @@
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-0": {
           "type": "quote",
           "settings": {
-            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "title": "Author's name",
+            "content": "<p>Love love love. I downloaded this in December and I see the results. And the app is just great!!! Customer service is fantastic!!!!!<\/p>",
+            "title": "Juliet Tejada",
             "pos": "",
-            "rating": 5
+            "rating": 0
           }
         },
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-1": {
@@ -343,7 +343,7 @@
             "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "title": "Author's name",
             "pos": "",
-            "rating": 5
+            "rating": 0
           }
         },
         "template--15974016385224__ae8378fb-e52a-4012-8789-73d633aa078e-167351950867ac8f3e-2": {
@@ -352,7 +352,7 @@
             "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "title": "Author's name",
             "pos": "",
-            "rating": 5
+            "rating": 0
           }
         },
         "71904b1c-30e8-451d-a43e-71aaa55b0812": {
@@ -361,7 +361,7 @@
             "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "title": "Author's name",
             "pos": "",
-            "rating": 5
+            "rating": 0
           }
         }
       },
@@ -374,13 +374,13 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Testimonials",
+        "top_heading": "99% Of Subscribers Would Recommend OWNU To Others",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
         "ter_des": "1",
         "cl_name": "#222222",
-        "cl_content": "#878787",
+        "cl_content": "#3c3e42",
         "cl_bd": "",
         "cl_bg_item": "",
         "bdr": 0,
