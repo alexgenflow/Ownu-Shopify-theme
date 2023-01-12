@@ -695,7 +695,9 @@ endif -%}
                 <div class="t4s-custom_{{bk_id}} t4s-pr__html" {{ block.shopify_attributes }}>{{bk_stts.page.content}}</div>
 
                 {%- when 'text' -%}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
-                <div class="{{ block.settings.custom-css }} t4s-richtext_{{bk_id}} t4s-pr__richtext " style="--title-family:var(--font-family-{{bk_stts.fnt_df_pr}});--title-style:{{bk_stts.txt_tr_pr}};--title-size:{{bk_stts.size_pr}}px;--title-weight:{{bk_stts.fw_pr}};--title-line-height:{{lh_pr}};--title-spacing:{{bk_stts.ls_pr}}px;--title-color:{{bk_stts.pr_title_color}};--title-color-hover:{{bk_stts.pr_title_color}};" {{ block.shopify_attributes }}>{{bk_stts.text}}</div>
+                <div class="{{ block.settings.custom-css }}>
+                    <p class="t4s-richtext_{{bk_id}} t4s-pr__richtext" style="--title-family:var(--font-family-{{bk_stts.fnt_df_pr}});--title-style:{{bk_stts.txt_tr_pr}};--title-size:{{bk_stts.size_pr}}px;--title-weight:{{bk_stts.fw_pr}};--title-line-height:{{lh_pr}};--title-spacing:{{bk_stts.ls_pr}}px;--title-color:{{bk_stts.pr_title_color}};--title-color-hover:{{bk_stts.pr_title_color}};"{{ block.shopify_attributes }}"> {{bk_stts.text}}</p>
+                     </div>
 
               {%- when 'custom_liquid' -%}
               <div class="t4s-liquid_{{bk_id}} t4s-pr__custom-liquid" {{ block.shopify_attributes }}>{{ bk_stts.custom_liquid }}</div>
@@ -3930,10 +3932,9 @@ endif -%}
                 "label": "Custom Css Class"
               },
               {
-              "type": "richtext",
+              "type": "text",
               "id": "text",
-              "label": "Text",
-              "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+              "label": "Text"
               },
               {
                 "type": "select",
