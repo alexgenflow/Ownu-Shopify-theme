@@ -207,6 +207,16 @@
               "mgb_mb": 24
             }
           },
+          "efc33ad7-99d8-4031-ac80-1e0c9a2d69f0": {
+            "type": "image",
+            "settings": {
+              "link_img": "",
+              "img_width": 0,
+              "img_width_mb": 0,
+              "mgb": 20,
+              "mgb_mb": 20
+            }
+          },
           "bad5a3e9-06f7-4660-97b5-906c4ecb9f49": {
             "type": "image",
             "disabled": true,
@@ -382,6 +392,7 @@
         "block_order": [
           "footer-0",
           "de84a111-3ed0-40a2-b86a-1e81488e9bff",
+          "efc33ad7-99d8-4031-ac80-1e0c9a2d69f0",
           "bad5a3e9-06f7-4660-97b5-906c4ecb9f49",
           "385c1474-1235-4a3d-b73c-9555b5f8dcfb",
           "33eb929e-a001-4d96-82a0-5aab1aaabaea",
