@@ -173,12 +173,117 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "369c445f-29cc-44e3-b192-33900bd374c1": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "rgba(0,0,0,0)"
+          }
+        },
+        "c0aeeb2e-e9c1-4c69-83b4-221d4fbf6782": {
+          "type": "image",
+          "settings": {
+            "image_child": "shopify:\/\/shop_images\/OWNU_Symbol_Logo_Green_1_2.png",
+            "img_link": "",
+            "open_link": "_self",
+            "img_width": 0,
+            "img_width_mb": 0,
+            "img_align": "center",
+            "img_align_tb": "center",
+            "img_align_mobile": "center",
+            "b_effect": "none",
+            "hidden_mobile": false,
+            "mgb": 20,
+            "mgb_mb": 20
+          }
+        },
+        "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "99% of subscribers would recommend OWNU to their friends",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 28,
+            "text_lh": 38,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Join Europe’s leading female fitness platform by Hanna Oberg. Join thousands of women taking<br> control of their training routines and achieving their goals with OWNU.",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 15,
+            "text_lh_mb": 24,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-0",
+        "c0aeeb2e-e9c1-4c69-83b4-221d4fbf6782",
+        "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-1",
+        "template--15974180323528__369c445f-29cc-44e3-b192-33900bd374c1-16735267805454ecac-2"
+      ],
+      "settings": {
+        "custom-css": "",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "7eab8293-6819-466a-ae6b-e7c5cc026ec3"
+    "7eab8293-6819-466a-ae6b-e7c5cc026ec3",
+    "369c445f-29cc-44e3-b192-33900bd374c1"
   ]
 }
