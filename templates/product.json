@@ -1049,9 +1049,7 @@
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
+            "advance_pr_list": "{{ section.settings.product.metafields.theme.grouped.value }}"
           }
         },
         "template--15818193862856__0c8de3e5-c0a1-4562-95c7-479fc6d126cb-16735204221c5d5933-4": {
