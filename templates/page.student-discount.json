@@ -159,8 +159,8 @@
       "settings": {
         "space_h_item": "30",
         "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
+        "space_h_item_mb": "30",
+        "space_v_item_mb": "30",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
