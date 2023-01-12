@@ -1114,6 +1114,7 @@
       ],
       "settings": {
         "product": "{{ product.metafields.custom.where_it_with_single_product.value }}",
+        "image": "{{ section.settings.product.metafields.custom.wear_it_with_lifestyle_.value }}",
         "enable_sticky_info": false,
         "media_layout": "thumbnails_bottom",
         "media_size": "medium",
