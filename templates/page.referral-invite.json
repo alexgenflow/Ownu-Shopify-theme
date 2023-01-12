@@ -345,6 +345,112 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "07b7370d-364d-40cf-a922-134181e13c20": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15974180323528__07b7370d-364d-40cf-a922-134181e13c20-167353135382107d01-0": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★★★★★ - <\/strong><\/p><p><strong>\"Love this app and all the workout guides\"<\/strong><\/p><p>Absolutely love this app so many workouts to choose from, I’m currently on my 3rd guide and have used the different workouts to build and then to cut (get lean) easy to follow too.<br\/>Would definitely recommend using it. The nutrition guide is fantastic too lots of recipes to choose from. 💚💚💚<\/p>",
+            "title": "- lyanti22",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "template--15974180323528__07b7370d-364d-40cf-a922-134181e13c20-167353135382107d01-1": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★★★★★ -<\/strong><\/p><p><strong> \"GAME CHANGER\"<\/strong><\/p><p>These guides have seriously changed the way I work out. It makes it so easy to switch between guides and I love being able to follow right along and track my progress. Hanna’s lifting guides and Joanna’s HIIT guides are fantastic and they keep me efficient and focused during my workouts. Absolutely recommend to anyone who wants a little more guidance and direction in their exercise routine!<\/p>",
+            "title": "- ISABUG",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "template--15974180323528__07b7370d-364d-40cf-a922-134181e13c20-167353135382107d01-2": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★★★★★ - <\/strong><\/p><p><strong>\"Love it!\"<\/strong><\/p><p>Love love love. I downloaded this in December and I see the results. And the app is just great!!! Customer service is fantastic!!!!!<\/p>",
+            "title": "Juliet Tejada",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "dd87e984-565f-42da-b912-d4896e0e9b54": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★★★★★ - <\/strong><\/p><p><strong>\"Love this app!\"<\/strong><\/p><p>I love this app, it’s so easy to use. I really like the fact that all of the plans are on there and you get the nutrition plan included too!<\/p>",
+            "title": "SPLearn",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "88656e66-aa1d-4b31-be6f-37d8acac3c69": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★★★★★ - <\/strong><\/p><p><strong>\"It's awesome.\"<\/strong><\/p><p>I love everything Hanna does. And this is just another great thing from her. ❤Customer service is really friendly as well. A++<\/p>",
+            "title": "Bonnita Cazares",
+            "pos": "",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15974180323528__07b7370d-364d-40cf-a922-134181e13c20-167353135382107d01-0",
+        "template--15974180323528__07b7370d-364d-40cf-a922-134181e13c20-167353135382107d01-1",
+        "template--15974180323528__07b7370d-364d-40cf-a922-134181e13c20-167353135382107d01-2",
+        "dd87e984-565f-42da-b912-d4896e0e9b54",
+        "88656e66-aa1d-4b31-be6f-37d8acac3c69"
+      ],
+      "settings": {
+        "custom-css": "reviews",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "See what others are saying",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "1",
+        "cl_name": "#222222",
+        "cl_content": "#3c3e42",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-start",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -353,6 +459,7 @@
     "sidebar-page",
     "7eab8293-6819-466a-ae6b-e7c5cc026ec3",
     "369c445f-29cc-44e3-b192-33900bd374c1",
-    "80cb6e6e-582f-469c-85d0-882f82cab437"
+    "80cb6e6e-582f-469c-85d0-882f82cab437",
+    "07b7370d-364d-40cf-a922-134181e13c20"
   ]
 }
