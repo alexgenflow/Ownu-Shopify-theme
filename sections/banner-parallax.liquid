@@ -43,7 +43,7 @@
     --aspect-ratioapt: {{image_parallax.aspect_ratio | default:2 }};--aspect-ratioaptmb: {{image_mb.aspect_ratio | default: 2}};--aspect-ratio-cusdt : {{se_stts.height_dk}}px;--aspect-ratio-custb : {{se_stts.height_tb}}px;--aspect-ratio-cusmb :{{se_stts.height_mb}}px;
   {%- endcapture -%}
 {%- endif %}
-<div data-t4s-animate class="t4s-section-inner t4s_nt_se_{{sid}} t4s_se_{{sid}} {{stt_layout}} {{se_height}} {% if IsParallax == false %} t4s_position_{{se_stts.image_position}} {% endif %} t4s_cover t4scuspx1_{{se_stts.custom_mb}} t4scuspx2_{{se_stts.custom_tb}} t4scuspx3_{{se_stts.custom_dk}} {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto" data-optimumx="1.5"{% endif %} data-speed="0.2" {% render 'section_style',se_stts:se_stts,append_style:append_style -%} >
+<div data-t4s-animate class="{{ section.settings.custom-css }} t4s-section-inner t4s_nt_se_{{sid}} t4s_se_{{sid}} {{stt_layout}} {{se_height}} {% if IsParallax == false %} t4s_position_{{se_stts.image_position}} {% endif %} t4s_cover t4scuspx1_{{se_stts.custom_mb}} t4scuspx2_{{se_stts.custom_tb}} t4scuspx3_{{se_stts.custom_dk}} {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto" data-optimumx="1.5"{% endif %} data-speed="0.2" {% render 'section_style',se_stts:se_stts,append_style:append_style -%} >
   {{-html_layout[0]-}}        
   {%- if stt_layout == 't4s-se-container' -%}<div class="t4s-container-inner{% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s t4s-lz--fadeIn{% endif %}" {% if stt_image_bg != blank %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto" data-optimumx="1.5"{% endif %}>{% endif -%}
     
@@ -167,6 +167,11 @@
     "tag": "section",
     "class": "t4s-section t4s-section-all t4s_tp_parallax t4s_tp_cdt t4s-banner-parallax",
     "settings": [
+      {
+        "type": "text",
+        "id": "custom-css",
+        "label": "Custom Css Class"
+      },
       {
         "type": "header",
         "content": "1. General options"
