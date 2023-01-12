@@ -132,7 +132,7 @@
             "second_cl": "#fff",
             "pri_cl_hover": "#a5c0ab",
             "second_cl_hover": "#fff",
-            "fsbutton": 14,
+            "fsbutton": 16,
             "fwbutton": 400,
             "button_ls": 0,
             "button_mh": 42,
@@ -141,9 +141,9 @@
             "button_mgb": 0,
             "hidden_mobile": false,
             "button_icon_w_mb": 0,
-            "fsbutton_mb": 12,
-            "button_mh_mb": 36,
-            "button_pd_lr_mb": 15,
+            "fsbutton_mb": 15,
+            "button_mh_mb": 40,
+            "button_pd_lr_mb": 20,
             "button_ls_mb": 0,
             "button_mgb_mb": 0
           }
