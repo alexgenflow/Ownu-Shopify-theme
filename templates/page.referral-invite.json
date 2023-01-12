@@ -73,7 +73,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "",
             "padding_inner_mb": "",
-            "bg_cl": "#ebf3f1"
+            "bg_cl": "rgba(0,0,0,0)"
           }
         },
         "template--15974180323528__7eab8293-6819-466a-ae6b-e7c5cc026ec3-16735267805454ecac-1": {
@@ -162,7 +162,7 @@
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
-        "cl_bg": "",
+        "cl_bg": "#ebf3f1",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
