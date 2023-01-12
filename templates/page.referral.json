@@ -430,6 +430,84 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "337c515e-71af-484f-a3f4-93ea6cf2d078": {
+      "type": "accordion",
+      "blocks": {
+        "template--15974016385224__337c515e-71af-484f-a3f4-93ea6cf2d078-16735211692db92c3e-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How do I receive my link?",
+            "content": "<p>Click the “get my link” button above to be redirected to the OWNU App where you’ll receive your unique sharable link.<\/p>"
+          }
+        },
+        "template--15974016385224__337c515e-71af-484f-a3f4-93ea6cf2d078-16735211692db92c3e-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Will I receive cash?",
+            "content": "<p>YES! You’ll earn up to €15 cash back for every friend  who successfully signs up to the OWNU App using your unique link. (Plus your friend will receive up to €15 off too!)<\/p>"
+          }
+        },
+        "template--15974016385224__337c515e-71af-484f-a3f4-93ea6cf2d078-16735211692db92c3e-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How do I get paid?",
+            "content": "<p>Inside the OWNU App you’ll be able to track how much you’ve earned from referrals and withdraw your funds to your chosen bank account.<\/p>"
+          }
+        },
+        "1c489b85-a2bc-4123-9d37-6f90a19bf7a8": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How do I unlock additional bonuses?",
+            "content": "<p>When you successfully refer 5, 10 and 15 friends you'll receive €25, €50 or €100<\/p>"
+          }
+        },
+        "003da132-13ff-4306-8640-0e2f7bfc2f59": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Refer a Friend T&C's",
+            "content": "<p>https:\/\/ownufit.com\/pages\/p-b-ownu-referral-scheme-terms-amp-conditions<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974016385224__337c515e-71af-484f-a3f4-93ea6cf2d078-16735211692db92c3e-0",
+        "template--15974016385224__337c515e-71af-484f-a3f4-93ea6cf2d078-16735211692db92c3e-1",
+        "template--15974016385224__337c515e-71af-484f-a3f4-93ea6cf2d078-16735211692db92c3e-2",
+        "1c489b85-a2bc-4123-9d37-6f90a19bf7a8",
+        "003da132-13ff-4306-8640-0e2f7bfc2f59"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "FAQ",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "2",
+        "title_cl": "#222",
+        "bg_title_cl": "#ffffff",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#ffffff",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-cus-width",
+        "custom_width": 1000,
+        "cl_bg": "#ebf3f1",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -439,6 +517,7 @@
     "3a0b2f4b-5e08-4eed-9418-cf79eade406c",
     "b427ddd1-6407-4359-8623-bee2b807f6f0",
     "16b11e58-06c4-45e3-bc26-fa5ae3e622dd",
-    "ae8378fb-e52a-4012-8789-73d633aa078e"
+    "ae8378fb-e52a-4012-8789-73d633aa078e",
+    "337c515e-71af-484f-a3f4-93ea6cf2d078"
   ]
 }
