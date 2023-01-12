@@ -256,6 +256,74 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "16b11e58-06c4-45e3-bc26-fa5ae3e622dd": {
+      "type": "pricing",
+      "blocks": {
+        "2d5532b3-91ba-494c-a51c-f56df5d612a0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "62d002d8-f4bf-4afc-8cc4-81059e040614": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "42e5703b-03a4-431e-9efb-55ef9e2d6ce4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2d5532b3-91ba-494c-a51c-f56df5d612a0",
+        "62d002d8-f4bf-4afc-8cc4-81059e040614",
+        "42e5703b-03a4-431e-9efb-55ef9e2d6ce4"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Earn up to €15 for every friend you refer!",
+        "text-1": "<p>Get cash back for each successfull referral<\/p>",
+        "text-2": "<p>You both receive the same value in reward<\/p>",
+        "text-3": "<p>As the referree you get a discount off your subscription - first time purchase only<\/p>",
+        "text-4": "<p>Monitor and track your rewards within your in-app dashboard<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -263,6 +331,7 @@
     "main",
     "sidebar-page",
     "3a0b2f4b-5e08-4eed-9418-cf79eade406c",
-    "b427ddd1-6407-4359-8623-bee2b807f6f0"
+    "b427ddd1-6407-4359-8623-bee2b807f6f0",
+    "16b11e58-06c4-45e3-bc26-fa5ae3e622dd"
   ]
 }
