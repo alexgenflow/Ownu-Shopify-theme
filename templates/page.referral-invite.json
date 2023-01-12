@@ -129,9 +129,9 @@
             "button_style": "default",
             "button_effect": "default",
             "pri_cl": "#89b6a6",
-            "second_cl": "#fff",
+            "second_cl": "#ffffff",
             "pri_cl_hover": "#a5c0ab",
-            "second_cl_hover": "#fff",
+            "second_cl_hover": "#ffffff",
             "fsbutton": 16,
             "fwbutton": 400,
             "button_ls": 0,
@@ -276,6 +276,66 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "6fee0f0a-fe15-4089-b19b-72d06c967ba4": {
+      "type": "referral-discover-slider",
+      "blocks": {
+        "7fa13f57-e5f7-4cfb-ae65-86119e88678c": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/Pacific_Blue_Copy_9_2805e74d-a52a-4d2a-87a3-4fc9a01a2934.png",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "fb550ad7-023b-4d04-9c41-b32df2eecb19": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/Pacific_Blue_Copy_6.png",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "43d3681a-68ba-4f6c-9a4b-1079bd17f5d0": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/Pacific_Blue_Copy_8.png",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "d74a8dc7-5e8e-4216-8cb6-2d59bc6e7f9f": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/Pacific_Blue_Copy_10.png",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7fa13f57-e5f7-4cfb-ae65-86119e88678c",
+        "fb550ad7-023b-4d04-9c41-b32df2eecb19",
+        "43d3681a-68ba-4f6c-9a4b-1079bd17f5d0",
+        "d74a8dc7-5e8e-4216-8cb6-2d59bc6e7f9f"
+      ],
+      "settings": {
+        "custom-class": "",
+        "main_heading": "Here's what you'll get...",
+        "text_below_heading": ""
       }
     },
     "80cb6e6e-582f-469c-85d0-882f82cab437": {
@@ -551,12 +611,12 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "accor_des": "2",
-        "title_cl": "#222",
-        "bg_title_cl": "#fff",
-        "title_active_cl": "#000",
-        "bg_title_active_cl": "#fff",
+        "title_cl": "#222222",
+        "bg_title_cl": "#ffffff",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#ffffff",
         "content_cl": "#878787",
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "content_align": "t4s-text-start",
         "layout": "t4s-cus-width",
         "custom_width": 1000,
@@ -577,6 +637,7 @@
     "sidebar-page",
     "7eab8293-6819-466a-ae6b-e7c5cc026ec3",
     "369c445f-29cc-44e3-b192-33900bd374c1",
+    "6fee0f0a-fe15-4089-b19b-72d06c967ba4",
     "80cb6e6e-582f-469c-85d0-882f82cab437",
     "07b7370d-364d-40cf-a922-134181e13c20",
     "b2649e32-6a8c-45b0-9505-6eee1cbdec24",
