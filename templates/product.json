@@ -376,7 +376,7 @@
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
-        "limit": 12,
+        "limit": 7,
         "display_type": "4",
         "image_ratio": "rationt",
         "image_size": "nt_cover",
@@ -671,6 +671,7 @@
     },
     "ef50e81d-e49f-4165-8630-7bc3f030451c": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--15818193862856__ef50e81d-e49f-4165-8630-7bc3f030451c-16735204221c5d5933-0": {
           "type": "title",
