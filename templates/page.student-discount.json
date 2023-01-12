@@ -93,8 +93,8 @@
             "text_shadow": false,
             "text_mgb": 15,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 22,
+            "text_lh_mb": 32,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10
           }
@@ -106,7 +106,7 @@
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
-            "text_fs": 16,
+            "text_fs": 15,
             "text_lh": 24,
             "text_fw": 400,
             "text_ls": 0,
@@ -115,9 +115,9 @@
             "text_mgb": 20,
             "hidden_mobile": false,
             "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_lh_mb": 20,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10
+            "text_mgb_mobile": 15
           }
         },
         "f9602b8e-12b0-44ac-a1a6-98cafc6de3c4": {
@@ -142,8 +142,8 @@
             "text_shadow": false,
             "text_mgb": 15,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 15,
+            "text_lh_mb": 20,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10
           }
