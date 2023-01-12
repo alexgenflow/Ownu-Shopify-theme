@@ -289,6 +289,10 @@ button#StudentVerifySubmit {
     margin-left: 20px;
     height: 45px;
 }
+.train-together .t4s-eff-img-none {
+    width: 110px;
+    margin: 0 auto 20px;
+}
 
 @media screen and (max-width: 767px) {
   .margin-both {
