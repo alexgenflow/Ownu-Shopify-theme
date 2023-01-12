@@ -538,6 +538,74 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "80cb6e6e-582f-469c-85d0-882f82cab437": {
+      "type": "pricing",
+      "blocks": {
+        "2cc55416-8060-444e-a86a-32c9e66f93e1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "784a7230-c0ef-46eb-8627-4abd470e2fab": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        },
+        "e0c27f17-38e7-40fa-8493-61350d979702": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "Add a title or tagline",
+            "text": "",
+            "crossedprice": "",
+            "text-1": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2cc55416-8060-444e-a86a-32c9e66f93e1",
+        "784a7230-c0ef-46eb-8627-4abd470e2fab",
+        "e0c27f17-38e7-40fa-8493-61350d979702"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Train together, Gain together and join the OWNU app.",
+        "text-1": "<p>Personalised workout plans<\/p>",
+        "text-2": "<p>Custom meal plans tailored to your needs<\/p>",
+        "text-3": "<p>Early bird access to exclusive product drops<\/p>",
+        "text-4": "<p>Discount off your subscription - first time purchase only<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -546,6 +614,7 @@
     "sidebar-page",
     "7eab8293-6819-466a-ae6b-e7c5cc026ec3",
     "369c445f-29cc-44e3-b192-33900bd374c1",
-    "b138a3dc-7b2d-4f56-bf90-eb584ac657d4"
+    "b138a3dc-7b2d-4f56-bf90-eb584ac657d4",
+    "80cb6e6e-582f-469c-85d0-882f82cab437"
   ]
 }
