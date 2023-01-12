@@ -85,23 +85,23 @@
             "text_cl": "#000000",
             "text_fs": 40,
             "text_lh": 50,
-            "text_fw": 500,
+            "text_fw": 600,
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
-            "text_mgb": 15,
+            "text_mgb": 20,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 30,
+            "text_lh_mb": 38,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10
+            "text_mgb_mobile": 20
           }
         },
         "template--15974180323528__7eab8293-6819-466a-ae6b-e7c5cc026ec3-16735267805454ecac-2": {
           "type": "custom_text",
           "settings": {
             "text": "Your friend thinks you'll love OWNU and so do we. In fact we're so confident we'll give you up to €15<br> off your membership.",
-            "remove_br_tag": false,
+            "remove_br_tag": true,
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
@@ -112,10 +112,10 @@
             "text_shadow": false,
             "text_mgb": 20,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
+            "text_fs_mb": 15,
             "text_lh_mb": 20,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10
+            "text_mgb_mobile": 20
           }
         },
         "1aad715c-9a06-4e80-9038-83db212fbd7a": {
