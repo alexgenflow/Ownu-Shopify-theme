@@ -696,7 +696,7 @@ endif -%}
 
                 {%- when 'text' -%}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
                 <div class="{{ block.settings.custom-css }}">
-                    <p class="t4s-richtext_{{bk_id}} t4s-pr__richtext" style="--title-family:var(--font-family-{{bk_stts.fnt_df_pr}});--title-style:{{bk_stts.txt_tr_pr}};--title-size:{{bk_stts.size_pr}}px;--title-weight:{{bk_stts.fw_pr}};--title-line-height:{{lh_pr}};--title-spacing:{{bk_stts.ls_pr}}px;--title-color:{{bk_stts.pr_title_color}};--title-color-hover:{{bk_stts.pr_title_color}};"{{ block.shopify_attributes }}"> {{bk_stts.text}}</p>
+                    <p class="t4s-richtext_{{bk_id}} t4s-pr__richtext" style="--title-family:var(--font-family-{{bk_stts.fnt_df_pr}});--title-style:{{bk_stts.txt_tr_pr}};--title-size:{{bk_stts.size_pr}}px;--title-weight:{{bk_stts.fw_pr}};--title-line-height:{{lh_pr}};--title-spacing:{{bk_stts.ls_pr}}px;--title-color:{{bk_stts.pr_title_color}};--title-color-hover:{{bk_stts.pr_title_color}};"{{ block.shopify_attributes }}> {{bk_stts.text}}</p>
                      </div>
 
               {%- when 'custom_liquid' -%}
