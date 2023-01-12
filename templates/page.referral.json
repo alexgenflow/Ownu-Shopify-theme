@@ -2,7 +2,6 @@
   "sections": {
     "heading": {
       "type": "heading-template",
-      "disabled": true,
       "settings": {
         "use_specify_image": true,
         "parallax": false,

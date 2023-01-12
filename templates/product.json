@@ -994,7 +994,7 @@
             "lh_pr": 0,
             "ls_pr": 0,
             "pr_title_color": "#222",
-            "pr_title_color_hover": "#56cfe1"
+            "pr_title_color_hover": "#89b6a6"
           }
         },
         "template--15818193862856__0c8de3e5-c0a1-4562-95c7-479fc6d126cb-16735204221c5d5933-1": {
@@ -1002,8 +1002,8 @@
           "settings": {
             "price": "0",
             "type_sale": "0",
-            "tax_ship": true,
-            "rating": true,
+            "tax_ship": false,
+            "rating": false,
             "review_liquid": "",
             "size_price_pr": 22,
             "fw_price_pr": 400,
@@ -1028,9 +1028,9 @@
             "color_mode": "color",
             "enable_fit_ratio_img": false,
             "color_size": "medium",
-            "show_qty": true,
-            "enable_wishlist": true,
-            "enable_compare": true,
+            "show_qty": false,
+            "enable_wishlist": false,
+            "enable_compare": false,
             "btn_atc_full": false,
             "pr_btn_round": 40,
             "ani": "none",
