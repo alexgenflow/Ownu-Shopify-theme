@@ -695,7 +695,7 @@ endif -%}
                 <div class="t4s-custom_{{bk_id}} t4s-pr__html" {{ block.shopify_attributes }}>{{bk_stts.page.content}}</div>
 
                 {%- when 'text' -%}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
-                <div class="t4s-richtext_{{bk_id}} t4s-pr__richtext" {{ block.shopify_attributes }}>{{bk_stts.text}}</div>
+                <div class="{{ block.settings.custom-css }} t4s-richtext_{{bk_id}} t4s-pr__richtext" {{ block.shopify_attributes }}>{{bk_stts.text}}</div>
 
               {%- when 'custom_liquid' -%}
               <div class="t4s-liquid_{{bk_id}} t4s-pr__custom-liquid" {{ block.shopify_attributes }}>{{ bk_stts.custom_liquid }}</div>
@@ -3924,6 +3924,11 @@ endif -%}
           "type": "text",
           "name": "Text",
           "settings": [
+              {
+                "type": "text",
+                "id": "custom-css",
+                "label": "Custom Css Class"
+              },
               {
               "type": "richtext",
               "id": "text",
