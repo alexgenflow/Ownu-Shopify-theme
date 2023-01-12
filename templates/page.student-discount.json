@@ -157,6 +157,7 @@
         "eda715bd-a2df-40aa-aa1a-54ba9de249be"
       ],
       "settings": {
+        "custom-css": "student-discount",
         "space_h_item": "30",
         "space_v_item": "30",
         "space_h_item_mb": "30",
