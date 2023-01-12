@@ -232,7 +232,8 @@
         "template--15973402050760__6c2f0a1b-9e1a-4c40-9962-5654d5c5b7af-167351016292bc5076-2"
       ],
       "settings": {
-        "design_heading": "1",
+        "custom-css": "",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
         "top_heading": "",
         "icon_heading": "las la-gem",
