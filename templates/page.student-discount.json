@@ -236,7 +236,7 @@
       ],
       "settings": {
         "custom-css": "get-discount",
-        "design_heading": "1",
+        "design_heading": "3",
         "heading_align": "t4s-text-center",
         "top_heading": "How it works?",
         "icon_heading": "las la-gem",
