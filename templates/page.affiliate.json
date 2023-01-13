@@ -142,12 +142,26 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "00ddee25-3e50-449b-97c1-7c85308a248e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-tf-widget=\"T5RL3URB\" data-tf-iframe-props=\"title=My typeform\" data-tf-medium=\"snippet\" style=\"width:100%;height:700px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "7dc9f4b4-bb62-4145-943f-91fa5def7267"
+    "7dc9f4b4-bb62-4145-943f-91fa5def7267",
+    "00ddee25-3e50-449b-97c1-7c85308a248e"
   ]
 }
