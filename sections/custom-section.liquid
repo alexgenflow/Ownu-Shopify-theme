@@ -49,15 +49,7 @@
                         {% endif %}
                       {% when 'video' %}
                         {%- assign general_block = true -%}
-                            <div class="t4s_ratio">
-                              {%- if se_stts.source == '2' -%}
-                                  <video controls{% if autoplay %} data-autoplay{% endif %}{% if loop %} loop{% endif %} data-muted preload="none" class="lazyloadt4s" src="{{block.settings.file_link | escape }}"></video>
-                              {%- elsif video_url.type == 'youtube' -%}
-                                  <iframe class="lazyloadt4s" data-src="//www.youtube.com/embed/{{ video_url.id }}?controls=1{% if autoplay %}&autoplay=1{% endif %}{% if loop %}&playlist={{ video_url.id }}&loop=1{% endif %}&showinfo=0&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-                              {%- elsif video_url.type == 'vimeo' -%}
-                                  <iframe class="lazyloadt4s" data-src="//player.vimeo.com/video/{{ video_url.id }}?portrait=0{% if autoplay %}&autoplay=1{% endif %}{% if loop %}&loop=1{% endif %}&byline=0&color={{ block.accent_color | remove_first: '#' }}" frameborder="0"></iframe>
-                              {%- endif -%}              
-                          </div>
+                      text
                       {%- when 'space_html' -%}
                         {%- assign general_block = true -%}
                         <div class="t4s-space-html t4s-hidden-tablet-{{bk_stts.hidden_tablet}} t4s-hidden-mobile-{{bk_stts.hidden_mobile}}" {%- render 'bk_cus_style',type:'space_html',bk_stts:bk_stts,ani_delay:ani_delay -%}></div>
