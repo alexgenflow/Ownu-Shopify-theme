@@ -200,33 +200,33 @@
         "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-0": {
           "type": "bl_col",
           "settings": {
-            "col_dk": "6",
+            "col_dk": "12",
             "col_tb": "6",
             "col_mb": "12",
-            "align_vertical": false,
+            "align_vertical": true,
             "content_align": "center",
             "content_align_tablet": "center",
             "content_align_mobile": "center",
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "",
             "padding_inner_mb": "",
-            "bg_cl": "#d2a2a2"
+            "bg_cl": "rgba(0,0,0,0)"
           }
         },
         "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-1": {
           "type": "custom_text",
           "settings": {
-            "text": "LOOKBOOK 2022",
+            "text": "WORKOUT GUIDES",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 24,
-            "text_lh": 0,
-            "text_fw": 500,
+            "text_lh": 32,
+            "text_fw": 600,
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
-            "text_mgb": 5,
+            "text_mgb": 20,
             "hidden_mobile": false,
             "text_fs_mb": 16,
             "text_lh_mb": 0,
@@ -237,11 +237,11 @@
         "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-2": {
           "type": "custom_text",
           "settings": {
-            "text": "MAKE LOVE THIS LOOK",
+            "text": "Stay motivated and never lose track of your progress with unified progress tracking across all<br> guides. We offer access to over 40 guides, catered to all kind of goals, in one place. With the built-in<br> recommendation tool, you will be able to find the perfect guide for you and your goals specifically.",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
-            "text_fs": 14,
+            "text_fs": 16,
             "text_lh": 24,
             "text_fw": 400,
             "text_ls": 0,
@@ -258,7 +258,7 @@
         "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-3": {
           "type": "bl_col",
           "settings": {
-            "col_dk": "6",
+            "col_dk": "12",
             "col_tb": "6",
             "col_mb": "12",
             "align_vertical": false,
@@ -268,27 +268,174 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "",
             "padding_inner_mb": "",
-            "bg_cl": "#d2a2a2"
+            "bg_cl": "rgba(0,0,0,0)"
           }
         },
-        "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-4": {
-          "type": "newsletter",
+        "bd1142ed-4a98-4c5c-ba64-e613b2892e0d": {
+          "type": "custom_text",
           "settings": {
-            "form_width": 0,
-            "form_width_mb": 0,
-            "newl_des": "1",
-            "news_align": "center",
-            "newl_size": "small",
-            "btn_icon": false,
-            "input_cl": "#878787",
-            "border_cl": "#000",
-            "btn_cl": "#ffffff",
-            "btn_bg_cl": "#222222",
-            "btn_hover_cl": "#ffffff",
-            "btn_hover_bg_cl": "#56CFE1",
+            "text": "WORKOUT LIBRARY",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 24,
+            "text_lh": 32,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
             "hidden_mobile": false,
-            "mgb": 15,
-            "mgb_mb": 10
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "9f6a48f4-9469-483b-9909-60875fea404d": {
+          "type": "custom_text",
+          "settings": {
+            "text": "With the OWNU app, you will never have to search for workouts again - we offer hundreds of unique<br> workout sessions in our workout library, suitable for any occasion. Whether you work out from home<br> or in the gym, want a quick and effective or a full body workout - we've got something that suits you!",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "b75481f4-5a13-425f-a057-0df786d7700a": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#fff"
+          }
+        },
+        "fbe971a1-e904-4bbc-9d2a-9291a49b8f98": {
+          "type": "custom_text",
+          "settings": {
+            "text": "MEAL PLANNER",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 24,
+            "text_lh": 32,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "e09be330-d849-4998-b9d5-5435a9f8b843": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Experience a new level of organized meal planning with OWNU’s fully customizable meal calendar.<br> Optionally choose whether to show calorie targets based on your goals and biometrics to plan your<br> nutritional intake for each day. Once your week is planned - OWNU will automatically assemble your<br> weekly shopping list.",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "f03596d9-8637-4138-8444-d844e2e0134d": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#fff"
+          }
+        },
+        "e2fd0c9d-4890-47f8-be2b-307aef814346": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Not Ready to commit?",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "8a77fb82-2835-4fd4-9383-7b4b46a662e6": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "LEARN MORE",
+            "button_link": "#",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#89b6a6",
+            "second_cl": "#fff",
+            "pri_cl_hover": "#a5c0ab",
+            "second_cl_hover": "#fff",
+            "fsbutton": 16,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 30,
+            "button_pd_lr": 30,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 12,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0
           }
         }
       },
@@ -297,7 +444,14 @@
         "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-1",
         "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-2",
         "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-3",
-        "template--15974904168648__873ffc65-407c-4c00-acd3-75ef431875ec-167359356930958048-4"
+        "bd1142ed-4a98-4c5c-ba64-e613b2892e0d",
+        "9f6a48f4-9469-483b-9909-60875fea404d",
+        "b75481f4-5a13-425f-a057-0df786d7700a",
+        "fbe971a1-e904-4bbc-9d2a-9291a49b8f98",
+        "e09be330-d849-4998-b9d5-5435a9f8b843",
+        "f03596d9-8637-4138-8444-d844e2e0134d",
+        "e2fd0c9d-4890-47f8-be2b-307aef814346",
+        "8a77fb82-2835-4fd4-9383-7b4b46a662e6"
       ],
       "settings": {
         "custom-css": "",
