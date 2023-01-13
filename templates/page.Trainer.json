@@ -82,17 +82,17 @@
         "ch_pos": 50,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 15,
         "content_pd_tb_mb": 10,
         "content_pd_lr_mb": 10,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
@@ -168,8 +168,8 @@
         "heading_cl": "#222222",
         "number_cl": "#89b6a6",
         "des_cl": "#878787",
-        "bd_cl": "#ddd",
-        "bg_cl": "#fff",
+        "bd_cl": "#dddddd",
+        "bg_cl": "#ffffff",
         "col_dk": "4",
         "col_tb": "2",
         "col_mb": "2",
@@ -298,17 +298,17 @@
         "ch_pos": 50,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 15,
         "content_pd_tb_mb": 10,
         "content_pd_lr_mb": 10,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
@@ -410,6 +410,61 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "69ec5f7e-c653-46f7-8a0d-7d21a28ea5f4": {
+      "type": "trainer-slider",
+      "blocks": {
+        "b7120b20-a9f1-4428-b18c-ca8e76d69f6f": {
+          "type": "select",
+          "settings": {
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "ab8ce4f2-2214-4af9-865c-c53e1e944675": {
+          "type": "select",
+          "settings": {
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "c3528e3f-c334-46f6-9c31-0c87c6d368fd": {
+          "type": "select",
+          "settings": {
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e5b88527-60b6-490e-a7e3-e3ebae288b5e": {
+          "type": "select",
+          "settings": {
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b7120b20-a9f1-4428-b18c-ca8e76d69f6f",
+        "ab8ce4f2-2214-4af9-865c-c53e1e944675",
+        "c3528e3f-c334-46f6-9c31-0c87c6d368fd",
+        "e5b88527-60b6-490e-a7e3-e3ebae288b5e"
+      ],
+      "settings": {
+        "main_heading": "Discover the APP",
+        "text_below_heading": ""
       }
     },
     "059203e6-ff3d-48ed-9386-6defbbcb2f96": {
@@ -538,6 +593,7 @@
     "2e491de8-687c-4b9f-8044-84ad20bcb9b4",
     "17ccbd21-42d7-4d87-91b5-fad1b42dc8ec",
     "45ce44cf-7870-4ef5-9375-d0a01d04137d",
+    "69ec5f7e-c653-46f7-8a0d-7d21a28ea5f4",
     "059203e6-ff3d-48ed-9386-6defbbcb2f96",
     "eff70462-9144-47f6-bd06-3af090fa342b"
   ]
