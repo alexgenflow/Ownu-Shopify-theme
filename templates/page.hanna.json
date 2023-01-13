@@ -489,24 +489,24 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 01",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "I’m new to the gym - is this for me?",
+            "content": "<p>100%! I’ve designed OWNU to cater to all fitness levels. Whether it’s your first time stepping into the gym or you’ve been training for years - there’s something for everyone inside.<\/p>"
           }
         },
         "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-1": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 02",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "Is this app available on android?",
+            "content": "<p>Yes! OWNU is available to download for iOS and Android devices.<\/p>"
           }
         },
         "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-2": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 03",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+            "title": "Is there a free trial?",
+            "content": "<p>Yes! You can try the OWNU app FREE for 7 days so you can get an idea if my app is right for you.<\/p>"
           }
         }
       },
@@ -516,24 +516,24 @@
         "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-2"
       ],
       "settings": {
-        "custom-css": "",
+        "custom-css": "referral-faqs",
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "Have any questions?",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "accor_des": "1",
+        "accor_des": "2",
         "title_cl": "#222",
-        "bg_title_cl": "#f6f6f8",
+        "bg_title_cl": "#fff",
         "title_active_cl": "#000",
-        "bg_title_active_cl": "#f6f6f8",
+        "bg_title_active_cl": "#fff",
         "content_cl": "#878787",
         "bg_content_cl": "#fff",
         "content_align": "t4s-text-start",
-        "layout": "t4s-container-wrap",
+        "layout": "t4s-cus-width",
         "custom_width": 1000,
-        "cl_bg": "",
+        "cl_bg": "#ebf3f1",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
