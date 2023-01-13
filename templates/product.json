@@ -975,7 +975,7 @@
       ],
       "settings": {
         "custom-css": "",
-        "hide": false,
+        "hide": true,
         "show": false,
         "design_heading": "1",
         "heading_align": "t4s-text-center",
