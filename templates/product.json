@@ -1242,6 +1242,7 @@
           "type": "select",
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
+            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
             "image_link": "",
             "title": "Text columns with images",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
@@ -1256,6 +1257,7 @@
           "type": "select",
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
+            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
             "image_link": "",
             "title": "Text columns with images",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
