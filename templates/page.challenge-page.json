@@ -137,19 +137,7 @@
         "851fafc5-57e9-4918-8395-248110f8eefc": {
           "type": "video",
           "settings": {
-            "custom_dk": true,
-            "height_dk": 600,
-            "custom_tb": true,
-            "height_tb": 400,
-            "custom_mb": true,
-            "height_mb": 250,
-            "source": "2",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "file_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/658dfa2c13644f5fb93ce0524d02c0db.mp4",
-            "au_video": false,
-            "loop_video": true,
-            "bg_overlay": "#000",
-            "bg_opacity": 0
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/658dfa2c13644f5fb93ce0524d02c0db.mp4"
           }
         },
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-4": {
