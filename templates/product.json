@@ -453,7 +453,6 @@
     },
     "27eabb46-bd8f-41ac-b39e-4c89f0059efc": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--15818193862856__27eabb46-bd8f-41ac-b39e-4c89f0059efc-1673542940a69e792b-0": {
           "type": "title",
@@ -620,7 +619,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "show": true,
         "design_heading": "1",
