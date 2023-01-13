@@ -482,6 +482,138 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "7519da44-ef70-452a-9913-52c42fd4dd41": {
+      "type": "feature_columns",
+      "blocks": {
+        "template--15974898467016__7519da44-ef70-452a-9913-52c42fd4dd41-16735921695042596b-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_Capture1818.jpg",
+            "title": "Seamless Sculpting Comfort",
+            "text": "<p>We only use fabrics that feel incredible and perform exceptionally. Our knitted fit fabric sculpts and smooths like no other. <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "template--15974898467016__7519da44-ef70-452a-9913-52c42fd4dd41-16735921695042596b-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_Capture2138.jpg",
+            "title": "Built in Contouring",
+            "text": "<p>Made with built in body contouring to lift and sculpt. Wear-tested by our in-house team for the perfect proportions, whatever your size.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "template--15974898467016__7519da44-ef70-452a-9913-52c42fd4dd41-16735921695042596b-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_Capture1824.jpg",
+            "title": "Second Skin Feel & Fit",
+            "text": "<p>Premium performance 4-Way stretch fabric offers the perfect feel, enhanced moisture-wicking function and amazing compression comfort.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "9d2333a1-9866-4ec1-ba88-0f8951318530": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_Capture2146.jpg",
+            "title": "THE Perfect Waistband",
+            "text": "<p>Unlike anything you’ve worn before - engineered to hold you, without any pinch and offer a distraction-free fit & feel.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974898467016__7519da44-ef70-452a-9913-52c42fd4dd41-16735921695042596b-0",
+        "template--15974898467016__7519da44-ef70-452a-9913-52c42fd4dd41-16735921695042596b-1",
+        "template--15974898467016__7519da44-ef70-452a-9913-52c42fd4dd41-16735921695042596b-2",
+        "9d2333a1-9866-4ec1-ba88-0f8951318530"
+      ],
+      "settings": {
+        "custom-css": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Premium performance-wear by Hanna Öberg.",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "start",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "none",
+        "b_effect": "none",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -491,6 +623,7 @@
     "e185ff71-726c-40ed-9fed-731545d6da71",
     "20701803-162c-478e-b66d-936f8a533631",
     "3ce677e8-9db3-4bec-91b4-75f23ed19113",
-    "9f5b9237-050b-45e8-b326-ab47db7cec26"
+    "9f5b9237-050b-45e8-b326-ab47db7cec26",
+    "7519da44-ef70-452a-9913-52c42fd4dd41"
   ]
 }
