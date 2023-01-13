@@ -203,7 +203,7 @@
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-4"
       ],
       "settings": {
-        "custom-css": "",
+        "custom-css": "challenge-main",
         "space_h_item": "30",
         "space_v_item": "30",
         "space_h_item_mb": "10",
