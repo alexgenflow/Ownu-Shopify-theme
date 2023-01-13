@@ -142,12 +142,91 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "4caca0bf-7115-4c03-b73e-194a4253fe1d": {
+      "type": "counter",
+      "blocks": {
+        "template--15975054868680__4caca0bf-7115-4c03-b73e-194a4253fe1d-16736136179f0cc71d-0": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 666,
+            "des": "COUNTER LABEL",
+            "content_align": "center"
+          }
+        },
+        "template--15975054868680__4caca0bf-7115-4c03-b73e-194a4253fe1d-16736136179f0cc71d-1": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 888,
+            "des": "COUNTER LABEL",
+            "content_align": "center"
+          }
+        },
+        "template--15975054868680__4caca0bf-7115-4c03-b73e-194a4253fe1d-16736136179f0cc71d-2": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 999,
+            "des": "COUNTER LABEL",
+            "content_align": "center"
+          }
+        },
+        "c948acee-2aad-4d5a-aa2b-02f65077603a": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 999,
+            "des": "COUNTER LABEL",
+            "content_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15975054868680__4caca0bf-7115-4c03-b73e-194a4253fe1d-16736136179f0cc71d-0",
+        "template--15975054868680__4caca0bf-7115-4c03-b73e-194a4253fe1d-16736136179f0cc71d-1",
+        "template--15975054868680__4caca0bf-7115-4c03-b73e-194a4253fe1d-16736136179f0cc71d-2",
+        "c948acee-2aad-4d5a-aa2b-02f65077603a"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "counter_size": "medium",
+        "use_border": false,
+        "heading_cl": "#222222",
+        "number_cl": "#222222",
+        "des_cl": "#878787",
+        "bd_cl": "#ddd",
+        "bg_cl": "#fff",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f5f5f5",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",,30px,",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "2b68ee16-5196-4898-928e-81c855258f7f"
+    "2b68ee16-5196-4898-928e-81c855258f7f",
+    "4caca0bf-7115-4c03-b73e-194a4253fe1d"
   ]
 }
