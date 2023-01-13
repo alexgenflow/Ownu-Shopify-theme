@@ -432,6 +432,92 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "26d20fc0-d5b0-42a3-8afa-f02f2abea3ca": {
+      "type": "image_text",
+      "blocks": {
+        "template--15975114244296__26d20fc0-d5b0-42a3-8afa-f02f2abea3ca-1673630571aba0146e-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Win a luxury wellness retreat!",
+            "text": "<p>This time we’re going all out with insane prizes to be won. Including our <strong>BIGGEST EVER PRIZE<\/strong> an all-paid-for <strong>luxury wellness retreat <\/strong>for two at Hanna's favourite Swedish get away.<\/p><p><strong>Ystad Saltsjöbad - <\/strong>a classic seaside hotel and today one of Sweden’s and Europe’s leading spa resorts.<\/p><p>And if thats not enough, we're hosting weekly mini-challenges with loads of other prizes to be won - follow us at OWNUapp to find out more!<\/p><p>Prizes include, years free gym mebership of your choice, lifetime app membership, OWNU product bundles and so much more..<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "ENROL TO WIN!",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        },
+        "template--15975114244296__26d20fc0-d5b0-42a3-8afa-f02f2abea3ca-1673630571aba0146e-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/ownu_1st_prize.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15975114244296__26d20fc0-d5b0-42a3-8afa-f02f2abea3ca-1673630571aba0146e-1",
+        "template--15975114244296__26d20fc0-d5b0-42a3-8afa-f02f2abea3ca-1673630571aba0146e-0"
+      ],
+      "settings": {
+        "custom-css": "",
+        "hide": false,
+        "show": false,
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -441,6 +527,7 @@
     "069da03f-dba9-47bd-ab00-f2297f468fe8",
     "094ce190-7fa3-4e16-be2b-ca9b4e80bb59",
     "8838a707-83cf-4e3a-ae18-a741579a779a",
-    "a67aba36-5a6f-4669-a792-ff15b1d37258"
+    "a67aba36-5a6f-4669-a792-ff15b1d37258",
+    "26d20fc0-d5b0-42a3-8afa-f02f2abea3ca"
   ]
 }
