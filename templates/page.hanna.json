@@ -542,6 +542,123 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "dea97d70-5ee8-4fe7-bf2b-2b55097e03ee": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15975054868680__dea97d70-5ee8-4fe7-bf2b-2b55097e03ee-1673619479ee8cbb75-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "rgba(0,0,0,0)"
+          }
+        },
+        "template--15975054868680__dea97d70-5ee8-4fe7-bf2b-2b55097e03ee-1673619479ee8cbb75-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Struggling With Your Fitness Goals?",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 40,
+            "text_lh": 52,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--15975054868680__dea97d70-5ee8-4fe7-bf2b-2b55097e03ee-1673619479ee8cbb75-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Make Your Body Transformation Goals Come True With The OWNU App",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "9b1a6a29-ddae-450a-a0a6-7a0614cbcf9d": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "BEGIN YOUR FREE 7 DAY TRIAL!",
+            "button_link": "#",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#89b6a6",
+            "second_cl": "#fff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#fff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 30,
+            "button_pd_lr": 30,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 12,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15975054868680__dea97d70-5ee8-4fe7-bf2b-2b55097e03ee-1673619479ee8cbb75-0",
+        "template--15975054868680__dea97d70-5ee8-4fe7-bf2b-2b55097e03ee-1673619479ee8cbb75-1",
+        "template--15975054868680__dea97d70-5ee8-4fe7-bf2b-2b55097e03ee-1673619479ee8cbb75-2",
+        "9b1a6a29-ddae-450a-a0a6-7a0614cbcf9d"
+      ],
+      "settings": {
+        "custom-css": "",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -554,6 +671,7 @@
     "952ef228-d214-446d-8405-7e2f580c1552",
     "578754de-a3c9-400a-b243-2601fe067d3d",
     "cdcf04bc-80ff-4185-b150-a483561160ca",
-    "f94df57b-bfa4-4675-94dc-6fbd1392374b"
+    "f94df57b-bfa4-4675-94dc-6fbd1392374b",
+    "dea97d70-5ee8-4fe7-bf2b-2b55097e03ee"
   ]
 }
