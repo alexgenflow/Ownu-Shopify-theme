@@ -863,56 +863,6 @@
         "pd_mb": ""
       }
     },
-    "6d230f4e-aebf-4d23-96d5-b4f68ada6542": {
-      "type": "image-slider",
-      "disabled": true,
-      "blocks": {
-        "07506a1d-0ebc-4992-995b-a1785f81ae03": {
-          "type": "select",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "image_link": "",
-            "title": "Recycled Materials",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "email": false,
-            "button_label": "",
-            "button_link": "",
-            "text-2": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "class_name": ""
-          }
-        },
-        "699e5bea-3357-42d1-a711-25423c984465": {
-          "type": "select",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "image_link": "",
-            "title": "Recycled Materials",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "email": false,
-            "button_label": "",
-            "button_link": "",
-            "text-2": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "class_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "07506a1d-0ebc-4992-995b-a1785f81ae03",
-        "699e5bea-3357-42d1-a711-25423c984465"
-      ],
-      "settings": {
-        "Show_container": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "image_overlay_color": "",
-        "image_overlay_opacity": 0,
-        "margin_top": 20,
-        "margin_bottom": 20,
-        "custom_class_name": ""
-      }
-    },
     "92b33c38-6eb0-43de-b7c9-9b838c90a225": {
       "type": "image_text",
       "blocks": {
@@ -953,8 +903,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "Hide on mobile",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "Recycled Materials",
+            "text": "<p>All our packaging is 100% compostable & we use a percentage of recycled yarns in production - depending on the piece<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1069,8 +1019,8 @@
             "tag": "p",
             "fontf": "inherit",
             "text_cl": "#ffffff",
-            "text_fs": 70,
-            "text_lh": 70,
+            "text_fs": 16,
+            "text_lh": 22,
             "text_fw": 300,
             "text_ls": 0,
             "text_mgb": 25,
@@ -1808,7 +1758,6 @@
     "27eabb46-bd8f-41ac-b39e-4c89f0059efc",
     "3b8a6d3d-0af6-4acc-91e0-faf1593cc59b",
     "0394de1c-b855-4e0e-ad53-2095c55740cb",
-    "6d230f4e-aebf-4d23-96d5-b4f68ada6542",
     "92b33c38-6eb0-43de-b7c9-9b838c90a225",
     "da5afde0-f0dc-4b97-a168-dc710b213244",
     "product-recommendations",
