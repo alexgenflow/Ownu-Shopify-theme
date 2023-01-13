@@ -101,9 +101,9 @@
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -116,8 +116,8 @@
           "type": "counter_item",
           "settings": {
             "heading": "",
-            "number": 666,
-            "des": "COUNTER LABEL",
+            "number": 300000,
+            "des": "Users Worldwide",
             "content_align": "center"
           }
         },
@@ -125,8 +125,8 @@
           "type": "counter_item",
           "settings": {
             "heading": "",
-            "number": 888,
-            "des": "COUNTER LABEL",
+            "number": 300000,
+            "des": "Downloads",
             "content_align": "center"
           }
         },
@@ -134,8 +134,8 @@
           "type": "counter_item",
           "settings": {
             "heading": "",
-            "number": 999,
-            "des": "COUNTER LABEL",
+            "number": 5000,
+            "des": "App Reviews",
             "content_align": "center"
           }
         },
@@ -143,8 +143,8 @@
           "type": "counter_item",
           "settings": {
             "heading": "",
-            "number": 999,
-            "des": "COUNTER LABEL",
+            "number": 4.8,
+            "des": "Star App Rating",
             "content_align": "center"
           }
         }
@@ -165,10 +165,10 @@
         "counter_size": "medium",
         "use_border": false,
         "heading_cl": "#222222",
-        "number_cl": "#222222",
+        "number_cl": "#89b6a6",
         "des_cl": "#878787",
         "bd_cl": "#ddd",
-        "bg_cl": "",
+        "bg_cl": "#fff",
         "col_dk": "4",
         "col_tb": "2",
         "col_mb": "2",
@@ -177,12 +177,12 @@
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
-        "cl_bg": "",
+        "cl_bg": "#ebf3f1",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
-        "pd": "",
+        "pd": "30px,,30px",
         "mg_mb": ",,30px,",
-        "pd_mb": "",
+        "pd_mb": "30px,,30px",
         "use_cus_css": false,
         "code_cus_css": ""
       }
