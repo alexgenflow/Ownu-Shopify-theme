@@ -56,11 +56,98 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "7dc9f4b4-bb62-4145-943f-91fa5def7267": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15975110705352__7dc9f4b4-bb62-4145-943f-91fa5def7267-1673621272008fb0c4-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "rgba(0,0,0,0)"
+          }
+        },
+        "template--15975110705352__7dc9f4b4-bb62-4145-943f-91fa5def7267-1673621272008fb0c4-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Love OWNU as much as we do. Join our<br> affiliate scheme?",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 40,
+            "text_lh": 52,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--15975110705352__7dc9f4b4-bb62-4145-943f-91fa5def7267-1673621272008fb0c4-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Become a founding member of the most exciting female founded activewear business in fitness.<br><br>OWNU Activewear is way more than just another brand. It's designed to empower women to perform.<br><br>Crafted with the highest quality fabrics, the latest innovations in sportswear technology and<br> unbelievable attention to detail. Our activewear is unlike anything you’ve worn before. <br><br>And for the first time ever…<br><br>We’re searching for just a handful of women who want to champion our brand, join our rapid growth<br>and benefit from the ongoing success of OWNU.<br><br>Curious to find out more?<br><br>Fill out our application form below and a member of my team will be in touch to talk through the next<br>steps with you.<br><br>Yours truly,<br><br>Hannah x<br><br>If you have questions about our affiliate programme, email us at<br><br>affiliates@ownuapp.com",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15975110705352__7dc9f4b4-bb62-4145-943f-91fa5def7267-1673621272008fb0c4-0",
+        "template--15975110705352__7dc9f4b4-bb62-4145-943f-91fa5def7267-1673621272008fb0c4-1",
+        "template--15975110705352__7dc9f4b4-bb62-4145-943f-91fa5def7267-1673621272008fb0c4-2"
+      ],
+      "settings": {
+        "custom-css": "",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "7dc9f4b4-bb62-4145-943f-91fa5def7267"
   ]
 }
