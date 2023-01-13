@@ -458,6 +458,74 @@
         "btn-label": "Join for free",
         "btn-link": "#"
       }
+    },
+    "eff70462-9144-47f6-bd06-3af090fa342b": {
+      "type": "pricing",
+      "blocks": {
+        "b3c6745d-ff95-4b76-a8a7-68ea6252e1fb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "QUARTERLY",
+            "text": "€35.99",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "021c1824-f086-4202-adcd-8c170d839ed4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "Best value",
+            "off": "",
+            "title": "YEARLY",
+            "text": "€109.99",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "42d8b0c0-2d24-4593-a282-cc57b743b400": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "MONTHLY",
+            "text": "€14.49",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b3c6745d-ff95-4b76-a8a7-68ea6252e1fb",
+        "021c1824-f086-4202-adcd-8c170d839ed4",
+        "42d8b0c0-2d24-4593-a282-cc57b743b400"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Benefits of premium OWNU membership:",
+        "text-1": "<p>Personalised workout plans<\/p>",
+        "text-2": "<p>Access to 100+ balanced and tasty recipes<\/p>",
+        "text-3": "<p>Personalised meal plans tailored to your needs<\/p>",
+        "text-4": "<p>Regular exclusive content from me, Hanna  <\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -469,6 +537,7 @@
     "2e491de8-687c-4b9f-8044-84ad20bcb9b4",
     "17ccbd21-42d7-4d87-91b5-fad1b42dc8ec",
     "45ce44cf-7870-4ef5-9375-d0a01d04137d",
-    "059203e6-ff3d-48ed-9386-6defbbcb2f96"
+    "059203e6-ff3d-48ed-9386-6defbbcb2f96",
+    "eff70462-9144-47f6-bd06-3af090fa342b"
   ]
 }
