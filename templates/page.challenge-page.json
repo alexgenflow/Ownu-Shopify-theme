@@ -67,29 +67,29 @@
             "col_tb": "6",
             "col_mb": "12",
             "align_vertical": false,
-            "content_align": "center",
+            "content_align": "end",
             "content_align_tablet": "center",
             "content_align_mobile": "center",
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "",
             "padding_inner_mb": "",
-            "bg_cl": "#d2a2a2"
+            "bg_cl": "rgba(0,0,0,0)"
           }
         },
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-1": {
           "type": "custom_text",
           "settings": {
-            "text": "LOOKBOOK 2022",
+            "text": "You vs You 2023 Challenge",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 24,
-            "text_lh": 0,
+            "text_lh": 32,
             "text_fw": 500,
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
-            "text_mgb": 5,
+            "text_mgb": 20,
             "hidden_mobile": false,
             "text_fs_mb": 16,
             "text_lh_mb": 0,
@@ -100,22 +100,52 @@
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-2": {
           "type": "custom_text",
           "settings": {
-            "text": "MAKE LOVE THIS LOOK",
+            "text": "If you’re looking to <b>find confidence,<\/b> and <b>feel strong<\/b> inside AND out, <b>make fitness a habit<\/b> or just level up your training, the You vs You 2023 Challenge is for you<br><br>Join thousands of women in the <b>BIGGEST<\/b> event on the OWNU communities calendar.<br><br><b>It's You vs. You 2023!<\/b>",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
-            "text_fs": 14,
+            "text_fs": 16,
             "text_lh": 24,
             "text_fw": 400,
             "text_ls": 0,
             "font_italic": false,
             "text_shadow": false,
-            "text_mgb": 0,
+            "text_mgb": 20,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 15,
+            "text_lh_mb": 22,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10
+            "text_mgb_mobile": 20
+          }
+        },
+        "63b6a95e-5cdb-40f6-b593-8635ab08f800": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "DOWNLOAD AND ENROL TODAY",
+            "button_link": "#",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#89b6a6",
+            "second_cl": "#fff",
+            "pri_cl_hover": "#89b6a6",
+            "second_cl_hover": "#fff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 30,
+            "button_pd_lr": 30,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 14,
+            "button_mh_mb": 40,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0
           }
         },
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-3": {
@@ -131,7 +161,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "",
             "padding_inner_mb": "",
-            "bg_cl": "#d2a2a2"
+            "bg_cl": "rgba(0,0,0,0)"
           }
         },
         "851fafc5-57e9-4918-8395-248110f8eefc": {
@@ -166,6 +196,7 @@
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-0",
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-1",
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-2",
+        "63b6a95e-5cdb-40f6-b593-8635ab08f800",
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-3",
         "851fafc5-57e9-4918-8395-248110f8eefc",
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-4"
