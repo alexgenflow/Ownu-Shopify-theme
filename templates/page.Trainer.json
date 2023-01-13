@@ -314,7 +314,7 @@
         "br_pd_mb": 10,
         "time_animation": 1,
         "animation_delay": 40,
-        "layout": "t4s-container-fluid",
+        "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
