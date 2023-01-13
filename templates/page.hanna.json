@@ -481,6 +481,67 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "f94df57b-bfa4-4675-94dc-6fbd1392374b": {
+      "type": "accordion",
+      "blocks": {
+        "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 01",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 02",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        },
+        "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Tab 03",
+            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-0",
+        "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-1",
+        "template--15975054868680__f94df57b-bfa4-4675-94dc-6fbd1392374b-16736190742e7e0b68-2"
+      ],
+      "settings": {
+        "custom-css": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Have any questions?",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -492,6 +553,7 @@
     "9afa8764-0e56-46c4-8325-5784e928684a",
     "952ef228-d214-446d-8405-7e2f580c1552",
     "578754de-a3c9-400a-b243-2601fe067d3d",
-    "cdcf04bc-80ff-4185-b150-a483561160ca"
+    "cdcf04bc-80ff-4185-b150-a483561160ca",
+    "f94df57b-bfa4-4675-94dc-6fbd1392374b"
   ]
 }
