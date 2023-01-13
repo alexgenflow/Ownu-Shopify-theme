@@ -91,10 +91,10 @@
             "text_shadow": false,
             "text_mgb": 20,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 30,
+            "text_lh_mb": 40,
             "text_ls_mb": 0,
-            "text_mgb_mobile": 10
+            "text_mgb_mobile": 20
           }
         },
         "template--15975110705352__7dc9f4b4-bb62-4145-943f-91fa5def7267-1673621272008fb0c4-2": {
@@ -112,8 +112,8 @@
             "text_shadow": false,
             "text_mgb": 0,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 15,
+            "text_lh_mb": 20,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10
           }
@@ -155,12 +155,12 @@
             "dayx": 0,
             "cl_text": "#222222",
             "cl_link": "#56cfe1",
-            "fw_text": 600,
+            "fw_text": 500,
             "fs_text": 40,
             "lh_text": 48,
             "ls_text": 0,
-            "fs_mb_text": 10,
-            "lh_text_mb": 0,
+            "fs_mb_text": 30,
+            "lh_text_mb": 36.5,
             "ls_mb_text": 0
           }
         }
