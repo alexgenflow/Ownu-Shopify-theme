@@ -69,6 +69,7 @@
         "custom_mb": true,
         "height_mb": 250,
         "image": "shopify:\/\/shop_images\/banner-sweatcoin-desktop.jpg",
+        "mobile-image": "shopify:\/\/shop_images\/banner-sweatcoin-desktop.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
