@@ -417,21 +417,31 @@
         "c25a4286-0d9f-4aec-ab82-570b7e9718cd": {
           "type": "select",
           "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
           }
         },
         "2001d67a-0ce6-4061-b696-d91aa56c15b2": {
           "type": "select",
           "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
           }
         },
         "4497c74c-1cd0-4658-9cee-b58cec1bb367": {
           "type": "select",
           "settings": {
+            "slider_image": "shopify:\/\/shop_images\/1.webp"
           }
         },
         "e73d5352-03ab-4413-8969-81e358e0067a": {
           "type": "select",
           "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
+          }
+        },
+        "0bb24d21-2aa1-4a9d-bfa9-a337378bd862": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
           }
         }
       },
@@ -439,13 +449,14 @@
         "c25a4286-0d9f-4aec-ab82-570b7e9718cd",
         "2001d67a-0ce6-4061-b696-d91aa56c15b2",
         "4497c74c-1cd0-4658-9cee-b58cec1bb367",
-        "e73d5352-03ab-4413-8969-81e358e0067a"
+        "e73d5352-03ab-4413-8969-81e358e0067a",
+        "0bb24d21-2aa1-4a9d-bfa9-a337378bd862"
       ],
       "settings": {
         "main_heading": "Transformations",
         "text_below_heading": "160,000 women have already seen the benefits of the OWNU app. Could you?",
-        "btn-label": "",
-        "btn-link": ""
+        "btn-label": "Join for free",
+        "btn-link": "#"
       }
     }
   },
