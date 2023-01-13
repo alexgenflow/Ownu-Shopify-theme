@@ -135,10 +135,49 @@
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
-        "mg_tb": ",,50px,",
+        "mg_tb": "",
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "105caaea-b082-4fe4-a5c0-fde4081be817": {
+      "type": "promo_text",
+      "blocks": {
+        "template--15975110705352__105caaea-b082-4fe4-a5c0-fde4081be817-1673622193655346b1-0": {
+          "type": "1",
+          "settings": {
+            "content": "<p>Fill in the form below and we'll be in touch<\/p>",
+            "countdown": "2022\/12\/20",
+            "cus_cd": "%-D day%!D %H:%M:%S",
+            "dayx": 0,
+            "cl_text": "#222222",
+            "cl_link": "#56cfe1",
+            "fw_text": 600,
+            "fs_text": 40,
+            "lh_text": 48,
+            "ls_text": 0,
+            "fs_mb_text": 10,
+            "lh_text_mb": 0,
+            "ls_mb_text": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15975110705352__105caaea-b082-4fe4-a5c0-fde4081be817-1673622193655346b1-0"
+      ],
+      "settings": {
+        "effect": "slider",
+        "au_time": 3,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "12px,,12px,",
+        "mg_mb": ",,30px,",
+        "pd_mb": "10px,,10px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
@@ -162,6 +201,7 @@
     "main",
     "sidebar-page",
     "7dc9f4b4-bb62-4145-943f-91fa5def7267",
+    "105caaea-b082-4fe4-a5c0-fde4081be817",
     "00ddee25-3e50-449b-97c1-7c85308a248e"
   ]
 }
