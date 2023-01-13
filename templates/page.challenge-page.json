@@ -604,6 +604,54 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "27f60907-3074-4a96-a129-4f7e5cdcebac": {
+      "type": "transformation-slider",
+      "blocks": {
+        "aaafd831-11b2-4d51-b66c-a8fa05d1c8ae": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
+          }
+        },
+        "bea1a09e-c252-4986-9cbe-92cd606df3af": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
+          }
+        },
+        "12a5f6af-2d91-49e6-aac7-66bf2b104bfd": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/1.webp"
+          }
+        },
+        "b2a1d233-cd28-405a-860f-d76341d8f3c1": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
+          }
+        },
+        "9e725e0d-532e-4367-a896-3f41b69084cd": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "aaafd831-11b2-4d51-b66c-a8fa05d1c8ae",
+        "bea1a09e-c252-4986-9cbe-92cd606df3af",
+        "12a5f6af-2d91-49e6-aac7-66bf2b104bfd",
+        "b2a1d233-cd28-405a-860f-d76341d8f3c1",
+        "9e725e0d-532e-4367-a896-3f41b69084cd"
+      ],
+      "settings": {
+        "main_heading": "Our OWNU community has achieved amazing results like these. Are you ready to join them?",
+        "text_below_heading": "Real women, un-real results",
+        "btn-label": "JOIN FOR FREE",
+        "btn-link": "#"
+      }
     }
   },
   "order": [
@@ -615,6 +663,7 @@
     "8838a707-83cf-4e3a-ae18-a741579a779a",
     "a67aba36-5a6f-4669-a792-ff15b1d37258",
     "26d20fc0-d5b0-42a3-8afa-f02f2abea3ca",
-    "541e02bc-233d-400e-a1d5-5eef1da73be4"
+    "541e02bc-233d-400e-a1d5-5eef1da73be4",
+    "27f60907-3074-4a96-a129-4f7e5cdcebac"
   ]
 }
