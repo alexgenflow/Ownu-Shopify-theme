@@ -136,6 +136,7 @@
         },
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-4": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "form_width": 0,
             "form_width_mb": 0,
@@ -153,6 +154,12 @@
             "mgb": 15,
             "mgb_mb": 10
           }
+        },
+        "ceede3dc-101a-46b5-aac9-b9320bd221a2": {
+          "type": "Video",
+          "settings": {
+            "video-desk": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/658dfa2c13644f5fb93ce0524d02c0db.mp4"
+          }
         }
       },
       "block_order": [
@@ -160,7 +167,8 @@
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-1",
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-2",
         "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-3",
-        "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-4"
+        "template--15975114244296__069da03f-dba9-47bd-ab00-f2297f468fe8-1673623146b8e23270-4",
+        "ceede3dc-101a-46b5-aac9-b9320bd221a2"
       ],
       "settings": {
         "custom-css": "",
