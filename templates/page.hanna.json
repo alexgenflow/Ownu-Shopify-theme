@@ -306,6 +306,65 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "952ef228-d214-446d-8405-7e2f580c1552": {
+      "type": "trainer-slider",
+      "blocks": {
+        "4272718c-2120-406c-aefd-798ee871d5a4": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/460x0w_1.webp",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "cc62d973-e5c8-4dfd-9a57-ac5ba6ad8f7a": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/460x0w_2.webp",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "a877a152-e785-46ac-a13d-a7e9659ad867": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/460x0w_3.webp",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "66015c80-96eb-4f50-91bb-ab262d726836": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/460x0w_4.webp",
+            "link": "",
+            "heading": "",
+            "para": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "4272718c-2120-406c-aefd-798ee871d5a4",
+        "cc62d973-e5c8-4dfd-9a57-ac5ba6ad8f7a",
+        "a877a152-e785-46ac-a13d-a7e9659ad867",
+        "66015c80-96eb-4f50-91bb-ab262d726836"
+      ],
+      "settings": {
+        "main_heading": "Take A Look Inside",
+        "text_below_heading": "With over 30+ workout guides, 250+ delicious recipes, a dedicated education section and SO much more, you'll receive everything you need to FINALLY see the results you’ve been looking for"
+      }
     }
   },
   "order": [
@@ -314,6 +373,7 @@
     "sidebar-page",
     "2b68ee16-5196-4898-928e-81c855258f7f",
     "4caca0bf-7115-4c03-b73e-194a4253fe1d",
-    "9afa8764-0e56-46c4-8325-5784e928684a"
+    "9afa8764-0e56-46c4-8325-5784e928684a",
+    "952ef228-d214-446d-8405-7e2f580c1552"
   ]
 }
