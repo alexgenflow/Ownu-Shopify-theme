@@ -51,7 +51,7 @@
                         {%- assign general_block = true -%}
                             <div class="t4s_ratio">
                               {%- if se_stts.source == '2' -%}
-                                  <video controls{% if autoplay %} data-autoplay{% endif %}{% if loop %} loop{% endif %} data-muted preload="none" class="lazyloadt4s" src="{{se_stts.file_link | escape }}"></video>
+                                  <video controls{% if autoplay %} data-autoplay{% endif %}{% if loop %} loop{% endif %} data-muted preload="none" class="lazyloadt4s" src="{{block.settings.file_link | escape }}"></video>
                               {%- elsif video_url.type == 'youtube' -%}
                                   <iframe class="lazyloadt4s" data-src="//www.youtube.com/embed/{{ video_url.id }}?controls=1{% if autoplay %}&autoplay=1{% endif %}{% if loop %}&playlist={{ video_url.id }}&loop=1{% endif %}&showinfo=0&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
                               {%- elsif video_url.type == 'vimeo' -%}
