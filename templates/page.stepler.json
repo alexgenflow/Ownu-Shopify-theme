@@ -70,8 +70,8 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/banner-sweatcoin-desktop.jpg",
-        "mobile-image": "shopify:\/\/shop_images\/banner-sweatcoin-desktop.jpg",
+        "image": "shopify:\/\/shop_images\/stepler-own-banner.jpg",
+        "mobile-image": "shopify:\/\/shop_images\/stepler-own-banner.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -83,17 +83,17 @@
         "ch_pos": 50,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 15,
         "content_pd_tb_mb": 10,
         "content_pd_lr_mb": 10,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
@@ -122,8 +122,8 @@
             "text_size": "30,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "LIMITED TIME ONLY! 40 DAY FREE TRIAL EXCLUSIVELY FOR SWEATCOIN SUBSCRIBERS!",
-            "text": "<p>For a limited time only we’re giving all Sweatcoin Subscribers a special 40-day trial on our OWNU app.<\/p><p>Click below to get a free 40-day trial on monthly subscriptions! Our monthly subscription was $16.99 <strong>NOW 40 DAYS FREE.<\/strong> <\/p><p>Get your special discount while it’s available! Click below to be redirected to our subscription page & secure your 40-day free trial before it’s too late!<\/p>",
+            "heading": "SPECIAL OFFER FOR ALL STEPLER SUBSCRIBERS!",
+            "text": "<p>For a limited time only we’re giving all Stepler Subscribers a special 40-day trial on our OWNU Application subscriptions. Click below to get a free 40-day trial on monthly subscriptions! Our monthly subscription was $16.99 <strong>NOW 40 DAYS FREE.<\/strong> <\/p><p>Get your special discount while it’s available! Click below to be redirected to our subscription page & secure your 40-day free trial before it’s too late!<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -329,7 +329,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "",
             "padding_inner_mb": "30px,,30px",
-            "bg_cl": "#fff"
+            "bg_cl": "#ffffff"
           }
         },
         "fbe971a1-e904-4bbc-9d2a-9291a49b8f98": {
@@ -387,7 +387,7 @@
             "padding_inner": "",
             "padding_inner_tb": "",
             "padding_inner_mb": "",
-            "bg_cl": "#fff"
+            "bg_cl": "#ffffff"
           }
         },
         "e2fd0c9d-4890-47f8-be2b-307aef814346": {
@@ -422,9 +422,9 @@
             "button_style": "default",
             "button_effect": "default",
             "pri_cl": "#89b6a6",
-            "second_cl": "#fff",
+            "second_cl": "#ffffff",
             "pri_cl_hover": "#a5c0ab",
-            "second_cl_hover": "#fff",
+            "second_cl_hover": "#ffffff",
             "fsbutton": 16,
             "fwbutton": 400,
             "button_ls": 0,
