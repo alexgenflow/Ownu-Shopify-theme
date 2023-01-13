@@ -219,12 +219,69 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "094ce190-7fa3-4e16-be2b-ca9b4e80bb59": {
+      "type": "promo_text",
+      "blocks": {
+        "template--15975114244296__094ce190-7fa3-4e16-be2b-ca9b4e80bb59-167362529337f8c5c5-0": {
+          "type": "1",
+          "settings": {
+            "content": "<p>87% of users agree the OWNU app was<\/p><p> \"THE BEST\" decision they've made for<\/p><p> their health and fitness...<\/p>",
+            "countdown": "2022\/12\/20",
+            "cus_cd": "%-D day%!D %H:%M:%S",
+            "dayx": 0,
+            "cl_text": "#222222",
+            "cl_link": "#56cfe1",
+            "fw_text": 500,
+            "fs_text": 40,
+            "lh_text": 52,
+            "ls_text": 0,
+            "fs_mb_text": 30,
+            "lh_text_mb": 38,
+            "ls_mb_text": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15975114244296__094ce190-7fa3-4e16-be2b-ca9b4e80bb59-167362529337f8c5c5-0"
+      ],
+      "settings": {
+        "effect": "slider",
+        "au_time": 3,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "12px,,12px,",
+        "mg_mb": ",,30px,",
+        "pd_mb": "10px,,10px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "8838a707-83cf-4e3a-ae18-a741579a779a": {
+      "type": "pricing",
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Talk about your brand",
+        "text-1": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-2": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-3": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text-4": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "069da03f-dba9-47bd-ab00-f2297f468fe8"
+    "069da03f-dba9-47bd-ab00-f2297f468fe8",
+    "094ce190-7fa3-4e16-be2b-ca9b4e80bb59",
+    "8838a707-83cf-4e3a-ae18-a741579a779a"
   ]
 }
