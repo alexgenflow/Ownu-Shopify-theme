@@ -56,7 +56,7 @@
 {%- if se_height != "t4s_ratio_fh" -%}
     {%- capture append_style -%}--aspect-ratio-cusdt : {{se_stts.height_dk}}px;--aspect-ratio-custb : {{se_stts.height_tb}}px;--aspect-ratio-cusmb :{{se_stts.height_mb}}px;{%- endcapture -%}
 {%- endif %}
-<div class="t4s-section-inner {{t4s_se_class}} t4s_nt_se_{{sid}}" {% render 'section_style',se_stts:se_stts,append_style:append_style -%}>       
+<div class="{% if section.settings.hide %} hide {% endif %} {% if section.settings.show %} show {% endif %}  t4s-section-inner {{t4s_se_class}} t4s_nt_se_{{sid}}" {% render 'section_style',se_stts:se_stts,append_style:append_style -%}>       
     {{-html_layout[0]-}}    
     <div class="t4s-slideshow t4s-row t4s-row-cols-1 t4s-gx-0 t4s-flicky-slider t4s_position_8 t4s_cover {{se_height}} t4s-slide-eff-{{slide_eff}} t4scuspx1_{{se_stts.custom_mb}} t4scuspx2_{{se_stts.custom_tb}} t4scuspx3_{{se_stts.custom_dk}}{% if se_stts.nav_btn == true %}  t4s-slider-btn-style-{{se_stts.btn_owl}} t4s-slider-btn-{{se_stts.btn_shape}} t4s-slider-btn-{{se_stts.btn_size}} t4s-slider-btn-cl-{{se_stts.btn_cl}} t4s-slider-btn-vi-{{se_stts.btn_vi}} t4s-slider-btn-hidden-mobile-{{se_stts.btn_hidden_mobile}} {% endif %}{% if se_stts.nav_dot %} t4s-dots-style-{{se_stts.dot_owl}} t4s-dots-cl-{{se_stts.dots_cl}} t4s-dots-round-{{se_stts.dots_round}} t4s-dots-hidden-mobile-{{se_stts.dots_hidden_mobile}} {% endif %} flickityt4s" data-flickityt4s-js='{{data_flickityt4s}}'  style="--space-dots: {{se_stts.dots_space}}px;--flickity-btn-pos: 30px;--flickity-btn-pos-mb: 30px;" >
         {%- for block in arr_blocks_img -%}            
