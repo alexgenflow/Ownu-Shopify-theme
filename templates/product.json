@@ -865,6 +865,7 @@
     },
     "6d230f4e-aebf-4d23-96d5-b4f68ada6542": {
       "type": "image-slider",
+      "disabled": true,
       "blocks": {
         "07506a1d-0ebc-4992-995b-a1785f81ae03": {
           "type": "select",
