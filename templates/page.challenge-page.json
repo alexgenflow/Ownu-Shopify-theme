@@ -652,6 +652,92 @@
         "btn-label": "JOIN FOR FREE",
         "btn-link": "#"
       }
+    },
+    "0a8a6b7e-96d0-4d24-a37b-fe7ec67b9fb7": {
+      "type": "image_text",
+      "blocks": {
+        "template--15975114244296__0a8a6b7e-96d0-4d24-a37b-fe7ec67b9fb7-1673630571aba0146e-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "end",
+            "sub_heading": "",
+            "heading": "Join OWNU today with up to 50% OFF and commit to yourself with our Stronger You vol. 2 Guide",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "LET'S DO THIS!",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        },
+        "template--15975114244296__0a8a6b7e-96d0-4d24-a37b-fe7ec67b9fb7-1673630571aba0146e-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/4_2x_0be589a8-eb90-420b-9200-5b56da63f61f.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15975114244296__0a8a6b7e-96d0-4d24-a37b-fe7ec67b9fb7-1673630571aba0146e-1",
+        "template--15975114244296__0a8a6b7e-96d0-4d24-a37b-fe7ec67b9fb7-1673630571aba0146e-0"
+      ],
+      "settings": {
+        "custom-css": "",
+        "hide": false,
+        "show": false,
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -664,6 +750,7 @@
     "a67aba36-5a6f-4669-a792-ff15b1d37258",
     "26d20fc0-d5b0-42a3-8afa-f02f2abea3ca",
     "541e02bc-233d-400e-a1d5-5eef1da73be4",
-    "27f60907-3074-4a96-a129-4f7e5cdcebac"
+    "27f60907-3074-4a96-a129-4f7e5cdcebac",
+    "0a8a6b7e-96d0-4d24-a37b-fe7ec67b9fb7"
   ]
 }
