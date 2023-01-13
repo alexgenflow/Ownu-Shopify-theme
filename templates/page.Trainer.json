@@ -186,6 +186,92 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "2e491de8-687c-4b9f-8044-84ad20bcb9b4": {
+      "type": "image_text",
+      "blocks": {
+        "template--15974929367240__2e491de8-687c-4b9f-8044-84ad20bcb9b4-1673598565276490dc-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/7kwN1YXw.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--15974929367240__2e491de8-687c-4b9f-8044-84ad20bcb9b4-1673598565276490dc-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Hey, I’m Johanna Modin!",
+            "text": "<p>I’m Johanna - your new high-intensity expert trainer! All my life I’ve been training with years of experience and a background in football and weight-lifting. For me, my training philosophy is to have fun while pushing to be the healthiest version of myself, both mentally and physically. And with me as your trainer, I’ll help you acheive just that. (While guaranteeing sweaty workouts that focus on strength, endurance, and speed!)<\/p><p> <\/p><p>Join me in the OWNU app today and let's sweat together!<\/p><p> <\/p><p>Johanna Xx<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Try for FREE Today",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--15974929367240__2e491de8-687c-4b9f-8044-84ad20bcb9b4-1673598565276490dc-0",
+        "template--15974929367240__2e491de8-687c-4b9f-8044-84ad20bcb9b4-1673598565276490dc-1"
+      ],
+      "settings": {
+        "custom-css": "",
+        "hide": false,
+        "show": false,
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -193,6 +279,7 @@
     "main",
     "sidebar-page",
     "de6e3cfd-dbe5-46a2-b72b-d4cd655fade8",
-    "4743307a-3bb3-4409-9e67-34f4f1f7ed22"
+    "4743307a-3bb3-4409-9e67-34f4f1f7ed22",
+    "2e491de8-687c-4b9f-8044-84ad20bcb9b4"
   ]
 }
