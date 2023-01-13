@@ -831,7 +831,7 @@
         "open_link": "_self",
         "space": "0",
         "space_mb": "20",
-        "col_dk": "6",
+        "col_dk": "4",
         "col_tb": "3",
         "col_mb": "2",
         "image_ratio": "ratio1_1",
@@ -907,8 +907,8 @@
         "padding_bottom": 36,
         "image_overlay_color": "",
         "image_overlay_opacity": 0,
-        "margin_top": 36,
-        "margin_bottom": 36,
+        "margin_top": 20,
+        "margin_bottom": 20,
         "custom_class_name": ""
       }
     },
