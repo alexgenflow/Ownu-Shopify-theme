@@ -220,6 +220,92 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "9afa8764-0e56-46c4-8325-5784e928684a": {
+      "type": "image_text",
+      "blocks": {
+        "template--15975054868680__9afa8764-0e56-46c4-8325-5784e928684a-16736132956842a4a2-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p><em>You've tried everything.<\/em> You've followed my socials and put together a routine for the gym but you're still not \"quite\" getting the progress you want to see with your body.<\/p><p>I've been there before. I get how defeating that feels.<\/p><p><span style=\"text-decoration:underline\">I understand how frustrating it is to feel like you're going one step forward, two steps back in your fitness.<\/span><\/p><p>And it's not your fault! We all live super busy lives that make it extremely difficult to make healthy lifestyles sustainable.<\/p><p>But for me, getting in the best shape of your life <strong>DOESN'T<\/strong> need to feel like a mountain of a task. It should be fun, rewarding and ultimately sustainable in the long run.<\/p><p><em><strong>And that's exactly why I created the OWNU App. <\/strong><\/em><\/p><p><span style=\"text-decoration:underline\"><em><strong>The fitness app for the woman who has tried EVERYTHING.<\/strong><\/em><\/span><\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "TRY THE APP FREE TODAY!",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        },
+        "template--15975054868680__9afa8764-0e56-46c4-8325-5784e928684a-16736132956842a4a2-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/WHC01618_31086344-10dc-4516-b3fb-e77ad8aa5a43.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15975054868680__9afa8764-0e56-46c4-8325-5784e928684a-16736132956842a4a2-1",
+        "template--15975054868680__9afa8764-0e56-46c4-8325-5784e928684a-16736132956842a4a2-0"
+      ],
+      "settings": {
+        "custom-css": "",
+        "hide": false,
+        "show": false,
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "I know why you're here...",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -227,6 +313,7 @@
     "main",
     "sidebar-page",
     "2b68ee16-5196-4898-928e-81c855258f7f",
-    "4caca0bf-7115-4c03-b73e-194a4253fe1d"
+    "4caca0bf-7115-4c03-b73e-194a4253fe1d",
+    "9afa8764-0e56-46c4-8325-5784e928684a"
   ]
 }
