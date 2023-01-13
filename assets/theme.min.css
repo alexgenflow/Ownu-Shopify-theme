@@ -252,7 +252,12 @@ color {
 .customer .field {
     display: flex;
 }
-
+ .show {
+    display: none;
+}
+    .hide {
+      display: block
+    }
 .field {
     position: relative;
     width: 100%;
@@ -295,6 +300,12 @@ button#StudentVerifySubmit {
 }
 
 @media screen and (max-width: 767px) {
+  .show {
+    display: block;
+}
+      .hide {
+      display: none;
+    }
   .margin-both {
     margin: 20px 15px 0;
     padding: 32px 0;
