@@ -413,6 +413,74 @@
         "btn-label": "JOIN FOR FREE",
         "btn-link": "#"
       }
+    },
+    "cdcf04bc-80ff-4185-b150-a483561160ca": {
+      "type": "pricing",
+      "blocks": {
+        "58306208-c068-48bd-b5ee-4d944207466e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "QUARTERLY",
+            "text": "€35.99",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "6f04dafe-9380-40d4-b80f-fed8bce4a807": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "Best value",
+            "off": "",
+            "title": "YEARLY",
+            "text": "€109.99",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "b8436ef1-7021-49d5-ab2e-b6939c802ced": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "",
+            "off": "",
+            "title": "MONTHLY",
+            "text": "€14.49",
+            "crossedprice": "",
+            "text-1": "<p>+ 7-day free trial<\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "58306208-c068-48bd-b5ee-4d944207466e",
+        "6f04dafe-9380-40d4-b80f-fed8bce4a807",
+        "b8436ef1-7021-49d5-ab2e-b6939c802ced"
+      ],
+      "settings": {
+        "id": "",
+        "Swipe": false,
+        "full_width": false,
+        "title-1": "",
+        "section_title": "Get Your First 7 Days App Access For FREE!",
+        "text-1": "<p>Personalised workout plans<\/p>",
+        "text-2": "<p>Access to 100+ balanced and tasty recipes<\/p>",
+        "text-3": "<p>Personalised meal plans tailored to your needs<\/p>",
+        "text-4": "<p>Regular exclusive content from me, Hanna  <\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -423,6 +491,7 @@
     "4caca0bf-7115-4c03-b73e-194a4253fe1d",
     "9afa8764-0e56-46c4-8325-5784e928684a",
     "952ef228-d214-446d-8405-7e2f580c1552",
-    "578754de-a3c9-400a-b243-2601fe067d3d"
+    "578754de-a3c9-400a-b243-2601fe067d3d",
+    "cdcf04bc-80ff-4185-b150-a483561160ca"
   ]
 }
