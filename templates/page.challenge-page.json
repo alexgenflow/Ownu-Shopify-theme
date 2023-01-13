@@ -261,16 +261,68 @@
     },
     "8838a707-83cf-4e3a-ae18-a741579a779a": {
       "type": "pricing",
+      "blocks": {
+        "1a8a42a3-02d4-4657-ab5a-1a1b347d6ead": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "35% OFF",
+            "off": "",
+            "title": "QUARTERLY",
+            "text": "€24.99",
+            "crossedprice": "€35.99",
+            "text-1": "<p><strong>€2.00 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "764aef06-fce3-4c56-90a9-4fd97483418f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "50% OFF",
+            "off": "",
+            "title": "YEARLY",
+            "text": "€51.99",
+            "crossedprice": "€109.99",
+            "text-1": "<p><strong>€0.99 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        },
+        "e11becb3-ee09-4ca0-a61e-7a287ceb7961": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "value": "20% OFF",
+            "off": "",
+            "title": "MONTHLY",
+            "text": "€10.99",
+            "crossedprice": "€14.49",
+            "text-1": "<p><strong>€3.68 per week<\/strong><\/p>",
+            "button_label": "Subscribe",
+            "button_link": "#",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1a8a42a3-02d4-4657-ab5a-1a1b347d6ead",
+        "764aef06-fce3-4c56-90a9-4fd97483418f",
+        "e11becb3-ee09-4ca0-a61e-7a287ceb7961"
+      ],
       "settings": {
         "id": "",
         "Swipe": false,
         "full_width": false,
         "title-1": "",
-        "section_title": "Talk about your brand",
-        "text-1": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text-2": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text-3": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text-4": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "section_title": "Join thousands of women in the OWNU community and start smashing your goals...",
+        "text-1": "<p>Personalised workout plans<\/p>",
+        "text-2": "<p>Access to 100+ balanced and tasty recipes<\/p>",
+        "text-3": "<p>Personalised meal plans tailored to your needs<\/p>",
+        "text-4": "<p>Regular exclusive content from me, Hanna  <\/p>",
         "button_label": "",
         "button_link": ""
       }
