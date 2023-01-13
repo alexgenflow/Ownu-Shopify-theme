@@ -424,10 +424,10 @@
           "text_fs": 14,
           "text_fw": 400,
           "heading_cl": "#ffffff",
-          "text_cl": "#fff",
-          "link_cl": "#fff",
+          "text_cl": "#ffffff",
+          "link_cl": "#ffffff",
           "link_hover_cl": "#89b6a6",
-          "border_cl": "#fff",
+          "border_cl": "#ffffff",
           "layout": "t4s-container-wrap",
           "cl_bg": "#222222",
           "cl_bg_gradient": "",
@@ -444,11 +444,10 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "link": "",
+              "link": "#",
               "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
-              "countdown": "2022\/09\/19",
+              "countdown": "2023\/01\/15",
               "txt_day": "days",
               "dayx": 0
             }
@@ -482,13 +481,13 @@
           "announcement-bar-2"
         ],
         "settings": {
-          "show_announcement": false,
+          "show_announcement": true,
           "effect": "1",
           "au_time": 3.5,
           "height": 45,
           "fontsize": 12,
           "cl": "#ffffff",
-          "bg": "#e91e63",
+          "bg": "#89b6a6",
           "bg_op": 100,
           "close": "1",
           "cl_btn": "#ffffff",
