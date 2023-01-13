@@ -2,6 +2,7 @@
   "sections": {
     "heading": {
       "type": "heading-template",
+      "disabled": true,
       "settings": {
         "use_specify_image": true,
         "parallax": false,
@@ -21,6 +22,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
