@@ -365,6 +365,54 @@
         "main_heading": "Take A Look Inside",
         "text_below_heading": "With over 30+ workout guides, 250+ delicious recipes, a dedicated education section and SO much more, you'll receive everything you need to FINALLY see the results you’ve been looking for"
       }
+    },
+    "578754de-a3c9-400a-b243-2601fe067d3d": {
+      "type": "transformation-slider",
+      "blocks": {
+        "f036515e-3752-470f-8463-cf5825c103c4": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
+          }
+        },
+        "3e4760d1-e555-4390-abe8-e4a467fba387": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
+          }
+        },
+        "3c77560d-afb5-4abf-b2d8-3d34ff2d428a": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/1.webp"
+          }
+        },
+        "ddef753a-a719-4969-aed8-889b1b2fe4c2": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
+          }
+        },
+        "74ac442a-737c-46c6-b30b-c397812248b4": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f036515e-3752-470f-8463-cf5825c103c4",
+        "3e4760d1-e555-4390-abe8-e4a467fba387",
+        "3c77560d-afb5-4abf-b2d8-3d34ff2d428a",
+        "ddef753a-a719-4969-aed8-889b1b2fe4c2",
+        "74ac442a-737c-46c6-b30b-c397812248b4"
+      ],
+      "settings": {
+        "main_heading": "Real Women, Un-real Results",
+        "text_below_heading": "",
+        "btn-label": "JOIN FOR FREE",
+        "btn-link": "#"
+      }
     }
   },
   "order": [
@@ -374,6 +422,7 @@
     "2b68ee16-5196-4898-928e-81c855258f7f",
     "4caca0bf-7115-4c03-b73e-194a4253fe1d",
     "9afa8764-0e56-46c4-8325-5784e928684a",
-    "952ef228-d214-446d-8405-7e2f580c1552"
+    "952ef228-d214-446d-8405-7e2f580c1552",
+    "578754de-a3c9-400a-b243-2601fe067d3d"
   ]
 }
