@@ -386,6 +386,102 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "9f5b9237-050b-45e8-b326-ab47db7cec26": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15974898467016__9f5b9237-050b-45e8-b326-ab47db7cec26-16735909844c97800c-0": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★ ★ ★ ★ ★<\/strong><\/p><p>\"OWNUFit is by far the best activewear I have ever tried! They are so stretchy and comfy, the fabric is amazing and they follow your body in every move!\"<\/p>",
+            "title": "@liisa.fit",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "template--15974898467016__9f5b9237-050b-45e8-b326-ab47db7cec26-16735909844c97800c-1": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★ ★ ★ ★ ★<\/strong><\/p><p>\"Love the colours and obsessed with the fit... Also, my bum has never looked so good in any other shorts from any other brand\" <\/p>",
+            "title": "@lifewithluucy",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "template--15974898467016__9f5b9237-050b-45e8-b326-ab47db7cec26-16735909844c97800c-2": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★ ★ ★ ★ ★<\/strong><\/p><p>\"I don't want to wear anything else. It's comfy and the leggings don't slip down!'\"<\/p>",
+            "title": "@lilihortacoelho",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "65d1dc9f-95cb-4cac-a248-b100689b3f8d": {
+          "type": "quote",
+          "settings": {
+            "content": "<p><strong>★ ★ ★ ★ ★<\/strong><\/p><p>\"They are literally perfect! SO comfy, don't stick to you when you sweat. Bury me in them\"<\/p>",
+            "title": "@jamie_ahlmann",
+            "pos": "",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15974898467016__9f5b9237-050b-45e8-b326-ab47db7cec26-16735909844c97800c-0",
+        "template--15974898467016__9f5b9237-050b-45e8-b326-ab47db7cec26-16735909844c97800c-1",
+        "template--15974898467016__9f5b9237-050b-45e8-b326-ab47db7cec26-16735909844c97800c-2",
+        "65d1dc9f-95cb-4cac-a248-b100689b3f8d"
+      ],
+      "settings": {
+        "custom-css": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "We think OWNU is pretty amazing, but don't just take our word for it...",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "1",
+        "cl_name": "#222222",
+        "cl_content": "#222222",
+        "cl_bd": "",
+        "cl_bg_item": "#ebf3f1",
+        "bdr": 0,
+        "content_align": "text-start",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -394,6 +490,7 @@
     "sidebar-page",
     "e185ff71-726c-40ed-9fed-731545d6da71",
     "20701803-162c-478e-b66d-936f8a533631",
-    "3ce677e8-9db3-4bec-91b4-75f23ed19113"
+    "3ce677e8-9db3-4bec-91b4-75f23ed19113",
+    "9f5b9237-050b-45e8-b326-ab47db7cec26"
   ]
 }
