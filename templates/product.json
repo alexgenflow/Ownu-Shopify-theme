@@ -854,7 +854,7 @@
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
-        "layout": "t4s-container-fluid",
+        "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
