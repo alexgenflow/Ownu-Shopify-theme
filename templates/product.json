@@ -681,6 +681,55 @@
         "code_cus_css": ""
       }
     },
+    "6d230f4e-aebf-4d23-96d5-b4f68ada6542": {
+      "type": "image-slider",
+      "blocks": {
+        "07506a1d-0ebc-4992-995b-a1785f81ae03": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
+            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
+            "image_link": "",
+            "title": "Recycled Materials",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "email": false,
+            "button_label": "",
+            "button_link": "",
+            "text-2": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "class_name": ""
+          }
+        },
+        "699e5bea-3357-42d1-a711-25423c984465": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
+            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
+            "image_link": "",
+            "title": "Recycled Materials",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "email": false,
+            "button_label": "",
+            "button_link": "",
+            "text-2": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "class_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "07506a1d-0ebc-4992-995b-a1785f81ae03",
+        "699e5bea-3357-42d1-a711-25423c984465"
+      ],
+      "settings": {
+        "Show_container": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_overlay_color": "",
+        "image_overlay_opacity": 0,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "custom_class_name": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -1234,55 +1283,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "6d230f4e-aebf-4d23-96d5-b4f68ada6542": {
-      "type": "image-slider",
-      "blocks": {
-        "07506a1d-0ebc-4992-995b-a1785f81ae03": {
-          "type": "select",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "image_link": "",
-            "title": "Recycled Materials",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "email": false,
-            "button_label": "",
-            "button_link": "",
-            "text-2": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "class_name": ""
-          }
-        },
-        "699e5bea-3357-42d1-a711-25423c984465": {
-          "type": "select",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "slider_image-2": "shopify:\/\/shop_images\/Rectangle_2671_1.png",
-            "image_link": "",
-            "title": "Recycled Materials",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "email": false,
-            "button_label": "",
-            "button_link": "",
-            "text-2": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "class_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "07506a1d-0ebc-4992-995b-a1785f81ae03",
-        "699e5bea-3357-42d1-a711-25423c984465"
-      ],
-      "settings": {
-        "Show_container": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "image_overlay_color": "",
-        "image_overlay_opacity": 0,
-        "margin_top": 36,
-        "margin_bottom": 36,
-        "custom_class_name": ""
-      }
     }
   },
   "order": [
@@ -1292,11 +1292,11 @@
     "3e75c118-4a8f-48ee-9ac0-5c59c592c0c2",
     "27eabb46-bd8f-41ac-b39e-4c89f0059efc",
     "3b8a6d3d-0af6-4acc-91e0-faf1593cc59b",
+    "6d230f4e-aebf-4d23-96d5-b4f68ada6542",
     "product-recommendations",
     "recently-viewed-products",
     "5ec50580-7103-453e-acaa-7bb25f993824",
     "ef50e81d-e49f-4165-8630-7bc3f030451c",
-    "9cf27f74-c5f4-446a-bc88-16489a3ae3c4",
-    "6d230f4e-aebf-4d23-96d5-b4f68ada6542"
+    "9cf27f74-c5f4-446a-bc88-16489a3ae3c4"
   ]
 }
