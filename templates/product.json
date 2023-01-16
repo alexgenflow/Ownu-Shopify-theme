@@ -2,6 +2,7 @@
   "sections": {
     "breadcrumb": {
       "type": "brc-nav-product",
+      "disabled": true,
       "settings": {
         "breadcrumb_pr": false,
         "back_next_pr": true,
