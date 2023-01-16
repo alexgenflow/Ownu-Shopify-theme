@@ -288,7 +288,7 @@ endif -%}
                 assign class_gx_lg = ' t4s-g-lg-10 '
               endif -%}
           {{ 'slider-settings.css' | asset_url | stylesheet_tag }}
-          <div class="t4s-row t4s-g-0">
+          <div class="t4s-row t4s-g-0 {{ section.settings.custom-css }}">
             <div data-product-single-media-group class="{{class_main}}t4s-col-12 t4s-col-item t4s-pr">
               <div data-t4s-gallery data-main-media data-t4s-thumb-true class="t4s-row t4s-g-0 t4s-slide-eff-{{se_stts.eff}} flickityt4s t4s_{{image_ratio}} t4s_position_{{se_stts.image_position}} t4s_{{se_stts.image_size}}{% if se_stts.nav_btn %} t4s-flicky-slider t4s-slider-btn-{{se_stts.nav_btn}} t4s-slider-btn-style-{{se_stts.btn_owl}} t4s-slider-btn-{{se_stts.btn_shape}} t4s-slider-btn-{{se_stts.btn_size}} t4s-slider-btn-cl-{{se_stts.btn_cl}} t4s-slider-btn-vi-{{se_stts.btn_vi}} t4s-slider-btn-hidden-mobile-{{se_stts.btn_hidden_mobile}} {% endif %}" data-flickityt4s-js='{"cellSelector": "[data-main-slide]:not(.is--media-hide)","isFilter":{{canMedia_group}},"imagesLoaded": 0,"adaptiveHeight": 1, "contain": 1, "groupCells": "100%", "dragThreshold" : {% if se_stts.eff == 'fade' %}6{% else %}5{% endif %}, "cellAlign": "left","wrapAround": true,"prevNextButtons": {{se_stts.nav_btn}},"percentPosition": 1,"pageDots": false, "autoPlay" : 0, "pauseAutoPlayOnHover" : true , "t4sid": "{{se_id}}", "thumbNav": {% if media_layout != 'without_thumbnails' %}true{% else %}false{% endif %}, "thumbVertical": {% if media_layout != 'thumbnails_bottom' %}true{% else %}false{% endif %}, "isMedia": true }' style="--flickity-btn-pos: 0px;--flickity-btn-pos-mb: 0px;">
                 {%- liquid 
@@ -897,6 +897,11 @@ endif -%}
       "tag": "section",
       "class": "t4s-section t4s-section-main t4s-section-main-product t4s_tp_flickity",
       "settings": [
+        {
+          "type": "text",
+          "id": "custom-css",
+          "label": "Custom Css Class"
+        },
         {
           "type": "liquid",
           "id": "custom-liquid",
