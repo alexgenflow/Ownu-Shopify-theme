@@ -1446,11 +1446,11 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "mb_nav-0": {
+          "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Activewear",
-              "url": "shopify:\/\/pages\/activewear",
+              "title": "All",
+              "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1458,11 +1458,11 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-1": {
+          "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Fitness",
-              "url": "",
+              "title": "Activewear",
+              "url": "shopify:\/\/pages\/activewear",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1553,8 +1553,8 @@
           }
         },
         "block_order": [
-          "mb_nav-0",
           "mb_nav-1",
+          "mb_nav-0",
           "mb_nav-2",
           "25fa7ecf-2db0-4747-b093-a1299099917e",
           "58800ed8-befe-449a-b8f8-ea86620bef6f",
