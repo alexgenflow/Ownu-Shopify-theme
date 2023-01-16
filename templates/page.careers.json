@@ -100,8 +100,8 @@
             "font_italic": false,
             "text_shadow": false,
             "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
+            "text_fs_mb": 24,
+            "text_lh_mb": 28,
             "text_ls_mb": 0,
             "text_mgb_mobile": 10,
             "animation": "none"
