@@ -15,7 +15,7 @@
   </head>
   <body>
     {{ skip_to_content_link }}
-
+  {% include 'is-app' %} 
     <header class="banner" data-header role="banner">
       <div class="wrap">
         {{ content_for_logo }}
@@ -34,9 +34,20 @@
           <main class="main__content" role="main">
             {{ content_for_layout }}
           </main>
+          {% if isApp %}
+            {% else %}
           <footer class="main__footer" role="contentinfo">
             {{ content_for_footer }}
           </footer>
+          {% endif %}
+           {% if isApp %}
+          	<style>
+              p.layout-flex__item {display: none;}
+              
+            </style>
+          {% else %}
+            
+            {% endif %}
         </div>
         <aside class="sidebar" role="complementary">
           <div class="sidebar__header">
