@@ -1450,7 +1450,7 @@
             "type": "menu",
             "settings": {
               "title": "Activewear",
-              "url": "",
+              "url": "shopify:\/\/pages\/activewear",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1462,7 +1462,7 @@
             "type": "menu",
             "settings": {
               "title": "Fitness",
-              "url": "shopify:\/\/collections\/women",
+              "url": "",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1474,7 +1474,7 @@
             "type": "menu",
             "settings": {
               "title": "Hoodies",
-              "url": "shopify:\/\/products\/analogue-resin-strap",
+              "url": "shopify:\/\/collections\/hoodies",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1486,7 +1486,7 @@
             "type": "menu",
             "settings": {
               "title": "T-shirts",
-              "url": "",
+              "url": "shopify:\/\/collections\/tees",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1498,7 +1498,7 @@
             "type": "menu",
             "settings": {
               "title": "Joggers",
-              "url": "",
+              "url": "shopify:\/\/collections\/joggers",
               "open_link": "_self",
               "menu": "",
               "icon": "",
