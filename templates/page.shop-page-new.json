@@ -119,7 +119,7 @@
         "template--15976215806152__2c322549-70ca-41ea-89a5-94e6f0744867-1673858032adfe6993-1"
       ],
       "settings": {
-        "custom-css": "",
+        "custom-css": "cont-center",
         "hide": false,
         "show": false,
         "design_heading": "1",
@@ -269,10 +269,10 @@
         "image_ratio": "ratio1_1",
         "image_size": "cover",
         "image_position": "8",
-        "layout_des": "1",
+        "layout_des": "2",
         "col_dk": "3",
         "col_tb": "2",
-        "col_mb": "2",
+        "col_mb": "1",
         "space_h_item": "30",
         "space_v_item": "30",
         "space_h_item_mb": "10",
