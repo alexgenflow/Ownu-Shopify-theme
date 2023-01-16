@@ -582,6 +582,92 @@
         "btn-label": "JOIN FOR FREE",
         "btn-link": "#"
       }
+    },
+    "f78b8952-e807-414a-9df3-31bc3406d73b": {
+      "type": "image_text",
+      "blocks": {
+        "template--15976264564936__f78b8952-e807-414a-9df3-31bc3406d73b-16738637389b88cd59-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Meal Plans",
+            "text": "<p>We have our own nutritionist at OWNU who makes sure you never have to worry about what to eat. Use the fully customizable meal calendar to experience a new level of meal planning. Choose whether to show calorie targets based on your goals and biometrics to plan your nutritional intake for each day, and OWNU will automatically assemble your weekly shopping list.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "GET STARTED TODAY",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "template--15976264564936__f78b8952-e807-414a-9df3-31bc3406d73b-16738637389b88cd59-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/2_3x_df288473-39f6-4c2c-957f-664020d0eaea.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15976264564936__f78b8952-e807-414a-9df3-31bc3406d73b-16738637389b88cd59-1",
+        "template--15976264564936__f78b8952-e807-414a-9df3-31bc3406d73b-16738637389b88cd59-0"
+      ],
+      "settings": {
+        "custom-css": "",
+        "hide": false,
+        "show": false,
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -593,6 +679,7 @@
     "7f03cb4c-51bd-49c7-90c7-2121e57e4d10",
     "4b34b4f9-66e2-400b-a522-30ec3b0f1695",
     "0476496e-2ad6-48e3-8a49-c59e7fa710f8",
-    "6adf69ff-a8d6-4a70-8b3c-28e1456c1527"
+    "6adf69ff-a8d6-4a70-8b3c-28e1456c1527",
+    "f78b8952-e807-414a-9df3-31bc3406d73b"
   ]
 }
