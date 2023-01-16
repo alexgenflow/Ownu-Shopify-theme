@@ -729,7 +729,7 @@
             "type": "base",
             "settings": {
               "title": "ACTIVEWEAR",
-              "url": "\/",
+              "url": "shopify:\/\/pages\/activewear",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -742,7 +742,7 @@
             "type": "drop",
             "settings": {
               "title": "SHOP",
-              "url": "",
+              "url": "shopify:\/\/collections",
               "open_link": "_self",
               "menu": "sidebar-menu",
               "icon": "",
@@ -759,7 +759,7 @@
             "type": "drop",
             "settings": {
               "title": "APP",
-              "url": "",
+              "url": "shopify:\/\/pages\/features",
               "open_link": "_self",
               "menu": "",
               "icon": "",
