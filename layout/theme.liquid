@@ -53,13 +53,13 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     {%- render 'head_assets',t_name:t_name,isRTL:isRTL -%}
     
   </head>
-
+{% include 'is-app' %}
   <body class="template-{{ request.page_type | handle }} {{class_lazy}}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="1.5" data-sizes="auto"{% endif -%}>
     <a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
     <div class="t4s-close-overlay t4s-op-0"></div>
 
     <div class="t4s-website-wrapper">
-      {% include 'is-app' %}
+      
   {% if isApp %}
     <style>
      #shopify-section-header-inline {visibility: hidden;}
