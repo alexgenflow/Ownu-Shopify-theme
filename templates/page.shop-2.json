@@ -302,6 +302,8 @@
         "template--15968724320456__143c8c7d-631c-4074-86ab-5ea3da4a5541-1672921918bcdef6a1-7"
       ],
       "settings": {
+        "hide": false,
+        "show": false,
         "se_height": "t4s_ratioadapt",
         "custom_dk": true,
         "height_dk": 600,
@@ -1337,7 +1339,7 @@
             "newl_des": "8",
             "news_align": "center",
             "newl_size": "medium",
-            "btn_icon": false,
+            "btn_icon": true,
             "input_cl": "#878787",
             "border_cl": "#000000",
             "btn_cl": "#ffffff",
@@ -1373,7 +1375,7 @@
         "mg": "",
         "pd": "70px,,70px,",
         "mg_mb": "",
-        "pd_mb": "",
+        "pd_mb": "30px,,30px,",
         "use_cus_css": false,
         "code_cus_css": ""
       }
