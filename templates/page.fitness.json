@@ -56,11 +56,25 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "c12398d2-4a18-476c-9b56-e4024772b458": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Se8fmS\"><\/div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "c12398d2-4a18-476c-9b56-e4024772b458"
   ]
 }
