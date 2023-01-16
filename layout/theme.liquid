@@ -59,6 +59,15 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     <div class="t4s-close-overlay t4s-op-0"></div>
 
     <div class="t4s-website-wrapper">
+      {% include 'is-app' %}
+  {% if isApp %}
+    <style>
+     #shopify-section-header-inline {visibility: hidden;}
+    
+  </style>
+    {% else %}
+   
+  {% endif %}
       {%- render 'header',t_name:t_name -%}
 
       <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
