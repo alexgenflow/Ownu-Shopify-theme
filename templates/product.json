@@ -1327,9 +1327,9 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "15px,,15px,",
+        "mg": ",,30px,,30px,",
         "pd": "",
-        "mg_mb": ",,00px,",
+        "mg_mb": ",,30px,",
         "pd_mb": ""
       }
     },
