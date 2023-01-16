@@ -73,11 +73,14 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
       <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
         {{ content_for_layout }}
       </main>
-
+      {% if isApp %}
+    
+    {% else %}
       <footer id="t4s-footer">
         {%- section 'footer' -%}
         {%- section 'bottom-bar' -%}
       </footer>
+      {% endif %}
     </div>
 
       <ul hidden class="t4s-d-none">
