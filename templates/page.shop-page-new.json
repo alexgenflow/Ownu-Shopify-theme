@@ -205,6 +205,105 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "c8ff185b-77ac-43af-96a0-ca1a7ab145f8": {
+      "type": "collections-list",
+      "blocks": {
+        "template--15976215806152__c8ff185b-77ac-43af-96a0-ca1a7ab145f8-1673858580a67b709c-0": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "hoodies",
+            "icon": "las la-gem",
+            "collection_title": "Hoodies",
+            "collection_link": ""
+          }
+        },
+        "template--15976215806152__c8ff185b-77ac-43af-96a0-ca1a7ab145f8-1673858580a67b709c-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "sweatshirts",
+            "icon": "las la-gem",
+            "collection_title": "Sweatshirts",
+            "collection_link": ""
+          }
+        },
+        "template--15976215806152__c8ff185b-77ac-43af-96a0-ca1a7ab145f8-1673858580a67b709c-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "joggers",
+            "icon": "las la-gem",
+            "collection_title": "Joggers",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15976215806152__c8ff185b-77ac-43af-96a0-ca1a7ab145f8-1673858580a67b709c-0",
+        "template--15976215806152__c8ff185b-77ac-43af-96a0-ca1a7ab145f8-1673858580a67b709c-1",
+        "template--15976215806152__c8ff185b-77ac-43af-96a0-ca1a7ab145f8-1673858580a67b709c-2"
+      ],
+      "settings": {
+        "custom-css": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Collections list",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "source": "image",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout_des": "1",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -212,6 +311,7 @@
     "main",
     "sidebar-page",
     "2c322549-70ca-41ea-89a5-94e6f0744867",
-    "1e2521e5-3a9b-4b57-95ad-a7a680be4b2f"
+    "1e2521e5-3a9b-4b57-95ad-a7a680be4b2f",
+    "c8ff185b-77ac-43af-96a0-ca1a7ab145f8"
   ]
 }
