@@ -207,6 +207,24 @@
               "mgb_mb": 24
             }
           },
+          "footer-3": {
+            "type": "cus_socials",
+            "settings": {
+              "title": "",
+              "social_mode": "1",
+              "social_style": "1",
+              "social_size": "small",
+              "bd_radius": 0,
+              "use_color_set": false,
+              "icon_cl": "#878787",
+              "bg_cl": "#56cfe1",
+              "space_h_item": "20",
+              "space_v_item": "5",
+              "space_h_item_mb": "20",
+              "space_v_item_mb": "2",
+              "mgb": 0
+            }
+          },
           "efc33ad7-99d8-4031-ac80-1e0c9a2d69f0": {
             "type": "image",
             "settings": {
@@ -309,25 +327,6 @@
               "padding_inner_mb": ""
             }
           },
-          "footer-3": {
-            "type": "cus_socials",
-            "disabled": true,
-            "settings": {
-              "title": "",
-              "social_mode": "1",
-              "social_style": "1",
-              "social_size": "small",
-              "bd_radius": 0,
-              "use_color_set": false,
-              "icon_cl": "#878787",
-              "bg_cl": "#56cfe1",
-              "space_h_item": "20",
-              "space_v_item": "5",
-              "space_h_item_mb": "20",
-              "space_v_item_mb": "2",
-              "mgb": 0
-            }
-          },
           "footer-10": {
             "type": "bl_col",
             "disabled": true,
@@ -392,6 +391,7 @@
         "block_order": [
           "footer-0",
           "de84a111-3ed0-40a2-b86a-1e81488e9bff",
+          "footer-3",
           "efc33ad7-99d8-4031-ac80-1e0c9a2d69f0",
           "bad5a3e9-06f7-4660-97b5-906c4ecb9f49",
           "385c1474-1235-4a3d-b73c-9555b5f8dcfb",
@@ -400,7 +400,6 @@
           "footer-4",
           "footer-6",
           "footer-8",
-          "footer-3",
           "footer-10",
           "footer-11",
           "footer-12"
