@@ -216,12 +216,91 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "0b253d80-a573-40f1-98fb-733835c1de3b": {
+      "type": "counter",
+      "blocks": {
+        "template--15976264564936__0b253d80-a573-40f1-98fb-733835c1de3b-1673863450bfa0410a-0": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 300000,
+            "des": "Users Worldwide",
+            "content_align": "center"
+          }
+        },
+        "template--15976264564936__0b253d80-a573-40f1-98fb-733835c1de3b-1673863450bfa0410a-1": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 300000,
+            "des": "Downloads",
+            "content_align": "center"
+          }
+        },
+        "template--15976264564936__0b253d80-a573-40f1-98fb-733835c1de3b-1673863450bfa0410a-2": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 5000,
+            "des": "App Reviews",
+            "content_align": "center"
+          }
+        },
+        "4798f246-1d15-4a09-a591-4a1ab65d98f9": {
+          "type": "counter_item",
+          "settings": {
+            "heading": "",
+            "number": 4.8,
+            "des": "Star App Rating",
+            "content_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15976264564936__0b253d80-a573-40f1-98fb-733835c1de3b-1673863450bfa0410a-0",
+        "template--15976264564936__0b253d80-a573-40f1-98fb-733835c1de3b-1673863450bfa0410a-1",
+        "template--15976264564936__0b253d80-a573-40f1-98fb-733835c1de3b-1673863450bfa0410a-2",
+        "4798f246-1d15-4a09-a591-4a1ab65d98f9"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "counter_size": "medium",
+        "use_border": false,
+        "heading_cl": "#222222",
+        "number_cl": "#89b6a6",
+        "des_cl": "#878787",
+        "bd_cl": "#ddd",
+        "bg_cl": "#fff",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f5f5f5",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",,30px,",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "cc88a788-cff7-4309-98c4-92c6a97d1981"
+    "cc88a788-cff7-4309-98c4-92c6a97d1981",
+    "0b253d80-a573-40f1-98fb-733835c1de3b"
   ]
 }
