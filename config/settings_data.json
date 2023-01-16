@@ -742,7 +742,7 @@
             "type": "drop",
             "settings": {
               "title": "SHOP",
-              "url": "shopify:\/\/collections",
+              "url": "",
               "open_link": "_self",
               "menu": "sidebar-menu",
               "icon": "",
