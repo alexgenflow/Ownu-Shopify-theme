@@ -1130,7 +1130,7 @@
         "news_overlay": "#000000",
         "news_overlay_opacity": 0,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#f5f5f5",
+        "cl_bg": "#f0f4f5",
         "cl_bg_gradient": "",
         "parallax": false,
         "mg": "",
