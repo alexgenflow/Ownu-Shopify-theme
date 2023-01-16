@@ -534,6 +534,54 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "6adf69ff-a8d6-4a70-8b3c-28e1456c1527": {
+      "type": "transformation-slider",
+      "blocks": {
+        "32b7006a-c518-48b0-b814-0a27ac1f1952": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
+          }
+        },
+        "ccf4f331-ece2-40c7-9a86-f6cbf3b7a87f": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
+          }
+        },
+        "de96934f-4477-47df-95a0-a37449628b72": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/1.webp"
+          }
+        },
+        "4a5a80f8-4261-4ad5-821d-91bd436f7a02": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/6.webp"
+          }
+        },
+        "35247ca8-06c5-41ea-a3bb-209ca153fca4": {
+          "type": "select",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_055d23b9-cdac-4b53-86e9-2eee726d53ab.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "32b7006a-c518-48b0-b814-0a27ac1f1952",
+        "ccf4f331-ece2-40c7-9a86-f6cbf3b7a87f",
+        "de96934f-4477-47df-95a0-a37449628b72",
+        "4a5a80f8-4261-4ad5-821d-91bd436f7a02",
+        "35247ca8-06c5-41ea-a3bb-209ca153fca4"
+      ],
+      "settings": {
+        "main_heading": "Transformations",
+        "text_below_heading": "160,000 women have already seen the benefits of the OWNU App. Could you?",
+        "btn-label": "",
+        "btn-link": ""
+      }
     }
   },
   "order": [
@@ -544,6 +592,7 @@
     "0b253d80-a573-40f1-98fb-733835c1de3b",
     "7f03cb4c-51bd-49c7-90c7-2121e57e4d10",
     "4b34b4f9-66e2-400b-a522-30ec3b0f1695",
-    "0476496e-2ad6-48e3-8a49-c59e7fa710f8"
+    "0476496e-2ad6-48e3-8a49-c59e7fa710f8",
+    "6adf69ff-a8d6-4a70-8b3c-28e1456c1527"
   ]
 }
