@@ -2,6 +2,33 @@
   "sections": {
     "heading": {
       "type": "heading-template",
+      "blocks": {
+        "ba3c9d98-29e5-4463-bcaa-bf2abeda397a": {
+          "type": "1",
+          "disabled": true,
+          "settings": {
+            "heading": "Page Heading",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "ba3c9d98-29e5-4463-bcaa-bf2abeda397a"
+      ],
       "settings": {
         "use_specify_image": true,
         "parallax": false,
