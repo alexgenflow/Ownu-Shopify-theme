@@ -294,6 +294,92 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "7f03cb4c-51bd-49c7-90c7-2121e57e4d10": {
+      "type": "image_text",
+      "blocks": {
+        "template--15976264564936__7f03cb4c-51bd-49c7-90c7-2121e57e4d10-16738637389b88cd59-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/7_be674f35-efed-4a3b-a6d1-a8d5cf39e98d.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--15976264564936__7f03cb4c-51bd-49c7-90c7-2121e57e4d10-16738637389b88cd59-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Hey! I’m Hanna",
+            "text": "<p>I’m Hanna - a fitness expert and a believer in a healthy and balanced approach to exercise and diet.<\/p><p>With a following of 3m+ followers all over the world, I launched OWNU, to help women everywhere reach their goals and own their body & mind. With over a decade of experience in the fitness industry, I know what works and what doesn't.<br\/><br\/>I wrote these fitness guides, and these are the plans I use in my personal training, so come and join me and the tens of thousands of girls pushing and fighting every day. Let’s get to it.<br\/><br\/>Hanna XX<br\/><\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "JOIN THE TEAM TODAY",
+            "button_link": "#",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--15976264564936__7f03cb4c-51bd-49c7-90c7-2121e57e4d10-16738637389b88cd59-0",
+        "template--15976264564936__7f03cb4c-51bd-49c7-90c7-2121e57e4d10-16738637389b88cd59-1"
+      ],
+      "settings": {
+        "custom-css": "",
+        "hide": false,
+        "show": false,
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -301,6 +387,7 @@
     "main",
     "sidebar-page",
     "cc88a788-cff7-4309-98c4-92c6a97d1981",
-    "0b253d80-a573-40f1-98fb-733835c1de3b"
+    "0b253d80-a573-40f1-98fb-733835c1de3b",
+    "7f03cb4c-51bd-49c7-90c7-2121e57e4d10"
   ]
 }
