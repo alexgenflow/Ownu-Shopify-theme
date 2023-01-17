@@ -302,6 +302,7 @@
         "template--15968724320456__143c8c7d-631c-4074-86ab-5ea3da4a5541-1672921918bcdef6a1-7"
       ],
       "settings": {
+        "custom-css": "full-content",
         "hide": false,
         "show": false,
         "se_height": "t4s_ratioadapt",
