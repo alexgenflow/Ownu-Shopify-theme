@@ -49,10 +49,26 @@
       "type": "main-customers-account",
       "settings": {
       }
+    },
+    "16739549183545fc96": {
+      "type": "apps",
+      "blocks": {
+        "27b627d3-7659-466e-86a5-a31b7855e4bf": {
+          "type": "shopify:\/\/apps\/beans-loyalty-rewards\/blocks\/cart-redemption\/2c76e403-3ab1-49b4-b304-24a27912bed6",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "27b627d3-7659-466e-86a5-a31b7855e4bf"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "heading",
-    "main"
+    "main",
+    "16739549183545fc96"
   ]
 }
