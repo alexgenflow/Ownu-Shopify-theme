@@ -21,6 +21,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -804,7 +805,7 @@
             "newl_size": "medium",
             "btn_icon": true,
             "input_cl": "#878787",
-            "border_cl": "#000",
+            "border_cl": "#000000",
             "btn_cl": "#ffffff",
             "btn_bg_cl": "#89b6a6",
             "btn_hover_cl": "#ffffff",
