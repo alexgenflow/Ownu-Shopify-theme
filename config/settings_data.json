@@ -21,6 +21,7 @@
     "heading_color": "#3c3e42",
     "accent_color": "#89b6a6",
     "loading_bar_color": "#89b6a6",
+    "price_primary": "#3c3e42",
     "link_color_hover": "#89b6a6",
     "btn_bg": "#89b6a6",
     "cl_lazyload": "#89b6a6",
