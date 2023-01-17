@@ -2403,6 +2403,24 @@
           "source": "2",
           "txt": "<p>Welcome to our store!<\/p>"
         }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/OWNU_Symbol_Logo_Green_1_2.png",
+          "logo_max_width": 50
+        }
+      },
+      "main-password": {
+        "type": "main-password",
+        "settings": {
+          "heading": "Coming Soon!",
+          "content": "We are about to go public so be sure to root on us and check back in anytime!<br> Can't wait to have you!",
+          "newsletter_placeholder": "Your email address",
+          "newsletter_button_text": "Notify me",
+          "signup_form_success": "We will send you an email right before we open!",
+          "social": "2"
+        }
       }
     },
     "content_for_index": [
