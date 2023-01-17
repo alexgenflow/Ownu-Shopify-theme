@@ -60,7 +60,7 @@
           "type": "text",
           "settings": {
             "custom-css": "the-set",
-            "text": "<p>Complete the set<\/p>"
+            "text": "<p>Complete the Set<\/p>"
           }
         },
         "form": {
