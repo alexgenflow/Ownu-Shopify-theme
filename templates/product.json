@@ -891,7 +891,7 @@
         "template--15818193862856__011d9417-4d89-4551-904a-e28fa6700a74-167395194167ec214c-0"
       ],
       "settings": {
-        "effect": "slider",
+        "effect": "fade",
         "au_time": 3,
         "layout": "t4s-container-wrap",
         "cl_bg": "rgba(0,0,0,0)",
