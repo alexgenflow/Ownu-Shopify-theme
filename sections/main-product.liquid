@@ -377,7 +377,7 @@ endif -%}
                 assign lh_pr = bk_stts.lh_pr | append:'px'
               endif  %}
             <h1 class="t4s-product__title" style="--title-family:var(--font-family-{{bk_stts.fnt_df_pr}});--title-style:{{bk_stts.txt_tr_pr}};--title-size:{{bk_stts.size_pr}}px;--title-weight:{{bk_stts.fw_pr}};--title-line-height:{{lh_pr}};--title-spacing:{{bk_stts.ls_pr}}px;--title-color:{{bk_stts.pr_title_color}};--title-color-hover:{{bk_stts.pr_title_color}};" {{ block.shopify_attributes }}>{{product.title}}</h1>
-           <a href="{{external_link}}" rel="nofollow" target="_blank" class="t4s-product-form__submit t4s-truncate is--btn-external">{{external_title}}</a>
+        
             {%- when 'price_review' -%}
             <div class="t4s-product__price-review" style="--price-size:{{bk_stts.size_price_pr}}px;--price-weight:{{bk_stts.fw_price_pr}};--price-color:{{bk_stts.price_color}};--price-sale-color:{{bk_stts.price_sale_color}};">
               {%- render 'product-price-single', variant: current_variant, product:product, PR_no_pick:PR_no_pick, type_sale:bk_stts.type_sale, price_varies_style:bk_stts.price -%}
