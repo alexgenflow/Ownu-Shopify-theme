@@ -2473,6 +2473,7 @@
           },
           "1e67f7b2-8514-4b7f-9452-32b6ec29d8d5": {
             "type": "countdown",
+            "disabled": true,
             "settings": {
               "date": "2023\/2\/2",
               "cdt_des": "1",
@@ -2505,6 +2506,7 @@
           "height_tb": 400,
           "custom_mb": true,
           "height_mb": 250,
+          "image": "shopify:\/\/shop_images\/OwnuBannerV1.jpg",
           "parallax": false,
           "image_position": "0",
           "link_img1": "",
@@ -2512,7 +2514,7 @@
           "text_align": "center",
           "text_align_mb": "center",
           "content_width": "auto",
-          "cv_pos": 50,
+          "cv_pos": 90,
           "ch_pos": 50,
           "cv_pos_mb": 50,
           "ch_pos_mb": 50,
