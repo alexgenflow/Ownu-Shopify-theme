@@ -2414,6 +2414,7 @@
       "main-password": {
         "type": "main-password",
         "settings": {
+          "bg-image": "shopify:\/\/shop_images\/Group_1000001401.png",
           "heading": "Coming Soon!",
           "content": "We are about to go public so be sure to root on us and check back in anytime!<br> Can't wait to have you!",
           "enable-countdown": true,
