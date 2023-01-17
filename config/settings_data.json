@@ -2421,6 +2421,7 @@
           "day": "2",
           "year": "2023",
           "time": "17:00:00",
+          "newsletter": true,
           "newsletter_placeholder": "Your email address",
           "newsletter_button_text": "Notify me",
           "signup_form_success": "We will send you an email right before we open!",
