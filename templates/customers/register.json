@@ -52,7 +52,7 @@
         "btn_width": "full",
         "button_style": "default",
         "btns_size": "medium",
-        "btns_cl": "custom2",
+        "btns_cl": "primary",
         "button_effect": "overlay-run"
       }
     }
