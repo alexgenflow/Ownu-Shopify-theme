@@ -1,0 +1,73 @@
+<div id="timer"></div>
+
+{% assign month = block.settings.month %}
+{% assign day = block.settings.day %}
+{% assign year = block.settings.year %}
+{% assign time = block.settings.time %}
+<script>
+
+  function updateTimer() {
+    future  = Date.parse("{{ month }} {{ day }}, {{ year }} {{time}}+00:00");
+                         now     = new Date().getTime();
+    diff    = future - now;  
+
+    days  = Math.floor( diff / (1000*60*60*24) );
+    hours = Math.floor( diff / (1000*60*60) );
+    mins  = Math.floor( diff / (1000*60) );
+    secs  = Math.floor( diff / 1000 );
+
+    d = days;
+    h = hours - days  * 24;
+    m = mins  - hours * 60;
+    s = secs  - mins  * 60;
+
+    document.getElementById("timer")
+    .innerHTML =
+      '<div id="time">' + d + '<span>days</span></div>' +
+      '<div id="time">' + h + '<span>hours</span></div>' +
+      '<div id="time">' + m + '<span>minutes</span></div>' +
+      '<div id="time">' + s + '<span>seconds</span></div>' ;
+  }
+  setInterval('updateTimer()', 1000 );
+</script>
+<style>
+
+   
+  #timer {  
+    font-size: 3em;
+    font-weight: 100;
+    color: rgb(187 214 208 / 95%);
+	width: 400px;
+    margin: 20px auto 20px;
+    border: solid;
+    background-color: transparent;
+    text-shadow: none;
+    border-radius: 10px;
+        text-align: center;
+    border-color: rgb(187 214 208 / 95%);
+  }
+
+  #timer div {
+    display: inline-block;
+    min-width: 90px;
+    color: rgb(187 214 208 / 95%);
+  }
+
+  #timer span {
+
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+    color: rgb(187 214 208 / 95%);
+  }
+
+  @media screen and (max-width: 767px) {
+    #timer {  
+    font-size: 2em;
+      width: auto;
+  }
+    #timer div {
+    min-width: 60px;
+  }
+  }  
+</style>
