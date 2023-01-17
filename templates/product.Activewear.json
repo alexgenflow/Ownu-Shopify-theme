@@ -864,6 +864,70 @@
         "pd_mb": ""
       }
     },
+    "51a3c450-3ce7-4dbf-9e3d-cd387a859759": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15975045726408__51a3c450-3ce7-4dbf-9e3d-cd387a859759-1673955790bc8925e9-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "start",
+            "content_align_tablet": "center",
+            "content_align_mobile": "start",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "rgba(0,0,0,0)"
+          }
+        },
+        "template--15975045726408__51a3c450-3ce7-4dbf-9e3d-cd387a859759-1673955790bc8925e9-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "How it’s made",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 900,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 18,
+            "text_lh_mb": 22,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--15975045726408__51a3c450-3ce7-4dbf-9e3d-cd387a859759-1673955790bc8925e9-0",
+        "template--15975045726408__51a3c450-3ce7-4dbf-9e3d-cd387a859759-1673955790bc8925e9-2"
+      ],
+      "settings": {
+        "custom-css": "",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,0",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "92b33c38-6eb0-43de-b7c9-9b838c90a225": {
       "type": "image_text",
       "blocks": {
@@ -1845,6 +1909,7 @@
     "27eabb46-bd8f-41ac-b39e-4c89f0059efc",
     "3b8a6d3d-0af6-4acc-91e0-faf1593cc59b",
     "0394de1c-b855-4e0e-ad53-2095c55740cb",
+    "51a3c450-3ce7-4dbf-9e3d-cd387a859759",
     "92b33c38-6eb0-43de-b7c9-9b838c90a225",
     "d06b30e9-274c-42ee-a2e1-42eeaf163d8a",
     "da5afde0-f0dc-4b97-a168-dc710b213244",
