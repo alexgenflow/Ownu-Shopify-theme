@@ -300,6 +300,7 @@ button#StudentVerifySubmit {
 }
 .custom-newsletter input.t4s-newsletter__email {
     text-align: left !important;
+    background: #fff !important;
 }
 
 
