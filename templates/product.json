@@ -867,6 +867,7 @@
     },
     "011d9417-4d89-4551-904a-e28fa6700a74": {
       "type": "promo_text",
+      "disabled": true,
       "blocks": {
         "template--15818193862856__011d9417-4d89-4551-904a-e28fa6700a74-167395194167ec214c-0": {
           "type": "1",
@@ -900,6 +901,70 @@
         "pd": "12px,,12px,",
         "mg_mb": ",,30px,",
         "pd_mb": "10px,,10px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "18a14681-94ed-4144-8012-f6714be25b8d": {
+      "type": "custom-section",
+      "blocks": {
+        "template--15818193862856__18a14681-94ed-4144-8012-f6714be25b8d-167395895896bebc4f-0": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "start",
+            "content_align_tablet": "center",
+            "content_align_mobile": "start",
+            "padding_inner": "10px,,10px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "rgba(0,0,0,0)"
+          }
+        },
+        "template--15818193862856__18a14681-94ed-4144-8012-f6714be25b8d-167395895896bebc4f-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "How it’s made",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#3c3e42",
+            "text_fs": 24,
+            "text_lh": 28,
+            "text_fw": 900,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 18,
+            "text_lh_mb": 24,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193862856__18a14681-94ed-4144-8012-f6714be25b8d-167395895896bebc4f-0",
+        "template--15818193862856__18a14681-94ed-4144-8012-f6714be25b8d-167395895896bebc4f-1"
+      ],
+      "settings": {
+        "custom-css": "",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
       }
@@ -1982,6 +2047,7 @@
     "3b8a6d3d-0af6-4acc-91e0-faf1593cc59b",
     "0394de1c-b855-4e0e-ad53-2095c55740cb",
     "011d9417-4d89-4551-904a-e28fa6700a74",
+    "18a14681-94ed-4144-8012-f6714be25b8d",
     "92b33c38-6eb0-43de-b7c9-9b838c90a225",
     "d06b30e9-274c-42ee-a2e1-42eeaf163d8a",
     "da5afde0-f0dc-4b97-a168-dc710b213244",
