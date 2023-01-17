@@ -2416,6 +2416,11 @@
         "settings": {
           "heading": "Coming Soon!",
           "content": "We are about to go public so be sure to root on us and check back in anytime!<br> Can't wait to have you!",
+          "enable-countdown": true,
+          "month": "feburary",
+          "day": "2",
+          "year": "2023",
+          "time": "17:00:00",
           "newsletter_placeholder": "Your email address",
           "newsletter_button_text": "Notify me",
           "signup_form_success": "We will send you an email right before we open!",
