@@ -21,6 +21,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -251,7 +252,7 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "collection_des": "1",
-        "title_cl": "#fff",
+        "title_cl": "#ffffff",
         "title_cl_hover": "#222222",
         "subtitle_cl": "#878787",
         "count_cl": "#222222",
