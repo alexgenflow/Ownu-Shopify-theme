@@ -865,6 +865,45 @@
         "pd_mb": ""
       }
     },
+    "011d9417-4d89-4551-904a-e28fa6700a74": {
+      "type": "promo_text",
+      "blocks": {
+        "template--15818193862856__011d9417-4d89-4551-904a-e28fa6700a74-167395194167ec214c-0": {
+          "type": "1",
+          "settings": {
+            "content": "<p>How it’s made<\/p>",
+            "countdown": "2022\/12\/20",
+            "cus_cd": "%-D day%!D %H:%M:%S",
+            "dayx": 0,
+            "cl_text": "#3c3e42",
+            "cl_link": "#56cfe1",
+            "fw_text": 600,
+            "fs_text": 24,
+            "lh_text": 32,
+            "ls_text": 0,
+            "fs_mb_text": 24,
+            "lh_text_mb": 24,
+            "ls_mb_text": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15818193862856__011d9417-4d89-4551-904a-e28fa6700a74-167395194167ec214c-0"
+      ],
+      "settings": {
+        "effect": "slider",
+        "au_time": 3,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "12px,,12px,",
+        "mg_mb": ",,30px,",
+        "pd_mb": "10px,,10px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "92b33c38-6eb0-43de-b7c9-9b838c90a225": {
       "type": "image_text",
       "blocks": {
@@ -1942,6 +1981,7 @@
     "27eabb46-bd8f-41ac-b39e-4c89f0059efc",
     "3b8a6d3d-0af6-4acc-91e0-faf1593cc59b",
     "0394de1c-b855-4e0e-ad53-2095c55740cb",
+    "011d9417-4d89-4551-904a-e28fa6700a74",
     "92b33c38-6eb0-43de-b7c9-9b838c90a225",
     "d06b30e9-274c-42ee-a2e1-42eeaf163d8a",
     "da5afde0-f0dc-4b97-a168-dc710b213244",
