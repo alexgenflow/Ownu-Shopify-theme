@@ -298,6 +298,12 @@ button#StudentVerifySubmit {
     width: 110px;
     margin: 0 auto 20px;
 }
+.custom-newsletter input.t4s-newsletter__email {
+    text-align: left !important;
+}
+
+
+
 
 @media screen and (max-width: 767px) {
   .show {
