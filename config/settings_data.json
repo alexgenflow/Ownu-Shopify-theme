@@ -1149,7 +1149,7 @@
       "back_top": {
         "type": "back_top",
         "settings": {
-          "enable_backtop": true,
+          "enable_backtop": false,
           "enable_hidden_mobile": false,
           "backtop_des": "1"
         }
