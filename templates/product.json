@@ -881,8 +881,8 @@
             "fs_text": 24,
             "lh_text": 32,
             "ls_text": 0,
-            "fs_mb_text": 24,
-            "lh_text_mb": 24,
+            "fs_mb_text": 18,
+            "lh_text_mb": 22,
             "ls_mb_text": 0
           }
         }
