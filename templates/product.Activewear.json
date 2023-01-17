@@ -1899,6 +1899,102 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "54bc4773-c48a-4f54-bbdf-395c86bc431a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15975045726408__54bc4773-c48a-4f54-bbdf-395c86bc431a-16739567794cc60683-0": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Get notified if your wish<br> list item is in stock",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 40,
+            "text_lh": 47,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 24,
+            "text_lh_mb": 33,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--15975045726408__54bc4773-c48a-4f54-bbdf-395c86bc431a-16739567794cc60683-1": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "A short sentence describing what someone will receive by subscribing",
+            "remove_br_tag": false,
+            "fontf": "inherit",
+            "text_cl": "#878787",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 30,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "template--15975045726408__54bc4773-c48a-4f54-bbdf-395c86bc431a-16739567794cc60683-2": {
+          "type": "newsletter",
+          "settings": {
+            "custom-css": "",
+            "form_width": 0,
+            "form_width_mb": 0,
+            "newl_des": "8",
+            "news_align": "center",
+            "newl_size": "medium",
+            "btn_icon": false,
+            "input_cl": "#878787",
+            "border_cl": "#000",
+            "btn_cl": "#ffffff",
+            "btn_bg_cl": "#89b6a6",
+            "btn_hover_cl": "#ffffff",
+            "btn_hover_bg_cl": "#a5c0ab",
+            "hidden_mobile": false,
+            "mgb": 15,
+            "mgb_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15975045726408__54bc4773-c48a-4f54-bbdf-395c86bc431a-16739567794cc60683-0",
+        "template--15975045726408__54bc4773-c48a-4f54-bbdf-395c86bc431a-16739567794cc60683-1",
+        "template--15975045726408__54bc4773-c48a-4f54-bbdf-395c86bc431a-16739567794cc60683-2"
+      ],
+      "settings": {
+        "custom-css-class": "custom-newsletter",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "all-center",
+        "news_overlay": "#000000",
+        "news_overlay_opacity": 0,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f0f4f5",
+        "cl_bg_gradient": "",
+        "parallax": false,
+        "mg": "",
+        "pd": "50px,,50px,",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -1917,6 +2013,7 @@
     "recently-viewed-products",
     "5ec50580-7103-453e-acaa-7bb25f993824",
     "ef50e81d-e49f-4165-8630-7bc3f030451c",
-    "9cf27f74-c5f4-446a-bc88-16489a3ae3c4"
+    "9cf27f74-c5f4-446a-bc88-16489a3ae3c4",
+    "54bc4773-c48a-4f54-bbdf-395c86bc431a"
   ]
 }
