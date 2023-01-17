@@ -1867,7 +1867,7 @@
               "button_style": "default",
               "button_color": "primary",
               "button_effect": "sweep-to-bottom",
-              "show_dynamic_checkout": true,
+              "show_dynamic_checkout": false,
               "btn_txt2": "3",
               "button_color_payment": "dark",
               "product_list": [
