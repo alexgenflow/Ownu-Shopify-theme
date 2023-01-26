@@ -566,8 +566,8 @@
         ],
         "settings": {
           "show_topbar": true,
-          "topbar_transparent": true,
-          "height": 72,
+          "topbar_transparent": false,
+          "height": 51,
           "fontsize": 12,
           "cl": "#878787",
           "cl_a_hover": "#56cfe1",
