@@ -517,7 +517,7 @@
           "top-bar-0": {
             "type": "html",
             "settings": {
-              "html": "<div class=\"klaviyo-form-WVS49E\" max-height=\"51px\"><\/div>",
+              "html": "<div class=\"klaviyo-form-WVS49E\" max-height=\"51px important!\"><\/div>",
               "hide": false,
               "text_align": "center",
               "col": "12"
