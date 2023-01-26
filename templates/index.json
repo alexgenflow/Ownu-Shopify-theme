@@ -475,7 +475,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
-        "layout": "t4s-container-wrap",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
