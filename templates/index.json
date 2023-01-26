@@ -470,6 +470,19 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "842b6415-bc3c-49b1-9c3a-2754f66bde47": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -478,6 +491,7 @@
     "485bfbe7-a865-487d-8aa2-4105cd9938a7",
     "d15bb0b7-f435-4a43-a49c-efa45a62a3a6",
     "1663518957cf29e3c0",
-    "d713b723-d45b-4ff4-b965-8d48420bd9d0"
+    "d713b723-d45b-4ff4-b965-8d48420bd9d0",
+    "842b6415-bc3c-49b1-9c3a-2754f66bde47"
   ]
 }
