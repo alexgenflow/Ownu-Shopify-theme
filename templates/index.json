@@ -4,7 +4,7 @@
       "type": "custom-html",
       "settings": {
         "code": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
-        "layout": "t4s-container-wrap",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "0",
