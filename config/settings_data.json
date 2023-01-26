@@ -517,9 +517,9 @@
           "top-bar-0": {
             "type": "html",
             "settings": {
-              "html": "<div class=\"klaviyo-form-WVS49E\" width=\"100%\"><\/div>",
+              "html": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
               "hide": false,
-              "text_align": "center",
+              "text_align": "start",
               "col": "12"
             }
           },
