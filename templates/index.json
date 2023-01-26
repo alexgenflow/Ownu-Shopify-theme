@@ -1,5 +1,20 @@
 {
   "sections": {
+    "d713b723-d45b-4ff4-b965-8d48420bd9d0": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "95b2e31d-3b52-49de-99a4-44a415a87ebc": {
       "type": "hero_image",
       "blocks": {
@@ -456,21 +471,6 @@
         "code_cus_css": ""
       }
     },
-    "d713b723-d45b-4ff4-b965-8d48420bd9d0": {
-      "type": "custom-html",
-      "settings": {
-        "code": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "842b6415-bc3c-49b1-9c3a-2754f66bde47": {
       "type": "custom-liquid",
       "settings": {
@@ -486,12 +486,12 @@
     }
   },
   "order": [
+    "d713b723-d45b-4ff4-b965-8d48420bd9d0",
     "95b2e31d-3b52-49de-99a4-44a415a87ebc",
     "a7f4ed33-cdc6-4a71-83f3-40f242cd96e2",
     "485bfbe7-a865-487d-8aa2-4105cd9938a7",
     "d15bb0b7-f435-4a43-a49c-efa45a62a3a6",
     "1663518957cf29e3c0",
-    "d713b723-d45b-4ff4-b965-8d48420bd9d0",
     "842b6415-bc3c-49b1-9c3a-2754f66bde47"
   ]
 }
