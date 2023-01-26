@@ -2,16 +2,15 @@
   "sections": {
     "d713b723-d45b-4ff4-b965-8d48420bd9d0": {
       "type": "custom-html",
-      "disabled": true,
       "settings": {
         "code": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
+        "mg": "0",
+        "pd": "0",
+        "mg_mb": "0",
+        "pd_mb": "0",
         "use_cus_css": false,
         "code_cus_css": ""
       }
