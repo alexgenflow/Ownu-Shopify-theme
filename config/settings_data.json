@@ -566,7 +566,7 @@
         ],
         "settings": {
           "show_topbar": true,
-          "topbar_transparent": false,
+          "topbar_transparent": true,
           "height": 45,
           "fontsize": 12,
           "cl": "#878787",
