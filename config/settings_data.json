@@ -516,7 +516,6 @@
         "blocks": {
           "top-bar-0": {
             "type": "html",
-            "disabled": true,
             "settings": {
               "html": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
               "hide": false,

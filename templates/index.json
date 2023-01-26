@@ -2,6 +2,7 @@
   "sections": {
     "d713b723-d45b-4ff4-b965-8d48420bd9d0": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "code": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
         "layout": "t4s-container-wrap",
@@ -473,8 +474,9 @@
     },
     "842b6415-bc3c-49b1-9c3a-2754f66bde47": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-WVS49E\"><\/div>",
+        "custom_liquid": "",
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
