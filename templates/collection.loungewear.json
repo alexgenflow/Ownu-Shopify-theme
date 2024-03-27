@@ -132,7 +132,7 @@
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
           "settings": {
-            "collection": "activewear",
+            "collection": "activewear-old",
             "icon": ""
           }
         },
@@ -201,7 +201,6 @@
     },
     "heading_template": {
       "type": "heading-template",
-      "disabled": true,
       "blocks": {
         "9abfc9fd-9686-4072-ba38-59c986de628e": {
           "type": "3",
@@ -262,6 +261,7 @@
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
         "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
       ],
+      "disabled": true,
       "settings": {
         "use_specify_image": false,
         "parallax": false,
@@ -345,7 +345,6 @@
     },
     "sidebar": {
       "type": "sidebar-collection",
-      "disabled": true,
       "blocks": {
         "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
           "type": "category",
@@ -394,6 +393,7 @@
         "9d37e80a-1eda-4a65-bb08-199e6a933a16",
         "c090f36e-d6ef-4a2a-ab04-cc78211dadb7"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,

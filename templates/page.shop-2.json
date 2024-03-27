@@ -35,7 +35,6 @@
     },
     "sidebar-page": {
       "type": "sidebar-page",
-      "disabled": true,
       "blocks": {
         "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
           "type": "blog_cate",
@@ -49,6 +48,7 @@
       "block_order": [
         "f69681ed-b75e-42de-be58-fdf73b3b7e08"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
@@ -350,7 +350,7 @@
             "image": "shopify:\/\/shop_images\/OWNU-63.jpg",
             "icon": "las la-gem",
             "collection_title": "Activewear",
-            "collection_link": "shopify:\/\/collections\/activewear"
+            "collection_link": "shopify:\/\/collections\/activewear-old"
           }
         },
         "template--15968724320456__00a37ac0-8cf7-4672-9031-665711a273da-1673358496e0b02f80-1": {
@@ -444,7 +444,6 @@
     },
     "c298d7b8-6258-4b3a-a7a6-5cc61a8495a9": {
       "type": "iconbox",
-      "disabled": true,
       "blocks": {
         "template--15968724320456__c298d7b8-6258-4b3a-a7a6-5cc61a8495a9-1672921998f20f9508-0": {
           "type": "item",
@@ -501,6 +500,7 @@
         "template--15968724320456__c298d7b8-6258-4b3a-a7a6-5cc61a8495a9-1672921998f20f9508-1",
         "template--15968724320456__c298d7b8-6258-4b3a-a7a6-5cc61a8495a9-1672921998f20f9508-2"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -564,7 +564,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "collection": "activewear",
+        "collection": "activewear-old",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -619,7 +619,6 @@
     },
     "65e62ae0-fe28-4664-b76a-777e314ed773": {
       "type": "logo_list",
-      "disabled": true,
       "blocks": {
         "template--15968724320456__65e62ae0-fe28-4664-b76a-777e314ed773-167292212217c7f1c0-0": {
           "type": "logo_item",
@@ -674,6 +673,7 @@
         "template--15968724320456__65e62ae0-fe28-4664-b76a-777e314ed773-167292212217c7f1c0-5",
         "template--15968724320456__65e62ae0-fe28-4664-b76a-777e314ed773-167292212217c7f1c0-6"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",

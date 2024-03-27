@@ -35,7 +35,6 @@
     },
     "sidebar-page": {
       "type": "sidebar-page",
-      "disabled": true,
       "blocks": {
         "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
           "type": "blog_cate",
@@ -49,6 +48,7 @@
       "block_order": [
         "f69681ed-b75e-42de-be58-fdf73b3b7e08"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
@@ -65,7 +65,7 @@
         "16635205377f4745cb-0": {
           "type": "collection_item",
           "settings": {
-            "collection": "activewear",
+            "collection": "activewear-old",
             "image": "shopify:\/\/shop_images\/WHC01947_6b8d3b2f-7b28-4423-a360-7e39129f22a7.jpg",
             "collection_title": "Collection title",
             "collection_link": ""
@@ -141,7 +141,6 @@
     },
     "1663521560a1583e55": {
       "type": "collections-list-manual",
-      "disabled": true,
       "blocks": {
         "166352156089b91a12-0": {
           "type": "collection_item",
@@ -173,6 +172,7 @@
         "166352156089b91a12-1",
         "166352156089b91a12-2"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -209,7 +209,6 @@
     },
     "1663521686e4201fbc": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "1663521685a175a6bc-0": {
           "type": "title",
@@ -336,6 +335,7 @@
         "1663521685a175a6bc-5",
         "1663521685a175a6bc-6"
       ],
+      "disabled": true,
       "settings": {
         "product": "",
         "enable_sticky_info": false,

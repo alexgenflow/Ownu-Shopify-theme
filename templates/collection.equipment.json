@@ -2,7 +2,6 @@
   "sections": {
     "61e67798-c8e3-4214-9f88-93b94bc9bf3c": {
       "type": "hero_image",
-      "disabled": true,
       "blocks": {
         "template--15818193600712__61e67798-c8e3-4214-9f88-93b94bc9bf3c-167335295844cff0cd-0": {
           "type": "custom_text",
@@ -87,6 +86,7 @@
         "template--15818193600712__61e67798-c8e3-4214-9f88-93b94bc9bf3c-167335295844cff0cd-1",
         "template--15818193600712__61e67798-c8e3-4214-9f88-93b94bc9bf3c-167335295844cff0cd-2"
       ],
+      "disabled": true,
       "settings": {
         "custom-css": "",
         "se_height": "t4s_ratioadapt",
@@ -150,7 +150,7 @@
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
           "settings": {
-            "collection": "activewear",
+            "collection": "activewear-old",
             "icon": ""
           }
         },
@@ -260,14 +260,13 @@
     },
     "2b02656f-db92-47eb-8147-4520fd02d640": {
       "type": "tabs-collection",
-      "disabled": true,
       "blocks": {
         "template--15818193600712__2b02656f-db92-47eb-8147-4520fd02d640-1673001904fd57801d-0": {
           "type": "tab_item",
           "settings": {
             "title": "Activewear",
             "icon_title": "",
-            "collection": "activewear",
+            "collection": "activewear-old",
             "product_des": "1",
             "show_vendor": false,
             "use_cdt": false,
@@ -412,6 +411,7 @@
         "template--15818193600712__2b02656f-db92-47eb-8147-4520fd02d640-1673001904fd57801d-1",
         "template--15818193600712__2b02656f-db92-47eb-8147-4520fd02d640-1673001904fd57801d-2"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -442,7 +442,6 @@
     },
     "53703ded-330f-4640-8b0e-30a78e850a2c": {
       "type": "collections-list",
-      "disabled": true,
       "blocks": {
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-2": {
           "type": "collection_item",
@@ -491,6 +490,7 @@
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-1",
         "template--15818193600712__53703ded-330f-4640-8b0e-30a78e850a2c-16729352465dae8d46-3"
       ],
+      "disabled": true,
       "settings": {
         "custom-css": "rounded-img",
         "design_heading": "1",
@@ -613,7 +613,6 @@
     },
     "heading_template": {
       "type": "heading-template",
-      "disabled": true,
       "blocks": {
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
@@ -665,6 +664,7 @@
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
         "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
       ],
+      "disabled": true,
       "settings": {
         "use_specify_image": false,
         "parallax": true,
@@ -684,7 +684,6 @@
     },
     "sidebar": {
       "type": "sidebar-collection",
-      "disabled": true,
       "blocks": {
         "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
           "type": "category",
@@ -733,6 +732,7 @@
         "9d37e80a-1eda-4a65-bb08-199e6a933a16",
         "c090f36e-d6ef-4a2a-ab04-cc78211dadb7"
       ],
+      "disabled": true,
       "settings": {
         "enable_drawer": false,
         "space": 50,
@@ -745,7 +745,6 @@
     },
     "724d892a-ce62-4fd6-8a17-3237fc427bf2": {
       "type": "image-gallery",
-      "disabled": true,
       "blocks": {
         "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-0": {
           "type": "image_item",
@@ -779,6 +778,7 @@
         "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-2",
         "template--15818193600712__724d892a-ce62-4fd6-8a17-3237fc427bf2-1672935022800cc10e-3"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -829,7 +829,6 @@
     },
     "e56d8237-10fd-41da-9174-d9053e60aa2e": {
       "type": "top_heading",
-      "disabled": true,
       "blocks": {
         "template--15818193600712__e56d8237-10fd-41da-9174-d9053e60aa2e-1672935153b363a6ad-0": {
           "type": "bl_heading",
@@ -848,6 +847,7 @@
         "template--15818193600712__e56d8237-10fd-41da-9174-d9053e60aa2e-1672935153b363a6ad-0",
         "template--15818193600712__e56d8237-10fd-41da-9174-d9053e60aa2e-1672935153b363a6ad-1"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -864,7 +864,6 @@
     },
     "7fa65fc1-9f19-4cd1-94c1-b7f503f3dd65": {
       "type": "tabs-list-collections",
-      "disabled": true,
       "blocks": {
         "template--15818193600712__7fa65fc1-9f19-4cd1-94c1-b7f503f3dd65-1673001885f4e45fd4-0": {
           "type": "tab_item",
@@ -1028,6 +1027,7 @@
         "template--15818193600712__7fa65fc1-9f19-4cd1-94c1-b7f503f3dd65-1673001885f4e45fd4-1",
         "template--15818193600712__7fa65fc1-9f19-4cd1-94c1-b7f503f3dd65-1673001885f4e45fd4-2"
       ],
+      "disabled": true,
       "settings": {
         "top_heading": "Shop by Category",
         "tophead_mb": 30,
